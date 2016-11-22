@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/cs/GameSetPopUI/genghuantouxiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{613,1},{116,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,33}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/queding.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{852,1},{60,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,32}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/shezhi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{464,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{464,36}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/zhuxiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{914,1},{59,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,31}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/qhfwq.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,1},{144,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{144,31}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/dengji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{914,34},{48,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/jingyan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{930,67},{48,22}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/mingcheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{964,42},{48,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/shengyin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{731,26},{48,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/shuruyaoqingma.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{731,1},{119,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/yinxiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{781,26},{48,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/zhanghao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{831,35},{48,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/shurukuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{975,1},{42,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,39}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/guojia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{881,59},{47,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{47,23}</string>
+			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/tuichuguojia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,34},{116,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,30}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>GameSetPopUI.png</string>
+			<key>realTextureFileName</key>
+			<string>GameSetPopUI.png</string>
+			<key>size</key>
+			<string>{1018,90}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1018</integer>
+			<key>height</key>
+			<integer>90</integer>
+		</dict>
+	</dict>
+</plist>

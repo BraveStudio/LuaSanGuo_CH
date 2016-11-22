@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/lk/GvgUI/cyjj.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1925,102},{116,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,32}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/dacheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1925,1},{99,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,64}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/gcjj.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1925,168},{119,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,26}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/gongchengdaojishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1071,211},{270,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,39}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1071,1},{602,208}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{602,208}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/houkefuhuo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1803,199},{88,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,22}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/jingjia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{591,448}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{591,448}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/jingjiadaojishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1343,211},{270,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,39}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/jjpm.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1923,196},{113,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{113,25}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/jlfb.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1675,172},{126,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,34}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/jrzc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1925,136},{115,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,30}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/lijifuhuo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1925,67},{116,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,33}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/lingjiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{594,1},{475,366}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{475,366}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/shengli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1675,70},{123,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{123,100}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/shengli_h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1071,252},{348,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{348,28}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/shibai.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,70},{123,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{123,100}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/shibai_h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1421,264},{318,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{318,28}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/xiacijingjia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1615,223},{270,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,39}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/zdjs_h.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1675,1},{248,67}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{248,67}</string>
+			</dict>
+			<key>commonUI/res/lk/GvgUI/zhandoujieguo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1803,172},{118,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,25}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>GvgUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>GvgUI_Text.png</string>
+			<key>size</key>
+			<string>{2045,450}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2045</integer>
+			<key>height</key>
+			<integer>450</integer>
+		</dict>
+	</dict>
+</plist>

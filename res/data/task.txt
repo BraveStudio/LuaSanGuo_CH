@@ -1,0 +1,12 @@
+顺序	任务描述	资源路径	奖励点数	完成次数	文字	跳转类型	空行
+1	出征任务：通过任意副本10次	tyj/ui_res/TaskUI/czrw.png	15	10	获得奖励：15点活跃度	4	
+2	招募神将：任意招募一个武将	tyj/ui_res/TaskUI/zmsj.png	15	1	获得奖励：15点活跃度	10	
+3	武将升级：升级任意武将1次	tyj/ui_res/TaskUI/wjsj.png	10	1	获得奖励：10点活跃度	2	
+4	士兵强化：强化任意士兵1次	tyj/ui_res/TaskUI/sbqh.png	5	1	获得奖励：5点活跃度	3	
+5	精英关卡：挑战任意精英关卡5次	tyj/ui_res/TaskUI/jygq.png	15	5	获得奖励：15点活跃度	7	
+6	天梯竞技场：进行3次天梯挑战	tyj/ui_res/TaskUI/ttjjc.png	15	3	获得奖励：15点活跃度	5	
+7	主城任务：任意完成一次主城日常任务	tyj/ui_res/TaskUI/zcrw.png	10	1	获得奖励：10点活跃度	1	
+8	七星坛：操作洗印1次	tyj/ui_res/TaskUI/qxt.png	15	1	获得奖励：15点活跃度	9	
+9	团队副本：挑战团队副本1次	tyj/ui_res/TaskUI/tdfb.png	20	1	获得奖励：20点活跃度	8	
+10	英雄试练：通关英雄试练一次	tyj/ui_res/TaskUI/yxsl.png	10	1	获得奖励：10点活跃度	11	
+11	血战洛阳：挑战血战洛阳1次	tyj/ui_res/TaskUI/xzly.png	10	1	获得奖励：10点活跃度	6	

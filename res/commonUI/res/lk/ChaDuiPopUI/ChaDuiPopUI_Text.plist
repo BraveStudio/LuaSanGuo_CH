@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/chadui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1090,19},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/chadui_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{602,0},{339,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{339,68}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/daifenpei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1236,0},{136,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,19}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/dangqianpaizai.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{941,0},{149,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,20}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/jixu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{941,20},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/xuyaozhifu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1372,0},{96,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,23}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/zidongfenpei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1090,0},{146,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{146,19}</string>
+			</dict>
+			<key>commonUI/res/lk/ChaDuiPopUI/shenqingduilie.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{602,532}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{602,532}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>ChaDuiPopUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>ChaDuiPopUI_Text.png</string>
+			<key>size</key>
+			<string>{1468,532}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1468</integer>
+			<key>height</key>
+			<integer>532</integer>
+		</dict>
+	</dict>
+</plist>

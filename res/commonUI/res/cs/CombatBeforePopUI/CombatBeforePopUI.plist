@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/cs/CombatBeforePopUI/buzhen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,85},{60,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,33}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatBeforePopUI/kaizhan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{383,1},{119,119}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,119}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatBeforePopUI/zhanqianzhunbei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,85},{201,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{201,58}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatBeforePopUI/jiantou1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{189,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{189,82}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatBeforePopUI/jiantou2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{192,1},{189,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{189,82}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>CombatBeforePopUI.png</string>
+			<key>realTextureFileName</key>
+			<string>CombatBeforePopUI.png</string>
+			<key>size</key>
+			<string>{503,144}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>503</integer>
+			<key>height</key>
+			<integer>144</integer>
+		</dict>
+	</dict>
+</plist>

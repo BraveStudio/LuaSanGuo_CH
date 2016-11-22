@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/lk/HeroUI/chushou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{99,0},{57,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{57,32}</string>
+			</dict>
+			<key>commonUI/res/lk/HeroUI/kehuishou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{59,28},{66,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{66,21}</string>
+			</dict>
+			<key>commonUI/res/lk/HeroUI/tujian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,28},{59,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,30}</string>
+			</dict>
+			<key>commonUI/res/lk/HeroUI/yijianxuanzhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{99,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,28}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>HeroUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>HeroUI_Text.png</string>
+			<key>size</key>
+			<string>{256,128}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>128</integer>
+		</dict>
+	</dict>
+</plist>

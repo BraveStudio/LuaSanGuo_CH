@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/cs/CountryFightPopUI/nycgjbdr.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,961},{258,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{258,30}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/nysw.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,991},{138,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{138,28}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/zdjg_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,744},{639,217}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{639,217}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/zdjg_bg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{493,372},{404,72}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{404,72}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/zdsb.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{493,372}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,372}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/zdsl.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{493,0},{493,372}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,372}</string>
+			</dict>
+			<key>commonUI/res/cs/CountryFightPopUI/zdwx.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,372},{493,372}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,372}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>CountryFightUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>CountryFightUI_Text.png</string>
+			<key>size</key>
+			<string>{986,1019}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>986</integer>
+			<key>height</key>
+			<integer>1019</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>cs/ui_res/MainUI/gvgicon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{583,1},{268,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,204}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/gvgicon_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{583,207},{268,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,204}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/heroTrials.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,213},{231,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{231,188}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/heroTrials_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{234,213},{231,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{231,188}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_guozhan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{289,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{289,210}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_guozhan_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{292,1},{289,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{289,210}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_qixing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,581},{204,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tianti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,403},{236,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{236,176}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_qixing_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{207,581},{204,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tianti_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{239,403},{236,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{236,176}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_chuzheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{477,413},{239,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_chuzheng_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{718,413},{239,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,169}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>MainUI_icon1.png</string>
+			<key>realTextureFileName</key>
+			<string>MainUI_icon1.png</string>
+			<key>size</key>
+			<string>{958,751}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>958</integer>
+			<key>height</key>
+			<integer>751</integer>
+		</dict>
+	</dict>
+</plist>

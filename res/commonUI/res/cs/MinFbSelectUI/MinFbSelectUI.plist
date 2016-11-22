@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/cs/MinFbSelectUI/guanqiajiangli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{295,1},{95,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,23}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/jingying.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{198,27},{27,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{27,50}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/jingying_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{254,27},{26,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{26,50}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/putong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{227,27},{25,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{25,52}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/putong_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{356,26},{26,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{26,52}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/pve_yiningqu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{108,1},{88,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,30}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/saodang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{392,1},{60,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,33}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/suijidiaoluo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{198,1},{95,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,24}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/tuandui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{282,60},{25,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{25,50}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/tuandui_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{254,79},{25,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{25,50}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/yitongguan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{105,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{105,39}</string>
+			</dict>
+			<key>commonUI/res/cs/MinFbSelectUI/zhandou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{295,26},{59,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,32}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>MinFbSelectUI.png</string>
+			<key>realTextureFileName</key>
+			<string>MinFbSelectUI.png</string>
+			<key>size</key>
+			<string>{453,130}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>453</integer>
+			<key>height</key>
+			<integer>130</integer>
+		</dict>
+	</dict>
+</plist>

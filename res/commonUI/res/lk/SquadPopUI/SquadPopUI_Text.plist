@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/lk/SquadPopUI/blqs_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{782,1},{104,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/blqs_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1100,1},{103,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/dtms_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{888,1},{104,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/dtms_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1205,1},{103,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/sblp_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{994,1},{104,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/sblp_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1310,1},{103,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/tjzr.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{357,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{357,100}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/yckz_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1415,1},{103,25}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/yckz_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1520,1},{102,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,25}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/fssc_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{572,1},{103,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,26}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/fssc_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{677,1},{103,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{103,26}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/gfjb_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{360,1},{104,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,26}</string>
+			</dict>
+			<key>commonUI/res/lk/SquadPopUI/gfjb_out.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,1},{104,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,26}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>SquadPopUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>SquadPopUI_Text.png</string>
+			<key>size</key>
+			<string>{1623,102}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1623</integer>
+			<key>height</key>
+			<integer>102</integer>
+		</dict>
+	</dict>
+</plist>

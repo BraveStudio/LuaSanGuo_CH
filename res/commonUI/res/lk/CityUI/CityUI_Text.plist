@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/lk/CityUI/queren.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{107,127},{60,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,32}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/baowushuliang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{169,127},{92,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,20}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/jiasu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{169,149},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/jinbizengjia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{63,148},{92,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{92,19}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/jinrishengyucishu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339,103},{119,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{119,18}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/kaishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,148},{60,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,30}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/kaishizhixingrenwu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{318,103},{120,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{120,19}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/lingjiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{231,149},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/lingqujiangli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{360,1},{194,181}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,181}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/renwudaojishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,127},{104,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,19}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/shengjisuoxujingyan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{297,103},{132,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{132,19}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/tansuoxunbao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,103},{134,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{134,22}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/weihuzhian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,103},{134,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{134,22}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/yuanbaozengjia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,148},{92,19}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{92,19}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/zhengdunshangye.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{273,103},{134,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{134,22}</string>
+			</dict>
+			<key>commonUI/res/lk/CityUI/shengjila.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{357,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{357,100}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>CityUI_Text.png</string>
+			<key>realTextureFileName</key>
+			<string>CityUI_Text.png</string>
+			<key>size</key>
+			<string>{555,241}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>555</integer>
+			<key>height</key>
+			<integer>241</integer>
+		</dict>
+	</dict>
+</plist>

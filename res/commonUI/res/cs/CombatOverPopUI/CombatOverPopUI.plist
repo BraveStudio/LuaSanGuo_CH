@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>commonUI/res/cs/CombatOverPopUI/huodejiangli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{310,123},{122,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{122,30}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/jifen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,145},{80,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,40}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/Results_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{383,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{383,120}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/Results_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{386,1},{383,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{383,120}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/Results_solider.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{863,114},{90,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,101}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/wujiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,114},{90,103}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,108}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/wupindiaoluo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{863,217},{123,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{123,31}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/zhandoushengli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,1},{196,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{196,55}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/zhandoushibai.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,58},{198,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{198,54}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/zhangong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{83,145},{76,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{76,40}</string>
+			</dict>
+			<key>commonUI/res/cs/CombatOverPopUI/cicizhandouweihuode.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,123},{307,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{307,20}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>CombatOverPopUI.png</string>
+			<key>realTextureFileName</key>
+			<string>CombatOverPopUI.png</string>
+			<key>size</key>
+			<string>{987,249}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>987</integer>
+			<key>height</key>
+			<integer>249</integer>
+		</dict>
+	</dict>
+</plist>
