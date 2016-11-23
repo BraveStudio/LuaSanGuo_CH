@@ -156,6 +156,7 @@ function HolidayPopView:onDisplayView()
         end 
 
         Functions.initTabCom({ { self._Panel_jie_ri_t, onPanel1, HolidayOne }, { self._Panel_fan_li_t, onPanel2, HolidayTwo}, { self._Panel_zheng_ba_t, onPanel3, HolidayThree}})
+        self:showView()
     end
     HolidayData:sendTeJia(onData)
     
@@ -392,5 +393,6 @@ function HolidayPopView:showZhengBa()
     --绑定响应事件函数
     Functions.bindListWithData(self._ListView_tian_ti_t, datas.reward, listHandler)
 end
-
+function HolidayPopView:onChangeView()
+end
 return HolidayPopView
