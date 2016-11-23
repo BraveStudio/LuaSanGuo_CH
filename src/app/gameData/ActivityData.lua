@@ -316,7 +316,7 @@ function ActivityData:sendGetSanCan(idx,listener)
 end
 
 --查看成就
-function ActivityData:sendChengJiu()
+function ActivityData:sendChengJiu(handler)
     --监听服务器数据
     local onServerRequest = function (event)
         ActivityData.ChengJiu = {}
@@ -340,7 +340,10 @@ function ActivityData:sendChengJiu()
             end
         end
         
-       ActivityData.ChengJiu = self:getChengJiuSort(clone(ActivityData.ChengJiu))
+        ActivityData.ChengJiu = self:getChengJiuSort(clone(ActivityData.ChengJiu))
+        if handler  then 
+            handler(ActivityData.ChengJiu)
+        end
     end
     NetWork:addNetWorkListener({34,2}, Functions.createNetworkListener(onServerRequest,true,"ret"))
     local msg = {idx = {34, 2}}

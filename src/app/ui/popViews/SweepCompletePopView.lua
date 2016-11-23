@@ -65,7 +65,41 @@ function SweepCompletePopView:getPopAction()
 	Functions.printInfo(self.debug,"pop actionFunc is call")
 	-- Functions.playScaleOpenChildViewAction(self)
 end
-
+function SweepCompletePopView:getMergeItemData(itemData)
+    local mergeData = {coin = 0,exp = 0,soul = 0,prize={}}
+    local isHaveValue = function(src,value)
+        local boolValue = false
+        for k,v in pairs(src) do
+            if v[1] == value[1] and v[2] == value[2] then 
+               boolValue = true
+            else
+               boolValue = false
+            end
+        end
+        return boolValue
+    end
+    local mergeProcess = function( src,value )
+        for k,v in pairs(src) do
+            if v[1] == value[1] and v[2] == value[2] then 
+               v[3] = value[3]
+               v[4] = value[4]
+            end
+        end
+    end
+    for k,v in pairs(itemData) do 
+        mergeData.coin = mergeData.coin + v.coin
+        mergeData.exp = mergeData.exp + v.exp
+        mergeData.soul = mergeData.soul + v.soul
+        for k1,v1 in pairs(v.prize) do
+            if isHaveValue(mergeData.prize,v1) then 
+                mergeProcess(mergeData.prize,v1)
+            else
+                table.insert(mergeData.prize, v1)
+            end
+        end
+    end
+    return mergeData
+end
 function SweepCompletePopView:onDisplayView(data)
 	Functions.printInfo(self.debug,"pop action finish ")
 	--local data = {{coin = 100,exp = 200,soul = 300},{coin = 101,exp = 201,soul = 301},{coin = 102,exp = 202,soul = 302}}
@@ -74,8 +108,10 @@ function SweepCompletePopView:onDisplayView(data)
     self._sweepSucOkBt_t = self._okBt_t
     self.lvlCh = data.lvlCh 
     self.upLevelAward = data.upLevelAward
-    data = data.prizeTabel
-    table.insert(data, {})
+    local itemData = data.prizeTabel
+    local mergeData = self:getMergeItemData(itemData)
+    table.insert(itemData, mergeData)
+    table.insert(itemData, {})
     if self.handler ~= nil then 
         Functions.loadImageWithWidget(self._title_t,"tyj/uiFonts_res/xzjs.png")
         -- local prizePanel = self._listView_t:getChildByName("model"):getChildByName("rewardPanel")
@@ -120,7 +156,11 @@ function SweepCompletePopView:onDisplayView(data)
 
 
             local indexLabel = widget:getChildByName("rewardPanel"):getChildByName("indexLabel")
-            indexLabel:setString(tostring(index))
+            if index < #itemData - 1 then 
+                indexLabel:setString("第" .. tostring(index) .. "战")
+            else
+                indexLabel:setString("总计获得")
+            end
             Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("indexLabel"),widget:getChildByName("rewardPanel"):getChildByName("indexLabel"))
             local tipsLabel = widget:getChildByName("rewardPanel"):getChildByName("prizePanel"):getChildByName("tipsLabel")
             tipsLabel:setString(LanguageConfig.language_4_17)
@@ -153,7 +193,7 @@ function SweepCompletePopView:onDisplayView(data)
             --widget:getChildByName("rewardPanel"):setVisible(false)
         end
     end
-	Functions.bindListWithData( self._listView_t, data, handler)
+    Functions.bindListWithData( self._listView_t, itemData, handler)
 	local innerContainer = self._listView_t:getInnerContainer()
 
     local playPrizeAction  --播放掉落物动画

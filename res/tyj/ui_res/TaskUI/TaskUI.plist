@@ -7,7 +7,7 @@
 			<key>tyj/ui_res/TaskUI/namebg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{357,152},{186,34}}</string>
+				<string>{{574,205},{186,34}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>tyj/ui_res/TaskUI/task_box1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{90,152},{87,77}}</string>
+				<string>{{396,110},{87,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>tyj/ui_res/TaskUI/task_box2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{179,152},{87,76}}</string>
+				<string>{{485,110},{87,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>tyj/ui_res/TaskUI/task_box3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,152},{87,78}}</string>
+				<string>{{307,110},{87,78}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>tyj/ui_res/TaskUI/task_box4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{268,152},{87,76}}</string>
+				<string>{{485,188},{87,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>tyj/ui_res/TaskUI/task_green.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,30},{836,18}}</string>
+				<string>{{1,295},{836,18}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>tyj/ui_res/TaskUI/task_tiao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{845,27}}</string>
+				<string>{{1,266},{845,27}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>tyj/ui_res/TaskUI/tdfb.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{848,1},{100,100}}</string>
+				<string>{{603,1},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>tyj/ui_res/TaskUI/ttjjc.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,50},{100,100}}</string>
+				<string>{{705,1},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>tyj/ui_res/TaskUI/wjsj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{103,50},{100,100}}</string>
+				<string>{{807,1},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>tyj/ui_res/TaskUI/xzly.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{205,50},{100,100}}</string>
+				<string>{{909,1},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>tyj/ui_res/TaskUI/yxsl.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{307,50},{100,100}}</string>
+				<string>{{603,103},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>tyj/ui_res/TaskUI/zcrw.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{409,50},{100,100}}</string>
+				<string>{{705,103},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>tyj/ui_res/TaskUI/zmsj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{511,50},{100,100}}</string>
+				<string>{{807,103},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -161,7 +161,7 @@
 			<key>tyj/ui_res/TaskUI/czrw.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{613,50},{100,100}}</string>
+				<string>{{909,103},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>tyj/ui_res/TaskUI/jygq.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{715,50},{100,100}}</string>
+				<string>{{1,110},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>tyj/ui_res/TaskUI/qxt.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{817,103},{100,100}}</string>
+				<string>{{103,110},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
@@ -194,13 +194,24 @@
 			<key>tyj/ui_res/TaskUI/sbqh.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{919,103},{100,100}}</string>
+				<string>{{205,110},{100,100}}</string>
 				<key>offset</key>
 				<string>{1,-1}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{105,105}</string>
+			</dict>
+			<key>tyj/ui_res/TaskUI/yiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{600,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,107}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -212,14 +223,14 @@
 			<key>realTextureFileName</key>
 			<string>TaskUI.png</string>
 			<key>size</key>
-			<string>{1020,231}</string>
+			<string>{1010,314}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1020</integer>
+			<integer>1010</integer>
 			<key>height</key>
-			<integer>231</integer>
+			<integer>314</integer>
 		</dict>
 	</dict>
 </plist>
