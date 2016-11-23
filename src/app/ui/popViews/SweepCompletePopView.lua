@@ -72,31 +72,34 @@ function SweepCompletePopView:getMergeItemData(itemData)
         for k,v in pairs(src) do
             if v[1] == value[1] and v[2] == value[2] then 
                boolValue = true
-            else
-               boolValue = false
+               return boolValue
             end
         end
         return boolValue
     end
     local mergeProcess = function( src,value )
         for k,v in pairs(src) do
-            if v[1] == value[1] and v[2] == value[2] then 
-               v[3] = value[3]
-               v[4] = value[4]
+            if src[k][1] == value[1] and src[k][2] == value[2] then 
+               src[k][3] =  src[k][3] + value[3]
+               src[k][4] =  value[4]
             end
         end
+        return src
     end
     for k,v in pairs(itemData) do 
         mergeData.coin = mergeData.coin + v.coin
         mergeData.exp = mergeData.exp + v.exp
         mergeData.soul = mergeData.soul + v.soul
+        local prizeTable = {}
         for k1,v1 in pairs(v.prize) do
-            if isHaveValue(mergeData.prize,v1) then 
-                mergeProcess(mergeData.prize,v1)
+            if isHaveValue(prizeTable,v1) then 
+                prizeTable = mergeProcess(prizeTable,v1)
             else
-                table.insert(mergeData.prize, v1)
+                -- table.insert(prizeTable, v1)
+                prizeTable[#prizeTable+1] = v1
             end
-        end
+        end     
+        mergeData.prize = prizeTable   
     end
     return mergeData
 end
