@@ -159,7 +159,7 @@ function SweepCompletePopView:onDisplayView(data)
             if index < #itemData - 1 then 
                 indexLabel:setString("第" .. tostring(index) .. "战")
             else
-                indexLabel:setString("总计获得")
+               indexLabel:setString("总计获得")
             end
             Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("indexLabel"),widget:getChildByName("rewardPanel"):getChildByName("indexLabel"))
             local tipsLabel = widget:getChildByName("rewardPanel"):getChildByName("prizePanel"):getChildByName("tipsLabel")
@@ -210,7 +210,7 @@ function SweepCompletePopView:onDisplayView(data)
     end
 
 
-    local totalNum = #data --总共扫荡多少次
+    local totalNum = #itemData --总共扫荡多少次
     local playItemAction
     playItemAction = function(itemTable,prizeNumTable,itemNum)
 	    if itemNum == 0 then 
@@ -249,9 +249,9 @@ function SweepCompletePopView:onDisplayView(data)
 
     local itemTable = {}
     local prizeNumTable = {}
-	for i = 1,#data-1 do 
+	for i = 1,#itemData-1 do 
         itemTable[#itemTable + 1] = self._listView_t:getItem(i-1)
-        prizeNumTable[#prizeNumTable + 1] = #data[i].prize
+        prizeNumTable[#prizeNumTable + 1] = #itemData[i].prize
 	end
 	-- if #itemTable > 2 then
         playItemAction(itemTable,prizeNumTable,#itemTable)
