@@ -29,24 +29,28 @@ end
 function TaskViewController:onDidLoadView()
 
     --output list
-    self._TaskListView_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("childTaskListBox"):getChildByName("TaskListView")
-	self._taskBar_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("taskBar")
-	self._activeText_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("activeText")
+    self._selectTable_t = self.view_t.csbNode:getChildByName("main"):getChildByName("selectTable")
+	self._taskListPanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel")
+	self._TaskListView_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("childTaskListBox"):getChildByName("TaskListView")
+	self._taskBar_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("taskBar")
+	self._activeText_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("activeText")
+	self._achievePanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("achievePanel")
+	self._achieveListPanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("achievePanel"):getChildByName("achieveListPanel")
 	self._topNode_t = self.view_t.csbNode:getChildByName("main"):getChildByName("topBarPanel"):getChildByName("topbarBg"):getChildByName("topNode")
 	
     --label list
     
     --button list
-    self._stageBt_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("stage1"):getChildByName("stageBt_1")
+    self._stageBt_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("stage1"):getChildByName("stageBt_1")
 	self._stageBt_1_t:onTouch(Functions.createClickListener(handler(self, self.onStagebt_1Click), ""))
 
-	self._stageBt_2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("stage2"):getChildByName("stageBt_2")
+	self._stageBt_2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("stage2"):getChildByName("stageBt_2")
 	self._stageBt_2_t:onTouch(Functions.createClickListener(handler(self, self.onStagebt_2Click), ""))
 
-	self._stageBt_3_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("stage3"):getChildByName("stageBt_3")
+	self._stageBt_3_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("stage3"):getChildByName("stageBt_3")
 	self._stageBt_3_t:onTouch(Functions.createClickListener(handler(self, self.onStagebt_3Click), ""))
 
-	self._stageBt_4_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("taskListBox"):getChildByName("podiumBox"):getChildByName("stage4"):getChildByName("stageBt_4")
+	self._stageBt_4_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskListPanel"):getChildByName("podiumBox"):getChildByName("stage4"):getChildByName("stageBt_4")
 	self._stageBt_4_t:onTouch(Functions.createClickListener(handler(self, self.onStagebt_4Click), ""))
 
 	self._backBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("topBarPanel"):getChildByName("topbarBg"):getChildByName("Panel_3"):getChildByName("backBt")
@@ -127,62 +131,123 @@ end
 function TaskViewController:onDisplayView()
     Functions.printInfo(self.debug_b," TaskViewController view enter display!")
     Functions.setPopupKey("task")
-    self.bg1 = self._stageBt_1_t:getChildByName("bg")
-    self.bg2 = self._stageBt_2_t:getChildByName("bg")
-    self.bg3 = self._stageBt_3_t:getChildByName("bg")
-    self.bg4 = self._stageBt_4_t:getChildByName("bg")
-
-    -- Functions.playActionWithBackCall(self.bg1, UIActionTool:createBlinkAction(0.5))
-    -- Functions.playActionWithBackCall(self.bg2, UIActionTool:createBlinkAction(0.5))
-    -- Functions.playActionWithBackCall(self.bg3, UIActionTool:createBlinkAction(0.5))
-    -- Functions.playActionWithBackCall(self.bg4, UIActionTool:createBlinkAction(0.5))
-
-    -- Functions.playAnimationWithRemove(chengJiuBox,"An_chengJiu")
-    self.bg1:setScale(1.2)    
-    self.bg2:setScale(1.2)
-    self.bg3:setScale(1.2)
-    self.bg4:setScale(1.2)
-    --初始化界面显示数据
+    self:initAni()
+     --初始化界面显示数据
     self:initUiDisplay_()
-----    local mainLayer = self.view_t.csbNode:getChildByName("main")
---
---
---
---        local key_listener = cc.EventListenerKeyboard:create() 
---        local keyFunc = function ()            
-----        	 GameCtlManager:pop(TaskViewController)
---             print("back")
---        end   
---        
---        key_listener:registerScriptHandler(keyFunc,cc.Handler.EVENT_KEYBOARD_PRESSED)
---    
---        local eventDispatch = mainLayer:getEventDispatcher()
---        eventDispatch:addEventListenerWithSceneGraphPriority(key_listener,mainLayer)
+    ActivityData:sendChengJiu(handler(self,self.initAchieveDisplay))
+    Functions.initTabComWithSimple({widget = self._selectTable_t ,listener = function(target)
+        if target == "Panel_task" then
+            self._taskListPanel_t:setVisible(true)
+            self._achievePanel_t:setVisible(false)
+        elseif target == "Panel_achieve" then 
+           self._taskListPanel_t:setVisible(false)
+           self._achievePanel_t:setVisible(true)
+        end
+    end,firstName = "Panel_task"})
+   
 end
 --@auto code view display func end
+function TaskViewController:initAni( )
+    for i=1,4 do
+        self["bg" .. tostring(i)] = self["_stageBt_" ..tostring(i) .. "_t"]:getChildByName("bg")
+        self["bg" .. tostring(i)]:setScale(1.2)
+    end
+end
+function TaskViewController:initAchieveDisplay(achieveData)
+    local listHandler = function(index, widget, model, data)    
+        widget:setTouchEnabled(true)
+        widget:setSwallowTouches(false)
+         local button = widget:getChildByName("Image_mei_ri_bg")
+         local banModel = model:getChildByName("Image_mei_ri_bg")
+         Functions.initTextColor(banModel:getChildByName("Text_tiao_jian"),button:getChildByName("Text_tiao_jian"))
+         local text = string.format("language_chengjiu_%d", data.tj)
+         local str = string.format(LanguageConfig[text], data.tjnum)
+         button:getChildByName("Text_tiao_jian"):setText(str)
+         
+        local onClick = function(event)
+            print("button click")
+            --打开二级界面
+            local updateShow = function(event)
+                --弹出提示信息
+                PromptManager:openTipPrompt(LanguageConfig.language_task_1)
+                self:ShowChengJiu()
+            end
+            ActivityData:sendGetChengJiu(data.id, updateShow)
+        end
+        button:getChildByName("Button_get"):onTouch(Functions.createClickListener(onClick, "zoom"))
 
+
+        local heroNode = nil
+        local item = data.goods
+
+        assert(#item <= 4,"HuoDongPopView:ShowEveryDay————每日充值奖励物品大于4个")
+
+        for k, v in pairs(item) do
+            local Image = "Image_"..tostring(k)
+            button:getChildByName(Image):getChildByName("Image_star"):setVisible(true)
+            button:getChildByName(Image):getChildByName("Image_sui_pian"):setVisible(false)
+            
+            local itemWidget = button:getChildByName(Image)--:getChildByName("disImage") --Image_item
+            local starWidget = button:getChildByName(Image):getChildByName("Image_star")
+            
+            local textNum = button:getChildByName(Image):getChildByName("Text_num")
+            local str = "X"..tostring(v[3])
+            textNum:setString(str)
+             
+            if v[2] == 4 then --4为道具
+                --heroNode = Functions.createPartNode({nodeType = ItemType.Prop, nodeId = v[1], count = v[3]})
+                button:getChildByName(Image):getChildByName("Image_star"):setVisible(false)
+                Functions.initItemComOfId(itemWidget, v[1])
+            elseif v[2] == 1 then--1为武将卡
+                Functions.loadImageWithWidget(itemWidget:getChildByName("disImage"), ConfigHandler:getHeroHeadImageOfId(v[1]))
+                Functions.HeroStar(starWidget, v[1])
+            elseif v[2] == 5 then--1为武将卡碎片
+                button:getChildByName(Image):getChildByName("Image_sui_pian"):setVisible(true)
+                Functions.loadImageWithWidget(itemWidget:getChildByName("disImage"), ConfigHandler:getHeroHeadImageOfId(v[1]))
+                Functions.HeroStar(starWidget, v[1])
+            else
+                assert(false,"商店出售的商品类型 type = " .. data.m_ItemType .. "错误")
+            end
+
+            local onImage = function(parameters)
+                PromptManager:openInfPrompt({type = v[2],id = v[1],target = widget:getChildByName("Image_mei_ri_bg"):getChildByName(Image)})
+            end
+            widget:getChildByName("Image_mei_ri_bg"):getChildByName(Image):onTouch(Functions.createClickListener(onImage, "zoom"))
+
+            button:getChildByName(Image):setVisible(true)
+            --button:addChild(heroNode)
+        end
+
+        if data.bz == 0 then
+            Functions.setEnabledBt(button:getChildByName("Button_get"),false)
+        elseif data.bz == 2 then
+            Functions.setEnabledBt(button:getChildByName("Button_get"),false)
+            button:getChildByName("Button_get"):getChildByName("Image_get"):ignoreContentAdaptWithSize(true)
+            Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/yilingqu.png")
+        elseif data.bz == 1 then
+            Functions.setEnabledBt(button:getChildByName("Button_get"),true)
+        end
+    
+    end
+    
+    local romveNodeHandler = function(widget)
+        Functions.removeEventBeforeUiClean(widget)
+    end
+
+    Functions.bindTableViewWithData(self._achieveListPanel_t,{ firstData = achieveData },
+    {handler = listHandler, romveNodeHandler = romveNodeHandler},{direction = true, col = 1, firstSegment = 0, segment = 2 }) 
+end
 --custom code start
 function TaskViewController:initUiDisplay_()
-
-    -- Functions.bindMGSDisplay({moneyObj = self._coinText_t,goldObj = self._goldText_t,soulObj = self._soulText_t})
     Functions.initResNodeUI(self._topNode_t,{"jinbi","yuanbao","soul"})
 
     --读取任务表
     TaskData.eventAttr.activeValue = 0
     local taskListData = clone(ConfigHandler:getTaskInfos())
     local taskInf = clone(TaskData.TaskInf.m_dailyMission)
-    -- for k,v in pairs(taskListData) do
-    --     if taskInf[k] >= taskListData[k]["完成次数"] then
-    --         table.remove(taskListData,k)
-    --         table.remove(taskInf,k)
-    --     end    
-    -- end
     for i=1,#taskListData do
         taskListData[i].pos = i 
     end
-   -- table.sort(taskListData,function(a,b)
-   --      return (taskInf[a.pos] - a["完成次数"]) < (taskInf[b.pos] - b["完成次数"])    
-   --  end)
     local listHandler = function(index, widget,data,model)   
         local taskBox = widget:getChildByName("taskBox")
         local textLabel = taskBox:getChildByName("taskInfText")
@@ -252,13 +317,7 @@ function TaskViewController:initUiDisplay_()
         taskRewardLabel:setColor(cc.c3b(0,255,0))
 
         local taskGoalLabel = taskBox:getChildByName("taskGoalText")
-        taskGoalLabel:setString(tostring(taskInf[data.pos]) .. "/" .. data["完成次数"])
-        -- if taskInf[index] == data["任务描述"] then
-        --     local taskBt = taskBox:getChildByName("taskBt")
-        --     taskBt:setVisible(false)
-        --     local filishView = taskBox:getChildByName("filishView")
-        --     filishView:setVisible(true)
-        -- end        
+        taskGoalLabel:setString(tostring(taskInf[data.pos]) .. "/" .. data["完成次数"])     
 
         if index == 1 then
             self._taskBt_t = taskBt
