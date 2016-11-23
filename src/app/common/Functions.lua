@@ -2774,14 +2774,16 @@ end
 
 --根据角色排行返回角色级别
 function Functions.getPlayerRank(ranking)
-    if ranking <= 100 then
+    if ranking > 0 and ranking <= 25 then
         return LanguageConfig.language_Teach1
-    elseif ranking <= 300 then
+    elseif ranking <= 50 then
         return LanguageConfig.language_Teach2 
-    elseif ranking <= 600 then
+    elseif ranking <= 75 then
         return LanguageConfig.language_Teach3 
+    elseif ranking <= 100 then 
+        return LanguageConfig.language_Teach4 
     else
-        return LanguageConfig.language_Teach2 
+        return LanguageConfig.language_Teach0 
     end 
 end
 --对一个Label中特定的字符设置颜色

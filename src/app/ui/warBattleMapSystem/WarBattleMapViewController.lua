@@ -248,7 +248,8 @@ function WarBattleMapViewController:onDisplayView()
             local str = string.format( "_Panel_1_%d_t", k )
             local Loading = math.floor(( v / g_gzCfg.winNeedCrystal) * 100)
             self[str]:getChildByName("LoadingBar"):setPercent(Loading)
-            self[str]:getChildByName("Text_num"):setString(v)
+            local strNum = tostring(v).."/"..g_gzCfg.winNeedCrystal
+            self[str]:getChildByName("Text_num"):setString("strNum")
         end
     end
     Functions.bindEventListener(self.view_t, GameEventCenter, WarData.SHUI_JIN, onShuiJin)
@@ -268,7 +269,8 @@ function WarBattleMapViewController:showData()
         local str = string.format( "_Panel_1_%d_t", k )
         local Loading = math.floor(( v / g_gzCfg.winNeedCrystal) * 100)
         self[str]:getChildByName("LoadingBar"):setPercent(Loading)
-        self[str]:getChildByName("Text_num"):setString(v)
+        local strNum = tostring(v).."/"..g_gzCfg.winNeedCrystal
+        self[str]:getChildByName("Text_num"):setString(strNum)
     end
     
     local juDian = WarData:getStrongholdInfo()

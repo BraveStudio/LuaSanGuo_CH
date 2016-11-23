@@ -918,6 +918,7 @@ local languageConfig_ch =
 ["tips"]="六星神将",
 },
 ["language_Teach1"]="一品",
+["language_Teach0"]="未上榜",
 ["language_HuoDong_19"] = "月卡",
 ["language_9_59"]="(未開啟)",
 ["ui_Soldiers_1"]="已擁有",
