@@ -847,11 +847,12 @@ function MainViewController:initUiDisplay_()
     end
 
     --隐藏节日狂欢
-    if (TimerManager:getCurrentSecond() > PlayerData.eventAttr.jrth_st or TimerManager:getCurrentSecond() > PlayerData.eventAttr.xffl_st or TimerManager:getCurrentSecond() > PlayerData.eventAttr.zhzb_st)
-        and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.jrth_et or TimerManager:getCurrentSecond() < PlayerData.eventAttr.xffl_et or TimerManager:getCurrentSecond() < PlayerData.eventAttr.zhzb_et) then
+    if ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.jrth_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.jrth_et)) 
+        or ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.xffl_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.xffl_et))
+        or ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.zhzb_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.zhzb_et)) then
     	self._jrkhBt_t:setVisible(true)
     else
-    	self._jrkhBt_t:setVisible(false)
+        self._jrkhBt_t:setVisible(false)
     end
 
     --隐藏七日狂欢
