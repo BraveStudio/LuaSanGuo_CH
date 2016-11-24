@@ -78,29 +78,35 @@ function SweepCompletePopView:getMergeItemData(itemData)
         return boolValue
     end
     local mergeProcess = function( src,value )
+        local itemData = {}
         for k,v in pairs(src) do
-            if src[k][1] == value[1] and src[k][2] == value[2] then 
-               src[k][3] =  src[k][3] + value[3]
-               src[k][4] =  value[4]
+            if v[1] == value[1] and v[2] == value[2] then 
+                local temp = {}
+                temp[1] = value[1]
+                temp[2] = value[2]
+                temp[3] = v[3] + value[3]
+                temp[4] = v[4]
+               itemData[#itemData + 1] = temp
             end
         end
-        return src
+        return itemData
     end
+    local prizeTable = {}
     for k,v in pairs(itemData) do 
         mergeData.coin = mergeData.coin + v.coin
         mergeData.exp = mergeData.exp + v.exp
         mergeData.soul = mergeData.soul + v.soul
-        local prizeTable = {}
+        
         for k1,v1 in pairs(v.prize) do
-            if isHaveValue(prizeTable,v1) then 
-                prizeTable = mergeProcess(prizeTable,v1)
-            else
+            -- if isHaveValue(prizeTable,v1) then 
+            --     prizeTable = mergeProcess(prizeTable,v1)
+            -- else
                 -- table.insert(prizeTable, v1)
                 prizeTable[#prizeTable+1] = v1
-            end
+            -- end
         end     
-        mergeData.prize = prizeTable   
     end
+    mergeData.prize = prizeTable   
     return mergeData
 end
 function SweepCompletePopView:onDisplayView(data)
@@ -172,7 +178,7 @@ function SweepCompletePopView:onDisplayView(data)
                 local tips = widget:getChildByName("rewardPanel"):getChildByName("prizePanel"):getChildByName("tipsLabel"):setVisible(false)
                 local prizePanel = widget:getChildByName("rewardPanel"):getChildByName("prizePanel")  
 
-                local itmes = Functions.rewardDataHandler(data.prize)              
+                local itmes = Functions.packageItemDataHandler(data.prize)              
                 for i=1, #itmes do                  
                        --初始化掉落物显示相关参数
                     local prizeNode = prizePanel:getChildByName("prizeNode")
@@ -206,7 +212,7 @@ function SweepCompletePopView:onDisplayView(data)
         end
         prizeTable[#prizeTable - prizeNum + 1]:setVisible(true) 
         prizeTable[#prizeTable - prizeNum + 1]:setScale(4)
-        local scaleTo = cc.ScaleTo:create(0.3, 0.6)
+        local scaleTo = cc.ScaleTo:create(0.3, 0.5)
         local easeAction = cc.EaseBackOut:create(scaleTo) 
         local play = cc.Sequence:create({easeAction, cc.CallFunc:create(function() playPrizeAction(prizeTable,prizeNum-1)end)})
         transition.execute(prizeTable[#prizeTable - prizeNum + 1],play)

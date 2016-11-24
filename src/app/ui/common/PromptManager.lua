@@ -449,6 +449,7 @@ function PromptManager:openDialoguePrompt(id, callBack)
             end            
         end
         board:onTouch(Functions.createClickListener(listener,"")) 
+        self.dialoguePanel:onTouch(Functions.createClickListener(listener,"")) 
         local icon = self.dialoguePanel:getChildByName("icon")
         local move1 = cc.MoveBy:create(0.4,cc.p(0,-15))
         local move2 = cc.MoveBy:create(0.4,cc.p(0,15))
