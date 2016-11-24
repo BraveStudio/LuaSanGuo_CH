@@ -72,32 +72,41 @@ function SweepCompletePopView:getMergeItemData(itemData)
         for k,v in pairs(src) do
             if v[1] == value[1] and v[2] == value[2] then 
                boolValue = true
-            else
-               boolValue = false
+               return boolValue
             end
         end
         return boolValue
     end
     local mergeProcess = function( src,value )
+        local itemData = {}
         for k,v in pairs(src) do
             if v[1] == value[1] and v[2] == value[2] then 
-               v[3] = value[3]
-               v[4] = value[4]
+                local temp = {}
+                temp[1] = value[1]
+                temp[2] = value[2]
+                temp[3] = v[3] + value[3]
+                temp[4] = v[4]
+               itemData[#itemData + 1] = temp
             end
         end
+        return itemData
     end
+    local prizeTable = {}
     for k,v in pairs(itemData) do 
         mergeData.coin = mergeData.coin + v.coin
         mergeData.exp = mergeData.exp + v.exp
         mergeData.soul = mergeData.soul + v.soul
+        
         for k1,v1 in pairs(v.prize) do
-            if isHaveValue(mergeData.prize,v1) then 
-                mergeProcess(mergeData.prize,v1)
-            else
-                table.insert(mergeData.prize, v1)
-            end
-        end
+            -- if isHaveValue(prizeTable,v1) then 
+            --     prizeTable = mergeProcess(prizeTable,v1)
+            -- else
+                -- table.insert(prizeTable, v1)
+                prizeTable[#prizeTable+1] = v1
+            -- end
+        end     
     end
+    mergeData.prize = prizeTable   
     return mergeData
 end
 function SweepCompletePopView:onDisplayView(data)
@@ -159,7 +168,7 @@ function SweepCompletePopView:onDisplayView(data)
             if index < #itemData - 1 then 
                 indexLabel:setString("第" .. tostring(index) .. "战")
             else
-                indexLabel:setString("总计获得")
+               indexLabel:setString("总计获得")
             end
             Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("indexLabel"),widget:getChildByName("rewardPanel"):getChildByName("indexLabel"))
             local tipsLabel = widget:getChildByName("rewardPanel"):getChildByName("prizePanel"):getChildByName("tipsLabel")
@@ -169,7 +178,7 @@ function SweepCompletePopView:onDisplayView(data)
                 local tips = widget:getChildByName("rewardPanel"):getChildByName("prizePanel"):getChildByName("tipsLabel"):setVisible(false)
                 local prizePanel = widget:getChildByName("rewardPanel"):getChildByName("prizePanel")  
 
-                local itmes = Functions.rewardDataHandler(data.prize)              
+                local itmes = Functions.packageItemDataHandler(data.prize)              
                 for i=1, #itmes do                  
                        --初始化掉落物显示相关参数
                     local prizeNode = prizePanel:getChildByName("prizeNode")
@@ -203,14 +212,14 @@ function SweepCompletePopView:onDisplayView(data)
         end
         prizeTable[#prizeTable - prizeNum + 1]:setVisible(true) 
         prizeTable[#prizeTable - prizeNum + 1]:setScale(4)
-        local scaleTo = cc.ScaleTo:create(0.3, 0.6)
+        local scaleTo = cc.ScaleTo:create(0.3, 0.5)
         local easeAction = cc.EaseBackOut:create(scaleTo) 
         local play = cc.Sequence:create({easeAction, cc.CallFunc:create(function() playPrizeAction(prizeTable,prizeNum-1)end)})
         transition.execute(prizeTable[#prizeTable - prizeNum + 1],play)
     end
 
 
-    local totalNum = #data --总共扫荡多少次
+    local totalNum = #itemData --总共扫荡多少次
     local playItemAction
     playItemAction = function(itemTable,prizeNumTable,itemNum)
 	    if itemNum == 0 then 
@@ -249,9 +258,9 @@ function SweepCompletePopView:onDisplayView(data)
 
     local itemTable = {}
     local prizeNumTable = {}
-	for i = 1,#data-1 do 
+	for i = 1,#itemData-1 do 
         itemTable[#itemTable + 1] = self._listView_t:getItem(i-1)
-        prizeNumTable[#prizeNumTable + 1] = #data[i].prize
+        prizeNumTable[#prizeNumTable + 1] = #itemData[i].prize
 	end
 	-- if #itemTable > 2 then
         playItemAction(itemTable,prizeNumTable,#itemTable)
