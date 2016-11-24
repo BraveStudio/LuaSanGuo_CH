@@ -71,7 +71,7 @@ function EnlistData:sendGetCard(listener)
     Functions.printInfo(self.debug,"sendGetCard")
 
     local onSendGetCard = function (event)
-        if event.ret == 1 then
+        -- if event.ret == 1 then
             if self.m_CardType == 3 and self.m_CardNum == 1 then
                 Functions.setAdbrixTag("retension","herohof_buy_sliver_1_nonfree", tostring(PlayerData.eventAttr.m_level))
             end
@@ -147,14 +147,14 @@ function EnlistData:sendGetCard(listener)
             --更新标志
             self:setEnlistDataBZ()
             listener(event)
-        else
-            listener(event)
-        end
-        return true
+        -- else
+        --     listener(event)
+        -- end
+        -- return true
     end
     local type = self.m_CardType
     local num = self.m_CardNum
-    NetWork:addNetWorkListener({ 9, 4 }, onSendGetCard)
+    NetWork:addNetWorkListener({ 9, 4 }, Functions.createNetworkListener(onSendGetCard,true,"ret"))
     NetWork:sendToServer({ idx = { 9, 4 }, btype = self.m_CardType, stype = self.m_CardNum  })
 
     --self._controller_t:openChildView("app.ui.popViews.EnlistTwoPopView", { data = num , self._type, isRemove = false })

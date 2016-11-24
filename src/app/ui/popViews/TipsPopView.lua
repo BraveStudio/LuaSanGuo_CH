@@ -79,7 +79,9 @@ function TipsPopView:onDisplayView()
     end
 
     if self._curCancelText then
-        self._cancelBt_t:setTitleText(self._curCancelText)
+        -- self._cancelBt_t:setTitleText(self._curCancelText)
+        self._cancelBt_t:getChildByName("cancelText"):ignoreContentAdaptWithSize(true)
+        Functions.loadImageWithWidget(self._cancelBt_t:getChildByName("cancelText"), self._curCancelText)
     end
 
     if self._curAffirmText then

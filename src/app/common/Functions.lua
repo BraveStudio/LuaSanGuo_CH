@@ -409,7 +409,17 @@ function Functions.createNetworkListener(listener, isRemove, errCodeStr, errBack
             if errBackCall then
                 errBackCall()
             end
-            PromptManager:openTipPrompt(ConfigHandler:getServerErrorCode(event[errCodeStr]))
+            local errInf = ConfigHandler:getServerErrorCode(event[errCodeStr])
+            if errInf == ConfigHandler:getServerErrorCode(608) or errInf == ConfigHandler:getServerErrorCode(16) or errInf == ConfigHandler:getServerErrorCode(588) or errInf == ConfigHandler:getServerErrorCode(802) then 
+                NoticeManager:openTips(GameCtlManager.currentController_t, {title = LanguageConfig.language_Functions_1, 
+                    affirmBtText="tyj/uiFonts_res/czhi.png",handler = function( )
+                    GameCtlManager:getCurrentController():openChildView("app.ui.popViews.PayPopView",{isRemove = false})
+                end}) 
+            elseif errInf == ConfigHandler:getServerErrorCode(1406) then
+                 NoticeManager:openTips(GameCtlManager.currentController_t, {type = 5,title = LanguageConfig.language_Enlist_13})
+            else
+                PromptManager:openTipPrompt(errInf)
+            end            
         end
 
         return isRemove

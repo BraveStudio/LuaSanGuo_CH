@@ -951,7 +951,7 @@ local languageConfig_ch =
         language_Enlist_10 = "金币不足",
         language_Enlist_11 = "元宝不足",
         language_Enlist_12 = "将令不足",
-        
+        language_Enlist_13 = "将令不足，您可以从礼包和副本宝箱中获得",
         
         language_Discount_1 = "(最多领取%d/3次)",
 
