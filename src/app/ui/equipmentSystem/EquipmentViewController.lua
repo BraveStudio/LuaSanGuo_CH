@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 EquipmentViewController.debug = true
 EquipmentViewController.modulePath = ...
-EquipmentViewController.studioSpriteFrames = {"EquipmentUI","EquipmentUI_Text","CB_blackbg","VipPopUI_Text" }
+EquipmentViewController.studioSpriteFrames = {"EquipmentUI","EquipmentUI_Text","CB_blackbg" }
 --@auto code head end
 
 --@Pre loading
