@@ -37,6 +37,17 @@
 				<key>sourceSize</key>
 				<string>{60,37}</string>
 			</dict>
+			<key>commonUI/res/tyj/EquipmentUI/buzhen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{991,50},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
@@ -47,12 +58,12 @@
 			<key>realTextureFileName</key>
 			<string>EquipmentUI_Text.png</string>
 			<key>size</key>
-			<string>{1014,546}</string>
+			<string>{1023,546}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1014</integer>
+			<integer>1023</integer>
 			<key>height</key>
 			<integer>546</integer>
 		</dict>

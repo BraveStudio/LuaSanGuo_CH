@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 EquipmentViewController.debug = true
 EquipmentViewController.modulePath = ...
-EquipmentViewController.studioSpriteFrames = {"EquipmentUI","EquipmentUI_Text","CB_blackbg" }
+EquipmentViewController.studioSpriteFrames = {"EquipmentUI","EquipmentUI_Text","CB_blackbg","VipPopUI_Text" }
 --@auto code head end
 
 --@Pre loading
@@ -55,6 +55,9 @@ function EquipmentViewController:onDidLoadView()
 	self._helpBt_4_t = self.view_t.csbNode:getChildByName("main"):getChildByName("topBarPanel"):getChildByName("topbarBg"):getChildByName("Panel_3"):getChildByName("helpBt_4")
 	self._helpBt_4_t:onTouch(Functions.createClickListener(handler(self, self.onHelpbt_4Click), ""))
 
+	self._embattleBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("topBarPanel"):getChildByName("topbarBg"):getChildByName("embattleBt")
+	self._embattleBt_t:onTouch(Functions.createClickListener(handler(self, self.onEmbattlebtClick), ""))
+
 end
 --@auto code uiInit end
 
@@ -74,6 +77,13 @@ function EquipmentViewController:onHelpbt_4Click()
     NoticeManager:openNotice(self, {type = NoticeManager.EQUIPMENT})
 end
 --@auto code Helpbt_4 btFunc end
+
+--@auto code Embattlebt btFunc
+function EquipmentViewController:onEmbattlebtClick()
+    Functions.printInfo(self.debug,"Embattlebt button is click!")
+    GameCtlManager:push("app.ui.embattleSystem.EmbattleViewController",{data = {jumpType = 5,jumpData = {embattleType = self.embattleType}}})
+end
+--@auto code Embattlebt btFunc end
 
 --@auto button backcall end
 
