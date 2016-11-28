@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 HuoDongPopView.csbResPath = "lk/csb"
 HuoDongPopView.debug = true
-HuoDongPopView.studioSpriteFrames = {"HuoDongPopUI","HuoDongPopUI_Text_Bg","HuoDongPopUI_Text" }
+HuoDongPopView.studioSpriteFrames = {"HuoDongPopUI","HuoDongPopUI_Text_Bg","HuoDongPopUI_Text","SignRewardPopUI","SignRewardPopUI_Text","OnlineRewardPopUI","RewardTipsPopUI" }
 --@auto code head end
 
 
@@ -175,7 +175,10 @@ function HuoDongPopView:getPopAction()
 end
 
 function HuoDongPopView:onDisplayView()
-	Functions.printInfo(self.debug,"pop action finish ")
+    self._Panel_loginReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_loginReward")
+	self._Panel_onlineReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_onlineReward")
+    self._Panel_signReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_signReward")
+    Functions.printInfo(self.debug,"pop action finish ")
     Functions.setPopupKey("welfare")
 
     
@@ -444,16 +447,24 @@ function HuoDongPopView:Show(type)
     self._Panel_yue_ka_text_t:setVisible(false)
     self._Panel_jie_shao_t:setVisible(true)
     self._Panel_all_t:setVisible(false)
+    
+    self._Panel_loginReward_t:setVisible(false)
+    self._Panel_onlineReward_t:setVisible(false)
+    self._Panel_signReward_t:setVisible(false)
     if type == 1 then
-        self:ShowEveryDay()
+        -- self:ShowEveryDay()
+        self._Panel_loginReward_t:setVisible(false)
+        self:showLoginReward()
     elseif type == 2 then
         self._Panel_jie_shao_t:setVisible(false)
         self._Panel_san_can_text_t:setVisible(true)
-        self:ShowSanCan()
+        -- self:ShowSanCan()
+        self:showOnlineReward()
     elseif type == 3 then
         self._Panel_all_t:setVisible(true)
         self._Panel_jie_shao_t:setVisible(false)
-        self:ShowNumHuoDong()
+        -- self:ShowNumHuoDong()
+        self:showSignReward()
     elseif type == 4 then
         self._Panel_yue_ka_text_t:setVisible(true)
         self:ShowYueKa()
@@ -1095,7 +1106,289 @@ function HuoDongPopView:ShowDainZan()
         Functions.setEnabledBt(self._Button_get_dian_zan_t,true)
     end
 end
+--登陆30天领奖
+function HuoDongPopView:showLoginReward()
+    self._Panel_loginReward_t:setVisible(true)
+    local prizeData = Functions.copyTab(RewardData.rewardInf.Accumulate) 
+    local prizeStateData = RewardStateData.rewardState
+    local listHandler = function(index, widget, model, data) 
+        widget:setTouchEnabled(true) 
+        widget:getChildByName("prizePanel"):getChildByName("prize"):setTouchEnabled(false)
+        widget:setSwallowTouches(false)  
+        local prizeCntLabel = widget:getChildByName("prizePanel"):getChildByName("prizeCntLabel")
+        local prize = widget:getChildByName("prizePanel"):getChildByName("prize")
+        local mask = widget:getChildByName("prizePanel"):getChildByName("mask")
+        mask:setVisible(false)
+        local choose = widget:getChildByName("prizePanel"):getChildByName("choose")
+        choose:setVisible(false)
+        local done = widget:getChildByName("prizePanel"):getChildByName("done")
+        done:setVisible(false)
+        --是否双倍天数
+        local vipDouble = widget:getChildByName("prizePanel"):getChildByName("vipDouble")
+        for t =1,#g_VipCgf.VipLevel do 
+            if g_VipCgf.VipLogReward[t] == i then
+                vipDouble:getChildByName("level"):setString("V" .. tostring(t))
+                vipDouble:setVisible(true)
+            end
+            
+        end
 
+        local isReward = false
+        prizeCntLabel:setString("x" .. tostring(data[1][3]))
+
+        if data[1][2] == 1 then
+            local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(data[1][1]) 
+            prize:ignoreContentAdaptWithSize(true)
+            Functions.loadImageWithWidget(prize, heroHeadImg)
+        elseif data[1][2] == 5 then
+            local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(data[1][1]) 
+            prize:ignoreContentAdaptWithSize(true)
+            widget:getChildByName("prizePanel"):getChildByName("piece"):setVisible(true)
+            Functions.loadImageWithWidget(prize, heroHeadImg)
+        elseif data[1][2] == 4  and data[1][1] > 0 then
+            local propImg = ConfigHandler:getPropImageOfId(data[1][1])  
+            prize:ignoreContentAdaptWithSize(true)           
+            Functions.loadImageWithWidget(prize, propImg)
+        elseif data[1][2] == 4  and data[1][1] == -3 then
+            Functions.loadImageWithWidget(prize, "property_money.png")
+
+        elseif data[1][2] == 4  and data[1][1] == -2 then
+            Functions.loadImageWithWidget(prize, "property_gold.png")
+        elseif data[1][2] == 4  and data[1][1] == -5 then
+            Functions.loadImageWithWidget(prize, "soul80.png")
+        elseif data[1][2] == 4  and data[1][1] == -6 then
+            Functions.loadImageWithWidget(prize, "property_soulCrystal.png")
+        end
+        
+        if index < prizeStateData.m_lgAccumu then  --无法领取状态
+            mask:setVisible(true)
+        end
+        if index == prizeStateData.m_lgAccumu then
+            choose:setVisible(true) 
+        end        
+        if index == prizeStateData.m_lgAccumu and prizeStateData.m_lgAccumuRd[index] == false then --当前可领取状态
+            isReward = true            
+        end
+        
+        if prizeStateData.m_lgAccumuRd[index] == true then --当前已领取状态
+            done:setVisible(true) 
+            mask:setVisible(true)
+
+        end   
+        local onPrizeClick = function() 
+            if isReward == true then    
+                local handler = function (event)
+                    Functions.playSound("getrewards.mp3")
+                    mask:setVisible(true)
+                    done:setVisible(true)
+                    isReward = false
+                    prizeStateData.m_lgAccumuRd[index] = true 
+                    local count = data[1][3]
+                    for t =1,VipData.eventAttr.m_vipLevel do 
+                        if g_VipCgf.VipLogReward[t] == index then
+                            count = data[1][3] * 2
+                        end
+                    end
+                    Functions:addItemResources({id = data[1][1],type = data[1][2],count = count,slot = event.rettbl[1]})
+                    -- RewardData:updatedata[1][2],data[1][1],data[1][3],event.rettbl[1]) 
+                    --更新登陆领奖是否可领奖标示
+                    RewardStateData.eventAttr.loginRewardFlag = 0   --登陆领奖：30天每天的领奖状态
+                end  
+                RewardData:RequestLoginReward(handler)
+            else
+                PromptManager:openInfPrompt({type = data[1][2],id = data[1][1],target = widget})
+            end
+        end
+        widget:onTouch(Functions.createClickListener(handler(widget, onPrizeClick), ""))
+    end
+    local romveNodeHandler = function(widget)
+        Functions.removeEventBeforeUiClean(widget)
+    end
+    local cleanNodeHandler = function(widget)
+        widget:getChildByName("prizePanel"):getChildByName("piece"):setVisible(false)
+        widget:getChildByName("prizePanel"):getChildByName("mask"):setVisible(false)
+        widget:getChildByName("prizePanel"):getChildByName("choose"):setVisible(false)
+        widget:getChildByName("prizePanel"):getChildByName("done"):setVisible(false)
+    end
+    Functions.bindTableViewWithData(self._Panel_loginReward_t,{firstData = prizeData,
+                                                        secondData = prizeData},
+                                                        {handler = listHandler,handler2 = cleanNodeHandler,romveNodeHandler = romveNodeHandler},
+                                                        {direction = true,col = 5,firstSegment = 5,segment = 5,segmentY = 10})
+end
+--在线领奖
+function HuoDongPopView:showOnlineReward( )
+    self._Panel_onlineReward_t:setVisible(true)
+    local rewardBt = self._Panel_onlineReward_t:getChildByName("rewardBt")
+    local prizePanel = self._Panel_onlineReward_t:getChildByName("prizePanel")
+    local timeNode = self._Panel_onlineReward_t:getChildByName("time")
+    local complateTips = self._Panel_onlineReward_t:getChildByName("complateTips")
+    local displayPrize = function(index)
+        local prizeData = Functions.packagePrizeConfig(ActivityData.onlineReward.Rewards[index])
+        Functions.createPrizeNode(prizePanel,prizeData,true)
+    end
+    local initOnlineRewardDisplay = function( )
+        rewardBt:setVisible(true)
+        displayPrize(ActivityData.eventAttr.m_onlineIndex) 
+
+
+        Functions.bindUiWithModelAttr(timeNode, ActivityData, "remainTime",function(event)
+           local time = TimerManager:formatTime("!%H:%M:%S", event.data)
+           Functions.initLabelOfString(timeNode, time)
+        end)
+        
+        if ActivityData.eventAttr.m_onlinePrizeState == 1 then
+            Functions.setEnabledBt(rewardBt, true)
+            complateTips:setVisible(false) 
+            rewardBt:setVisible(true)               
+        else
+            Functions.setEnabledBt(rewardBt, false)
+            if ActivityData.eventAttr.m_onlinePrizeState == 2 then 
+                if ActivityData.eventAttr.m_onlineIndex == #ActivityData.onlineReward.Rewards then
+                    complateTips:setVisible(true) 
+                    rewardBt:setVisible(false)
+                end
+            end
+        end
+        Functions.bindUiWithModelAttr(rewardBt, ActivityData, "m_onlinePrizeState",function(event)
+            if event.data == 1 then
+                Functions.setEnabledBt(rewardBt, true)
+                complateTips:setVisible(false) 
+                rewardBt:setVisible(true)
+            else
+                Functions.setEnabledBt(rewardBt, false)
+                if event.data == 2 then 
+                    if ActivityData.eventAttr.m_onlineIndex == #ActivityData.onlineReward.Rewards then
+                        complateTips:setVisible(true) 
+                        rewardBt:setVisible(false)
+                    end
+                end
+            end
+        end)  
+    end
+    local onRewardbtClick = function( )
+        local handler = function (event)
+            PromptManager:openTipPrompt(LanguageConfig.language_activity_1)
+            if ActivityData.eventAttr.m_onlineIndex < #ActivityData.onlineReward.Rewards then
+                ActivityData.eventAttr.m_onlineIndex = ActivityData.eventAttr.m_onlineIndex + 1 
+                local prize1 = prizePanel:getChildByName("prize1")
+                local prize2 = prizePanel:getChildByName("prize2")
+                prize1:retain()
+                prize2:retain()
+                Functions.addCleanFuncWithNode(prizePanel, function()
+                                                    prize1:release()
+                                              end)
+                Functions.addCleanFuncWithNode(prizePanel, function()
+                                                    prize2:release()
+                                              end)
+                prizePanel:removeAllChildren()
+                prizePanel:addChild(prize1)
+                prizePanel:addChild(prize2)
+                displayPrize(ActivityData.eventAttr.m_onlineIndex)
+            end
+            Functions.playSound("getrewards.mp3")
+        end    
+        ActivityData:RequestOnlineReward(handler)
+    end
+    rewardBt:onTouch(Functions.createClickListener(onRewardbtClick, ""))
+    rewardBt:setVisible(false)
+    ActivityData:requireOnline(initOnlineRewardDisplay)
+end
+--签到领奖 
+function HuoDongPopView:showSignReward()
+    self._Panel_signReward_t:setVisible(true)
+    local prizeData = g_SampleCfg.NewReward
+    local prizeStateData = RewardStateData.rewardState
+    local listHandler = function(index,widget,data,model)
+        for j=1,3 do
+            local prizeNode = widget:getChildByName("prize" .. tostring(j))
+            local prize = prizeNode:getChildByName("prize")
+            local prizeCntLabel = prizeNode:getChildByName("prizeCntLabel")
+            prizeCntLabel:setString("x" .. tostring(data[j][3]))
+            --  prize:ignoreContentAdaptWithSize(true)
+            --  local prizeCnt = widget:getChildByName("prize" .. tostring(j) .. "Cnt")
+            --  prizeCnt:setString("x" .. tostring(data[j][3]))
+
+            if data[j][2] == 1 then
+                local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(data[j][1]) 
+                -- prize:ignoreContentAdaptWithSize(true)
+                Functions.loadImageWithWidget(prize, heroHeadImg)
+            elseif data[j][2] == 5 then
+                local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(data[j][1]) 
+                -- prize:ignoreContentAdaptWithSize(true)
+                prize:setScale(0.85)
+                prizeNode:getChildByName("piece"):setVisible(true)
+                Functions.loadImageWithWidget(prize, heroHeadImg)
+            elseif data[j][2] == 4 and data[j][1] > 0 then
+                local propImg = ConfigHandler:getPropImageOfId(data[j][1])  
+                prize:ignoreContentAdaptWithSize(true)  
+                prize:setScale(0.8)         
+                Functions.loadImageWithWidget(prize, propImg)
+            elseif data[j][2] == 4 and data[j][1] == -3 then
+                Functions.loadImageWithWidget(prize, "property_money.png")
+            elseif data[j][2] == 4 and data[j][1] == -2 then
+                prize:setScale(0.8)
+                Functions.loadImageWithWidget(prize, "property_gold.png")
+            elseif data[j][2] == 4 and data[j][1] == -5 then
+                Functions.loadImageWithWidget(prize, "property_soul.png")
+            elseif data[j][2] == 4 and data[j][1] == -6 then    
+                Functions.loadImageWithWidget(prize, "property_soulCrystal.png")
+            end
+
+            prize:onTouch(Functions.createClickListener(handler(prize, function()
+                PromptManager:openInfPrompt({type = data[j][2],id = data[j][1],target = prize})
+            end), ""))
+        end
+
+        widget:getChildByName("dayNum"):setString(tostring(index))
+        
+        local mask = widget:getChildByName("mask")
+        local done = widget:getChildByName("done")
+        local choose = widget:getChildByName("choose")
+        local prize = widget:getChildByName("bg")
+
+        if index == prizeStateData.m_keepLoginDay and  prizeStateData.m_loginReward == 1 then
+            mask:setVisible(true)
+            done:setVisible(true)
+            choose:setVisible(true) 
+            prize:setTouchEnabled(false)
+        elseif  index < prizeStateData.m_keepLoginDay and  prizeStateData.m_loginReward == 1 then
+            mask:setVisible(true)
+            done:setVisible(true)
+            prize:setTouchEnabled(false)
+        elseif index < prizeStateData.m_keepLoginDay then
+             mask:setVisible(true) 
+             done:setVisible(true)
+             prize:setTouchEnabled(false)
+        elseif index == prizeStateData.m_keepLoginDay and prizeStateData.m_loginReward ~= 1 then --当前可领取状态
+            choose:setVisible(true) 
+            prize:setTouchEnabled(true)
+        end
+        local onPrizeClick = function()
+            local handler = function(event)
+                Functions.playSound("getrewards.mp3")
+                mask:setVisible(true)
+                done:setVisible(true)
+                prize:setTouchEnabled(false)   
+                prizeStateData.m_loginReward = 1    
+                Functions:addItemResources({id = data[1][1],type = data[1][2],count = data[1][3],slot = event.rettbl[1]})
+                Functions:addItemResources({id = data[2][1],type = data[2][2],count = data[2][3],slot = event.rettbl[2]})
+                Functions:addItemResources({id = data[3][1],type = data[3][2],count = data[3][3],slot = event.rettbl[3]})
+                RewardStateData.eventAttr.signRewardFlag = 0   --签到领奖：是否有奖可领 1/0
+            end
+            RewardData:RequestSignReward(handler)
+        end
+        prize:onTouch(Functions.createClickListener(handler(prize, onPrizeClick), ""))
+        if index == 1 then 
+            self._prizeBt_t = widget:getChildByName("bg")
+        end
+    end
+    local listView = self._Panel_signReward_t:getChildByName("ListView")
+    Functions.bindListWithData(listView, prizeData, listHandler)
+--    self._ListView_t:jumpToItem(10,cc.p(0,1),cc.p(0,0))
+
+    local dayCnt = self._Panel_signReward_t:getChildByName("dayCnt")
+    dayCnt:setString(tostring(prizeStateData.m_keepLoginDay))
+end
 --选美
 function HuoDongPopView:ShowXuanMei()
     Functions.printInfo(self.debug,"ShowXuanMei")

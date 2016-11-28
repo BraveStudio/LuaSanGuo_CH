@@ -80,8 +80,7 @@ end
 --custom code start
 function LoginRewardPopView:initPrizeList(prizePanel,prizeData,prizeStateData)
     for i = 1,#prizeData do
-        local prizeNode = prizePanel:getChildByTag(i)
-        
+        local prizeNode = prizePanel:getChildByTag(i)        
         local prizeCntLabel = prizeNode:getChildByName("prizePanel"):getChildByName("prizeCntLabel")
         local prize = prizeNode:getChildByName("prizePanel"):getChildByName("prize")
         local mask = prizeNode:getChildByName("prizePanel"):getChildByName("mask")
@@ -99,18 +98,6 @@ function LoginRewardPopView:initPrizeList(prizePanel,prizeData,prizeStateData)
 
         local isReward = false
         prizeCntLabel:setString("x" .. tostring(prizeData[i][1][3]))
-        
-        -- if prizeData[i][1][2] == 1 then
-        --     prizeData[i][1][2] = 5
-        -- elseif prizeData[i][1][2] == 4 and prizeData[i][1][1] > 0 then
-        --     prizeData[i][1][2] = 1
-        -- elseif prizeData[i][1][1] == -2 then
-        --     prizeData[i][1][2] = 3
-        -- elseif prizeData[i][1][1] == -3 then
-        --     prizeData[i][1][2] = 2
-        -- elseif prizeData[i][1][1] == -5 then
-        --     prizeData[i][1][2] = 4      
-        -- end
 
         if prizeData[i][1][2] == 1 then
             local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(prizeData[i][1][1]) 
