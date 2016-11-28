@@ -296,4 +296,5 @@ g_evtCode =
 	ACCH_JRTH = 80,         --今日特惠
 	ACCH_XFFL = 81,			--消费返利
 	zhzbOver = 82,			--诸侯争霸结算
+	mobai = 83,             --膜拜
 }
