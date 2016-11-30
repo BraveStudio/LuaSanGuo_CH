@@ -45,17 +45,17 @@ ActivityData.onlineReward.m_onlineIndex = 0 --领取的阶段
 ActivityData.onlineReward.remainTime = 0 --本次距离上次领奖时
 ActivityData.onlineReward.Rewards = {} --奖品配置
 
-ActivityData.VIPBZ = false          --VIP标志
+ActivityData.eventAttr.VIPBZ = false          --VIP标志
 ActivityData.VIPJiHua = {}          --VIP成长基金
 ActivityData.VIPJiHuaItem = {}
 ActivityData.VIPJiHuaBuy = 0        --VIP成长基金是否购买(0-未购买，1-已购买)
 
-ActivityData.EveryDayBZ = false     --每日充值标志
+ActivityData.eventAttr.EveryDayBZ = false     --每日充值标志
 ActivityData.EveryDay = {}          --每日充值(0不可领取 1 可领取 2 已经领取过了)
 ActivityData.EveryDayItem = {}      --每日充值道具
 ActivityData.EveryDayGold = 0       --今日已充钱数
 
-ActivityData.MoneyBZ = false        --充值标志
+ActivityData.eventAttr.MoneyBZ = false        --充值标志
 ActivityData.MoneyHuoDong = {}      --充值活动(0不可领取 1 可领取 2 已经领取过了)
 ActivityData.MoneyHuoDongItem = {}
 ActivityData.MoneyHuoDongNum = 0    --已充钱数
@@ -65,11 +65,11 @@ ActivityData.XiaoFei = {}           --累积消费(0不可领取 1 可领取 2 �
 ActivityData.XiaoFeiItem = {}
 ActivityData.XiaoFeiNum = 0         --累积消费数
 
-ActivityData.SanCanBZ = false       --三餐标志
+ActivityData.eventAttr.SanCanBZ = false       --三餐标志
 ActivityData.SanCan = {}            --豪华三餐(0不可领取 1 可领取 2 已经领取过了)
 
 
-ActivityData.YueKaBZ = false       --月卡标志
+ActivityData.eventAttr.YueKaBZ = false       --月卡标志
 ActivityData.YueKa = {}            --月卡奖励(0不可领取 1 可领取 2 已经领取过了)
 ActivityData.YueKaInfo = {}        --月卡信息
 
@@ -186,15 +186,15 @@ function ActivityData:init()
     
         --每日充值
         if event.active == "everyPay" and event.isHave then
-        	self.EveryDayBZ = true
+        	self.eventAttr.EveryDayBZ = true
         elseif event.active == "everyPay" and not event.isHave then 
-            self.EveryDayBZ = false
+            self.eventAttr.EveryDayBZ = false
         end
         --充值活动 
         if event.active == "totalPay" and event.isHave then
-            self.MoneyBZ = true
+            self.eventAttr.MoneyBZ = true
         elseif event.active == "totalPay" and not event.isHave then 
-            self.MoneyBZ = false
+            self.eventAttr.MoneyBZ = false
         end
         --总消费 
         if event.active == "allConsume" and event.isHave then
@@ -204,15 +204,15 @@ function ActivityData:init()
         end
         --成长计划
         if event.active == "growUp" and event.isHave then
-            self.VIPBZ = true
+            self.eventAttr.VIPBZ = true
         elseif event.active == "growUp" and not event.isHave then 
-            self.VIPBZ = false
+            self.eventAttr.VIPBZ = false
         end 
        --月卡标志
         if event.active == "monthCard" and event.isHave then
-            self.YueKaBZ = true
+            self.eventAttr.YueKaBZ = true
         elseif event.active == "monthCard" and not event.isHave then 
-            self.YueKaBZ = false
+            self.eventAttr.YueKaBZ = false
         end 
         --点赞标志
         if event.active == "DZ" and event.isHave then
@@ -258,15 +258,15 @@ function ActivityData:init()
         local data = ActivityData:getSanCan()
         if next(data) ~= nil then
             if m_newtime < data[1].st or m_newtime > data[3].et  then
-                ActivityData.SanCanBZ = false
+                ActivityData.eventAttr.SanCanBZ = false
                 return
             end
             for k,v in ipairs(data) do
                 if m_newtime >= v.st and m_newtime <= v.et and v.flag == 1 then
-                    ActivityData.SanCanBZ = true
+                    ActivityData.eventAttr.SanCanBZ = true
                     break
                 else
-                    ActivityData.SanCanBZ = false
+                    ActivityData.eventAttr.SanCanBZ = false
                 end
             end
             for k,v in ipairs(data) do
@@ -288,7 +288,10 @@ function ActivityData:init()
 end
 
 function ActivityData:updateBz()
-    if self.EveryDayBZ or self.MoneyBZ or self.XiaoFeiBZ or self.VIPBZ or self.SanCanBZ or self.ChengJiuBZ or self.DianZanBZ or self.YueKaBZ then
+    if self.eventAttr.EveryDayBZ or self.eventAttr.MoneyBZ or self.XiaoFeiBZ or
+                 self.eventAttr.VIPBZ or self.eventAttr.SanCanBZ or 
+                 self.ChengJiuBZ or self.DianZanBZ or self.eventAttr.YueKaBZ or RewardStateData.eventAttr.signRewardFlag == 1
+                 or RewardStateData.eventAttr.loginRewardFlag == 1 or RewardStateData.eventAttr.m_onlinePrizeState == 1 then
         ActivityData.eventAttr.fuLiDataBZ = 1
     else
         ActivityData.eventAttr.fuLiDataBZ = 0
@@ -307,7 +310,7 @@ function ActivityData:sendGetSanCan(idx,listener)
         local data = ActivityData:getSanCan()
         data[idx].flag = 2
         PlayerData.eventAttr.m_energy = PlayerData.eventAttr.m_energy + event.energy
-        ActivityData.SanCanBZ = false
+        ActivityData.eventAttr.SanCanBZ = false
         listener()
     end
     NetWork:addNetWorkListener({34,1}, Functions.createNetworkListener(onServerRequest,true,"ret"))
@@ -393,10 +396,10 @@ function ActivityData:sendGetYueKa(idx,listener)
         for k,v in pairs(ActivityData.YueKa) do
         	ActivityData.YueKa[idx].bz = 2
         end
-        self.YueKaBZ = false
+        self.eventAttr.YueKaBZ = false
         for k,v in pairs(ActivityData.YueKa) do
             if ActivityData.YueKa[k].bz == 1 then
-                self.YueKaBZ = true
+                self.eventAttr.YueKaBZ = true
             end
         end
         listener()  
@@ -420,7 +423,7 @@ function ActivityData:sendYueKa()
         ActivityData.YueKa[#ActivityData.YueKa + 1] = g_monthVip.reward
         ActivityData.YueKa[#ActivityData.YueKa + 1] = g_monthVip.everyReward
         if event.data.bz.rewardbz == 1 or event.data.bz.everybz == 1 then
-            self.YueKaBZ = true
+            self.eventAttr.YueKaBZ = true
         end
     end
     NetWork:addNetWorkListener({34,5}, Functions.createNetworkListener(onServerRequest,true,"ret"))
@@ -712,37 +715,37 @@ end
 
 
 ----VIP成长基金标志
---function ActivityData:getVIPBZ()
+--function ActivityData:geteventAttr.VIPBZ()
 --    local data = ActivityData.VIPJiHua
 --    local BZ = true
 --    for k, v in pairs(data) do
 --        if v == 1 then
---        	ActivityData.VIPBZ = true
+--        	ActivityData.eventAttr.VIPBZ = true
 --            BZ = false
 --        	break
 --        end
 --    end
 --    if BZ then
---        ActivityData.VIPBZ = false
+--        ActivityData.eventAttr.VIPBZ = false
 --    end
---    return  ActivityData.VIPBZ
+--    return  ActivityData.eventAttr.VIPBZ
 --end
 --
 ----每日充值标志
---function ActivityData:getEveryDayBZ()
+--function ActivityData:EveryDayBZ()
 --    local data = ActivityData.EveryDay
 --    local BZ = true
 --    for k, v in pairs(data) do
 --        if v == 1 then
---            ActivityData.EveryDayBZ = true
+--            ActivityData.eventAttr.EveryDayBZ = true
 --            BZ = false
 --            break
 --        end
 --    end
 --    if BZ then
---        ActivityData.EveryDayBZ = false
+--        ActivityData.eventAttr.EveryDayBZ = false
 --    end
---    return  ActivityData.EveryDayBZ
+--    return  ActivityData.eventAttr.EveryDayBZ
 --end
 --
 ----累积充值标志
@@ -751,15 +754,15 @@ end
 --    local BZ = true
 --    for k, v in pairs(data) do
 --        if v == 1 then
---            ActivityData.MoneyBZ = true
+--            ActivityData.eventAttr.MoneyBZ = true
 --            BZ = false
 --            break
 --        end
 --    end
 --    if BZ then
---        ActivityData.MoneyBZ = false
+--        ActivityData.eventAttr.MoneyBZ = false
 --    end
---    return  ActivityData.MoneyBZ
+--    return  ActivityData.eventAttr.MoneyBZ
 --end
 --
 ----消费标志

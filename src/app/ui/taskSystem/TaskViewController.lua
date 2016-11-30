@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 TaskViewController.debug = true
 TaskViewController.modulePath = ...
-TaskViewController.studioSpriteFrames = {"TaskUI_Text","CBO_taskFrame","CB_blackbg","CBO_taskNewBg","TaskUI" }
+TaskViewController.studioSpriteFrames = {"TaskUI_Text","CB_blackbg","TaskUI" }
 --@auto code head end
 
 --@Pre loading
@@ -235,7 +235,7 @@ function TaskViewController:initAchieveDisplay(achieveData)
     end
 
     Functions.bindTableViewWithData(self._achieveListPanel_t,{ firstData = achieveData },
-    {handler = listHandler, romveNodeHandler = romveNodeHandler},{direction = true, col = 1, firstSegment = 0, segment = 2 }) 
+    {handler = listHandler, romveNodeHandler = romveNodeHandler},{direction = true, col = 1, firstSegment = 100, segment = 2 }) 
 end
 --custom code start
 function TaskViewController:initUiDisplay_()

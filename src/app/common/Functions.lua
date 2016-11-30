@@ -1789,7 +1789,7 @@ function Functions.initTabCom(param)
                 end
             end
             --调用监听函数
-            v[2]()
+            v[2](button:getTag())
         end
         button:onTouch(Functions.createClickListener(onButtonClick))
 

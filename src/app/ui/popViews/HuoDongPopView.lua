@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 HuoDongPopView.csbResPath = "lk/csb"
 HuoDongPopView.debug = true
-HuoDongPopView.studioSpriteFrames = {"HuoDongPopUI","HuoDongPopUI_Text_Bg","HuoDongPopUI_Text","SignRewardPopUI","SignRewardPopUI_Text","OnlineRewardPopUI","RewardTipsPopUI" }
+HuoDongPopView.studioSpriteFrames = {"OnlineRewardPopUI","RewardTipsPopUI","SignRewardPopUI","HuoDongPopUI","HuoDongPopUI_Text_Bg","SignRewardPopUI_Text","HuoDongPopUI_Text" }
 --@auto code head end
 
 
@@ -31,20 +31,21 @@ function HuoDongPopView:onInitUI()
     self._ScrollView_title_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title")
 	self._Panel_Every_day_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_Every_day")
 	self._Sprite_Every_day_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_Every_day"):getChildByName("Sprite_Every_day")
-	self._Panel_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can")
-	self._Sprite_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can"):getChildByName("Sprite_san_can")
 	self._Panel_chong_zhi_huo_dong_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_chong_zhi_huo_dong")
 	self._Sprite_chong_zhi_huo_dong_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_chong_zhi_huo_dong"):getChildByName("Sprite_chong_zhi_huo_dong")
+	self._Panel_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can")
+	self._Sprite_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can"):getChildByName("Sprite_san_can")
+	self._Panel_15day_sign_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_15day_sign")
+	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_15day_sign"):getChildByName("Sprite_xuan_mei")
+	self._Panel_30day_login_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_30day_login")
+	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_30day_login"):getChildByName("Sprite_xuan_mei")
+	self._Panel_online_reward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_online_reward")
+	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_online_reward"):getChildByName("Sprite_xuan_mei")
 	self._Panel_cheng_zhang_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_zhang")
 	self._Sprite_cheng_zhang_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_zhang"):getChildByName("Sprite_cheng_zhang")
 	self._Panel_yue_ka_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_yue_ka")
 	self._Sprite_yue_ka_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_yue_ka"):getChildByName("Sprite_yue_ka")
-	self._Panel_cheng_jiu_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_jiu")
-	self._Sprite_cheng_jiu_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_jiu"):getChildByName("Sprite_cheng_jiu")
-	self._Panel_goto_dian_zan_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_goto_dian_zan")
-	self._Sprite_goto_dian_zan_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_goto_dian_zan"):getChildByName("Sprite_goto_dian_zan")
-	self._Panel_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_xuan_mei")
-	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_xuan_mei"):getChildByName("Sprite_xuan_mei")
+	self._Panel_info_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info")
 	self._Panel_all_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_all")
 	self._Text_time_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_all"):getChildByName("Text_time")
 	self._Text_time_num_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_all"):getChildByName("Text_time_num")
@@ -66,6 +67,9 @@ function HuoDongPopView:onInitUI()
 	self._ListView_yue_ka_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("ListView_yue_ka")
 	self._Panel_list_cheng_jiu_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_list_cheng_jiu")
 	self._Panel_dian_zan_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_dian_zan")
+	self._Panel_loginReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_loginReward")
+	self._Panel_onlineReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_onlineReward")
+	self._Panel_signReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_signReward")
 	
     --label list
     
@@ -110,7 +114,7 @@ function HuoDongPopView:onButton_cheng_zhangClick()
         end
         ActivityData.VIPJiHuaBuy = 1
         self:ShowChengZhang()
-        self:ListBZ()
+        
         --弹出报错信息
         PromptManager:openTipPrompt(LanguageConfig.language_9_7)
     end
@@ -175,14 +179,8 @@ function HuoDongPopView:getPopAction()
 end
 
 function HuoDongPopView:onDisplayView()
-    self._Panel_loginReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_loginReward")
-	self._Panel_onlineReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_onlineReward")
-    self._Panel_signReward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_signReward")
     Functions.printInfo(self.debug,"pop action finish ")
     Functions.setPopupKey("welfare")
-
-    
-    --VipData:RequestVipPay("111111","1231321","1000021769")
     
     -- --请求累积消费
     -- ActivityData:sendXiaoFei()
@@ -211,112 +209,38 @@ function HuoDongPopView:onDisplayView()
     
     --请求每日充值
     local onData = function()
-        self:ListClose()
+        self:clearPanel()
         self:ShowTime(1)
         self:ShowEveryDay()
         self:showView()
-        self:ListBZ()
+        
     end
     ActivityData:sendEveryDay(onData)
 
     
     self.State = 1
-    local onPanel1 = function()
-        print("panel 1 click")
-
-        self.State = 1
+    local onPanel = function(index)
+        self.State = index
         if self._Text_time_num_t.timeSprite ~= nil then
             self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
             self._Text_time_num_t.timeSprite = nil
         end
-
         self:Show(self.State)
     end
-
-    local onPanel2 = function()
-        print("panel 2 click")
-
-        self.State = 2
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
+    local tableParam = {}
+    for i=1,8 do
+        local tempParam = {}
+        tempParam[#tempParam+1] = self._ScrollView_title_t:getChildByTag(i)
+        tempParam[#tempParam+1] = onPanel
+        if i == 1 then
+            tempParam[#tempParam+1] = true
         end
-
-        self:Show(self.State)
-    end 
-
-    local onPanel3 = function()
-        print("panel 3 click")
-
-        self.State = 3
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
-
-        self:Show(self.State)
-    end 
-
-    local onPanel4 = function()
-        print("panel 4 click")
-
-        self.State = 4
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
-
-        self:Show(self.State)
-    end 
-
-    local onPanel5 = function()
-        print("panel 5 click")
-        self.State = 5
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
-
-        self:Show(self.State)
+        tableParam[#tableParam+1] = tempParam
     end
-    
-    local onPanel6 = function()
-        print("panel 6 click")
-        self.State = 6
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
+    Functions.initTabCom(tableParam)
 
-        self:Show(self.State)
-    end 
-    
-    local onPanel7 = function()
-        print("panel 7 click")
-        self.State = 7
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
-
-        self:Show(self.State)
-    end
-    
-    local onPanel8 = function()
-        print("panel 8 click")
-        self.State = 8
-        if self._Text_time_num_t.timeSprite ~= nil then
-            self._Text_time_num_t:removeChild(self._Text_time_num_t.timeSprite)
-            self._Text_time_num_t.timeSprite = nil
-        end
-
-        self:Show(self.State)
-    end 
-
-    Functions.initTabCom({ { self._Panel_Every_day_t, onPanel1, true }, { self._Panel_san_can_t, onPanel2}, { self._Panel_chong_zhi_huo_dong_t, onPanel3}, { self._Panel_yue_ka_t, onPanel4 }, 
-        { self._Panel_cheng_zhang_t, onPanel5}, { self._Panel_cheng_jiu_t, onPanel6}, { self._Panel_goto_dian_zan_t, onPanel7},  { self._Panel_xuan_mei_t, onPanel8}})
-    
-    --self:ListBZ()  
+    self:bindShowFlag()
+    --  
 end
 
 function HuoDongPopView:onCreate()
@@ -327,72 +251,29 @@ end
 function HuoDongPopView:onChangeView()
 end
 
-function HuoDongPopView:ListClose()
-    Functions.printInfo(self.debug,"ListClose")
-    self._ListView_Every_day_t:setVisible(false)
-    self._ListView_chong_zhi_t:setVisible(false)
-    self._ListView_san_can_t:setVisible(false)
-    self._ListView_chen_zhang_t:setVisible(false)
-    self._ListView_yue_ka_t:setVisible(false)
-    self._Panel_list_cheng_jiu_t:setVisible(false)
-    self._Panel_dian_zan_t:setVisible(false)
+function HuoDongPopView:clearPanel()
+    for i= 1,15 do 
+        self._Panel_info_t:getChildByTag(i):setVisible(false)
+    end
 end
 
-function HuoDongPopView:ListBZ()
-    Functions.printInfo(self.debug,"ListBZ")
-    --获取标志
---    ActivityData:getVIPBZ()
---    ActivityData:getEveryDayBZ()
---    ActivityData:getMoneyBZ()
---    ActivityData:getXiaoFeiBZ()
-    
-    --对标志进行展示
-    if ActivityData.EveryDayBZ then
-        self._Sprite_Every_day_t:setVisible(true)
-    else
-        self._Sprite_Every_day_t:setVisible(false)
-    end
-
---    if ActivityData.XiaoFeiBZ then
---        self._Sprite_lei_ji_t:setVisible(true)
---    else
---        self._Sprite_lei_ji_t:setVisible(false)
---    end
-    
-    if ActivityData.MoneyBZ then
-        self._Sprite_chong_zhi_huo_dong_t:setVisible(true)
-    else
-        self._Sprite_chong_zhi_huo_dong_t:setVisible(false)
-    end
-    
-    if ActivityData.VIPBZ then
-        self._Sprite_cheng_zhang_t:setVisible(true)
-    else
-        self._Sprite_cheng_zhang_t:setVisible(false)
-    end
-    
-    if ActivityData.SanCanBZ then
-        self._Sprite_san_can_t:setVisible(true)
-    else
-        self._Sprite_san_can_t:setVisible(false)
-    end
-    
-    if ActivityData.YueKaBZ then
-        self._Sprite_yue_ka_t:setVisible(true)
-    else
-        self._Sprite_yue_ka_t:setVisible(false)
-    end
-    
-    if ActivityData.ChengJiuBZ then
-        self._Sprite_cheng_jiu_t:setVisible(true)
-    else
-        self._Sprite_cheng_jiu_t:setVisible(false)
-    end
-    
-    if ActivityData.DianZanBZ then
-        self._Sprite_goto_dian_zan_t:setVisible(true)
-    else
-        self._Sprite_goto_dian_zan_t:setVisible(false)
+function HuoDongPopView:bindShowFlag()
+    local  attrNames = {{ActivityData,"EveryDayBZ"},{ActivityData,"MoneyBZ"},{ActivityData,"SanCanBZ"},
+                        {RewardStateData,"signRewardFlag"},{RewardStateData,"loginRewardFlag"},
+                        {ActivityData,"m_onlinePrizeState"},{ActivityData,"VIPBZ"},{ActivityData,"YueKaBZ"}}
+    for i=1,8 do
+        Functions.bindUiWithModelAttr(self._ScrollView_title_t:getChildByTag(i):getChildByName("flag"), attrNames[i][1], attrNames[i][2],function(event)
+            if event.data == true or event.data == 1 then 
+                self._ScrollView_title_t:getChildByTag(i):getChildByName("flag"):setVisible(true)
+            else
+                self._ScrollView_title_t:getChildByTag(i):getChildByName("flag"):setVisible(false)
+            end
+        end)
+        if attrNames[i][1]["eventAttr"][attrNames[i][2]] == true or attrNames[i][1]["eventAttr"][attrNames[i][2]]  == 1 then 
+            self._ScrollView_title_t:getChildByTag(i):getChildByName("flag"):setVisible(true)
+        else
+            self._ScrollView_title_t:getChildByTag(i):getChildByName("flag"):setVisible(false)
+        end
     end
 end
 
@@ -440,45 +321,24 @@ end
 
 function HuoDongPopView:Show(type)
     Functions.printInfo(self.debug,"Show")
-    self:ListClose()
+    self:clearPanel()
     self:ShowTime(type)
-    self._Panel_cheng_zhang_text_t:setVisible(false)
-    self._Panel_san_can_text_t:setVisible(false)
-    self._Panel_yue_ka_text_t:setVisible(false)
-    self._Panel_jie_shao_t:setVisible(true)
-    self._Panel_all_t:setVisible(false)
-    
-    self._Panel_loginReward_t:setVisible(false)
-    self._Panel_onlineReward_t:setVisible(false)
-    self._Panel_signReward_t:setVisible(false)
-    if type == 1 then
-        -- self:ShowEveryDay()
-        self._Panel_loginReward_t:setVisible(false)
+    if type == 1 then --每日特惠
+        self:ShowEveryDay()
+    elseif type == 2 then --充值活动
+        self:ShowNumHuoDong()
+    elseif type == 3 then --豪华三餐
+        self:ShowSanCan()
+    elseif type == 4 then --15天登陆
+        self:showSignReward()        
+    elseif type == 5 then --每月签到
         self:showLoginReward()
-    elseif type == 2 then
-        self._Panel_jie_shao_t:setVisible(false)
-        self._Panel_san_can_text_t:setVisible(true)
-        -- self:ShowSanCan()
-        self:showOnlineReward()
-    elseif type == 3 then
-        self._Panel_all_t:setVisible(true)
-        self._Panel_jie_shao_t:setVisible(false)
-        -- self:ShowNumHuoDong()
-        self:showSignReward()
-    elseif type == 4 then
-        self._Panel_yue_ka_text_t:setVisible(true)
-        self:ShowYueKa()
-    elseif type == 5 then
-        self._Panel_jie_shao_t:setVisible(false)
-        self._Panel_cheng_zhang_text_t:setVisible(true)
+    elseif type == 6 then --在线礼包
+        self:showOnlineReward()       
+    elseif type == 7 then --成长计划
         self:ShowChengZhang()
-    elseif type == 6 then
-        self._Panel_jie_shao_t:setVisible(false)
-        self:ShowChengJiu()
-    elseif type == 7 then
-        self:ShowDainZan()
-    elseif type == 8 then
-        self:ShowXuanMei()
+    elseif type == 8 then--月卡奖励
+        self:ShowYueKa()
     end
     
 end
@@ -579,7 +439,7 @@ function HuoDongPopView:getJiHuaJiang(idx)
         PlayerData.eventAttr.m_gold = event.gold
         ActivityData.VIPJiHua[idx] = 2
         self:ShowChengZhang()
-        self:ListBZ()
+        
         --弹出报错信息
         PromptManager:openTipPrompt(LanguageConfig.language_task_1)
     end
@@ -602,7 +462,7 @@ function HuoDongPopView:getEveryDayJiang(idx)
         end
         ActivityData.EveryDay[idx] = 2
         self:ShowEveryDay()
-        self:ListBZ()
+        
         --弹出报错信息
         PromptManager:openTipPrompt(LanguageConfig.language_task_1)
     end
@@ -625,7 +485,7 @@ function HuoDongPopView:getMoneyHuoDong(idx)
         end
         ActivityData.MoneyHuoDong[idx] = 2
         self:ShowNumHuoDong()
-        self:ListBZ()
+        
         --弹出报错信息
         PromptManager:openTipPrompt(LanguageConfig.language_task_1)
     end
@@ -660,7 +520,9 @@ end
 --每日特惠
 function HuoDongPopView:ShowEveryDay()
     Functions.printInfo(self.debug,"ShowChengZhang")
-    
+    self._ListView_Every_day_t:setVisible(true)
+    self._Panel_jie_shao_t:setVisible(true)
+
     self._Text_gold_num_t:setVisible(true)
     local str = string.format(LanguageConfig.language_HuoDong_13, ActivityData:getEveryDayGold())
     Functions.initLabelOfString( self._Text_gold_num_t, str)
@@ -751,7 +613,8 @@ end
 --充值活动
 function HuoDongPopView:ShowNumHuoDong()
     Functions.printInfo(self.debug,"ShowChengZhang")
-    
+    self._Panel_all_t:setVisible(true)
+
     self._Text_gold_num_t:setVisible(true)
     local str = string.format(LanguageConfig.language_HuoDong_15, ActivityData:getMoneyHuoDongNum())
     Functions.initLabelOfString( self._Text_gold_num_t, str)
@@ -823,7 +686,7 @@ end
 function HuoDongPopView:ShowSanCan()
     Functions.printInfo(self.debug,"ShowChengZhang")
     
-    self:ListBZ()
+    
     self._Text_gold_num_t:setVisible(false)
     self._Panel_san_can_text_t:setVisible(true)
 
@@ -874,8 +737,9 @@ end
 --月卡奖励
 function HuoDongPopView:ShowYueKa()
     Functions.printInfo(self.debug,"ShowYueKa")
+     self._Panel_jie_shao_t:setVisible(true)
     
-    self:ListBZ()
+    
     self._Text_gold_num_t:setVisible(true)
     self._Panel_yue_ka_text_t:setVisible(true)
     self._ListView_yue_ka_t:setVisible(true)
@@ -960,7 +824,7 @@ end
 function HuoDongPopView:ShowChengJiu()
     Functions.printInfo(self.debug,"ShowChengJiu")
     
-    self:ListBZ()
+    
     self._Panel_all_t:setVisible(false)
     self._Panel_cheng_zhang_text_t:setVisible(false)
     self._Panel_yue_ka_text_t:setVisible(false)
@@ -1054,7 +918,7 @@ end
 function HuoDongPopView:ShowDainZan()
     Functions.printInfo(self.debug,"ShowDainZan")
 
-    self:ListBZ()
+    
     self._Text_gold_num_t:setVisible(false)
     self._Panel_dian_zan_t:setVisible(true)
     Functions.initLabelOfString( self._Text_jie_shao_no_time_t, g_welfareInstructions.dianZan)
@@ -1304,10 +1168,6 @@ function HuoDongPopView:showSignReward()
             local prize = prizeNode:getChildByName("prize")
             local prizeCntLabel = prizeNode:getChildByName("prizeCntLabel")
             prizeCntLabel:setString("x" .. tostring(data[j][3]))
-            --  prize:ignoreContentAdaptWithSize(true)
-            --  local prizeCnt = widget:getChildByName("prize" .. tostring(j) .. "Cnt")
-            --  prizeCnt:setString("x" .. tostring(data[j][3]))
-
             if data[j][2] == 1 then
                 local heroHeadImg = ConfigHandler:getHeroHeadImageOfId(data[j][1]) 
                 -- prize:ignoreContentAdaptWithSize(true)
@@ -1341,34 +1201,26 @@ function HuoDongPopView:showSignReward()
 
         widget:getChildByName("dayNum"):setString(tostring(index))
         
-        local mask = widget:getChildByName("mask")
-        local done = widget:getChildByName("done")
-        local choose = widget:getChildByName("choose")
-        local prize = widget:getChildByName("bg")
 
+        local getBt = widget:getChildByName("getBt")
+        Functions.setEnabledBt(getBt, false)
         if index == prizeStateData.m_keepLoginDay and  prizeStateData.m_loginReward == 1 then
-            mask:setVisible(true)
-            done:setVisible(true)
-            choose:setVisible(true) 
-            prize:setTouchEnabled(false)
-        elseif  index < prizeStateData.m_keepLoginDay and  prizeStateData.m_loginReward == 1 then
-            mask:setVisible(true)
-            done:setVisible(true)
-            prize:setTouchEnabled(false)
-        elseif index < prizeStateData.m_keepLoginDay then
-             mask:setVisible(true) 
-             done:setVisible(true)
-             prize:setTouchEnabled(false)
+            local btText = getBt:getChildByName("Image_get")
+            btText:ignoreContentAdaptWithSize(true)
+            Functions.loadImageWithWidget(btText, "tyj/uiFonts_res/yilingqu.png")
+            Functions.setEnabledBt(getBt, false)
+        elseif  index < prizeStateData.m_keepLoginDay then
+            Functions.setEnabledBt(getBt, false)
         elseif index == prizeStateData.m_keepLoginDay and prizeStateData.m_loginReward ~= 1 then --当前可领取状态
-            choose:setVisible(true) 
-            prize:setTouchEnabled(true)
+            Functions.setEnabledBt(getBt, true)
         end
         local onPrizeClick = function()
             local handler = function(event)
                 Functions.playSound("getrewards.mp3")
-                mask:setVisible(true)
-                done:setVisible(true)
-                prize:setTouchEnabled(false)   
+                local btText = getBt:getChildByName("Image_get")
+                btText:ignoreContentAdaptWithSize(true)
+                Functions.loadImageWithWidget(btText, "tyj/uiFonts_res/yilingqu.png")
+                Functions.setEnabledBt(getBt, false)  
                 prizeStateData.m_loginReward = 1    
                 Functions:addItemResources({id = data[1][1],type = data[1][2],count = data[1][3],slot = event.rettbl[1]})
                 Functions:addItemResources({id = data[2][1],type = data[2][2],count = data[2][3],slot = event.rettbl[2]})
@@ -1377,14 +1229,13 @@ function HuoDongPopView:showSignReward()
             end
             RewardData:RequestSignReward(handler)
         end
-        prize:onTouch(Functions.createClickListener(handler(prize, onPrizeClick), ""))
+        getBt:onTouch(Functions.createClickListener(handler(getBt, onPrizeClick), ""))
         if index == 1 then 
             self._prizeBt_t = widget:getChildByName("bg")
         end
     end
     local listView = self._Panel_signReward_t:getChildByName("ListView")
     Functions.bindListWithData(listView, prizeData, listHandler)
---    self._ListView_t:jumpToItem(10,cc.p(0,1),cc.p(0,0))
 
     local dayCnt = self._Panel_signReward_t:getChildByName("dayCnt")
     dayCnt:setString(tostring(prizeStateData.m_keepLoginDay))
@@ -1393,7 +1244,7 @@ end
 function HuoDongPopView:ShowXuanMei()
     Functions.printInfo(self.debug,"ShowXuanMei")
 
-    self:ListBZ()
+    
     self._Text_gold_num_t:setVisible(false)
     local onstr = function(data)
         -- body

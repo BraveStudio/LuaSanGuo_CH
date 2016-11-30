@@ -7,7 +7,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/chongzhi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1968,42},{52,26}}</string>
+				<string>{{1968,120},{52,26}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/czhd1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{250,156},{245,97}}</string>
+				<string>{{1348,102},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/czjh1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{850,102},{245,97}}</string>
+				<string>{{1595,102},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/dixming.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1401,201},{142,27}}</string>
+				<string>{{1901,278},{142,27}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/huodongjieshao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1968,1},{79,19}}</string>
+				<string>{{1968,79},{79,19}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/huodongshijian.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1968,22},{79,18}}</string>
+				<string>{{1968,100},{79,18}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/leijichongzhi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{497,240},{100,26}}</string>
+				<string>{{1943,250},{100,26}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/leijixiaofei.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{497,211},{99,27}}</string>
+				<string>{{1842,235},{99,27}}</string>
 				<key>offset</key>
 				<string>{-1,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/ljxf1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1097,102},{245,97}}</string>
+				<string>{{1348,201},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/ttzb1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1344,102},{245,97}}</string>
+				<string>{{1595,201},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -161,7 +161,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/xianjia.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1968,70},{57,22}}</string>
+				<string>{{1968,148},{57,22}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/yuanjia.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1968,94},{57,22}}</string>
+				<string>{{1842,264},{57,22}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/chongzhi_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1401,230},{142,25}}</string>
+				<string>{{1836,340},{142,25}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,7 +194,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/cjhl1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1591,102},{245,97}}</string>
+				<string>{{601,203},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +216,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/mrth1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{850,201},{245,97}}</string>
+				<string>{{848,203},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -238,7 +238,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/hhsc1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{601,203},{245,97}}</string>
+				<string>{{1095,203},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -260,7 +260,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/ykjl1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{250,255},{245,97}}</string>
+				<string>{{1342,300},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -315,7 +315,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/hhyex.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1838,157},{99,76}}</string>
+				<string>{{1842,157},{99,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -337,7 +337,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/tili.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1097,201},{302,50}}</string>
+				<string>{{1,356},{302,50}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -348,7 +348,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/yklb.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1939,157},{99,76}}</string>
+				<string>{{1943,172},{99,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -370,7 +370,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/dzshl1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,257},{245,97}}</string>
+				<string>{{1589,300},{245,97}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -392,13 +392,90 @@
 			<key>commonUI/res/lk/HuoDongPopUI/qwdz.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1545,201},{116,31}}</string>
+				<string>{{1836,307},{116,31}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{116,31}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/myqd1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,257},{245,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/myqd2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,156},{247,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/zaixian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1968,1},{76,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{800,600}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/zxlb1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{248,257},{245,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/zxlb2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{850,102},{247,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/15tdl1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{495,302},{245,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/15tdl2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1099,102},{247,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,99}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -410,14 +487,14 @@
 			<key>realTextureFileName</key>
 			<string>HuoDongPopUI_Text.png</string>
 			<key>size</key>
-			<string>{2048,355}</string>
+			<string>{2048,407}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>2048</integer>
 			<key>height</key>
-			<integer>355</integer>
+			<integer>407</integer>
 		</dict>
 	</dict>
 </plist>
