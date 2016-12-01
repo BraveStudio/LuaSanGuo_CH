@@ -268,7 +268,7 @@
 				<key>sourceSize</key>
 				<string>{796,114}</string>
 			</dict>
-			<key>tyj/ui_res/TaskUI/bg2.png</key>
+			<key>commonUI/res/icons/bg2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{762,117},{27,27}}</string>
