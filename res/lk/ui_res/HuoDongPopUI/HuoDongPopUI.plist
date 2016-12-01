@@ -7,7 +7,7 @@
 			<key>lk/ui_res/HuoDongPopUI/yiao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{600,107}}</string>
+				<string>{{1173,1},{600,107}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>lk/ui_res/HuoDongPopUI/yuan.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1198,1},{76,76}}</string>
+				<string>{{1949,1},{76,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>lk/ui_res/HuoDongPopUI/chongzhi_2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1024,1},{172,42}}</string>
+				<string>{{1775,1},{172,42}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>lk/ui_res/HuoDongPopUI/fenge.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1276,1},{705,2}}</string>
+				<string>{{553,154},{705,2}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,13 +51,35 @@
 			<key>lk/ui_res/HuoDongPopUI/yuekashijian_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{603,1},{419,42}}</string>
+				<string>{{1173,110},{419,42}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{419,42}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/bg8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{553,1},{618,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{618,108}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/bg9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{550,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{550,176}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -69,14 +91,14 @@
 			<key>realTextureFileName</key>
 			<string>HuoDongPopUI.png</string>
 			<key>size</key>
-			<string>{1982,109}</string>
+			<string>{2026,178}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1982</integer>
+			<integer>2026</integer>
 			<key>height</key>
-			<integer>109</integer>
+			<integer>178</integer>
 		</dict>
 	</dict>
 </plist>

@@ -183,7 +183,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/chongzhi_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1836,340},{142,25}}</string>
+				<string>{{1836,370},{142,25}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -392,7 +392,7 @@
 			<key>commonUI/res/lk/HuoDongPopUI/qwdz.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1836,307},{116,31}}</string>
+				<string>{{1836,337},{116,31}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -476,6 +476,17 @@
 				<false />
 				<key>sourceSize</key>
 				<string>{247,99}</string>
+			</dict>
+			<key>commonUI/res/lk/HuoDongPopUI/jlxycchy.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1836,307},{211,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{211,28}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

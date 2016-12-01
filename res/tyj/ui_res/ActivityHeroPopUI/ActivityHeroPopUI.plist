@@ -29,18 +29,18 @@
 			<key>tyj/ui_res/ActivityHeroPopUI/you.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{781,0},{46,56}}</string>
+				<string>{{667,0},{59,77}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{46,56}</string>
+				<string>{59,77}</string>
 			</dict>
 			<key>tyj/ui_res/ActivityHeroPopUI/hdsm.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{667,0},{114,28}}</string>
+				<string>{{744,0},{114,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>tyj/ui_res/ActivityHeroPopUI/close.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{667,28},{37,37}}</string>
+				<string>{{858,0},{37,37}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -69,12 +69,12 @@
 			<key>realTextureFileName</key>
 			<string>ActivityHeroPopUI.png</string>
 			<key>size</key>
-			<string>{837,105}</string>
+			<string>{895,105}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>837</integer>
+			<integer>895</integer>
 			<key>height</key>
 			<integer>105</integer>
 		</dict>
