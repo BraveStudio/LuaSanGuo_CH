@@ -23,7 +23,7 @@
 22	计取南郡			24	map/cbj4.jpg	
 23	合肥之战				map/cbj4.jpg	
 24	甘露寺				map/cbj4.jpg	
-25	东吴郡主					
+25	东吴郡主			map/cbj4.jpg		
 26	渭南之战					
 27	落凤坡					
 28	锦马超					

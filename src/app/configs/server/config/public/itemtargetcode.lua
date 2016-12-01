@@ -297,4 +297,7 @@ g_evtCode =
 	ACCH_XFFL = 81,			--消费返利
 	zhzbOver = 82,			--诸侯争霸结算
 	mobai = 83,             --膜拜
+	xm = 84,				--选美
+	resertxm = 85,          --刷新选美
+	useitem  = 86,          --使用物品
 }
