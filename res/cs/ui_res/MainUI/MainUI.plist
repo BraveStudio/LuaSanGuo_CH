@@ -7,7 +7,7 @@
 			<key>cs/ui_res/MainIcon/Ani_mainGate.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{832,269},{121,109}}</string>
+				<string>{{1910,418},{121,109}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>cs/ui_res/MainIcon/arrow.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{79,333},{80,61}}</string>
+				<string>{{1897,740},{80,61}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>cs/ui_res/MainIcon/headdi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{183,324},{83,83}}</string>
+				<string>{{1588,395},{83,83}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>cs/ui_res/MainIcon/headout.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{183,227},{95,95}}</string>
+				<string>{{1910,529},{95,95}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>cs/ui_res/MainIcon/hideBt.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{280,227},{80,90}}</string>
+				<string>{{1506,388},{80,90}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>cs/ui_res/MainIcon/level.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{955,361},{40,40}}</string>
+				<string>{{1993,1},{40,40}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>cs/ui_res/MainIcon/main_frame.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,333},{76,76}}</string>
+				<string>{{1910,626},{76,76}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>cs/ui_res/MainIcon/main_service.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{955,269},{64,90}}</string>
+				<string>{{1973,206},{64,90}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>cs/ui_res/MainIcon/namebg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{79,409},{144,34}}</string>
+				<string>{{1897,704},{144,34}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>cs/ui_res/MainUI/beijing.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{442,380},{450,66}}</string>
+				<string>{{1,480},{450,66}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -114,10 +114,32 @@
 				<key>sourceSize</key>
 				<string>{450,66}</string>
 			</dict>
+			<key>cs/ui_res/MainUI/heroTrials.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1664,669},{231,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{231,188}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/heroTrials_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1265,639},{231,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{231,188}</string>
+			</dict>
 			<key>cs/ui_res/MainUI/information_kuang.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{438,1},{400,180}}</string>
+				<string>{{1286,1},{400,180}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -125,10 +147,54 @@
 				<key>sourceSize</key>
 				<string>{400,180}</string>
 			</dict>
+			<key>cs/ui_res/MainUI/main_jiuguan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,262},{257,216}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{257,216}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_jiuguan_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{260,262},{257,216}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{257,216}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_qixing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1059,489},{204,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_qixing_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1059,660},{204,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,169}</string>
+			</dict>
 			<key>cs/ui_res/MainUI/main_shu1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{438,183},{263,107}}</string>
+				<string>{{1,548},{263,107}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +205,7 @@
 			<key>cs/ui_res/MainUI/main_shu2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{435,224}}</string>
+				<string>{{849,1},{435,224}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -147,10 +213,76 @@
 				<key>sourceSize</key>
 				<string>{435,224}</string>
 			</dict>
+			<key>cs/ui_res/MainUI/main_tianti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1265,829},{236,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{236,176}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tianti_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1503,859},{236,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{236,176}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tinker.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1688,1},{303,203}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{303,203}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tinker_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1286,183},{303,203}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{303,203}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_xuezhan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,262},{268,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,204}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_xuezhan_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,439},{268,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,204}</string>
+			</dict>
 			<key>cs/ui_res/MainUI/main_youxiang.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{840,1},{156,132}}</string>
+				<string>{{1506,480},{156,132}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -161,7 +293,7 @@
 			<key>cs/ui_res/MainUI/main_youxiang_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{840,135},{156,132}}</string>
+				<string>{{1506,614},{156,132}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -169,21 +301,65 @@
 				<key>sourceSize</key>
 				<string>{156,132}</string>
 			</dict>
-			<key>cs/ui_res/MainUI/main_mission.png</key>
+			<key>cs/ui_res/MainUI/mainCity.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{280,319},{76,93}}</string>
+				<string>{{1,1},{422,259}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{76,93}</string>
+				<string>{422,259}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/mainCity_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{425,1},{422,259}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{422,259}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_chuzheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1741,859},{239,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_chuzheng_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1741,1030},{239,169}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,169}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_mission.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1140,227},{127,129}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,129}</string>
 			</dict>
 			<key>cs/ui_res/MainUI/main_mission_0.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{703,183},{127,129}}</string>
+				<string>{{1140,358},{127,129}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,7 +370,7 @@
 			<key>cs/ui_res/MainUI/p2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{442,292},{142,19}}</string>
+				<string>{{1897,803},{142,19}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,7 +381,7 @@
 			<key>cs/ui_res/MainUI/phb1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,227},{89,104}}</string>
+				<string>{{1591,183},{89,104}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +392,7 @@
 			<key>cs/ui_res/MainUI/phb2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{92,227},{89,104}}</string>
+				<string>{{1591,289},{89,104}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -224,16 +400,71 @@
 				<key>sourceSize</key>
 				<string>{89,104}</string>
 			</dict>
-			<key>cs/ui_res/MainIcon/help.png</key>
+			<key>cs/ui_res/MainUI/gvgicon.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{362,292},{78,92}}</string>
+				<string>{{519,468},{268,204}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{78,92}</string>
+				<string>{268,204}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/gvgicon_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,645},{268,204}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,204}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tiaoztr_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1269,388},{235,249}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{235,249}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_tiaoztrn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1673,418},{235,249}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{235,249}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_guozhan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1682,206},{289,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{289,210}</string>
+			</dict>
+			<key>cs/ui_res/MainUI/main_guozhan_down.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{849,227},{289,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{289,210}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -245,14 +476,14 @@
 			<key>realTextureFileName</key>
 			<string>MainUI.png</string>
 			<key>size</key>
-			<string>{1020,447}</string>
+			<string>{2042,1200}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1020</integer>
+			<integer>2042</integer>
 			<key>height</key>
-			<integer>447</integer>
+			<integer>1200</integer>
 		</dict>
 	</dict>
 </plist>

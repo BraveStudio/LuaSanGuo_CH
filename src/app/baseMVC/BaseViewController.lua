@@ -56,7 +56,7 @@ function BaseViewController:openChildView(childView, param)
     if name then
         self._childViews[name] = view
     else
-        self._childViews[self._childIndex] = view
+        self._childViews[#self._childViews+1] = view
         self._childIndex = self._childIndex + 1
     end
 
@@ -147,8 +147,8 @@ function BaseViewController:closeChildView(childView)
             end
         end
     end
+    self.curChildView = self._childViews[#self._childViews]
     self:removeChildHandler(childView)
-
     if GuideManager then
         GuideManager:checkGuide()
     end

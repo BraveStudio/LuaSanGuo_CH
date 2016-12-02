@@ -767,6 +767,7 @@ end
 --卡包数据变动
 function HeroCardData:cardsDataChange(data)
     local event = { name = HeroCardData.CARDS_DATA_CHANGE_EVENT, data = data }
+    self:card_sort()
     GameEventCenter:dispatchEvent(event)   --发送背包数据改变事件
 end
 return HeroCardData

@@ -59,8 +59,6 @@ function MainViewController:onDidLoadView()
 	self._lantern_anima_t = self.view_t.csbNode:getChildByName("main"):getChildByName("ScrollView"):getChildByName("MainFrontPanel"):getChildByName("lantern_anima")
 	self._heroKillTitile_t = self.view_t.csbNode:getChildByName("main"):getChildByName("ScrollView"):getChildByName("MainFrontPanel"):getChildByName("heroKillTitile")
 	self._huoDongText_t = self.view_t.csbNode:getChildByName("main"):getChildByName("ScrollView"):getChildByName("MainFrontPanel"):getChildByName("huoDongText")
-	self._czbx_anima_t = self.view_t.csbNode:getChildByName("main"):getChildByName("czbxBt"):getChildByName("czbx_anima")
-	self._czbx_time_t = self.view_t.csbNode:getChildByName("main"):getChildByName("czbxBt"):getChildByName("czbx_time")
 	self._topHead_t = self.view_t.csbNode:getChildByName("main"):getChildByName("LeftTopPanel"):getChildByName("topHead")
 	self._vipLevel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("LeftTopPanel"):getChildByName("vipLevel")
 	self._fightPower_t = self.view_t.csbNode:getChildByName("main"):getChildByName("LeftTopPanel"):getChildByName("fightPower")
@@ -70,8 +68,8 @@ function MainViewController:onDidLoadView()
 	self._moneyText_t = self.view_t.csbNode:getChildByName("main"):getChildByName("tipBtPanel"):getChildByName("Resource_12_0"):getChildByName("moneyText")
 	self._powerText_t = self.view_t.csbNode:getChildByName("main"):getChildByName("tipBtPanel"):getChildByName("Resource_12_0_0"):getChildByName("powerText")
 	self._power_bt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("tipBtPanel"):getChildByName("power_bt")
+	self._taskBg_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskBg")
 	self._downBtPanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel")
-	self._taskBg_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame7"):getChildByName("taskBg")
 	self._power_panel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("power_panel")
 	self._nextPowerTitle_t = self.view_t.csbNode:getChildByName("main"):getChildByName("power_panel"):getChildByName("nextPowerTitle")
 	self._recAllPowerTitle_t = self.view_t.csbNode:getChildByName("main"):getChildByName("power_panel"):getChildByName("recAllPowerTitle")
@@ -128,9 +126,6 @@ function MainViewController:onDidLoadView()
 	self._huoDongBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("ScrollView"):getChildByName("MainFrontPanel"):getChildByName("huoDongBt")
 	self._huoDongBt_t:onTouch(Functions.createClickListener(handler(self, self.onHuodongbtClick), "movedis"))
 
-	self._czbxBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("czbxBt")
-	self._czbxBt_t:onTouch(Functions.createClickListener(handler(self, self.onCzbxbtClick), "zoom"))
-
 	self._LeftTopPanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("LeftTopPanel")
 	self._LeftTopPanel_t:onTouch(Functions.createClickListener(handler(self, self.onLefttoppanelClick), ""))
 
@@ -143,8 +138,11 @@ function MainViewController:onDidLoadView()
 	self._addCoinBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("tipBtPanel"):getChildByName("addCoinBt")
 	self._addCoinBt_t:onTouch(Functions.createClickListener(handler(self, self.onAddcoinbtClick), "zoom"))
 
-	self._heroListBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame1"):getChildByName("heroListBt")
-	self._heroListBt_t:onTouch(Functions.createClickListener(handler(self, self.onHerolistbtClick), "zoom"))
+	self._taskBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("taskBt")
+	self._taskBt_t:onTouch(Functions.createClickListener(handler(self, self.onTaskbtClick), "zoom"))
+
+	self._PropitemBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame1"):getChildByName("PropitemBt")
+	self._PropitemBt_t:onTouch(Functions.createClickListener(handler(self, self.onPropitembtClick), "zoom"))
 
 	self._upLevelBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame2"):getChildByName("upLevelBt")
 	self._upLevelBt_t:onTouch(Functions.createClickListener(handler(self, self.onUplevelbtClick), "zoom"))
@@ -152,35 +150,17 @@ function MainViewController:onDidLoadView()
 	self._buzhenBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame3"):getChildByName("buzhenBt")
 	self._buzhenBt_t:onTouch(Functions.createClickListener(handler(self, self.onBuzhenbtClick), "zoom"))
 
-	self._zhuangbeiBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame4"):getChildByName("zhuangbeiBt")
-	self._zhuangbeiBt_t:onTouch(Functions.createClickListener(handler(self, self.onZhuangbeibtClick), "zoom"))
+	self._heroListBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame4"):getChildByName("heroListBt")
+	self._heroListBt_t:onTouch(Functions.createClickListener(handler(self, self.onHerolistbtClick), "zoom"))
 
-	self._PropitemBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame5"):getChildByName("PropitemBt")
-	self._PropitemBt_t:onTouch(Functions.createClickListener(handler(self, self.onPropitembtClick), "zoom"))
-
-	self._hechengBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame6"):getChildByName("hechengBt")
-	self._hechengBt_t:onTouch(Functions.createClickListener(handler(self, self.onHechengbtClick), "zoom"))
-
-	self._taskBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame7"):getChildByName("taskBt")
-	self._taskBt_t:onTouch(Functions.createClickListener(handler(self, self.onTaskbtClick), "zoom"))
-
-	self._shopBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame8"):getChildByName("shopBt")
+	self._shopBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame5"):getChildByName("shopBt")
 	self._shopBt_t:onTouch(Functions.createClickListener(handler(self, self.onShopbtClick), "zoom"))
 
-	self._btChongs_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btChongs")
-	self._btChongs_t:onTouch(Functions.createClickListener(handler(self, self.onBtchongsClick), "zoom"))
-
-	self._btJiangh_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btJiangh")
-	self._btJiangh_t:onTouch(Functions.createClickListener(handler(self, self.onBtjianghClick), "zoom"))
-
-	self._hideBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame9"):getChildByName("hideBt")
+	self._hideBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("downBtPanel"):getChildByName("btFrame6"):getChildByName("hideBt")
 	self._hideBt_t:onTouch(Functions.createClickListener(handler(self, self.onHidebtClick), "zoom"))
 
 	self._serviceBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("leftDownPanel"):getChildByName("serviceBt")
 	self._serviceBt_t:onTouch(Functions.createClickListener(handler(self, self.onServicebtClick), "zoom"))
-
-	self._cafeBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("leftDownPanel"):getChildByName("cafeBt")
-	self._cafeBt_t:onTouch(Functions.createClickListener(handler(self, self.onCafebtClick), "zoom"))
 
 	self._loginRewardBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("loginRewardBt")
 	self._loginRewardBt_t:onTouch(Functions.createClickListener(handler(self, self.onLoginrewardbtClick), "zoom"))
@@ -330,13 +310,22 @@ function MainViewController:onUplevelbtClick()
     Functions.printInfo(self.debug,"Uplevelbt button is click!")
 
     GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
+    -- --打开士兵培养
+    -- if PlayerData.eventAttr.m_level >= g_csOpen.StrengthenOpen.level then
+    --     GameCtlManager:push("app.ui.soldiersSystem.SoldiersViewController")
+    --     --self:openChildView("app.ui.popViews.SoldiersPopView",{ data = {1, 1}, isRemove = false})
+    -- else
+    --     PromptManager:openTipPrompt(LanguageConfig.language_Enhance_1)
+    -- end
+    
 end
 --@auto code Uplevelbt btFunc end
 
 --@auto code Buzhenbt btFunc
 function MainViewController:onBuzhenbtClick()
     Functions.printInfo(self.debug,"Buzhenbt button is click!")
-    GameCtlManager:push("app.ui.embattleSystem.EmbattleViewController",{data = {jumpType = 5,jumpData = {embattleType = 1}}})
+    GameCtlManager:push("app.ui.equipmentSystem.EquipmentViewController")
+    -- GameCtlManager:push("app.ui.embattleSystem.EmbattleViewController",{data = {jumpType = 5,jumpData = {embattleType = 1}}})
 end
 --@auto code Buzhenbt btFunc end
 
@@ -368,7 +357,7 @@ end
 function MainViewController:onShopbtClick()
     Functions.printInfo(self.debug,"Shopbt button is click!")
 
-    GameCtlManager:push("app.ui.shopSystem.ShopViewController")
+    GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 1}})
 end
 --@auto code Shopbt btFunc end
 
@@ -464,7 +453,7 @@ function MainViewController:onLimittimeherobtClick()
     Functions.printInfo(self.debug,"Limittimeherobt button is click!")
     -- local activityHeroView = require("app.ui.popViews.ActivityHeroPopView"):new()--cs
     -- self:openChildView("app.ui.popViews.ActivityHeroPopView",{isRemove = false, name = "ActivityHeroPopView"})
-    self:openChildView("app.ui.popViews.SelectActivityHeroPopView",{isRemove = false, name = "SelectActivityHeroPopView"})
+    self:openChildView("app.ui.popViews.SelectActivityHeroPopView",{isRemove = false})
 end
 --@auto code Limittimeherobt btFunc end
 
@@ -562,7 +551,8 @@ function MainViewController:onHuodongbtClick()
     Functions.printInfo(self.debug,"Huodongbt button is click!")
     
     local SoulShop = function()
-        GameCtlManager:push("app.ui.soulShopSystem.SoulShopViewController")
+        --GameCtlManager:push("app.ui.soulShopSystem.SoulShopViewController")
+        GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 4}})
     end
     SoulShopData:sendShop(SoulShop)
 end
@@ -659,19 +649,19 @@ function MainViewController:initDownBtState_()
 	--初始化底部按钮组
     local bts = self._downBtPanel_t:getChildren()
     self._rightDownBts = {}
-    for i=1, 8 do
+    for i=1, 5 do
         self._rightDownBts[i] = self._downBtPanel_t:getChildByTag(i)
     end
-    self._zoomPanel = self._downBtPanel_t:getChildByTag(9)
+    self._zoomPanel = self._downBtPanel_t:getChildByTag(6)
     self._isHidingBt = false
     self._isBtHide = false
 
     --取消右下面板吞噬触摸
     self._downBtPanel_t:setSwallowTouches(false)
 
-    if PlayerData.eventAttr.m_level < g_csOpen.JiangHun.level then
-    	self._btJiangh_t:setVisible(false)
-    end
+--    if PlayerData.eventAttr.m_level < g_csOpen.JiangHun.level then
+--    	self._btJiangh_t:setVisible(false)
+--    end
 end
 
 function MainViewController:initScrollState_()
@@ -847,11 +837,12 @@ function MainViewController:initUiDisplay_()
     end
 
     --隐藏节日狂欢
-    if (TimerManager:getCurrentSecond() > PlayerData.eventAttr.jrth_st or TimerManager:getCurrentSecond() > PlayerData.eventAttr.xffl_st or TimerManager:getCurrentSecond() > PlayerData.eventAttr.zhzb_st)
-        and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.jrth_et or TimerManager:getCurrentSecond() < PlayerData.eventAttr.xffl_et or TimerManager:getCurrentSecond() < PlayerData.eventAttr.zhzb_et) then
-    	self._jrkhBt_t:setVisible(true)
+    if ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.jrth_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.jrth_et)) 
+        or ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.xffl_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.xffl_et))
+        or ((TimerManager:getCurrentSecond() > PlayerData.eventAttr.zhzb_st) and (TimerManager:getCurrentSecond() < PlayerData.eventAttr.zhzb_et)) then
+        self._jrkhBt_t:setVisible(true)
     else
-    	self._jrkhBt_t:setVisible(false)
+        self._jrkhBt_t:setVisible(false)
     end
 
     --隐藏七日狂欢
@@ -870,8 +861,8 @@ function MainViewController:initUiDisplay_()
             Functions.bindUiWithModelAttr(self._czbx_time_t,  DiscountData, "remainTimeStr")
     	end
     end
-    Functions.bindUiWithModelAttr(self._czbxBt_t,  DiscountData, "DiscountDataBZ", onCzbxChange)
-    onCzbxChange({ data = DiscountData.eventAttr.DiscountDataBZ })
+--    Functions.bindUiWithModelAttr(self._czbxBt_t,  DiscountData, "DiscountDataBZ", onCzbxChange)
+--    onCzbxChange({ data = DiscountData.eventAttr.DiscountDataBZ })
 
     --初始化全局数据显示
     Functions.bindMGSDisplay( {moneyObj = self._coinText_t, goldObj = self._moneyText_t, powerObj = self._powerText_t} )
@@ -906,7 +897,7 @@ function MainViewController:initUiDisplay_()
     Functions.registerStateListenerOfBt(self._zhaomText_t, EnlistData, "EnlistDataBZ") --招募提醒标志
     Functions.registerStateListenerOfBt(self._libaoBt_t, ActivityData, "m_onlinePrizeState") --在线领奖
     Functions.registerStateListenerOfBt(self._upLevelBt_t, SoldiersData, "SoldiersBZ") --士兵升级
-    Functions.registerStateListenerOfBt(self._hechengBt_t, CompoundData, "CompoundBZ") --士兵升级
+--    Functions.registerStateListenerOfBt(self._hechengBt_t, CompoundData, "CompoundBZ") --士兵升级
     Functions.registerStateListenerOfBt(self._mainCityTitil_t, CityData, "cityDataBZ") --主城标志
     Functions.registerStateListenerOfBt(self._fuliBt_t, ActivityData, "fuLiDataBZ") --福利标志
     Functions.registerStateListenerOfBt(self._limitTimeHeroBt_t, ActivityData, "freeTakeHeroFlag") --限时神将
@@ -1017,7 +1008,7 @@ function MainViewController:initUiAnima_()
     Functions.playAnimaOfUI(self._fire_anima_t, "mainUIFire_plist", 0, false)
 
     --宝箱动画
-    Functions.playAnimaOfUI(self._czbx_anima_t, "czbx_plist", 0, false)
+--    Functions.playAnimaOfUI(self._czbx_anima_t, "czbx_plist", 0, false)
 
     --出战特效
     local seqAction = cc.Sequence:create(cc.FadeTo:create(1, 0), cc.FadeTo:create(1, 100)) 

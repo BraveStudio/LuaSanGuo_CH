@@ -83,25 +83,26 @@ function Player:onLogin()
 
             --sdk           
 
-            GameCtlManager:push("app.ui.imagePlayerSystem.ImagePlayerViewController",{ data = { jumpData = { levelId = 1, callBack = function()
-                
-                --sdk
-                Functions.setAdbrixTag("firstTimeExperience","cartoon_0_4_complete")
-                Functions.setAdbrixTag("firstTimeExperience","loading_1_try")
-                if G_IsOpenFirstFight then
-                    --sdk                    
-                    GameCtlManager:getCurrentController().view_t:setVisible(false) --
-                    GameCtlManager:push("app.ui.combatSystem.CombatViewController", { data = { combatType = CombatCenter.CombatType.RB_Guide } })
-                else
-                    Functions.setAdbrixTag("firstTimeExperience","loading_1_complete")
-                    Functions.setAdbrixTag("firstTimeExperience","tutorial_combat_try")
-                    Functions.setAdbrixTag("firstTimeExperience","tutorial_combat_complete")
-                    Functions.setAdbrixTag("firstTimeExperience","cartoon_1_1_try")
-                    Functions.setAdbrixTag("firstTimeExperience","cartoon_1_3_complete")
+            -- GameCtlManager:push("app.ui.imagePlayerSystem.ImagePlayerViewController",{ data = { jumpData = { levelId = 1, callBack = function()
+                callBack = function()
+                    --sdk
+                    Functions.setAdbrixTag("firstTimeExperience","cartoon_0_4_complete")
+                    Functions.setAdbrixTag("firstTimeExperience","loading_1_try")
+                    if G_IsOpenFirstFight then
+                        --sdk                    
+                        GameCtlManager:getCurrentController().view_t:setVisible(false) --
+                        GameCtlManager:push("app.ui.combatSystem.CombatViewController", { data = { combatType = CombatCenter.CombatType.RB_Guide } })
+                    else
+                        Functions.setAdbrixTag("firstTimeExperience","loading_1_complete")
+                        Functions.setAdbrixTag("firstTimeExperience","tutorial_combat_try")
+                        Functions.setAdbrixTag("firstTimeExperience","tutorial_combat_complete")
+                        Functions.setAdbrixTag("firstTimeExperience","cartoon_1_1_try")
+                        Functions.setAdbrixTag("firstTimeExperience","cartoon_1_3_complete")
 
-                    GameCtlManager:goTo("app.ui.newPlayerSystem.NewPlayerViewController")
+                        GameCtlManager:goTo("app.ui.newPlayerSystem.NewPlayerViewController")
+                    end
                 end
-                end } }})
+                callBack()
         else
             Functions.setAdbrixTag("firstTimeExperience","cartoon_0_4_complete")
             Functions.setAdbrixTag("firstTimeExperience","loading_1_try")

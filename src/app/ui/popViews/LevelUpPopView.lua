@@ -10,7 +10,7 @@ LevelUpPopView.studioSpriteFrames = {"CBO_uplevelPanel","MainUI","LevelUpPopUI" 
 --@auto code head end
 
 --@Pre loading
-LevelUpPopView.spriteFrameNames = 
+LevelUpPopView.spriteFrameNames =
     {
     }
 

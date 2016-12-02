@@ -165,12 +165,14 @@ function ActivityHeroPopView:getCardWithPay( )
 end
 function ActivityHeroPopView:onDisplayView(data)
 	Functions.printInfo(self.debug,"pop action finish ")
+    self._heroCloseBt_t = self._closeBt_t
+
 	Functions.setPopupKey("limit_hero")
 	Functions.setAdbrixTag("retension","newhero_buy_inter",PlayerData.eventAttr.m_level)
 	self.xsHeroType = data.type
 	self:initDisplay()
 
-    Functions.handGuideOfFeild("isGuideActivityHero", 1001)
+    -- Functions.handGuideOfFeild("isGuideActivityHero", 1001)
 end
 
 function ActivityHeroPopView:onCreate()

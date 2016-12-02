@@ -304,7 +304,7 @@ function CombatViewController:onDisplayView()
     end
 
     --新手引导
-    if PlayerData.eventAttr.m_guideId == 5 then  --第一站，隐藏自动战斗
+    if PlayerData.eventAttr.m_guideId == 4 then  --第一站，隐藏自动战斗
         self._autoFightBt_t:setVisible(false)
         self._speed1Bt_t:setVisible(false)
     else
@@ -821,7 +821,7 @@ function CombatViewController:initCombatUI()
         if model then
             self:initCombatHeroCom_(heroCom, model)
             heroCom:setVisible(true)
-            self.spellControllers[#self.spellControllers+1] = Factory:createSpellCtl({ view = heroCom, model = model, parentCtl = self })
+            self.spellControllers[#self.spellControllers+1] = Factory:createSpellCtl({ index = i ,view = heroCom, model = model, parentCtl = self })
         end
     end
 
@@ -1014,7 +1014,7 @@ function CombatViewController:quitCombat()
     end
 
     if self.combatInfo.combatType == CombatCenter.CombatType.RB_PVE and self.combatResult == CombatCenter.FightResult.WIN
-     and self.isFirstFight and self.combatInfo.littleLevels%10 == 0 then
+     and self.isFirstFight and self.combatInfo.littleLevels%10 == 0 and self.combatInfo.majorHurdles < 23 then
         GameCtlManager:push("app.ui.imagePlayerSystem.ImagePlayerViewController",{ data = { jumpData = { levelId = ConfigHandler:getChapterOfID(self.combatInfo.majorHurdles), callBack = quitFunc_ } }})
     else
         quitFunc_()

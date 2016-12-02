@@ -73,11 +73,14 @@ function ServerConfig:init()
             UpdateServerURL = GameState.storeAttr.CurGameUpdateUrl_s
         end
     end
+
+    UpdateFileServerURL = UpdateServerURL
 end
 
-function ServerConfig:setURL(loginUrl, updateUrl)
+function ServerConfig:setURL(loginUrl, updateUrl, updateFileUrl)
     ServerConfig.currentURL = loginUrl
     UpdateServerURL = updateUrl
+    UpdateFileServerURL = updateFileUrl or UpdateServerURL
 end
 
 return ServerConfig

@@ -99,7 +99,8 @@ end
 --@auto code Taskbt btFunc
 function TianTiViewController:onTaskbtClick()
     Functions.printInfo(self.debug,"Taskbt button is click!")
-    GameCtlManager:push("app.ui.integralShopSystem.IntegralShopViewController")
+    --GameCtlManager:push("app.ui.integralShopSystem.IntegralShopViewController")
+    GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 2}})
 end
 --@auto code Taskbt btFunc end
 

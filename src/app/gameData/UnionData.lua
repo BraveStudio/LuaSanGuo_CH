@@ -55,6 +55,8 @@ function UnionData:init()
     self.DonateAllInfo = {}
     --公会商店信息
     self.shopInfo = {}
+    --公会商店等级（公会等级）
+    self.unionShopLevel = 0
     
     local onSendMsg = function(event)
         --公会副本主数据
@@ -186,6 +188,7 @@ function UnionData:sendShopInfo(listener)
         if event.reqtype == 39 then
             if event.ret == 1 then
                 self.shopInfo = {}
+                self.unionShopLevel = event.data.level
                 
                 for k,v in pairs(event.data.items) do
                     local info = {}
@@ -211,6 +214,51 @@ function UnionData:sendShopInfo(listener)
     NetWork:addNetWorkListener({ 7, 1 }, onUnionCreat)
     NetWork:sendToServer({ idx = { 7, 1 }, reqtype = 39})
 end
+
+----查询公会信息
+--function UnionData:sendUnionInfo(listener)
+--    Functions.printInfo(self.debug," UnionViewController view enter sendUnionInfo!")
+--
+--    local onUnionInfo = function(event)
+--        if  event.reqtype == 3 then
+--            if event.ret == 1 then
+--                self:sendMembersInfo()
+--                UnionData:clearUnionInfo()
+--                local data = event.data
+--                local unionInfo = Factory:createUnionInfoData()
+--                unionInfo.eventAttr.m_id = data.id
+--                unionInfo.eventAttr.m_member_count = data.member_count
+--                unionInfo.eventAttr.m_join_level = data.join_level
+--                unionInfo.eventAttr.m_pic = data.pic
+--                unionInfo.eventAttr.m_join_type = data.join_type
+--                unionInfo.eventAttr.s_name = data.name
+--                unionInfo.eventAttr.s_notice = data.notice
+--                unionInfo.eventAttr.allActif = data.allActif        --公会目前贡献
+--                unionInfo.eventAttr.guild_level = data.guild_level  --公会等级
+--                UnionData:addUnionInfoData(unionInfo)
+--
+--                --公会活跃
+--                UnionData.eventAttr.m_activity = data.activity
+--                --公会id赋值
+--                PlayerData.eventAttr.m_tongID = data.id
+--                listener(unionInfo)
+--            else
+--                --弹出报错信息
+--                PromptManager:openTipPrompt(ConfigHandler:getServerErrorCode(event.ret))
+--            end
+--            return true
+--        end
+--
+--    end
+--    NetWork:addNetWorkListener({ 7, 1 }, onUnionInfo)
+--    NetWork:sendToServer({ idx = { 7, 1 }, reqtype = 3})
+--end
+
+--公会商店信息
+function UnionData:getUnionShopLevel()
+    return self.unionShopLevel
+end
+
 
 --公会商店信息
 function UnionData:getShopInfo()

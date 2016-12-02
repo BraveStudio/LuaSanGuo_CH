@@ -184,7 +184,6 @@ function UnionShopViewController:itemShow()
     end
     --绑定响应事件函数
     Functions.bindArryListWithData(self._ListView_shop_t,{ firstData = shopdatas }, listHandler,{direction = false,col = 2,firstSegment = 3,segment = 10})
-
 end
 
 return UnionShopViewController

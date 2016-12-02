@@ -128,10 +128,13 @@ function LoadingViewController:onDisplayView()
                     if state == 0 then
                         local urlTable = json.decode(data)
                         if urlTable.error == 0 then
+
+                            local updateUrls = Functions.strSplit(urlTable.updateUrl, ",")
                             GameState.storeAttr.CurGameLoginUrl_s = urlTable.url
-                            GameState.storeAttr.CurGameUpdateUrl_s = urlTable.updateUrl
+                            GameState.storeAttr.CurGameUpdateUrl_s = updateUrls[1]
                             GameState.storeAttr.CurGameDownLoadUrl_s = urlTable.downLoadUrl
-                            ServerConfig:setURL(GameState.storeAttr.CurGameLoginUrl_s, GameState.storeAttr.CurGameUpdateUrl_s)
+                            GameState.storeAttr.CurGameUpdateFileUrl_s = updateUrls[2] or updateUrls[1]
+                            ServerConfig:setURL(GameState.storeAttr.CurGameLoginUrl_s, GameState.storeAttr.CurGameUpdateUrl_s, GameState.storeAttr.CurGameUpdateFileUrl_s)
                             if urlTable.forceUpdate == "true" then
                                 GameState.storeAttr.forceUpdate_b = true
                             else

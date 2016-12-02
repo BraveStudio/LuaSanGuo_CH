@@ -4,17 +4,6 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>lk/ui_res/HeroKillGuanKaUI/start_tuitu1.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1594,1},{100,34}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{100,34}</string>
-			</dict>
 			<key>lk/ui_res/HeroKillGuanKaUI/bg.png</key>
 			<dict>
 				<key>frame</key>
@@ -69,6 +58,17 @@
 				<true />
 				<key>sourceSize</key>
 				<string>{152,167}</string>
+			</dict>
+			<key>lk/ui_res/HeroKillGuanKaUI/start_tuitu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1594,1},{100,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,34}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

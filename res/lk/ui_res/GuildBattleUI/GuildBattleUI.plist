@@ -62,7 +62,7 @@
 			<key>lk/ui_res/GuildBattleUI/hanzhong_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1077,207},{104,62}}</string>
+				<string>{{1386,242},{104,62}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>lk/ui_res/GuildBattleUI/jianan.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1588,170},{114,68}}</string>
+				<string>{{1662,170},{114,68}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>lk/ui_res/GuildBattleUI/jianan_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1266,253},{104,62}}</string>
+				<string>{{1619,240},{104,62}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>lk/ui_res/GuildBattleUI/jiangxia.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{939,277},{89,58}}</string>
+				<string>{{1725,278},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>lk/ui_res/GuildBattleUI/jiangxia_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1503,172},{81,52}}</string>
+				<string>{{1778,170},{81,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>lk/ui_res/GuildBattleUI/jianning.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1030,335},{89,58}}</string>
+				<string>{{1598,304},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>lk/ui_res/GuildBattleUI/jianning_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1503,226},{81,52}}</string>
+				<string>{{1778,224},{81,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>lk/ui_res/GuildBattleUI/nanpi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{772,302},{89,58}}</string>
+				<string>{{1077,207},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>lk/ui_res/GuildBattleUI/nanpi_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1183,207},{81,52}}</string>
+				<string>{{1503,172},{81,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,7 +194,7 @@
 			<key>lk/ui_res/GuildBattleUI/red.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1502,300},{115,8}}</string>
+				<string>{{772,302},{115,8}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,7 +205,7 @@
 			<key>lk/ui_res/GuildBattleUI/tianshui.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1704,170},{114,68}}</string>
+				<string>{{1861,225},{114,68}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +216,7 @@
 			<key>lk/ui_res/GuildBattleUI/tianshui_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1077,271},{104,62}}</string>
+				<string>{{1492,296},{104,62}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -227,7 +227,7 @@
 			<key>lk/ui_res/GuildBattleUI/xiapi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{863,337},{89,58}}</string>
+				<string>{{1168,207},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -238,7 +238,7 @@
 			<key>lk/ui_res/GuildBattleUI/xiapi_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1183,261},{81,52}}</string>
+				<string>{{1350,366},{81,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -271,7 +271,7 @@
 			<key>lk/ui_res/GuildBattleUI/yongan.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1820,225},{89,58}}</string>
+				<string>{{1259,253},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -282,7 +282,7 @@
 			<key>lk/ui_res/GuildBattleUI/yongan_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1183,315},{81,52}}</string>
+				<string>{{939,277},{81,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -348,7 +348,7 @@
 			<key>lk/ui_res/GuildBattleUI/jiangxia_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1911,225},{89,58}}</string>
+				<string>{{1350,306},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -359,7 +359,7 @@
 			<key>lk/ui_res/GuildBattleUI/jianning_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1586,240},{89,58}}</string>
+				<string>{{1441,360},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -381,7 +381,7 @@
 			<key>lk/ui_res/GuildBattleUI/nanpi_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1677,240},{89,58}}</string>
+				<string>{{1077,267},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -392,7 +392,7 @@
 			<key>lk/ui_res/GuildBattleUI/tianshui_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1386,242},{114,68}}</string>
+				<string>{{1503,226},{114,68}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -403,7 +403,7 @@
 			<key>lk/ui_res/GuildBattleUI/xiapi_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1768,285},{89,58}}</string>
+				<string>{{1168,267},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -425,7 +425,7 @@
 			<key>lk/ui_res/GuildBattleUI/yongan_h.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1859,285},{89,58}}</string>
+				<string>{{1259,313},{89,58}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -532,6 +532,17 @@
 				<key>sourceSize</key>
 				<string>{56,71}</string>
 			</dict>
+			<key>lk/ui_res/GuildBattleUI/gongchengzhanzhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1588,122},{72,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{72,68}</string>
+			</dict>
 			<key>lk/ui_res/GuildBattleUI/jingjiazhong.png</key>
 			<dict>
 				<key>frame</key>
@@ -553,14 +564,14 @@
 			<key>realTextureFileName</key>
 			<string>GuildBattleUI.png</string>
 			<key>size</key>
-			<string>{2044,396}</string>
+			<string>{2044,419}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>2044</integer>
 			<key>height</key>
-			<integer>396</integer>
+			<integer>419</integer>
 		</dict>
 	</dict>
 </plist>

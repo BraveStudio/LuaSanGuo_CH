@@ -311,7 +311,8 @@ end
 function UnionViewController:onButton_shopClick()
     Functions.printInfo(self.debug,"Button_shop button is click!")
     local openShop = function(parameters)
-        GameCtlManager:push("src/app/ui/unionShopSystem/UnionShopViewController")
+        --GameCtlManager:push("src/app/ui/unionShopSystem/UnionShopViewController")
+        GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 3}})
     end
     UnionData:sendShopInfo(openShop)
     
@@ -511,6 +512,21 @@ end
 function UnionViewController:onChangeView()
 end
 
+----显示公会信息
+--function UnionViewController:showUnionInfo(unionInfo)
+--    self._Text_main_union_name_t:setText(unionInfo.eventAttr.s_name)
+--    self._Text_id_num_t:setText(tostring(PlayerData.eventAttr.m_tongID))
+--    self._Text_ren_shu_t:setText(tostring(unionInfo.eventAttr.m_member_count) .. "/50")
+--    self._Text_level_shu_t:setText(tostring(unionInfo.eventAttr.guild_level))
+--
+--    --绘制公会图标
+--    Functions.loadImageWithWidget(self._Image_nuion_main_icon_t, Functions:getGongHuiImageOfId(unionInfo.eventAttr.m_pic))
+--    --公告
+--    Functions.initLabelOfString(self._Text_xuan_yan_2_t, unionInfo.eventAttr.s_notice)
+--    --等待界面初使化
+--    self:showView()
+--end
+
 --查询公会信息
 function UnionViewController:sendUnionInfo()
     Functions.printInfo(self.debug," UnionViewController view enter sendUnionInfo!")
@@ -566,7 +582,7 @@ end
 
 --查询成员信息
 function UnionViewController:sendMembersInfo()
-    Functions.printInfo(self.debug," UnionViewController view enter sendUnionInfo!")
+    Functions.printInfo(self.debug," UnionViewController view enter sendMembersInfo!")
     
     local onMemberInfo = function(event)
         if  event.reqtype == 19 then

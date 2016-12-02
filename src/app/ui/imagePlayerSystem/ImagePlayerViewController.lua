@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 ImagePlayerViewController.debug = true
 ImagePlayerViewController.modulePath = ...
-ImagePlayerViewController.studioSpriteFrames = { }
+ImagePlayerViewController.studioSpriteFrames = {"ActivityHeroPopUI_Text" }
 --@auto code head end
 
 --@Pre loading
@@ -35,8 +35,14 @@ function ImagePlayerViewController:onDidLoadView()
     --label list
     
     --button list
-    self._passBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("childPanel"):getChildByName("passBt")
-	self._passBt_t:onTouch(Functions.createClickListener(handler(self, self.onPassbtClick), "zoom"))
+    self._skipBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("childPanel"):getChildByName("skipBt")
+	self._skipBt_t:onTouch(Functions.createClickListener(handler(self, self.onSkipbtClick), "zoom"))
+
+	self._previousBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("childPanel"):getChildByName("previousBt")
+	self._previousBt_t:onTouch(Functions.createClickListener(handler(self, self.onPreviousbtClick), "zoom"))
+
+	self._nextBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("childPanel"):getChildByName("nextBt")
+	self._nextBt_t:onTouch(Functions.createClickListener(handler(self, self.onNextbtClick), "zoom"))
 
 end
 --@auto code uiInit end
@@ -44,15 +50,40 @@ end
 
 --@auto button backcall begin
 
---@auto code Passbt btFunc
-function ImagePlayerViewController:onPassbtClick()
-    Functions.printInfo(self.debug,"Passbt button is click!")
-    GameEventCenter:removeEventListenersByTag("IMAGE_PLAYER")
+--@auto code Skipbt btFunc
+function ImagePlayerViewController:onSkipbtClick()
+     Functions.printInfo(self.debug,"Passbt button is click!")
+    -- GameEventCenter:removeEventListenersByTag("IMAGE_PLAYER")
     local callBack = self.callBack
     GameCtlManager:pop(self)
     callBack()
 end
---@auto code Passbt btFunc end
+--@auto code Skipbt btFunc end
+
+--@auto code Previousbt btFunc
+function ImagePlayerViewController:onPreviousbtClick()
+    Functions.printInfo(self.debug,"Previousbt button is click!")
+    local curPageIndex = self._imagePage_t:getCurPageIndex()
+    if curPageIndex > 0 then
+        self._imagePage_t:scrollToPage(curPageIndex-1)   
+    end
+end
+--@auto code Previousbt btFunc end
+
+--@auto code Nextbt btFunc
+function ImagePlayerViewController:onNextbtClick()
+    Functions.printInfo(self.debug,"Nextbt button is click!")
+    local pages = self._imagePage_t:getPages()
+    local curPageIndex = self._imagePage_t:getCurPageIndex()
+    if curPageIndex < #pages -1 then
+        self._imagePage_t:scrollToPage(curPageIndex+1)  
+    else
+        local callBack = self.callBack
+        GameCtlManager:pop(self)
+        callBack() 
+    end
+end
+--@auto code Nextbt btFunc end
 
 --@auto button backcall end
 
@@ -83,7 +114,8 @@ function ImagePlayerViewController:onDisplayView()
 --    Functions.playSequenceAction(self._passBt_t, {{actionName = fade1, repeatNum = 1},{actionName = fade2, repeatNum = 1}})   
      local move1 = cc.MoveBy:create(0.4,cc.p(-13,0))
      local move2 = cc.MoveBy:create(0.4,cc.p(13,0))
-     Functions.playSequenceAction(self._passBt_t, {{actionName = move1, repeatNum = 1},{actionName = move2, repeatNum = 1}}) 
+     Functions.playSequenceAction(self._nextBt_t, {{actionName = move1, repeatNum = 1},{actionName = move2, repeatNum = 1}}) 
+     Functions.playSequenceAction(self._previousBt_t, {{actionName = cc.MoveBy:create(0.4,cc.p(-13,0)), repeatNum = 1},{actionName = cc.MoveBy:create(0.4,cc.p(13,0)), repeatNum = 1}}) 
      self:initDisplayUI()
 end
 --@auto code view display func end
@@ -94,40 +126,47 @@ function ImagePlayerViewController:initDisplayUI()
     self:showOptionFlag(optionFlagPanel,#idSeq,1)
 
     self:playerImage(idSeq)
-    self._passBt_t:setVisible(false)
+
+
+
+    local pages = self._imagePage_t:getPages()
+    local curPageIndex = self._imagePage_t:getCurPageIndex()
+    if curPageIndex > 0 then 
+         self._previousBt_t:setVisible(true)       
+    else
+        self._previousBt_t:setVisible(false)  
+    end
     local listener = function(event)
         -- print(event.index)
         self.keepTime = 2
-        local pages = self._imagePage_t:getPages()  
-
-        if event.index == #pages - 1 then
-            self._passBt_t:setVisible(true)             
+        if event.index > 0 then 
+            self._previousBt_t:setVisible(true)       
         else
-            self._passBt_t:setVisible(false)
+            self._previousBt_t:setVisible(false)  
         end
         self:showOptionFlag(optionFlagPanel,#idSeq,event.index+1)
     end
     Functions.bindPageViewListener(self._imagePage_t, listener)
-    local handler = function( )
-        self.keepTime = self.keepTime - 1 
-       if self.keepTime <= 0 then 
-            local curPageIndex = self._imagePage_t:getCurPageIndex()
-            local allPageNum = #self._imagePage_t:getPages()
-            if curPageIndex < allPageNum - 1 then 
-                self._imagePage_t:scrollToPage(curPageIndex +1)
-                listener({index = curPageIndex +1})
-            else
-                local callBack = self.callBack
-                GameEventCenter:removeEventListenersByTag("IMAGE_PLAYER")
-                GameCtlManager:pop(self)
-                callBack()
+   --  local handler = function( )
+   --      self.keepTime = self.keepTime - 1 
+   --     if self.keepTime <= 0 then 
+   --          local curPageIndex = self._imagePage_t:getCurPageIndex()
+   --          local allPageNum = #self._imagePage_t:getPages()
+   --          if curPageIndex < allPageNum - 1 then 
+   --              self._imagePage_t:scrollToPage(curPageIndex +1)
+   --              listener({index = curPageIndex +1})
+   --          else
+   --              local callBack = self.callBack
+   --              GameEventCenter:removeEventListenersByTag("IMAGE_PLAYER")
+   --              GameCtlManager:pop(self)
+   --              callBack()
                
-            end
-       end
-    end
-   GameEventCenter:addEventListener(TimerManager.SECOND_CHANGE_EVENT, function()
-       handler()
-   end,"IMAGE_PLAYER")
+   --          end
+   --     end
+   --  end
+   -- GameEventCenter:addEventListener(TimerManager.SECOND_CHANGE_EVENT, function()
+   --     handler()
+   -- end,"IMAGE_PLAYER")
    self._childPanel_t:setOpacity(0)
    -- self._imagePage_t:setOpacity(0)
 

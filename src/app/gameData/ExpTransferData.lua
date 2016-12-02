@@ -48,6 +48,9 @@ function ExpTransferData:SendExpTransfer(datas, listener)
         HeroCardData:updateHeroBaseAttr(self:getMarkOne())
         listener()
         
+        --卡包数据变动监听
+        HeroCardData:cardsDataChange(self:getMarkTwo())
+        
         --埋点
         Functions.callAnySdkFuc(function()
             Analytics:logEvent("CS", {level = tostring(PlayerData.eventAttr.m_level), proportion = tostring(self:getMaiDianNum())})

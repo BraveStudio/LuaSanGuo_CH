@@ -7,7 +7,7 @@
 			<key>commonUI/res/lk/HeroUI/chushou.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{99,0},{57,32}}</string>
+				<string>{{102,1},{57,32}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>commonUI/res/lk/HeroUI/kehuishou.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{59,28},{66,21}}</string>
+				<string>{{62,31},{66,21}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>commonUI/res/lk/HeroUI/tujian.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,28},{59,30}}</string>
+				<string>{{1,31},{59,30}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>commonUI/res/lk/HeroUI/yijianxuanzhong.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{99,28}}</string>
+				<string>{{1,1},{99,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -58,14 +58,14 @@
 			<key>realTextureFileName</key>
 			<string>HeroUI_Text.png</string>
 			<key>size</key>
-			<string>{256,128}</string>
+			<string>{160,98}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>256</integer>
+			<integer>160</integer>
 			<key>height</key>
-			<integer>128</integer>
+			<integer>98</integer>
 		</dict>
 	</dict>
 </plist>

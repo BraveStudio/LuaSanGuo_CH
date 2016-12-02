@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 VipPopView.csbResPath = "tyj/csb"
 VipPopView.debug = true
-VipPopView.studioSpriteFrames = {"VipPopUI_Text","VipUI" }
+VipPopView.studioSpriteFrames = {"ActivityHeroPopUI","VipPopUI_Text","VipUI" }
 --@auto code head end
 VipPopView.spriteFrameNames = 
     {

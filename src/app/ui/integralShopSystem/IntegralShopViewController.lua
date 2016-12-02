@@ -73,7 +73,7 @@ function IntegralShopViewController:onDisplayView()
     self._ListView_shop_t:setVisible(false)
     Functions.initResNodeUI(self._resNode_t,{ "jifen" })
 	--查询碎片
-    self:sendIntegralShop()
+    IntegralShopData:sendIntegralShop(handler(self, self.refresh))
     
     -- --监听函数
     -- local onSell = function(event)
@@ -86,52 +86,51 @@ end
 --@auto code view display func end
 
 
-function IntegralShopViewController:sendIntegralShop()
-    Functions.printInfo(self.debug_b,"sendIntegralShop")
-    local onSendIntegralShop = function (event)
-        self:ShopData(event)
-        return true
-    end
-    NetWork:addNetWorkListener({ 5, 14 }, onSendIntegralShop)
-    NetWork:sendToServer({ idx = { 5, 14 }})
-    
-end
+--function IntegralShopViewController:sendIntegralShop()
+--    Functions.printInfo(self.debug_b,"sendIntegralShop")
+--    local onSendIntegralShop = function (event)
+--        self:ShopData(event)
+--        return true
+--    end
+--    NetWork:addNetWorkListener({ 5, 14 }, onSendIntegralShop)
+--    NetWork:sendToServer({ idx = { 5, 14 }})
+--    
+--end
 
-function IntegralShopViewController:sendRefreshShop()
-    Functions.printInfo(self.debug_b,"sendIntegralShop")
-    local onSendIntegralShop = function (event)
-        if event.ret == 1 then
-        	self:ShopData(event)
-        end
-    return true
-    end  
+--function IntegralShopViewController:sendRefreshShop()
+--    Functions.printInfo(self.debug_b,"sendIntegralShop")
+--    local onSendIntegralShop = function (event)
+--        if event.ret == 1 then
+--        	self:ShopData(event)
+--        end
+--    return true
+--    end  
+--
+--    NetWork:addNetWorkListener({ 5, 15 }, onSendIntegralShop)
+--    NetWork:sendToServer({ idx = { 5, 15 }})
+--end
 
-    NetWork:addNetWorkListener({ 5, 15 }, onSendIntegralShop)
-    NetWork:sendToServer({ idx = { 5, 15 }})
-
-end
-
---碎片数据
-function IntegralShopViewController:ShopData(event)
-    Functions.printInfo(self.debug_b,"onSendIntegralShop")
-    
-        local data = event.data
-        IntegralShopData:clearIntegralShopData()--清空商城数据
-        for k, v in pairs(data) do
-            local IntegralData = Factory:createIntegralShopData()
-            --积分商城道具属性
-            IntegralData.m_DebrisIndex = k                      --索引(因为有可能是二个相同的物品,那么ID就是一样的，不能进行购买的判断)
-            IntegralData.m_DebrisID = data[k].goodid            --道具ID
-            IntegralData.m_DebrisType = data[k].goodtype        --道具类型
-            IntegralData.m_DebrisCount = data[k].goodnum        --购买数量
-            IntegralData.m_DebrisPrice = data[k].price          --道具价格
-            --IntegralData.b_DebrisBuy = data[k][5]               --是否购买过(0:没有购买过。1：购买过)
-            IntegralShopData:addIntegralShopData(IntegralData)
-        end
-    local _data = IntegralShopData:getIntegralShopData()
-    
-    self:refresh(_data)
-end
+----碎片数据
+--function IntegralShopViewController:ShopData(event)
+--    Functions.printInfo(self.debug_b,"onSendIntegralShop")
+--    
+--        local data = event.data
+--        IntegralShopData:clearIntegralShopData()--清空商城数据
+--        for k, v in pairs(data) do
+--            local IntegralData = Factory:createIntegralShopData()
+--            --积分商城道具属性
+--            IntegralData.m_DebrisIndex = k                      --索引(因为有可能是二个相同的物品,那么ID就是一样的，不能进行购买的判断)
+--            IntegralData.m_DebrisID = data[k].goodid            --道具ID
+--            IntegralData.m_DebrisType = data[k].goodtype        --道具类型
+--            IntegralData.m_DebrisCount = data[k].goodnum        --购买数量
+--            IntegralData.m_DebrisPrice = data[k].price          --道具价格
+--            --IntegralData.b_DebrisBuy = data[k][5]               --是否购买过(0:没有购买过。1：购买过)
+--            IntegralShopData:addIntegralShopData(IntegralData)
+--        end
+--    local _data = IntegralShopData:getIntegralShopData()
+--    
+--    self:refresh(_data)
+--end
 
 function IntegralShopViewController:refresh(_data)
     Functions.printInfo(self.debug_b,"refresh")
@@ -182,7 +181,6 @@ function IntegralShopViewController:refresh(_data)
     end
     --绑定响应事件函数
     Functions.bindArryListWithData(self._ListView_shop_t,{firstData = _data}, listHandler,{direction = false,col = 2,firstSegment = 10,segment = 10})
-    
 end
 
 function IntegralShopViewController:openBgMusic()

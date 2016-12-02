@@ -7,35 +7,35 @@
 			<key>cs/ui_res/MainUI/main_mid1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{1668,276}}</string>
+				<string>{{1,1},{1853,307}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{1668,276}</string>
+				<string>{1853,307}</string>
 			</dict>
 			<key>cs/ui_res/MainUI/main_back.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,499},{1668,153}}</string>
+				<string>{{1,554},{1853,170}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{1668,153}</string>
+				<string>{1853,170}</string>
 			</dict>
 			<key>cs/ui_res/MainUI/main_front.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,279},{1668,218}}</string>
+				<string>{{1,310},{1853,242}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{1668,218}</string>
+				<string>{1853,242}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -47,14 +47,14 @@
 			<key>realTextureFileName</key>
 			<string>MainUI_BG.png</string>
 			<key>size</key>
-			<string>{1670,653}</string>
+			<string>{1855,725}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1670</integer>
+			<integer>1855</integer>
 			<key>height</key>
-			<integer>653</integer>
+			<integer>725</integer>
 		</dict>
 	</dict>
 </plist>

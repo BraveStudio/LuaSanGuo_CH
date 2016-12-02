@@ -18,7 +18,7 @@
 			<key>lk/ui_res/UnionUI/Union_bluetili.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1931,1},{110,110}}</string>
+				<string>{{1929,1},{110,110}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>lk/ui_res/UnionUI/Union_city.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1575,265},{146,156}}</string>
+				<string>{{1573,265},{146,156}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>lk/ui_res/UnionUI/Union_frame1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{856,1},{859,113}}</string>
+				<string>{{854,1},{859,113}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>lk/ui_res/UnionUI/Union_freetili.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1931,113},{110,110}}</string>
+				<string>{{1929,113},{110,110}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>lk/ui_res/UnionUI/Union_huoyue.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1931,225},{57,61}}</string>
+				<string>{{1929,225},{57,61}}</string>
 				<key>offset</key>
 				<string>{0,1}</string>
 				<key>rotated</key>
@@ -73,7 +73,7 @@
 			<key>lk/ui_res/UnionUI/Union_jindu.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{824,382},{293,20}}</string>
+				<string>{{1,407},{293,20}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -84,7 +84,7 @@
 			<key>lk/ui_res/UnionUI/Union_jindu_bg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{507,331},{299,28}}</string>
+				<string>{{507,329},{299,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>lk/ui_res/UnionUI/Union_mail_ban1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,343},{504,64}}</string>
+				<string>{{1,341},{504,64}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -106,7 +106,7 @@
 			<key>lk/ui_res/UnionUI/Union_mail_ban2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,217},{504,124}}</string>
+				<string>{{1,215},{504,124}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>lk/ui_res/UnionUI/Union_mobaiban.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1717,1},{212,262}}</string>
+				<string>{{1715,1},{212,262}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>lk/ui_res/UnionUI/Union_putin1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1223,365},{341,64}}</string>
+				<string>{{1221,365},{341,64}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -139,7 +139,7 @@
 			<key>lk/ui_res/UnionUI/Union_red.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1723,265},{187,73}}</string>
+				<string>{{1721,265},{187,73}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>lk/ui_res/UnionUI/Union_red_down.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1723,408},{187,73}}</string>
+				<string>{{1721,408},{187,73}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -161,7 +161,7 @@
 			<key>lk/ui_res/UnionUI/Union_sframe.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1723,340},{245,66}}</string>
+				<string>{{1721,340},{245,66}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -172,7 +172,7 @@
 			<key>lk/ui_res/UnionUI/Union_text.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{507,361},{315,21}}</string>
+				<string>{{507,359},{315,21}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -183,7 +183,7 @@
 			<key>lk/ui_res/UnionUI/Union_time.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{838,521},{817,28}}</string>
+				<string>{{1,516},{817,28}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -194,7 +194,7 @@
 			<key>lk/ui_res/UnionUI/Union_titlebg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,484},{835,52}}</string>
+				<string>{{1,462},{835,52}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,18 +205,18 @@
 			<key>lk/ui_res/UnionUI/Union_bar.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{853,124}}</string>
+				<string>{{1,1},{851,122}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
-				<string>{853,124}</string>
+				<string>{851,122}</string>
 			</dict>
 			<key>lk/ui_res/UnionUI/Union_bar2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,127},{786,88}}</string>
+				<string>{{1,125},{786,88}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -227,7 +227,7 @@
 			<key>lk/ui_res/UnionUI/bg1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1223,116},{355,126}}</string>
+				<string>{{1221,116},{355,126}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -238,7 +238,7 @@
 			<key>lk/ui_res/UnionUI/bg2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1223,244},{350,119}}</string>
+				<string>{{1221,244},{350,119}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -249,7 +249,7 @@
 			<key>lk/ui_res/UnionUI/bg3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{507,404},{615,78}}</string>
+				<string>{{507,382},{615,78}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -260,7 +260,7 @@
 			<key>lk/ui_res/UnionUI/bg4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{856,116},{365,264}}</string>
+				<string>{{854,116},{365,264}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -271,7 +271,7 @@
 			<key>lk/ui_res/UnionUI/biaoqian.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{507,217},{180,55}}</string>
+				<string>{{507,215},{180,55}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -282,7 +282,7 @@
 			<key>lk/ui_res/UnionUI/biaoqian_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{507,274},{180,55}}</string>
+				<string>{{507,272},{180,55}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -300,14 +300,14 @@
 			<key>realTextureFileName</key>
 			<string>UnionUI.png</string>
 			<key>size</key>
-			<string>{2042,550}</string>
+			<string>{2040,545}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>2042</integer>
+			<integer>2040</integer>
 			<key>height</key>
-			<integer>550</integer>
+			<integer>545</integer>
 		</dict>
 	</dict>
 </plist>

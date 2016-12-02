@@ -18,7 +18,7 @@ Updater.RLS_MAX = 13
 Updater.updateManagerUrl = ServerConfig.currentURL .. "sanguoGMSomeFunc/GetUpdateServStatus"
 
 function Updater.beginUpdate()
-    UpdateGame(UpdateServerURL, FileMidVersion or CurrentMidVersion, FileMinVersion or CurrentMinVersion)
+    UpdateGame(UpdateServerURL, FileMidVersion or CurrentMidVersion, FileMinVersion or CurrentMinVersion, UpdateFileServerURL)
 end
 
 function Updater.getUpdateState()

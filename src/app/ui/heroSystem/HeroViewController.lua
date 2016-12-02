@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 HeroViewController.debug = true
 HeroViewController.modulePath = ...
-HeroViewController.studioSpriteFrames = {"HeroUI_Text","CB_bgup","CB_blackbg" }
+HeroViewController.studioSpriteFrames = {"HeroUI_Text","CB_bgup","CB_blackbg","CompoundUI","CompoundUI_Text" }
 --@auto code head end
 
 local HeroCardData = require("app.gameData.HeroCardData")
@@ -37,16 +37,17 @@ function HeroViewController:onDidLoadView()
     --output list
     self._Text_hero_num_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_left"):getChildByName("Text_hero_num")
 	self._resNode_t = self.view_t.csbNode:getChildByName("main"):getChildByName("resNode")
-	self._Image_sell_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_10"):getChildByName("Button_sell"):getChildByName("Image_sell_1")
-	self._Image_sell_2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_10"):getChildByName("Button_sell"):getChildByName("Image_sell_2")
+	self._Panel_button_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button")
+	self._Image_sell_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button"):getChildByName("Button_sell"):getChildByName("Image_sell_1") 
+	self._Image_sell_2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button"):getChildByName("Button_sell"):getChildByName("Image_sell_2")
 	self._Panel_sell_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_sell")
 	self._Text_money_sell_num_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_sell"):getChildByName("Image_money_sell"):getChildByName("Text_money_sell_num")
 	self._Panel_all_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_all")
 	self._Panel_li_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_li")
-	self._Panel_mou_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_mou")
-	self._Panel_shu_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_shu")
-	self._Panel_yi_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_yi")
 	self._Panel_hero_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_hero")
+	self._ListView_Compound_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_Compound")
+	self._childModel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_Compound"):getChildByName("model"):getChildByName("childModel")
+	self._Image_text_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Image_text")
 	
     --label list
     
@@ -57,11 +58,14 @@ function HeroViewController:onDidLoadView()
 	self._Button_help_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_left"):getChildByName("Button_help")
 	self._Button_help_t:onTouch(Functions.createClickListener(handler(self, self.onButton_helpClick), "zoom"))
 
-	self._Button_sell_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_10"):getChildByName("Button_sell")
+	self._Button_sell_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button"):getChildByName("Button_sell")
 	self._Button_sell_t:onTouch(Functions.createClickListener(handler(self, self.onButton_sellClick), "zoom"))
 
-	self._Button_Pokedex_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_10"):getChildByName("Button_Pokedex")
+	self._Button_Pokedex_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button"):getChildByName("Button_Pokedex")
 	self._Button_Pokedex_t:onTouch(Functions.createClickListener(handler(self, self.onButton_pokedexClick), "zoom"))
+
+	self._Button_chong_sheng_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_button"):getChildByName("Button_chong_sheng")
+	self._Button_chong_sheng_t:onTouch(Functions.createClickListener(handler(self, self.onButton_chong_shengClick), "zoom"))
 
 	self._Button_Selected_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_sell"):getChildByName("Button_Selected_1")
 	self._Button_Selected_1_t:onTouch(Functions.createClickListener(handler(self, self.onButton_selected_1Click), "zoom"))
@@ -84,9 +88,10 @@ function HeroViewController:onButton_backClick()
                 v.seleceted = nil 
             end
         end
-        if self.sellState == true then
+        if self.sellState == true and self.cardState == 1 then
             self._Button_sell_t:setVisible(true)
             self._Button_Pokedex_t:setVisible(true)
+            self._Button_chong_sheng_t:setVisible(true)
             self._Panel_sell_t:setVisible(false)
             self.sellState = false
             --排序
@@ -140,6 +145,7 @@ function HeroViewController:onButton_sellClick()
         self._Button_Pokedex_t:setVisible(false)
         self._Button_sell_t:setVisible(false)
         self._Panel_sell_t:setVisible(true)
+        self._Button_chong_sheng_t:setVisible(false)
         
         --出售状态
         self.sellState = true
@@ -224,6 +230,13 @@ function HeroViewController:onButton_helpClick()
 end
 --@auto code Button_help btFunc end
 
+--@auto code Button_chong_sheng btFunc
+function HeroViewController:onButton_chong_shengClick()
+    Functions.printInfo(self.debug,"Button_chong_sheng button is click!")
+    self:openChildView("app.ui.popViews.ExpTransferPopView", {isRemove = false})
+end
+--@auto code Button_chong_sheng btFunc end
+
 --@auto button backcall end
 
 
@@ -234,6 +247,8 @@ end
 
 function HeroViewController:onDisplayView()
 	Functions.printInfo(self.debug_b," HeroViewController view enter display!")
+    self._ListView_Compound_t:setVisible(false)
+    self._Image_text_t:setVisible(false)
     Functions.setPopupKey("hero")
     Functions.initResNodeUI(self._resNode_t,{ "hunjin"})
 	--显示武将
@@ -297,10 +312,19 @@ function HeroViewController:onDisplayView()
 	local onPanel1 = function()
 		print("panel 1 click")
 	   if self.cardState ~= 1 then
+            self._Panel_hero_t:setVisible(true)
+            self._ListView_Compound_t:setVisible(false)
+            self._Image_text_t:setVisible(false)
             self.sellMoney = 0
             self.sellSoul = 0
             self._Text_money_sell_num_t:setText(tostring(self.sellMoney))
             self.cardState = 1
+             if self.sellState == true then
+                self._Panel_sell_t:setVisible(true)
+                self._Panel_button_t:setVisible(true)
+             else
+                self._Panel_button_t:setVisible(true)
+             end
             self:sellShow()
 		end
 	end
@@ -308,48 +332,15 @@ function HeroViewController:onDisplayView()
     local onPanel2 = function()
         print("panel 2 click")
         if self.cardState ~= 2 then
-            self.sellMoney = 0
-            self.sellSoul = 0
-            self._Text_money_sell_num_t:setText(tostring(self.sellMoney))
             self.cardState = 2
-            self:sellShow()
+            self._Panel_hero_t:setVisible(false)
+            self._Panel_sell_t:setVisible(false)
+            self._Panel_button_t:setVisible(false)
+            self:showSP()
         end
     end 
     
-    local onPanel3 = function()
-        print("panel 3 click")
-        if self.cardState ~= 3 then
-            self.sellMoney = 0
-            self.sellSoul = 0
-            self._Text_money_sell_num_t:setText(tostring(self.sellMoney))
-            self.cardState = 3
-            self:sellShow()
-        end
-    end 
-    
-    local onPanel4 = function()
-        print("panel 4 click")
-        if self.cardState ~= 4 then
-            self.sellMoney = 0
-            self.sellSoul = 0
-            self._Text_money_sell_num_t:setText(tostring(self.sellMoney))
-            self.cardState = 4
-            self:sellShow()
-        end
-    end 
-    
-    local onPanel5 = function()
-        print("panel 5 click")
-        if self.cardState ~= 5 then
-            self.sellMoney = 0
-            self.sellSoul = 0
-            self._Text_money_sell_num_t:setText(tostring(self.sellMoney))
-            self.cardState = 5
-            self:sellShow()
-        end
-    end 
-    
-    Functions.initTabCom({ { self._Panel_all_t, onPanel1, true }, { self._Panel_li_t, onPanel2}, { self._Panel_mou_t, onPanel3}, { self._Panel_shu_t, onPanel4}, { self._Panel_yi_t, onPanel5}})
+    Functions.initTabCom({ { self._Panel_all_t, onPanel1, true }, { self._Panel_li_t, onPanel2} })
     --监听函数
     local onCard_info = function(event)
         --如果选了副卡，类型要清零
@@ -748,6 +739,108 @@ function HeroViewController:onReceivePopData(data)
     if PokedexData.Refresh then
         self.pokedexPopView:SelectedShow()
     end
+end
+
+function HeroViewController:showSP()
+    Functions.printInfo(self.debug,"showSP")
+
+    local CompoundData = CompoundData:getCompoundData()
+    --是否显示文字提示
+    if #CompoundData <= 0 then
+        self._Image_text_t:setVisible(true)
+        self._childModel_t:setVisible(false)
+        self._ListView_Compound_t:setVisible(false)
+        return false
+    else
+        self._Image_text_t:setVisible(false)
+    end
+    local listHandler = function(index, widget, model, data)
+
+        local ban = widget:getChildByName("Image_cargo_bg_1")
+        local head = widget:getChildByName("Image_cargo_bg_1"):getChildByName("Image_hero_head_1")
+
+
+        ban:getChildByName("Text_hero_name_1"):setText(ConfigHandler:getHeroNameOfId(data.m_id))
+        ban:getChildByName("Text_faction_num_1"):setText(tostring(data.m_possessCount).."/"..tostring(data.m_needCount))
+        Functions.loadImageWithWidget(head, ConfigHandler:getHeroHeadImageOfId(data.m_id))
+        local widg = ban:getChildByName("Image_faction_zhenyin_1")
+        Functions.initHeroFaction(widg, data.m_id)
+        Functions.HeroStar((ban:getChildByName("Image_star"):ignoreContentAdaptWithSize(true)), data.m_id)
+        if data.m_compound == 1 then
+            ban:getChildByName("Image_summon_icon_1"):setVisible(true)
+        end
+        local Loading = math.floor(((data.m_possessCount) / (data.m_needCount)) * 100)
+        ban:getChildByName("LoadingBar_icon_1"):setPercent(Loading)
+
+        if Loading < 100 then
+            Functions.setGrayImage(ban:getChildByName("Image_star"), true)
+            Functions.setGrayImage(head, true)
+        end
+        if data.m_compound == 1 then
+            ban:getChildByName("Image_mark_1"):setVisible(true)
+        else
+            ban:getChildByName("Image_mark_1"):setVisible(false)
+        end
+
+        local onCompoundBut = function(event)
+            print("button click")
+            --打开二级界面
+            if data.m_compound == 1 then
+                --发送合成接口
+                self:sendGetCard(data.m_mark)
+            else
+                self:openChildView("app.ui.popViews.CompoundPopView", { data = data})
+            end
+
+        end
+        widget:getChildByName("Image_cargo_bg_1"):onTouch(Functions.createClickListener(onCompoundBut, "zoom"))
+
+        if index == 1 then
+            self._heChenWidget_t = widget:getChildByName("Image_cargo_bg_1")
+        end
+    end
+    --绑定响应事件函数
+    Functions.bindArryListWithData(self._ListView_Compound_t,{ firstData = CompoundData }, listHandler,{direction = true, col = 3, firstSegment = 0, segment = 5 })
+end
+
+function HeroViewController:sendGetCard(m_mark)
+    Functions.printInfo(self.debug,"sendGetCard")
+
+    local onSendGetCard = function (event)
+        local id = event.id
+        local count = event.count--卡片数量
+        local type = event.ftype--卡片类型
+
+        local number = event.fcnt
+        local card_mark = event.islot--卡片标识
+        local mark = event.slot--碎片标识
+
+        CompoundData:addCompoundData({id = id, mark = mark, num = number, type = 2})
+
+        Functions:addItemResources( {id = id, type = type, count = count, slot = card_mark} )
+        --CompoundData:setCompoundBZ()
+        --刷新界面
+        self:showSP()
+        --改变图鉴刷新按扭
+        PokedexData:getLight(id)
+
+        self:openChildView("app.ui.popViews.CompoundAnimaPopView", { data = {mark = card_mark}})
+
+    end
+
+    NetWork:addNetWorkListener({ 17, 1 }, Functions.createNetworkListener(onSendGetCard, true, "ret"))
+    NetWork:sendToServer({ idx = { 17, 1 }, ftype = 5, slot = m_mark })
+end
+
+--接受pop数据
+--{data = {jumpType = self.jumpType,jumpData = {heroType = self.jumpData.heroType,heroMark = self.heroMark }}}
+function HeroViewController:onReceivePopData(datas)
+    if datas == nil then
+        return
+    end
+
+    --数据更新监听
+    GameEventCenter:dispatchEvent({ name = ExpTransferData.EXP_HERO , data = datas })
 end
 
 function HeroViewController:openBgMusic()

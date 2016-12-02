@@ -7,7 +7,7 @@
 			<key>commonUI/res/lk/ShopUI/shouqing.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{282,246}}</string>
+				<string>{{1,1},{282,246}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +18,7 @@
 			<key>commonUI/res/lk/ShopUI/shuaxin.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{885,0},{60,33}}</string>
+				<string>{{894,1},{60,33}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>commonUI/res/lk/ShopUI/wupinshuliang.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{727,23},{80,20}}</string>
+				<string>{{734,26},{80,20}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>commonUI/res/lk/ShopUI/jinrigoumaicishu.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{727,0},{158,23}}</string>
+				<string>{{734,1},{158,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>commonUI/res/lk/ShopUI/bg1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{282,0},{281,244}}</string>
+				<string>{{285,1},{281,244}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,7 +62,7 @@
 			<key>commonUI/res/lk/ShopUI/cssj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{563,0},{164,43}}</string>
+				<string>{{568,1},{164,43}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -80,14 +80,14 @@
 			<key>realTextureFileName</key>
 			<string>ShopUI_Text.png</string>
 			<key>size</key>
-			<string>{945,246}</string>
+			<string>{955,248}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>945</integer>
+			<integer>955</integer>
 			<key>height</key>
-			<integer>246</integer>
+			<integer>248</integer>
 		</dict>
 	</dict>
 </plist>

@@ -103,6 +103,17 @@
 				<key>sourceSize</key>
 				<string>{124,124}</string>
 			</dict>
+			<key>commonUI/res/tyj/ActivityHeroPopUI/tgjq.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,496},{111,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{111,37}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>

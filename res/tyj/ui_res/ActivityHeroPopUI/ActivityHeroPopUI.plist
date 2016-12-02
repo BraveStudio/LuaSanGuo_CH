@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{319,48}</string>
 			</dict>
-			<key>tyj/ui_res/ActivityHeroPopUI/you.png</key>
+			<key>commonUI/res/icons/you.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{667,0},{59,77}}</string>

@@ -4,65 +4,10 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>lk/ui_res/HuoDongPopUI/yiao.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1173,1},{600,107}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{600,107}</string>
-			</dict>
-			<key>lk/ui_res/HuoDongPopUI/yuan.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1949,1},{76,76}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{76,76}</string>
-			</dict>
-			<key>lk/ui_res/HuoDongPopUI/chongzhi_2.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1775,1},{172,42}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{172,42}</string>
-			</dict>
-			<key>lk/ui_res/HuoDongPopUI/fenge.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{553,154},{705,2}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{705,2}</string>
-			</dict>
-			<key>lk/ui_res/HuoDongPopUI/yuekashijian_bg.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{1173,110},{419,42}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{419,42}</string>
-			</dict>
 			<key>lk/ui_res/HuoDongPopUI/bg8.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{553,1},{618,108}}</string>
+				<string>{{550,0},{618,108}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -73,13 +18,68 @@
 			<key>lk/ui_res/HuoDongPopUI/bg9.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1},{550,176}}</string>
+				<string>{{0,0},{550,176}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{550,176}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/chongzhi_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1810,0},{172,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{172,42}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/fenge.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1982,0},{705,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{705,2}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/yiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1168,0},{600,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{600,107}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/yuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1810,42},{76,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{76,76}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/yuekashijian_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1768,0},{419,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{419,42}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -91,14 +91,14 @@
 			<key>realTextureFileName</key>
 			<string>HuoDongPopUI.png</string>
 			<key>size</key>
-			<string>{2026,178}</string>
+			<string>{1984,705}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>2026</integer>
+			<integer>1984</integer>
 			<key>height</key>
-			<integer>178</integer>
+			<integer>705</integer>
 		</dict>
 	</dict>
 </plist>

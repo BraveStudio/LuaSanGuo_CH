@@ -896,12 +896,14 @@ function HuoDongPopView:ShowChengJiu()
 
         if data.bz == 0 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),false)
+            Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/lingqu.png")
         elseif data.bz == 2 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),false)
             button:getChildByName("Button_get"):getChildByName("Image_get"):ignoreContentAdaptWithSize(true)
             Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/yilingqu.png")
         elseif data.bz == 1 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),true)
+            Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/lingqu.png")
         end
     
     end
@@ -973,6 +975,7 @@ end
 --登陆30天领奖
 function HuoDongPopView:showLoginReward()
     self._Panel_loginReward_t:setVisible(true)
+    self._Panel_jie_shao_t:setVisible(true)
     local prizeData = Functions.copyTab(RewardData.rewardInf.Accumulate) 
     local prizeStateData = RewardStateData.rewardState
     local listHandler = function(index, widget, model, data) 
@@ -1074,7 +1077,7 @@ function HuoDongPopView:showLoginReward()
         widget:getChildByName("prizePanel"):getChildByName("choose"):setVisible(false)
         widget:getChildByName("prizePanel"):getChildByName("done"):setVisible(false)
     end
-    Functions.bindTableViewWithData(self._Panel_loginReward_t,{firstData = prizeData,
+    Functions.bindTableViewWithData(self._Panel_loginReward_t:getChildByName("listPanel"),{firstData = prizeData,
                                                         secondData = prizeData},
                                                         {handler = listHandler,handler2 = cleanNodeHandler,romveNodeHandler = romveNodeHandler},
                                                         {direction = true,col = 5,firstSegment = 5,segment = 5,segmentY = 10})
@@ -1203,6 +1206,10 @@ function HuoDongPopView:showSignReward()
         
 
         local getBt = widget:getChildByName("getBt")
+        --新手引导相关
+        if index == 1 then
+            self._firstGetBt_t = getBt
+        end
         Functions.setEnabledBt(getBt, false)
         if index == prizeStateData.m_keepLoginDay and  prizeStateData.m_loginReward == 1 then
             local btText = getBt:getChildByName("Image_get")

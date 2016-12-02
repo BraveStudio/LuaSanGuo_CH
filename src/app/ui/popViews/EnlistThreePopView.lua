@@ -251,7 +251,7 @@ end
 --@auto code Button_back_1 btFunc
 function EnlistThreePopView:onButton_back_1Click()
     Functions.printInfo(self.debug,"Button_back_1 button is click!")
-    self._controller_t:closeChildView(self)
+    self:close()
 end
 --@auto code Button_back_1 btFunc end
 

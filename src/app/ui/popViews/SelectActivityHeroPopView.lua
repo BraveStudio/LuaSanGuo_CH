@@ -101,6 +101,7 @@ end
 
 function SelectActivityHeroPopView:onDisplayView()
 	Functions.printInfo(self.debug,"pop action finish ")
+	self._selectCloseBt_t = self._closeBt_t
 	Functions.bindUiWithModelAttr(self._qunBt_t, ActivityData, "activityHeroTime",function(event)
        	if event.data <= 1 then 
 	   		self:close()

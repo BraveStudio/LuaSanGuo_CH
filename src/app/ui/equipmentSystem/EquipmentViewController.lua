@@ -153,9 +153,9 @@ function EquipmentViewController:initDisplay( )
             GameCtlManager:push("app.ui.embattleSystem.EmbattleViewController",{data = {jumpType = JumpType.equipToEmbattle,jumpData = {embattleType = self.embattleType}}}) 
         end
         if target == "tb1" then
-            if EmbattleData.EmbattleInf.MainHero[1] ~= nil and EmbattleData.EmbattleInf.MainHero[1].id >0 then
+            if EmbattleData.EmbattleInf.MainHero[1] ~= nil and EmbattleData.EmbattleInf.MainHero[1].id >0  then
                 self:showEquipment(self.posType.main)
-            else
+            elseif PlayerData.eventAttr.m_guideStageId == 0 then
                 NoticeManager:openTips(self, {title = LanguageConfig.language_equip_1,handler = handler})
             end
         elseif target == "tb2" then

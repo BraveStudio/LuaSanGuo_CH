@@ -8,7 +8,7 @@ function SpellController:ctor(param)
 	self.view  = param.view
 	self.model = param.model
 	self.parentCtl = param.parentCtl
-
+	self.index = param.index
 	self.isStartCombat = false
 	self.isSpellEnable = false
 	self.isCommonSpell = false
@@ -151,7 +151,7 @@ function SpellController:updateAnima()
 	if self:isSpellReady() then
 		self.animaNode:setVisible(true)
 		--新手引导
-	    if PlayerData.eventAttr.m_guideId == 5 and not GuideManager.isSpellGuide then
+	    if PlayerData.eventAttr.m_guideId == 4 and not GuideManager.isSpellGuide and self.index == 2 then
 	    	self.isParentPause = true
 	    	GuideManager.isSpellGuide = true
 	    	PromptManager:openNewGuide(self.spellbt, LanguageConfig.ui_CombatView_1)
