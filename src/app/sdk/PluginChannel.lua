@@ -51,10 +51,13 @@ function PluginChannel:onUserResult( plugin, code, msg )
             GameCtlManager:goTo("app.ui.startupSceneSystem.StartupSceneViewController")
        end
     elseif code == UserActionResultCode.kLogoutSuccess then
-       Player:sdkLogout()
-       if PluginChannel:isAutoLogin() then
-           self:login()
-       end
+        if not g_isSdkLogout then
+            Player:sdkLogout()
+            if PluginChannel:isAutoLogin() then
+               self:login()
+            end
+        end 
+        g_isSdkLogout = false
     elseif code == UserActionResultCode.kLogoutFail then
        --PromptManager:openTipPrompt("注销失败")
     elseif code == UserActionResultCode.kPlatformEnter then
@@ -80,19 +83,22 @@ function PluginChannel:onUserResult( plugin, code, msg )
 
     elseif code == UserActionResultCode.kAccountSwitchSuccess then
         --PromptManager:openTipPrompt("切换成功！")
-        Player:sdkLogout()
-        local scheduler = require("app.common.scheduler")  
-        scheduler.performWithDelayGlobal(function ( )
-            local customParam = self:getCustomParam()
-            NoticeManager:debugDisplay(customParam.debug, msg, function()
-                Functions.setLoginInf(msg,function(event)              
-                    NativeUtil:sdkLogin()
-                    if customParam.showToolBar ~= nil and tonumber(customParam.showToolBar) == 2 then
-                        self:showToolBar()
-                    end
+        if not g_isSdkLogout then            
+            Player:sdkLogout()
+            local scheduler = require("app.common.scheduler")  
+            scheduler.performWithDelayGlobal(function ( )
+                local customParam = self:getCustomParam()
+                NoticeManager:debugDisplay(customParam.debug, msg, function()
+                    Functions.setLoginInf(msg,function(event)              
+                        NativeUtil:sdkLogin()
+                        if customParam.showToolBar ~= nil and tonumber(customParam.showToolBar) == 2 then
+                            self:showToolBar()
+                        end
+                    end)
                 end)
-            end)
-        end, 1)
+            end, 1)
+        end
+       g_isSdkLogout = false
         
     elseif code == UserActionResultCode.kAccountSwitchFail then
         --PromptManager:openTipPrompt("账户切换失败！")

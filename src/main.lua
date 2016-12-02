@@ -55,7 +55,7 @@ else
 end
 
 require("config")
-
+g_isSdkLogout = false
 cc.UserDefault:getInstance():setStringForKey("CurGameBgMusic_s", "")
 cc.UserDefault:getInstance():setBoolForKey("forceUpdate_b", false)
 			

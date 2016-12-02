@@ -140,26 +140,30 @@ function Player:onLogout(code)
 end
 
 function Player:logout(isClearUserData)
-    	NetWork:logoutServer()
-        Functions.clearGameData()
-        GameCtlManager:clearNotificationLayer()
-        GameEventCenter:dispatchEvent({ name = Player.PLAYER_LOGOUT_EVENT })
-        Functions.callJavaFuc(function()
+	NetWork:logoutServer()
+    Functions.clearGameData()
+    GameCtlManager:clearNotificationLayer()
+    GameEventCenter:dispatchEvent({ name = Player.PLAYER_LOGOUT_EVENT })
+    -- Functions.callJavaFuc(function()
 
-            -- GameState.storeAttr.isConfirmEula_b = false
-            if isClearUserData ~= nil and isClearUserData == true then 
-                GameState.storeAttr.isLoginNaver_b = false
-                GameState.storeAttr.NaverUserId_s = ""
-                GameState.storeAttr.NaverUserName_s = ""
-            end
-            PromptManager:openHttpLinkPrompt()
-            NativeUtil:javaCallHanler({command = "loginOut"})
-            -- PromptManager:closeSocketLinkPromp()
-        end)
-        Functions.callAnySdkFuc(function()
-            PluginChannel:logout()  
-        end)
-        Functions.EnterGame()
+    --     -- GameState.storeAttr.isConfirmEula_b = false
+    --     if isClearUserData ~= nil and isClearUserData == true then 
+    --         GameState.storeAttr.isLoginNaver_b = false
+    --         GameState.storeAttr.NaverUserId_s = ""
+    --         GameState.storeAttr.NaverUserName_s = ""
+    --     end
+    --     PromptManager:openHttpLinkPrompt()
+    --     NativeUtil:javaCallHanler({command = "loginOut"})
+    --     -- PromptManager:closeSocketLinkPromp()
+    -- end)
+
+    Functions.callAnySdkFuc(function()
+        g_isSdkLogout = true
+        PluginChannel:logout()  
+    end)
+
+    Functions.EnterGame()
+
 end
 
 function Player:sdkLogout()
@@ -168,6 +172,7 @@ function Player:sdkLogout()
     GameCtlManager:clearNotificationLayer()
     GameEventCenter:dispatchEvent({ name = Player.PLAYER_LOGOUT_EVENT })
     Functions.EnterGame()
+
 end
 
 function Player:reEnterGame()
