@@ -66,7 +66,9 @@ function PluginChannel:onUserResult( plugin, code, msg )
     elseif code == UserActionResultCode.kExitPage then
         Functions.callAnySdkFuc(function()
             Analytics:stopSession()
-            self:submitLoginGameRole("4")
+            if tostring(GameState.userCreateTime) ~= "0" then
+                self:submitLoginGameRole("4")
+            end
             local scheduler = require("app.common.scheduler")  
             scheduler.performWithDelayGlobal(function ( )
                 cc.Director:getInstance():endToLua() 
@@ -297,7 +299,7 @@ function PluginChannel:submitLoginGameRole(dataType)
             local data = PluginParam:create({roleId=tostring(PlayerData.eventAttr.m_uid),
                 roleName=PlayerData.eventAttr.m_name,roleLevel=tostring(PlayerData.eventAttr.m_level),
                 zoneId=tostring(NetWork.serverId),zoneName=NetWork.serverName,dataType=dataType,vipLevel = tostring(VipData.eventAttr.m_vipLevel),
-                roleCTime = GameState.userCreateTime,roleLevelMTime = roleLevelTime,
+                roleCTime = tostring(GameState.userCreateTime),roleLevelMTime = roleLevelTime,
                 balance = tostring(PlayerData.eventAttr.m_gold),partyName = gongHuiId })
             user_plugin:callFuncWithParam("submitLoginGameRole", data)
         end
