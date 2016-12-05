@@ -1,605 +1,605 @@
-ID	技能名字	技能描述	CD时间	技能片特效	技能片缩放比例	技能范围	技能基准点	阵营选择	半径	角度	高度	宽度	身后距离	值条件(条件)	百分比条件(条件)	几率(条件)	值(条件)	百分比(条件)	延迟时间	间隔时间	总时间	效果选择	作用属性	效果状态	百分比	基础伤害	基础秒数	技能伤害类型	延时类型	效果描述	技能声效	参数1	参数2	参数3	参数4	空行				
-100040	龙鸣虎啸	自身增加40%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.4		6	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-101040	鬼•龙鸣虎啸	自身增加45%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.45		8	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-102040	圣•龙鸣虎啸	自身增加50%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.5		10	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-103040	皇•龙鸣虎啸	自身增加55%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.55		12	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-110040	龙鸣虎啸	自身增加40%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.4		6	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-111040	鬼•龙鸣虎啸	自身增加45%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.45		8	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-112040	圣•龙鸣虎啸	自身增加50%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.5		10	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-113040	皇•龙鸣虎啸	自身增加55%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.55		12	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav									
-100041	慑魂一式	攻击血量最低的敌方武将，造成200%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	3			sound/skilleffect/dao/dao1.wav									
-101041	鬼•慑魂一式	攻击血量最低的敌方武将，造成220%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	3			sound/skilleffect/dao/dao1.wav									
-102041	圣•慑魂一式	攻击血量最低的敌方武将，造成240%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	3			sound/skilleffect/dao/dao1.wav									
-103041	皇•慑魂一式	攻击血量最低的敌方武将，造成260%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	3			sound/skilleffect/dao/dao1.wav									
-100042	金蛇耀日	自身增加120%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.2		6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101042	鬼•金蛇耀日	自身增加130%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.3		8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102042	圣•金蛇耀日	自身增加140%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.4		10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103042	皇•金蛇耀日	自身增加150%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.5		12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-110042	金蛇耀日	自身增加120%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		6	0		1	sound/skilleffect/zhenyi/zengyi.wav									
-111042	鬼•金蛇耀日	自身增加130%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		8	0		1	sound/skilleffect/zhenyi/zengyi.wav									
-112042	圣•金蛇耀日	自身增加140%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		10	0		1	sound/skilleffect/zhenyi/zengyi.wav									
-113042	皇•金蛇耀日	自身增加150%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		12	0		1	sound/skilleffect/zhenyi/zengyi.wav									
-300043	五彩水镜	我方武力最高武将提升40%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4	0	7	0	3	1	sound/skilleffect/zhenyi/zengyi.wav									
-301043	鬼•五彩水镜	我方武力最高武将提升50%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5	0	9	0	3	1	sound/skilleffect/zhenyi/zengyi.wav									
-302043	圣•五彩水镜	我方武力最高武将提升60%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.6	0	11	0	3	1	sound/skilleffect/zhenyi/zengyi.wav									
-303043	皇•五彩水镜	我方武力最高武将提升70%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.7	0	13	0	3	1	sound/skilleffect/zhenyi/zengyi.wav									
-100044	饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav									
-101044	鬼•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-102044	圣•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-103044	皇•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav									
-200045	风卷雷鸣	自身前方扇形范围内敌军，受到100%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/lei/lei1.wav									
-201045	鬼•风卷雷鸣	自身前方扇形范围内敌军，受到110%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1	0	0	2			sound/skilleffect/lei/lei1.wav									
-202045	圣•风卷雷鸣	自身前方扇形范围内敌军，受到120%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.2	0	0	2			sound/skilleffect/lei/lei1.wav									
-203045	皇•风卷雷鸣	自身前方扇形范围内敌军，受到130%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/lei/lei1.wav									
-100046	大回天	减少自身40%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.4		6	0	2		sound/skilleffect/dun/dunpai1.wav									
-101046	鬼•大回天	减少自身45%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.45		8	0	2		sound/skilleffect/dun/dunpai1.wav									
-102046	圣•大回天	减少自身50%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.5		10	0	2		sound/skilleffect/dun/dunpai1.wav									
-103046	皇•大回天	减少自身55%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.55		12	0	2		sound/skilleffect/dun/dunpai1.wav									
-100047	破风斩	对自己周围敌人造成80%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav									
-101047	鬼•破风斩	对自己周围敌人造成90%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav									
-102047	圣•破风斩	对自己周围敌人造成100%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav									
-103047	皇•破风斩	对自己周围敌人造成110%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-100048	风云变色	攻击血量最高的敌方武将，造成200%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	1			sound/skilleffect/dao/dao1.wav									
-101048	鬼•风云变色	攻击血量最高的敌方武将，造成220%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav									
-102048	圣•风云变色	攻击血量最高的敌方武将，造成240%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	1			sound/skilleffect/dao/dao1.wav									
-103048	皇•风云变色	攻击血量最高的敌方武将，造成260%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	1			sound/skilleffect/dao/dao1.wav									
-100049	致命一击	攻击血量最低的敌将，造成自己当前血量35%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.35		0	7			sound/skilleffect/dao/dao1.wav									
-101049	鬼•致命一击	攻击血量最低的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav									
-102049	圣•致命一击	攻击血量最低的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav									
-103049	皇•致命一击	攻击血量最低的敌将，造成自己当前血量50%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.5		0	7			sound/skilleffect/dao/dao1.wav									
-100050	不屈意志	自身增加100%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1		6	0	2	7	sound/skilleffect/zhenyi/zengyi.wav									
-101050	鬼•不屈意志	自身增加110%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.1		8	0	2	7	sound/skilleffect/zhenyi/zengyi.wav									
-102050	圣•不屈意志	自身增加120%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.2		10	0	2	7	sound/skilleffect/zhenyi/zengyi.wav									
-103050	皇•不屈意志	自身增加130%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.3		12	0	2	7	sound/skilleffect/zhenyi/zengyi.wav									
-100051	群魔乱舞	降低敌方群雄武将30%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav									
-101051	鬼•群魔乱舞	降低敌方群雄武将35%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.35		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav									
-102051	圣•群魔乱舞	降低敌方群雄武将40%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav									
-103051	皇•群魔乱舞	降低敌方群雄武将45%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav									
-100052	霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav									
-101052	鬼•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-102052	圣•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-103052	皇•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav									
-100053	霸气斩	对自己周围敌人造成80%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav									
-101053	鬼•霸气斩	对自己周围敌人造成90%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav									
-102053	圣•霸气斩	对自己周围敌人造成100%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav									
-103053	皇•霸气斩	对自己周围敌人造成110%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-100054	嗜血魔枪	普通攻击伤害的30%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.3		5	0	2		sound/skilleffect/zhenyi/zengyi.wav									
-101054	鬼•嗜血魔枪	普通攻击伤害的40%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.4		5	0	2		sound/skilleffect/zhenyi/zengyi.wav									
-102054	圣•嗜血魔枪	普通攻击伤害的50%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.5		5	0	2		sound/skilleffect/zhenyi/zengyi.wav									
-103054	皇•嗜血魔枪	普通攻击伤害的60%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.6		5	0	2		sound/skilleffect/zhenyi/zengyi.wav									
-300055	风雪冰天	敌方全军的所有单位冰冻，持续3S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav									
-301055	鬼•风雪冰天	敌方全军的所有单位冰冻，持续4S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	240	240	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav									
-302055	圣•风雪冰天	敌方全军的所有单位冰冻，持续5S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	300	300	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav									
-303055	皇•风雪冰天	敌方全军的所有单位冰冻，持续6S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	360	360	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav									
-100056	白马义从	提升自身60%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.6		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101056	鬼•白马义从	提升自身70%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.7		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102056	圣•白马义从	提升自身80%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.8		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103056	皇•白马义从	提升自身90%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.9		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-100057	千军万马	提升我方所有士兵40%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101057	鬼•千军万马	提升我方所有士兵45%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102057	圣•千军万马	提升我方所有士兵50%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103057	皇•千军万马	提升我方所有士兵55%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.55		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-300058	回光返照	我方武将攻击加30%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3	0	7	0	3	1	sound/skilleffect/jianyi/jianyi.wav									
-301058	鬼•回光返照	我方武将攻击加35%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.35	0	9	0	3	1	sound/skilleffect/jianyi/jianyi.wav									
-302058	圣•回光返照	我方武将攻击加40%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4	0	11	0	3	1	sound/skilleffect/jianyi/jianyi.wav									
-303058	皇•回光返照	我方武将攻击加45%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45	0	13	0	3	1	sound/skilleffect/jianyi/jianyi.wav									
-200059	五雷轰顶	自身前方扇形范围内敌军，受到100%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/lei/lei1.wav									
-201059	鬼•五雷轰顶	自身前方扇形范围内敌军，受到110%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1	0	0	2			sound/skilleffect/lei/lei1.wav									
-202059	圣•五雷轰顶	自身前方扇形范围内敌军，受到120%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.2	0	0	2			sound/skilleffect/lei/lei1.wav									
-203059	皇•五雷轰顶	自身前方扇形范围内敌军，受到130%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/lei/lei1.wav									
-100060	修罗附体	降低40%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-101060	鬼•修罗附体	降低30%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-102060	圣•修罗附体	降低20%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-103060	皇•修罗附体	降低10%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-110060	修罗附体	降低40%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-111060	鬼•修罗附体	降低30%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-112060	圣•修罗附体	降低20%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.2		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-113060	皇•修罗附体	降低10%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.1		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav									
-100061	强力一击	攻击武力最高的敌方武将，造成180%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.8		6	1			sound/skilleffect/dao/dao1.wav									
-101061	鬼•强力一击	攻击武力最高的敌方武将，造成200%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		8	1			sound/skilleffect/dao/dao1.wav									
-102061	圣•强力一击	攻击武力最高的敌方武将，造成220%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav									
-103061	皇•强力一击	攻击武力最高的敌方武将，造成240%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		10	1			sound/skilleffect/dao/dao1.wav									
-100062	朱雀燃翅	自身增加30%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3		6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101062	鬼•朱雀燃翅	自身增加40%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102062	圣•朱雀燃翅	自身增加50%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5		10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103062	皇•朱雀燃翅	自身增加60%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.6		12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-100063	诸神灭世	攻击血量最高的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav									
-101063	鬼•诸神灭世	攻击血量最高的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav									
-102063	圣•诸神灭世	攻击血量最高的敌将，造成自己当前血量50%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.5		0	7			sound/skilleffect/dao/dao1.wav									
-103063	皇•诸神灭世	攻击血量最高的敌将，造成自己当前血量55%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.55		0	7			sound/skilleffect/dao/dao1.wav									
-100064	武神霸斩	攻击扇形范围内敌军造成攻击80%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav									
-101064	鬼•武神霸斩	攻击扇形范围内敌军造成攻击90%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav									
-102064	圣•武神霸斩	攻击扇形范围内敌军造成攻击100%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav									
-103064	皇•武神霸斩	攻击扇形范围内敌军造成攻击110%伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-100065	怒火中烧	攻击敌军所有武将造成90%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	1			sound/skilleffect/dao/dao1.wav									
-101065	鬼•怒火中烧	攻击敌军所有武将造成100%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	1			sound/skilleffect/dao/dao1.wav									
-102065	圣•怒火中烧	攻击敌军所有武将造成110%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	1			sound/skilleffect/dao/dao1.wav									
-103065	皇•怒火中烧	攻击敌军所有武将造成120%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	1			sound/skilleffect/dao/dao1.wav									
-100066	剑斥诸鬼	攻击血量最低的敌方武将，造成180%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.8		6	1			sound/skilleffect/dao/dao1.wav									
-101066	鬼•剑斥诸鬼	攻击血量最低的敌方武将，造成200%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		8	1			sound/skilleffect/dao/dao1.wav									
-102066	圣•剑斥诸鬼	攻击血量最低的敌方武将，造成220%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav									
-103066	皇•剑斥诸鬼	攻击血量最低的敌方武将，造成240%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		10	1			sound/skilleffect/dao/dao1.wav									
-100067	修罗之道	减少自身所受60%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-101067	鬼•修罗之道	减少自身所受65%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.65		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-102067	圣•修罗之道	减少自身所受70%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.7		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-103067	皇•修罗之道	减少自身所受75%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.75		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-110067	修罗之道	减少自身所受60%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-111067	鬼•修罗之道	减少自身所受65%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-112067	圣•修罗之道	减少自身所受70%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-113067	皇•修罗之道	减少自身所受75%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav									
-200068	飞扬跋扈	敌方智力最高的武将降低30%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.3	0	6	0	3	9	sound/skilleffect/jianyi/jianyi.wav									
-201068	鬼•飞扬跋扈	敌方智力最高的武将降低40%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	7	0	3	9	sound/skilleffect/jianyi/jianyi.wav									
-202068	圣•飞扬跋扈	敌方智力最高的武将降低50%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	8	0	3	9	sound/skilleffect/jianyi/jianyi.wav									
-203068	皇•飞扬跋扈	敌方智力最高的武将降低60%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.6	0	10	0	3	9	sound/skilleffect/jianyi/jianyi.wav									
-100069	以命相搏	攻击血量最高的敌将，造成自己当前损失血量65%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.65		0	8			sound/skilleffect/dao/dao1.wav									
-101069	鬼•以命相搏	攻击血量最高的敌将，造成自己当前损失血量70%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.7		0	8			sound/skilleffect/dao/dao1.wav									
-102069	圣•以命相搏	攻击血量最高的敌将，造成自己当前损失血量75%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.75		0	8			sound/skilleffect/dao/dao1.wav									
-103069	皇•以命相搏	攻击血量最高的敌将，造成自己当前损失血量80%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.8		0	8			sound/skilleffect/dao/dao1.wav									
-300070	以和为贵	敌方全军的法术防御减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.5	0	6	0	3	10	sound/skilleffect/jianyi/jianyi.wav									
-301070	鬼•以和为贵	敌方全军的法术防御减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.55	0	8	0	3	10	sound/skilleffect/jianyi/jianyi.wav									
-302070	圣•以和为贵	敌方全军的法术防御减少60%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.6	0	10	0	3	10	sound/skilleffect/jianyi/jianyi.wav									
-303070	皇•以和为贵	敌方全军的法术防御减少65%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.65	0	12	0	3	10	sound/skilleffect/jianyi/jianyi.wav									
-300071	勾魂出窍	敌方武将攻击减30%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3	0	7	0	3	2	sound/skilleffect/jianyi/jianyi.wav									
-301071	鬼•勾魂出窍	敌方武将攻击减35%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.35	0	9	0	3	2	sound/skilleffect/jianyi/jianyi.wav									
-302071	圣•勾魂出窍	敌方武将攻击减40%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4	0	11	0	3	2	sound/skilleffect/jianyi/jianyi.wav									
-303071	皇•勾魂出窍	敌方武将攻击减45%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.45	0	13	0	3	2	sound/skilleffect/jianyi/jianyi.wav									
-200072	散魂飞矢	敌方全军的法术减少40%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	6	0	3	4	sound/skilleffect/jianyi/jianyi.wav									
-201072	鬼•散魂飞矢	敌方全军的法术减少45%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	8	0	3	4	sound/skilleffect/jianyi/jianyi.wav									
-202072	圣•散魂飞矢	敌方全军的法术减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	10	0	3	4	sound/skilleffect/jianyi/jianyi.wav									
-203072	皇•散魂飞矢	敌方全军的法术减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	12	0	3	4	sound/skilleffect/jianyi/jianyi.wav									
-100073	无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav									
-101073	鬼•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-102073	圣•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav									
-103073	皇•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav									
-100074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-101074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-102074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-103074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-110074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-111074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-112074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-113074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-120074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-121074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-122074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-123074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-100075	饮血烈刃	攻击敌方武力最高的敌人，造成210%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续3秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.1		6	4			sound/skilleffect/dao/dao1.wav									
-101075	鬼•饮血烈刃	攻击敌方武力最高的敌人，造成230%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续4秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.3		8	4			sound/skilleffect/dao/dao1.wav									
-102075	圣•饮血烈刃	攻击敌方武力最高的敌人，造成250%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续5秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.5		8	4			sound/skilleffect/dao/dao1.wav									
-103075	皇•饮血烈刃	攻击敌方武力最高的敌人，造成270%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续6秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.7		10	4			sound/skilleffect/dao/dao1.wav									
-110075	饮血烈刃	攻击敌方武力最高的敌人，造成210%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续3秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	180	180	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-111075	鬼•饮血烈刃	攻击敌方武力最高的敌人，造成230%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续4秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-112075	圣•饮血烈刃	攻击敌方武力最高的敌人，造成250%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续5秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-113075	皇•饮血烈刃	攻击敌方武力最高的敌人，造成270%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续6秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-100076	金蛇耀日	对敌方士兵，造成110%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-101076	鬼•金蛇耀日	对敌方士兵，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav									
-102076	圣•金蛇耀日	对敌方士兵，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3		0	3			sound/skilleffect/dao/dao1.wav									
-103076	皇•金蛇耀日	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav									
-110076	金蛇耀日	对敌方士兵，造成110%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-111076	鬼•金蛇耀日	对敌方士兵，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-112076	圣•金蛇耀日	对敌方士兵，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-113076	皇•金蛇耀日	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-100077	一骑当先	攻击长方形范围内敌人，造成100%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav									
-101077	鬼•一骑当先	攻击长方形范围内敌人，造成105%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.05		0	3			sound/skilleffect/dao/dao1.wav									
-102077	圣•一骑当先	攻击长方形范围内敌人，造成110%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-103077	皇•一骑当先	攻击长方形范围内敌人，造成115%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.15		0	3			sound/skilleffect/dao/dao1.wav									
-100078	无双龙胆	对自己周围小范围敌人造成100%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1		6	1			sound/skilleffect/zhenyi/zengyi.wav									
-101078	鬼•无双龙胆	对自己周围小范围敌人造成105%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.05		8	1			sound/skilleffect/zhenyi/zengyi.wav									
-102078	圣•无双龙胆	对自己周围小范围敌人造成110%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.1		10	1			sound/skilleffect/zhenyi/zengyi.wav									
-103078	皇•无双龙胆	对自己周围小范围敌人造成115%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.15		12	1			sound/skilleffect/zhenyi/zengyi.wav									
-110078	无双龙胆	对自己周围小范围敌人造成100%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav									
-111078	鬼•无双龙胆	对自己周围小范围敌人造成105%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav									
-112078	圣•无双龙胆	对自己周围小范围敌人造成110%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav									
-113078	皇•无双龙胆	对自己周围小范围敌人造成115%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav									
-300079	奇门遁甲	敌方全军的攻击和法术减55%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.55	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-301079	鬼•奇门遁甲	敌方全军的攻击和法术减60%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.6	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-302079	圣•奇门遁甲	敌方全军的攻击和法术减65%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.65	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-303079	皇•奇门遁甲	敌方全军的攻击和法术减70%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.7	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-310079	奇门遁甲	敌方全军的攻击和法术减55%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-311079	鬼•奇门遁甲	敌方全军的攻击和法术减60%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.6	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-312079	圣•奇门遁甲	敌方全军的攻击和法术减65%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.65	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-313079	皇•奇门遁甲	敌方全军的攻击和法术减70%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.7	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-300080	狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成30%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.35	0	7	2			sound/skilleffect/lei/lei1.wav									
-301080	鬼•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成35%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.4	0	9	2			sound/skilleffect/lei/lei1.wav									
-302080	圣•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成40%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.45	0	11	2			sound/skilleffect/lei/lei1.wav									
-303080	皇•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成45%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.5	0	13	2			sound/skilleffect/lei/lei1.wav									
-200081	麒麟吐珠	对敌方全体造成80%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8	0	0	1			sound/skilleffect/dao/dao1.wav									
-201081	鬼•麒麟吐珠	对敌方全体造成85%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.85	0	0	1			sound/skilleffect/dao/dao1.wav									
-202081	圣•麒麟吐珠	对敌方全体造成90%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	1			sound/skilleffect/dao/dao1.wav									
-203081	皇•麒麟吐珠	对敌方全体造成95%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	1			sound/skilleffect/dao/dao1.wav									
-200082	奇门遁甲	敌方全军的攻击和法术减30%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-201082	鬼•奇门遁甲	敌方全军的攻击和法术减35%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.35	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-202082	圣•奇门遁甲	敌方全军的攻击和法术减40%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-203082	皇•奇门遁甲	敌方全军的攻击和法术减45%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.45	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-210082	奇门遁甲	敌方全军的攻击和法术减30%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.3	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-211082	鬼•奇门遁甲	敌方全军的攻击和法术减35%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.35	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-212082	圣•奇门遁甲	敌方全军的攻击和法术减40%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-213082	皇•奇门遁甲	敌方全军的攻击和法术减45%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-200083	地狱火	对敌方全体造成90%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	2			sound/skilleffect/huo/huo1.wav									
-201083	鬼•地狱火	对敌方全体造成95%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	2			sound/skilleffect/huo/huo1.wav									
-202083	圣•地狱火	对敌方全体造成100%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/huo/huo1.wav									
-203083	皇•地狱火	对敌方全体造成105%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05	0	0	2			sound/skilleffect/huo/huo1.wav									
-100084	致命一箭	攻击血量最低的敌将，造成自己当前血量30%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.3		0	7			sound/skilleffect/dao/dao1.wav									
-101084	鬼•致命一箭	攻击血量最低的敌将，造成自己当前血量35%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.35		0	7			sound/skilleffect/dao/dao1.wav									
-102084	圣•致命一箭	攻击血量最低的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav									
-103084	皇•致命一箭	攻击血量最低的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav									
-100085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-101085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-102085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-103085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-110085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-111085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-112085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-113085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-120085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-121085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-122085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-123085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-100086	天下无双	对所有敌人，造成115%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.15		0	3			sound/skilleffect/dao/dao1.wav									
-101086	鬼•天下无双	对所有敌人，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav									
-102086	圣•天下无双	对所有敌人，造成125%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.25		0	3			sound/skilleffect/dao/dao1.wav									
-103086	皇•天下无双	对所有敌人，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3		0	3			sound/skilleffect/dao/dao1.wav									
-110086	天下无双	对所有敌人，造成115%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-111086	鬼•天下无双	对所有敌人，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-112086	圣•天下无双	对所有敌人，造成125%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-113086	皇•天下无双	对所有敌人，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1										
-300087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1		0.5		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-301087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1		0.6		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-302087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1		0.7		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-303087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	2	1		0.8		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-310087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	4		0.5				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-311087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4		0.6				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-312087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4		0.7				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-313087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17			8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	2	4		0.8				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-320087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-321087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-322087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-323087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17			8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-200088	太平盛世	提升我方所有士兵100%攻击，持续4S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	240	240	2	1	0	1		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav									
-201088	鬼•太平盛世	提升我方所有士兵110%攻击，持续5S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	1.1		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav									
-202088	圣•太平盛世	提升我方所有士兵120%攻击，持续6S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1	0	1.2		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav									
-203088	皇•太平盛世	提升我方所有士兵130%攻击，持续7S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	1	0	1.3		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav									
-400089	军心大振	我方全体每秒间回复36%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.3	0	5	0	1		sound/skilleffect/huixue/huixue.wav									
-401089	鬼•军心大振	我方全体每秒间回复39%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.33	0	7	0	1		sound/skilleffect/huixue/huixue.wav									
-402089	圣•军心大振	我方全体每秒间回复42%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.36	0	9	0	1		sound/skilleffect/huixue/huixue.wav									
-403089	皇•军心大振	我方全体每秒间回复45%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.39	0	11	0	1		sound/skilleffect/huixue/huixue.wav									
-100090	鬼狱还神	自身增加110%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.1	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101090	鬼•鬼狱还神	自身增加120%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.2	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102090	圣•鬼狱还神	自身增加130%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.3	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103090	皇•鬼狱还神	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.4	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-110090	鬼狱还神	自身增加110%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-111090	鬼•鬼狱还神	自身增加120%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-112090	圣•鬼狱还神	自身增加130%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-113090	皇•鬼狱还神	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-400091	妙手回春	自身周围的我方军队每秒回复44%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.44	0	5	0	1		sound/skilleffect/huixue/huixue.wav									
-401091	鬼•妙手回春	自身周围的我方军队每秒回复46%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.46	0	7	0	1		sound/skilleffect/huixue/huixue.wav									
-402091	圣•妙手回春	自身周围的我方军队每秒回复48%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.48	0	9	0	1		sound/skilleffect/huixue/huixue.wav									
-403091	皇•妙手回春	自身周围的我方军队每秒回复50%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.5	0	11	0	1		sound/skilleffect/huixue/huixue.wav									
-200092	天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-201092	鬼•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-202092	圣•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-203092	皇•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-210092	天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.5	0	0	8			sound/skilleffect/huo/huo1.wav									
-211092	鬼•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.55	0	0	8			sound/skilleffect/huo/huo1.wav									
-212092	圣•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.6	0	0	8			sound/skilleffect/huo/huo1.wav									
-213092	皇•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.65	0	0	8			sound/skilleffect/huo/huo1.wav									
-200093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-201093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-202093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-203093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-210093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-211093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-212093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-213093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-220093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-221093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-222093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-223093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-200094	绝对零度	对敌方士兵造成110%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.1	0	4	2		3	sound/skilleffect/bing/bin1.wav									
-201094	鬼•绝对零度	对敌方士兵造成115%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.15	0	5	2		3	sound/skilleffect/bing/bin1.wav									
-202094	圣•绝对零度	对敌方士兵造成120%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.2	0	6	2		3	sound/skilleffect/bing/bin1.wav									
-203094	皇•绝对零度	对敌方士兵造成125%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.25	0	7	2		3	sound/skilleffect/bing/bin1.wav									
-210094	绝对零度	对敌方士兵造成110%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav									
-211094	鬼•绝对零度	对敌方士兵造成115%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav									
-212094	圣•绝对零度	对敌方士兵造成120%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav									
-213094	皇•绝对零度	对敌方士兵造成125%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav									
-210095	雪舞漫天	对敌方所有敌人造成80%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav									
-211095	鬼•雪舞漫天	对敌方所有敌人造成85%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav									
-212095	圣•雪舞漫天	对敌方所有敌人造成90%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav									
-213095	皇•雪舞漫天	对敌方所有敌人造成95%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav									
-200095	雪舞漫天	对敌方所有敌人造成80%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.8	0	4	2		3	sound/skilleffect/bing/bin1.wav									
-201095	鬼•雪舞漫天	对敌方所有敌人造成85%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.85	0	5	2		3	sound/skilleffect/bing/bin1.wav									
-202095	圣•雪舞漫天	对敌方所有敌人造成90%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.9	0	6	2		3	sound/skilleffect/bing/bin1.wav									
-203095	皇•雪舞漫天	对敌方所有敌人造成95%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.95	0	7	2		3	sound/skilleffect/bing/bin1.wav									
-100096	战神祝福	己方所有单位减少60%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.6		6		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-101096	鬼•战神祝福	己方所有单位减少65%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.65		8		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-102096	圣•战神祝福	己方所有单位减少70%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.7		10		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-103096	皇•战神祝福	己方所有单位减少75%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.75		12		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-110096	战神祝福	己方所有单位减少60%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-111096	鬼•战神祝福	己方所有单位减少65%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-112096	圣•战神祝福	己方所有单位减少70%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-113096	皇•战神祝福	己方所有单位减少75%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-100097	鬼哭狼嚎	攻击武力最低的敌方武将，造成320%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.2		6	1			sound/skilleffect/dao/dao1.wav									
-101097	鬼•鬼哭狼嚎	攻击武力最低的敌方武将，造成340%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.4		8	1			sound/skilleffect/dao/dao1.wav									
-102097	圣•鬼哭狼嚎	攻击武力最低的敌方武将，造成360%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.6		8	1			sound/skilleffect/dao/dao1.wav									
-103097	皇•鬼哭狼嚎	攻击武力最低的敌方武将，造成380%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.8		10	1			sound/skilleffect/dao/dao1.wav									
-110097	鬼哭狼嚎	攻击武力最低的敌方武将，造成320%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		6		1	9	sound/skilleffect/dao/dao1.wav									
-111097	鬼•鬼哭狼嚎	攻击武力最低的敌方武将，造成340%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		8		1	9	sound/skilleffect/dao/dao1.wav									
-112097	圣•鬼哭狼嚎	攻击武力最低的敌方武将，造成360%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		8		1	9	sound/skilleffect/dao/dao1.wav									
-113097	皇•鬼哭狼嚎	攻击武力最低的敌方武将，造成380%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		10		1	9	sound/skilleffect/dao/dao1.wav									
-200098	狼顾四野	攻击敌军所有武将造成100%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	1			sound/skilleffect/dao/dao1.wav									
-201098	鬼•狼顾四野	攻击敌军所有武将造成105%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05		0	1			sound/skilleffect/dao/dao1.wav									
-202098	圣•狼顾四野	攻击敌军所有武将造成110%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	1			sound/skilleffect/dao/dao1.wav									
-203098	皇•狼顾四野	攻击敌军所有武将造成115%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.15		0	1			sound/skilleffect/dao/dao1.wav									
-300099	神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方20%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav									
-301099	鬼•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方30%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav									
-302099	圣•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方40%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav									
-303099	皇•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方50%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav									
-310099	神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方20%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.2				2	10	sound/skilleffect/dao/dao1.wav									
-311099	鬼•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方30%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.3				2	10	sound/skilleffect/dao/dao1.wav									
-312099	圣•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方40%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.4				2	10	sound/skilleffect/dao/dao1.wav									
-313099	皇•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方50%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.5				2	10	sound/skilleffect/dao/dao1.wav									
-400100	救死扶伤	自身周围的我方军队回复150%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.5	0	5	0			sound/skilleffect/huixue/huixue.wav									
-401100	鬼•救死扶伤	自身周围的我方军队回复160%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.6	0	7	0			sound/skilleffect/huixue/huixue.wav									
-402100	圣•救死扶伤	自身周围的我方军队回复170%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.7	0	9	0			sound/skilleffect/huixue/huixue.wav									
-403100	皇•救死扶伤	自身周围的我方军队回复180%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.8	0	11	0			sound/skilleffect/huixue/huixue.wav									
-100101	舍命一箭	自身免伤30%，同时附带50%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-101101	鬼•舍命一箭	自身免伤30%，同时附带60%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-102101	圣•舍命一箭	自身免伤30%，同时附带70%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-103101	皇•舍命一箭	自身免伤30%，同时附带80%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-110101	舍命一箭	自身免伤30%，同时附带50%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.5				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-111101	鬼•舍命一箭	自身免伤30%，同时附带60%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.6				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-112101	圣•舍命一箭	自身免伤30%，同时附带70%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.7				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-113101	皇•舍命一箭	自身免伤30%，同时附带80%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.8				1	8	sound/skilleffect/zhenyi/zengyi.wav									
-300102	魂飞魄散	敌方全军的法术减少40%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	6	0	3	6	sound/skilleffect/jianyi/jianyi.wav									
-301102	鬼•魂飞魄散	敌方全军的法术减少45%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	8	0	3	6	sound/skilleffect/jianyi/jianyi.wav									
-302102	圣•魂飞魄散	敌方全军的法术减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	10	0	3	6	sound/skilleffect/jianyi/jianyi.wav									
-303102	皇•魂飞魄散	敌方全军的法术减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	12	0	3	6	sound/skilleffect/jianyi/jianyi.wav									
-200103	陨星咒怨	攻击长方形范围内敌人，造成100%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1		0	2			sound/skilleffect/lei/lei1.wav									
-201103	鬼•一陨星咒怨	攻击长方形范围内敌人，造成105%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.05		0	2			sound/skilleffect/lei/lei1.wav									
-202103	圣•一陨星咒怨	攻击长方形范围内敌人，造成110%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	2			sound/skilleffect/lei/lei1.wav									
-203103	皇•一陨星咒怨	攻击长方形范围内敌人，造成115%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.15		0	2			sound/skilleffect/lei/lei1.wav									
-200104	魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	6	5			sound/skilleffect/dao/dao1.wav									
-201104	鬼•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	8	5			sound/skilleffect/dao/dao1.wav									
-202104	圣•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	8	5			sound/skilleffect/dao/dao1.wav									
-203104	皇•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	10	5			sound/skilleffect/dao/dao1.wav									
-300105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-301105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-302105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-303105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-310105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-311105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-312105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-313105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-320105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-321105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-322105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-323105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-100106	当机立断	攻击自己周围圆形范围敌人造成75%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.75		6	1		2	sound/skilleffect/dao/dao1.wav									
-101106	鬼•当机立断	攻击自己周围圆形范围敌人造成80%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		8	1		2	sound/skilleffect/dao/dao1.wav									
-102106	圣•当机立断	攻击自己周围圆形范围敌人造成85%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.85		8	1		2	sound/skilleffect/dao/dao1.wav									
-103106	皇•当机立断	攻击自己周围圆形范围敌人造成90%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		10	1		2	sound/skilleffect/dao/dao1.wav									
-110106	当机立断	攻击自己周围圆形范围敌人造成75%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav									
-111106	鬼•当机立断	攻击自己周围圆形范围敌人造成80%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav									
-112106	圣•当机立断	攻击自己周围圆形范围敌人造成85%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav									
-113106	皇•当机立断	攻击自己周围圆形范围敌人造成90%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav									
-100107	蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续4S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav									
-101107	鬼•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续5S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav									
-102107	圣•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续6S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav									
-103107	皇•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续7S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav									
-100108	威震雄狮	攻击敌军所有武将造成90%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav									
-101108	鬼•威震雄狮	攻击敌军所有武将造成100%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav									
-102108	圣•威震雄狮	攻击敌军所有武将造成110%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav									
-103108	皇•威震雄狮	攻击敌军所有武将造成120%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav									
-200109	炼狱火海	对敌方全体造成90%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	2			sound/skilleffect/huo/huo1.wav									
-201109	鬼•炼狱火海	对敌方全体造成95%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	2			sound/skilleffect/huo/huo1.wav									
-202109	圣•炼狱火海	对敌方全体造成100%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/huo/huo1.wav									
-203109	皇•炼狱火海	对敌方全体造成105%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05	0	0	2			sound/skilleffect/huo/huo1.wav									
-400110	国色流离	我方全体瞬间回复115%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.15	0	5	0			sound/skilleffect/huixue/huixue.wav									
-401110	鬼•国色流离	我方全体瞬间回复125%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.25	0	7	0			sound/skilleffect/huixue/huixue.wav									
-402110	圣•国色流离	我方全体瞬间回复135%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.35	0	9	0			sound/skilleffect/huixue/huixue.wav									
-403110	皇•国色流离	我方全体瞬间回复145%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.45	0	11	0			sound/skilleffect/huixue/huixue.wav									
-400111	炽云托日	我方全体瞬间回复200%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2	0	5	0			sound/skilleffect/huixue/huixue.wav									
-401111	鬼•炽云托日	我方全体瞬间回复250%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2.5	0	7	0			sound/skilleffect/huixue/huixue.wav									
-402111	圣•炽云托日	我方全体瞬间回复300%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3	0	9	0			sound/skilleffect/huixue/huixue.wav									
-403111	皇•炽云托日	我方全体瞬间回复350%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3.5	0	11	0			sound/skilleffect/huixue/huixue.wav									
-100112	凤凰涅槃	攻击血量最高的敌将，造成自己当前血量30%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.3	0	0	7			sound/skilleffect/dao/dao1.wav									
-101112	鬼•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量34%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.34	0	0	7			sound/skilleffect/dao/dao1.wav									
-102112	圣•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量38%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.38	0	0	7			sound/skilleffect/dao/dao1.wav									
-103112	皇•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量42%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.42	0	0	7			sound/skilleffect/dao/dao1.wav									
-100113	鞭打鬼神	攻击血量最低的敌方武将，造成200%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	3			sound/skilleffect/dao/dao1.wav									
-101113	鬼•鞭打鬼神	攻击血量最低的敌方武将，造成220%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	3			sound/skilleffect/dao/dao1.wav									
-102113	圣•鞭打鬼神	攻击血量最低的敌方武将，造成240%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	3			sound/skilleffect/dao/dao1.wav									
-103113	皇•鞭打鬼神	攻击血量最低的敌方武将，造成260%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	3			sound/skilleffect/dao/dao1.wav									
-300114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1		0.6		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-301114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	1		0.7		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-302114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1		0.8		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-303114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	2	1		0.9		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-310114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	4		0.6				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-311114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	4		0.7				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-312114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4		0.8				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-313114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	2	4		0.9				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-320114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-321114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-322114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-323114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-200115	天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-201115	鬼•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-202115	圣•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-203115	皇•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的70%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav									
-210115	天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.55	0	0	8			sound/skilleffect/huo/huo1.wav									
-211115	鬼•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.6	0	0	8			sound/skilleffect/huo/huo1.wav									
-212115	圣•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.65	0	0	8			sound/skilleffect/huo/huo1.wav									
-213115	皇•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.7	0	0	8			sound/skilleffect/huo/huo1.wav									
-400116	炽云托日卍	我方全体瞬间回复250%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2.5	0	5	0			sound/skilleffect/huixue/huixue.wav									
-401116	鬼•炽云托日卍	我方全体瞬间回复300%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3	0	7	0			sound/skilleffect/huixue/huixue.wav									
-402116	圣•炽云托日卍	我方全体瞬间回复350%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3.5	0	9	0			sound/skilleffect/huixue/huixue.wav									
-403116	皇•炽云托日卍	我方全体瞬间回复400%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	4	0	11	0			sound/skilleffect/huixue/huixue.wav									
-100117	金蛇耀日卍	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav									
-101117	鬼•金蛇耀日卍	对敌方士兵，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.5		0	3			sound/skilleffect/dao/dao1.wav									
-102117	圣•金蛇耀日卍	对敌方士兵，造成160%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.6		0	3			sound/skilleffect/dao/dao1.wav									
-103117	皇•金蛇耀日卍	对敌方士兵，造成170%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.7		0	3			sound/skilleffect/dao/dao1.wav									
-110117	金蛇耀日卍	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-111117	鬼•金蛇耀日卍	对敌方士兵，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-112117	圣•金蛇耀日卍	对敌方士兵，造成160%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-113117	皇•金蛇耀日卍	对敌方士兵，造成170%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-300118	狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成40%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.5	0	7	2			sound/skilleffect/lei/lei1.wav									
-301118	鬼•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成45%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.55	0	9	2			sound/skilleffect/lei/lei1.wav									
-302118	圣•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成50%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.6	0	11	2			sound/skilleffect/lei/lei1.wav									
-303118	皇•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成60%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.65	0	13	2			sound/skilleffect/lei/lei1.wav									
-100119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-101119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-102119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-103119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-110119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-111119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-112119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-113119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-120119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-121119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-122119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-123119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-300120	奇门遁甲卍	敌方全军的攻击和法术减70%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.7	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-301120	鬼•奇门遁甲卍	敌方全军的攻击和法术减75%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.75	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-302120	圣•奇门遁甲卍	敌方全军的攻击和法术减80%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.8	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-303120	皇•奇门遁甲卍	敌方全军的攻击和法术减85%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.85	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-310120	奇门遁甲卍	敌方全军的攻击和法术减70%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.7	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-311120	鬼•奇门遁甲卍	敌方全军的攻击和法术减75%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.75	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-312120	圣•奇门遁甲卍	敌方全军的攻击和法术减80%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.8	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-313120	皇•奇门遁甲卍	敌方全军的攻击和法术减85%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.85	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav									
-100121	鬼狱还神卍	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.4	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-101121	鬼•鬼狱还神卍	自身增加150%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.5	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-102121	圣•鬼狱还神卍	自身增加160%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.6	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-103121	皇•鬼狱还神卍	自身增加170%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.7	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-110121	鬼狱还神卍	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-111121	鬼•鬼狱还神卍	自身增加150%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-112121	圣•鬼狱还神卍	自身增加160%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-113121	皇•鬼狱还神卍	自身增加170%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav									
-100122	战神祝福卍	己方所有单位减少80%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.8		6		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-101122	鬼•战神祝福卍	己方所有单位减少85%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.85		8		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-102122	圣•战神祝福卍	己方所有单位减少90%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.9		10		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-103122	皇•战神祝福卍	己方所有单位减少95%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.95		12		1	8	sound/skilleffect/zhenyi/zengyi.wav									
-110122	战神祝福卍	己方所有单位减少80%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-111122	鬼•战神祝福卍	己方所有单位减少85%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-112122	圣•战神祝福卍	己方所有单位减少90%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-113122	皇•战神祝福卍	己方所有单位减少95%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	12			4	2	1								1			1			1	5		0.1					7										
-210123	雪舞漫天卍	对敌方所有敌人造成100%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav									
-211123	鬼•雪舞漫天卍	对敌方所有敌人造成105%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav									
-212123	圣•雪舞漫天卍	对敌方所有敌人造成110%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav									
-213123	皇•雪舞漫天卍	对敌方所有敌人造成115%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav									
-200123	雪舞漫天卍	对敌方所有敌人造成100%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1	0	4	2		3	sound/skilleffect/bing/bin1.wav									
-201123	鬼•雪舞漫天卍	对敌方所有敌人造成105%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.05	0	5	2		3	sound/skilleffect/bing/bin1.wav									
-202123	圣•雪舞漫天卍	对敌方所有敌人造成110%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.1	0	6	2		3	sound/skilleffect/bing/bin1.wav									
-203123	皇•雪舞漫天卍	对敌方所有敌人造成115%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.15	0	7	2		3	sound/skilleffect/bing/bin1.wav									
-400124	军心大振卍	我方全体每秒间回复49%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.49	0	5	0	1		sound/skilleffect/huixue/huixue.wav									
-401124	鬼•军心大振卍	我方全体每秒间回复52%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.52	0	7	0	1		sound/skilleffect/huixue/huixue.wav									
-402124	圣•军心大振卍	我方全体每秒间回复55%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.55	0	9	0	1		sound/skilleffect/huixue/huixue.wav									
-403124	皇•军心大振卍	我方全体每秒间回复58%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.58	0	11	0	1		sound/skilleffect/huixue/huixue.wav									
-200125	炼狱火海卍	对敌方全体造成130%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/huo/huo1.wav									
-201125	鬼•炼狱火海卍	对敌方全体造成135%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.35	0	0	2			sound/skilleffect/huo/huo1.wav									
-202125	圣•炼狱火海卍	对敌方全体造成140%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4	0	0	2			sound/skilleffect/huo/huo1.wav									
-203125	皇•炼狱火海卍	对敌方全体造成145%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.45	0	0	2			sound/skilleffect/huo/huo1.wav									
-100126	鬼哭狼嚎卍	攻击武力最低的敌方武将，造成390%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.9		6	1			sound/skilleffect/dao/dao1.wav									
-101126	鬼•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成410%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.1		8	1			sound/skilleffect/dao/dao1.wav									
-102126	圣•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成430%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.3		8	1			sound/skilleffect/dao/dao1.wav									
-103126	皇•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成450%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.5		10	1			sound/skilleffect/dao/dao1.wav									
-110126	鬼哭狼嚎卍	攻击武力最低的敌方武将，造成390%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		6		1	9	sound/skilleffect/dao/dao1.wav									
-111126	鬼•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成410%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		8		1	9	sound/skilleffect/dao/dao1.wav									
-112126	圣•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成430%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		8		1	9	sound/skilleffect/dao/dao1.wav									
-113126	皇•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成450%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		10		1	9	sound/skilleffect/dao/dao1.wav									
-100127	饮血烈刃卍	攻击敌方武力最高的敌人，造成310%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续3秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.1		6	4			sound/skilleffect/dao/dao1.wav									
-101127	鬼•饮血烈刃卍	攻击敌方武力最高的敌人，造成330%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续4秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.3		8	4			sound/skilleffect/dao/dao1.wav									
-102127	圣•饮血烈刃卍	攻击敌方武力最高的敌人，造成350%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续5秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.5		8	4			sound/skilleffect/dao/dao1.wav									
-103127	皇•饮血烈刃卍	攻击敌方武力最高的敌人，造成370%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续6秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.7		10	4			sound/skilleffect/dao/dao1.wav									
-110127	饮血烈刃卍	攻击敌方武力最高的敌人，造成310%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续3秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	180	180	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-111127	鬼•饮血烈刃卍	攻击敌方武力最高的敌人，造成330%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续4秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-112127	圣•饮血烈刃卍	攻击敌方武力最高的敌人，造成350%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续5秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-113127	皇•饮血烈刃卍	攻击敌方武力最高的敌人，造成370%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续6秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav									
-200128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-201128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-202128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-203128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-210128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-211128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-212128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-213128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-220128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-221128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-222128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-223128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-100129	无双龙胆卍	对自己周围小范围敌人造成120%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.2		6	1			sound/skilleffect/zhenyi/zengyi.wav									
-101129	鬼•无双龙胆卍	对自己周围小范围敌人造成125%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.25		8	1			sound/skilleffect/zhenyi/zengyi.wav									
-102129	圣•无双龙胆卍	对自己周围小范围敌人造成130%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.3		10	1			sound/skilleffect/zhenyi/zengyi.wav									
-103129	皇•无双龙胆卍	对自己周围小范围敌人造成135%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.35		12	1			sound/skilleffect/zhenyi/zengyi.wav									
-110129	无双龙胆卍	对自己周围小范围敌人造成120%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav									
-111129	鬼•无双龙胆卍	对自己周围小范围敌人造成125%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav									
-112129	圣•无双龙胆卍	对自己周围小范围敌人造成130%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav									
-113129	皇•无双龙胆卍	对自己周围小范围敌人造成135%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav									
-100130	天下无双卍	对所有敌人，造成135%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.35		0	3			sound/skilleffect/dao/dao1.wav									
-101130	鬼•天下无双卍	对所有敌人，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav									
-102130	圣•天下无双卍	对所有敌人，造成145%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.45		0	3			sound/skilleffect/dao/dao1.wav									
-103130	皇•天下无双卍	对所有敌人，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.5		0	3			sound/skilleffect/dao/dao1.wav									
-110130	天下无双卍	对所有敌人，造成135%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-111130	鬼•天下无双卍	对所有敌人，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-112130	圣•天下无双卍	对所有敌人，造成145%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-113130	皇•天下无双卍	对所有敌人，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1										
-300131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-301131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-302131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-303131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-310131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-311131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-312131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-313131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-320131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-321131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-322131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-323131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav									
-200132	雷霆之力卍	对敌方所有武将发动1次落雷，造成105%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.05			2			sound/skilleffect/lei/lei1.wav									
-201132	鬼•雷霆之力卍	对敌方所有武将发动1次落雷，造成110%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.1			2			sound/skilleffect/lei/lei1.wav									
-202132	圣•雷霆之力卍	对敌方所有武将发动1次落雷，造成115%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.15			2			sound/skilleffect/lei/lei1.wav									
-203132	皇•雷霆之力卍	对敌方所有武将发动1次落雷，造成120%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.2			2			sound/skilleffect/lei/lei1.wav									
-210132	雷霆之力卍	对敌方所有武将发动1次落雷，造成105%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3							
-211132	鬼•雷霆之力卍	对敌方所有武将发动1次落雷，造成110%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3							
-212132	圣•雷霆之力卍	对敌方所有武将发动1次落雷，造成115%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3							
-213132	皇•雷霆之力卍	对敌方所有武将发动1次落雷，造成120%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3							
-100133	修罗魔斩卍	攻击敌方武力最高武将，造成100%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复70%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1	2	0.7						
-101133	鬼•修罗魔斩卍	攻击敌方武力最高武将，造成120%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复80%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.2	2	0.8						
-102133	圣•修罗魔斩卍	攻击敌方武力最高武将，造成140%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复90%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.4	2	0.9						
-103133	皇•修罗魔斩卍	攻击敌方武力最高武将，造成160%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复100%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.6	2	1						
-300134	仙家之法卍	我方全军的攻击和法术提升70%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.7				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-301134	鬼•仙家之法卍	我方全军的攻击和法术提升75%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.75				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-302134	圣•仙家之法卍	我方全军的攻击和法术提升80%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.8				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-303134	皇•仙家之法卍	我方全军的攻击和法术提升85%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.85				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-310134	仙家之法卍	我方全军的攻击和法术提升70%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.7				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-311134	鬼•仙家之法卍	我方全军的攻击和法术提升75%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.75				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-312134	圣•仙家之法卍	我方全军的攻击和法术提升80%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.8				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-313134	皇•仙家之法卍	我方全军的攻击和法术提升85%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.85				3	1,11	sound/skilleffect/zhenyi/zengyi.wav									
-100135	不动如山卍	吸收对方武力最高武将80%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		0.8				1		sound/skilleffect/zhenyi/zengyi.wav									
-101135	鬼•不动如山卍	吸收对方武力最高武将90%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		0.9				1		sound/skilleffect/zhenyi/zengyi.wav									
-102135	圣•不动如山卍	吸收对方武力最高武将100%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		1				1		sound/skilleffect/zhenyi/zengyi.wav									
-103135	皇•不动如山卍	吸收对方武力最高武将110%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		1.1				1		sound/skilleffect/zhenyi/zengyi.wav									
-110135	不动如山卍	吸收对方武力最高武将80%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav									
-111135	鬼•不动如山卍	吸收对方武力最高武将90%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav									
-112135	圣•不动如山卍	吸收对方武力最高武将100%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav									
-113135	皇•不动如山卍	吸收对方武力最高武将110%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav									
-300136	嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的40%，持续6秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	1	0.4			0	1		sound/skilleffect/zhenyi/zengyi.wav									
-301136	鬼•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的45%，持续7秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4	0	1	0.45			0	1		sound/skilleffect/zhenyi/zengyi.wav									
-302136	圣•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的50%，持续8秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4	0	1	0.5			0	1		sound/skilleffect/zhenyi/zengyi.wav									
-303136	皇•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的55%，持续9秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	4	0	1	0.55			0	1		sound/skilleffect/zhenyi/zengyi.wav									
-200137	神鬼奇谋卍	对敌方全体发动1次落雷，造成105%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.05			2			sound/skilleffect/lei/lei1.wav									
-201137	鬼•神鬼奇谋卍	对敌方全体发动1次落雷，造成110%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.1			2			sound/skilleffect/lei/lei1.wav									
-202137	圣•神鬼奇谋卍	对敌方全体发动1次落雷，造成115%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.15			2			sound/skilleffect/lei/lei1.wav									
-203137	皇•神鬼奇谋卍	对敌方全体发动1次落雷，造成120%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.2			2			sound/skilleffect/lei/lei1.wav									
-210137	神鬼奇谋卍	对敌方全体发动1次落雷，造成105%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav									
-211137	鬼•神鬼奇谋卍	对敌方全体发动1次落雷，造成110%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav									
-212137	圣•神鬼奇谋卍	对敌方全体发动1次落雷，造成115%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav									
-213137	皇•神鬼奇谋卍	对敌方全体发动1次落雷，造成120%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav									
-200138	法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成80%法术伤害并附加当前敌人法术数值的50%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	0.8	0.5							
-201138	鬼•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成90%法术伤害并附加当前敌人法术数值的60%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	0.9	0.6							
-202138	圣•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成100%法术伤害并附加当前敌人法术数值的70%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	1	0.7							
-203138	皇•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成110%法术伤害并附加当前敌人法术数值的80%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	1.1	0.8							
-400139	回天乏术卍	回复我方所有武将，每秒回复35%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.35				1		sound/skilleffect/huixue/huixue.wav									
-401139	鬼•回天乏术卍	回复我方所有武将，每秒回复40%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.4				1		sound/skilleffect/huixue/huixue.wav									
-402139	圣•回天乏术卍	回复我方所有武将，每秒回复45%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.45				1		sound/skilleffect/huixue/huixue.wav									
-403139	皇•回天乏术卍	回复我方所有武将，每秒回复50%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.5				1		sound/skilleffect/huixue/huixue.wav									
+ID	技能名字	技能描述	CD时间	技能片特效	技能片缩放比例	技能范围	技能基准点	阵营选择	半径	角度	高度	宽度	身后距离	值条件(条件)	百分比条件(条件)	几率(条件)	值(条件)	百分比(条件)	延迟时间	间隔时间	总时间	效果选择	作用属性	效果状态	百分比	基础伤害	基础秒数	技能伤害类型	延时类型	效果描述	技能声效	参数1	参数2	参数3	参数4	空行
+100040	龙鸣虎啸	自身增加40%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.4		6	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+101040	鬼•龙鸣虎啸	自身增加45%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.45		8	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+102040	圣•龙鸣虎啸	自身增加50%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.5		10	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+103040	皇•龙鸣虎啸	自身增加55%攻击力与法术强度，持续5S	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	0.55		12	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+110040	龙鸣虎啸	自身增加40%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.4		6	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+111040	鬼•龙鸣虎啸	自身增加45%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.45		8	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+112040	圣•龙鸣虎啸	自身增加50%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.5		10	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+113040	皇•龙鸣虎啸	自身增加55%攻击力与法术强度，持续5S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	4	0	0.55		12	0	1	1,9	sound/skilleffect/zhenyi/zengyi.wav					
+100041	慑魂一式	攻击血量最低的敌方武将，造成200%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	3			sound/skilleffect/dao/dao1.wav					
+101041	鬼•慑魂一式	攻击血量最低的敌方武将，造成220%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	3			sound/skilleffect/dao/dao1.wav					
+102041	圣•慑魂一式	攻击血量最低的敌方武将，造成240%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	3			sound/skilleffect/dao/dao1.wav					
+103041	皇•慑魂一式	攻击血量最低的敌方武将，造成260%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	3			sound/skilleffect/dao/dao1.wav					
+100042	金蛇耀日	自身增加120%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.2		6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101042	鬼•金蛇耀日	自身增加130%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.3		8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102042	圣•金蛇耀日	自身增加140%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.4		10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103042	皇•金蛇耀日	自身增加150%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12	gaoji_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	9	1	0	1.5		12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+110042	金蛇耀日	自身增加120%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		6	0		1	sound/skilleffect/zhenyi/zengyi.wav					
+111042	鬼•金蛇耀日	自身增加130%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		8	0		1	sound/skilleffect/zhenyi/zengyi.wav					
+112042	圣•金蛇耀日	自身增加140%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		10	0		1	sound/skilleffect/zhenyi/zengyi.wav					
+113042	皇•金蛇耀日	自身增加150%攻击力，但损失自己当前生命的40%血量，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	2	0	-0.4		12	0		1	sound/skilleffect/zhenyi/zengyi.wav					
+300043	五彩水镜	我方武力最高武将提升40%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4	0	7	0	3	1	sound/skilleffect/zhenyi/zengyi.wav					
+301043	鬼•五彩水镜	我方武力最高武将提升50%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5	0	9	0	3	1	sound/skilleffect/zhenyi/zengyi.wav					
+302043	圣•五彩水镜	我方武力最高武将提升60%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.6	0	11	0	3	1	sound/skilleffect/zhenyi/zengyi.wav					
+303043	皇•五彩水镜	我方武力最高武将提升70%攻击，持续时间与智力有关	12	huangguang_plist		12	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.7	0	13	0	3	1	sound/skilleffect/zhenyi/zengyi.wav					
+100044	饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav					
+101044	鬼•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+102044	圣•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+103044	皇•饮血烈刃	斩杀敌方武力最高的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav					
+200045	风卷雷鸣	自身前方扇形范围内敌军，受到100%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/lei/lei1.wav					
+201045	鬼•风卷雷鸣	自身前方扇形范围内敌军，受到110%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1	0	0	2			sound/skilleffect/lei/lei1.wav					
+202045	圣•风卷雷鸣	自身前方扇形范围内敌军，受到120%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.2	0	0	2			sound/skilleffect/lei/lei1.wav					
+203045	皇•风卷雷鸣	自身前方扇形范围内敌军，受到130%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/lei/lei1.wav					
+100046	大回天	减少自身40%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.4		6	0	2		sound/skilleffect/dun/dunpai1.wav					
+101046	鬼•大回天	减少自身45%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.45		8	0	2		sound/skilleffect/dun/dunpai1.wav					
+102046	圣•大回天	减少自身50%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.5		10	0	2		sound/skilleffect/dun/dunpai1.wav					
+103046	皇•大回天	减少自身55%所受到的伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.55		12	0	2		sound/skilleffect/dun/dunpai1.wav					
+100047	破风斩	对自己周围敌人造成80%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav					
+101047	鬼•破风斩	对自己周围敌人造成90%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav					
+102047	圣•破风斩	对自己周围敌人造成100%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav					
+103047	皇•破风斩	对自己周围敌人造成110%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+100048	风云变色	攻击血量最高的敌方武将，造成200%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	1			sound/skilleffect/dao/dao1.wav					
+101048	鬼•风云变色	攻击血量最高的敌方武将，造成220%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav					
+102048	圣•风云变色	攻击血量最高的敌方武将，造成240%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	1			sound/skilleffect/dao/dao1.wav					
+103048	皇•风云变色	攻击血量最高的敌方武将，造成260%基础伤害	12	guangjian_plist		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	1			sound/skilleffect/dao/dao1.wav					
+100049	致命一击	攻击血量最低的敌将，造成自己当前血量35%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.35		0	7			sound/skilleffect/dao/dao1.wav					
+101049	鬼•致命一击	攻击血量最低的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav					
+102049	圣•致命一击	攻击血量最低的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav					
+103049	皇•致命一击	攻击血量最低的敌将，造成自己当前血量50%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.5		0	7			sound/skilleffect/dao/dao1.wav					
+100050	不屈意志	自身增加100%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1		6	0	2	7	sound/skilleffect/zhenyi/zengyi.wav					
+101050	鬼•不屈意志	自身增加110%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.1		8	0	2	7	sound/skilleffect/zhenyi/zengyi.wav					
+102050	圣•不屈意志	自身增加120%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.2		10	0	2	7	sound/skilleffect/zhenyi/zengyi.wav					
+103050	皇•不屈意志	自身增加130%法术防御，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	1.3		12	0	2	7	sound/skilleffect/zhenyi/zengyi.wav					
+100051	群魔乱舞	降低敌方群雄武将30%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav					
+101051	鬼•群魔乱舞	降低敌方群雄武将35%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.35		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav					
+102051	圣•群魔乱舞	降低敌方群雄武将40%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav					
+103051	皇•群魔乱舞	降低敌方群雄武将45%攻击力，持续时间与武力有关	12	suijing_plist		39	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45		0	0	2	2	sound/skilleffect/jianyi/jianyi.wav					
+100052	霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav					
+101052	鬼•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+102052	圣•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+103052	皇•霸刀噬魂	斩杀敌方血量最多的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav					
+100053	霸气斩	对自己周围敌人造成80%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav					
+101053	鬼•霸气斩	对自己周围敌人造成90%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav					
+102053	圣•霸气斩	对自己周围敌人造成100%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav					
+103053	皇•霸气斩	对自己周围敌人造成110%攻击伤害	12	Ani_daoguang		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+100054	嗜血魔枪	普通攻击伤害的30%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.3		5	0	2		sound/skilleffect/zhenyi/zengyi.wav					
+101054	鬼•嗜血魔枪	普通攻击伤害的40%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.4		5	0	2		sound/skilleffect/zhenyi/zengyi.wav					
+102054	圣•嗜血魔枪	普通攻击伤害的50%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.5		5	0	2		sound/skilleffect/zhenyi/zengyi.wav					
+103054	皇•嗜血魔枪	普通攻击伤害的60%转变为自身生命，持续时间与武力有关	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.6		5	0	2		sound/skilleffect/zhenyi/zengyi.wav					
+300055	风雪冰天	敌方全军的所有单位冰冻，持续3S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav					
+301055	鬼•风雪冰天	敌方全军的所有单位冰冻，持续4S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	240	240	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav					
+302055	圣•风雪冰天	敌方全军的所有单位冰冻，持续5S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	300	300	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav					
+303055	皇•风雪冰天	敌方全军的所有单位冰冻，持续6S	12	Ani_ice		4	2	2	0	0	0	0	0	0	0	1	0	0	1	360	360	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav					
+100056	白马义从	提升自身60%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.6		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101056	鬼•白马义从	提升自身70%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.7		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102056	圣•白马义从	提升自身80%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.8		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103056	皇•白马义从	提升自身90%法术强度，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	0.9		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+100057	千军万马	提升我方所有士兵40%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101057	鬼•千军万马	提升我方所有士兵45%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102057	圣•千军万马	提升我方所有士兵50%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103057	皇•千军万马	提升我方所有士兵55%攻击，持续时间与武力有关	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.55		0	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+300058	回光返照	我方武将攻击加30%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3	0	7	0	3	1	sound/skilleffect/jianyi/jianyi.wav					
+301058	鬼•回光返照	我方武将攻击加35%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.35	0	9	0	3	1	sound/skilleffect/jianyi/jianyi.wav					
+302058	圣•回光返照	我方武将攻击加40%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4	0	11	0	3	1	sound/skilleffect/jianyi/jianyi.wav					
+303058	皇•回光返照	我方武将攻击加45%，持续时间与智力有关	12	huangguang_plist		40	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.45	0	13	0	3	1	sound/skilleffect/jianyi/jianyi.wav					
+200059	五雷轰顶	自身前方扇形范围内敌军，受到100%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/lei/lei1.wav					
+201059	鬼•五雷轰顶	自身前方扇形范围内敌军，受到110%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1	0	0	2			sound/skilleffect/lei/lei1.wav					
+202059	圣•五雷轰顶	自身前方扇形范围内敌军，受到120%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.2	0	0	2			sound/skilleffect/lei/lei1.wav					
+203059	皇•五雷轰顶	自身前方扇形范围内敌军，受到130%雷击伤害	12	Ani_dian		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/lei/lei1.wav					
+100060	修罗附体	降低40%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+101060	鬼•修罗附体	降低30%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+102060	圣•修罗附体	降低20%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+103060	皇•修罗附体	降低10%攻击力，但减少60%所受伤害，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+110060	修罗附体	降低40%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+111060	鬼•修罗附体	降低30%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+112060	圣•修罗附体	降低20%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.2		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+113060	皇•修罗附体	降低10%攻击力，但减少60%所受伤害，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.1		0	0	2	2,8	sound/skilleffect/dun/dunpai1.wav					
+100061	强力一击	攻击武力最高的敌方武将，造成180%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.8		6	1			sound/skilleffect/dao/dao1.wav					
+101061	鬼•强力一击	攻击武力最高的敌方武将，造成200%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		8	1			sound/skilleffect/dao/dao1.wav					
+102061	圣•强力一击	攻击武力最高的敌方武将，造成220%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav					
+103061	皇•强力一击	攻击武力最高的敌方武将，造成240%基础伤害	12	guangjian_plist		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		10	1			sound/skilleffect/dao/dao1.wav					
+100062	朱雀燃翅	自身增加30%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.3		6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101062	鬼•朱雀燃翅	自身增加40%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.4		8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102062	圣•朱雀燃翅	自身增加50%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.5		10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103062	皇•朱雀燃翅	自身增加60%攻击力，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	0.6		12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+100063	诸神灭世	攻击血量最高的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav					
+101063	鬼•诸神灭世	攻击血量最高的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav					
+102063	圣•诸神灭世	攻击血量最高的敌将，造成自己当前血量50%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.5		0	7			sound/skilleffect/dao/dao1.wav					
+103063	皇•诸神灭世	攻击血量最高的敌将，造成自己当前血量55%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.55		0	7			sound/skilleffect/dao/dao1.wav					
+100064	武神霸斩	攻击扇形范围内敌军造成攻击80%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	0.8		0	3			sound/skilleffect/dao/dao1.wav					
+101064	鬼•武神霸斩	攻击扇形范围内敌军造成攻击90%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav					
+102064	圣•武神霸斩	攻击扇形范围内敌军造成攻击100%攻击伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav					
+103064	皇•武神霸斩	攻击扇形范围内敌军造成攻击110%伤害	12	Ani_daoguang		2	1	2	500	100	0	0	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+100065	怒火中烧	攻击敌军所有武将造成90%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	1			sound/skilleffect/dao/dao1.wav					
+101065	鬼•怒火中烧	攻击敌军所有武将造成100%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	1			sound/skilleffect/dao/dao1.wav					
+102065	圣•怒火中烧	攻击敌军所有武将造成110%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	1			sound/skilleffect/dao/dao1.wav					
+103065	皇•怒火中烧	攻击敌军所有武将造成120%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	1			sound/skilleffect/dao/dao1.wav					
+100066	剑斥诸鬼	攻击血量最低的敌方武将，造成180%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.8		6	1			sound/skilleffect/dao/dao1.wav					
+101066	鬼•剑斥诸鬼	攻击血量最低的敌方武将，造成200%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		8	1			sound/skilleffect/dao/dao1.wav					
+102066	圣•剑斥诸鬼	攻击血量最低的敌方武将，造成220%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	1			sound/skilleffect/dao/dao1.wav					
+103066	皇•剑斥诸鬼	攻击血量最低的敌方武将，造成240%基础伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		10	1			sound/skilleffect/dao/dao1.wav					
+100067	修罗之道	减少自身所受60%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.6		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+101067	鬼•修罗之道	减少自身所受65%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.65		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+102067	圣•修罗之道	减少自身所受70%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.7		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+103067	皇•修罗之道	减少自身所受75%伤害，生命每秒减少2%，持续时间与武力有关	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	6	0.75		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+110067	修罗之道	减少自身所受60%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+111067	鬼•修罗之道	减少自身所受65%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+112067	圣•修罗之道	减少自身所受70%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+113067	皇•修罗之道	减少自身所受75%伤害，生命每秒减少2%，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	60	0	1	9	0	-0.02		0	0	2	8	sound/skilleffect/dun/dunpai1.wav					
+200068	飞扬跋扈	敌方智力最高的武将降低30%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.3	0	6	0	3	9	sound/skilleffect/jianyi/jianyi.wav					
+201068	鬼•飞扬跋扈	敌方智力最高的武将降低40%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	7	0	3	9	sound/skilleffect/jianyi/jianyi.wav					
+202068	圣•飞扬跋扈	敌方智力最高的武将降低50%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	8	0	3	9	sound/skilleffect/jianyi/jianyi.wav					
+203068	皇•飞扬跋扈	敌方智力最高的武将降低60%法术，持续时间与智力有关	12	suijing_plist		14	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.6	0	10	0	3	9	sound/skilleffect/jianyi/jianyi.wav					
+100069	以命相搏	攻击血量最高的敌将，造成自己当前损失血量65%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.65		0	8			sound/skilleffect/dao/dao1.wav					
+101069	鬼•以命相搏	攻击血量最高的敌将，造成自己当前损失血量70%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.7		0	8			sound/skilleffect/dao/dao1.wav					
+102069	圣•以命相搏	攻击血量最高的敌将，造成自己当前损失血量75%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.75		0	8			sound/skilleffect/dao/dao1.wav					
+103069	皇•以命相搏	攻击血量最高的敌将，造成自己当前损失血量80%伤害	12	Ani_phoenix		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.8		0	8			sound/skilleffect/dao/dao1.wav					
+300070	以和为贵	敌方全军的法术防御减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.5	0	6	0	3	10	sound/skilleffect/jianyi/jianyi.wav					
+301070	鬼•以和为贵	敌方全军的法术防御减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.55	0	8	0	3	10	sound/skilleffect/jianyi/jianyi.wav					
+302070	圣•以和为贵	敌方全军的法术防御减少60%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.6	0	10	0	3	10	sound/skilleffect/jianyi/jianyi.wav					
+303070	皇•以和为贵	敌方全军的法术防御减少65%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.65	0	12	0	3	10	sound/skilleffect/jianyi/jianyi.wav					
+300071	勾魂出窍	敌方武将攻击减30%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3	0	7	0	3	2	sound/skilleffect/jianyi/jianyi.wav					
+301071	鬼•勾魂出窍	敌方武将攻击减35%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.35	0	9	0	3	2	sound/skilleffect/jianyi/jianyi.wav					
+302071	圣•勾魂出窍	敌方武将攻击减40%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4	0	11	0	3	2	sound/skilleffect/jianyi/jianyi.wav					
+303071	皇•勾魂出窍	敌方武将攻击减45%，持续时间与智力有关	12	suijing_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.45	0	13	0	3	2	sound/skilleffect/jianyi/jianyi.wav					
+200072	散魂飞矢	敌方全军的法术减少40%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	6	0	3	4	sound/skilleffect/jianyi/jianyi.wav					
+201072	鬼•散魂飞矢	敌方全军的法术减少45%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	8	0	3	4	sound/skilleffect/jianyi/jianyi.wav					
+202072	圣•散魂飞矢	敌方全军的法术减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	10	0	3	4	sound/skilleffect/jianyi/jianyi.wav					
+203072	皇•散魂飞矢	敌方全军的法术减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	12	0	3	4	sound/skilleffect/jianyi/jianyi.wav					
+100073	无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		6	4			sound/skilleffect/dao/dao1.wav					
+101073	鬼•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+102073	圣•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		8	4			sound/skilleffect/dao/dao1.wav					
+103073	皇•无影削魂	斩杀敌方血量最低的敌人，双方武力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0		10	4			sound/skilleffect/dao/dao1.wav					
+100074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+101074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+102074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+103074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+110074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+111074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+112074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+113074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+120074	仁政天下	增加蜀国武将50%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+121074	鬼•仁政天下	增加蜀国武将55%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+122074	圣•仁政天下	增加蜀国武将60%攻击和法术，并减少20%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+123074	皇•仁政天下	增加蜀国武将65%攻击和法术，并减少30%所受伤害，持续8秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+100075	饮血烈刃	攻击敌方武力最高的敌人，造成210%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续3秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.1		6	4			sound/skilleffect/dao/dao1.wav					
+101075	鬼•饮血烈刃	攻击敌方武力最高的敌人，造成230%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续4秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.3		8	4			sound/skilleffect/dao/dao1.wav					
+102075	圣•饮血烈刃	攻击敌方武力最高的敌人，造成250%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续5秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.5		8	4			sound/skilleffect/dao/dao1.wav					
+103075	皇•饮血烈刃	攻击敌方武力最高的敌人，造成270%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续6秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.7		10	4			sound/skilleffect/dao/dao1.wav					
+110075	饮血烈刃	攻击敌方武力最高的敌人，造成210%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续3秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	180	180	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+111075	鬼•饮血烈刃	攻击敌方武力最高的敌人，造成230%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续4秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+112075	圣•饮血烈刃	攻击敌方武力最高的敌人，造成250%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续5秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+113075	皇•饮血烈刃	攻击敌方武力最高的敌人，造成270%基础伤害加上双方武力比值倍数伤害，并减少70%所受伤害，持续6秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	6	0.7		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+100076	金蛇耀日	对敌方士兵，造成110%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+101076	鬼•金蛇耀日	对敌方士兵，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav					
+102076	圣•金蛇耀日	对敌方士兵，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3		0	3			sound/skilleffect/dao/dao1.wav					
+103076	皇•金蛇耀日	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav					
+110076	金蛇耀日	对敌方士兵，造成110%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+111076	鬼•金蛇耀日	对敌方士兵，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+112076	圣•金蛇耀日	对敌方士兵，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+113076	皇•金蛇耀日	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+100077	一骑当先	攻击长方形范围内敌人，造成100%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav					
+101077	鬼•一骑当先	攻击长方形范围内敌人，造成105%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.05		0	3			sound/skilleffect/dao/dao1.wav					
+102077	圣•一骑当先	攻击长方形范围内敌人，造成110%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+103077	皇•一骑当先	攻击长方形范围内敌人，造成115%攻击伤害	12	Ani_Lightning		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.15		0	3			sound/skilleffect/dao/dao1.wav					
+100078	无双龙胆	对自己周围小范围敌人造成100%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1		6	1			sound/skilleffect/zhenyi/zengyi.wav					
+101078	鬼•无双龙胆	对自己周围小范围敌人造成105%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.05		8	1			sound/skilleffect/zhenyi/zengyi.wav					
+102078	圣•无双龙胆	对自己周围小范围敌人造成110%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.1		10	1			sound/skilleffect/zhenyi/zengyi.wav					
+103078	皇•无双龙胆	对自己周围小范围敌人造成115%基础伤害并降低敌人10%法术强度，持续2秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.15		12	1			sound/skilleffect/zhenyi/zengyi.wav					
+110078	无双龙胆	对自己周围小范围敌人造成100%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav					
+111078	鬼•无双龙胆	对自己周围小范围敌人造成105%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav					
+112078	圣•无双龙胆	对自己周围小范围敌人造成110%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav					
+113078	皇•无双龙胆	对自己周围小范围敌人造成115%基础伤害并降低敌人10%法术强度，持续2秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	120	120	2	4		-0.1			0	1	9	sound/skilleffect/dao/dao1.wav					
+300079	奇门遁甲	敌方全军的攻击和法术减55%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.55	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+301079	鬼•奇门遁甲	敌方全军的攻击和法术减60%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.6	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+302079	圣•奇门遁甲	敌方全军的攻击和法术减65%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.65	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+303079	皇•奇门遁甲	敌方全军的攻击和法术减70%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.7	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+310079	奇门遁甲	敌方全军的攻击和法术减55%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+311079	鬼•奇门遁甲	敌方全军的攻击和法术减60%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.6	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+312079	圣•奇门遁甲	敌方全军的攻击和法术减65%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.65	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+313079	皇•奇门遁甲	敌方全军的攻击和法术减70%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.7	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+300080	狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成30%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.35	0	7	2			sound/skilleffect/lei/lei1.wav					
+301080	鬼•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成35%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.4	0	9	2			sound/skilleffect/lei/lei1.wav					
+302080	圣•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成40%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.45	0	11	2			sound/skilleffect/lei/lei1.wav					
+303080	皇•狐舞魅惑	对自己周围内的敌人发动3次落雷，每次落雷造成45%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.5	0	13	2			sound/skilleffect/lei/lei1.wav					
+200081	麒麟吐珠	对敌方全体造成80%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8	0	0	1			sound/skilleffect/dao/dao1.wav					
+201081	鬼•麒麟吐珠	对敌方全体造成85%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.85	0	0	1			sound/skilleffect/dao/dao1.wav					
+202081	圣•麒麟吐珠	对敌方全体造成90%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	1			sound/skilleffect/dao/dao1.wav					
+203081	皇•麒麟吐珠	对敌方全体造成95%基础伤害	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	1			sound/skilleffect/dao/dao1.wav					
+200082	奇门遁甲	敌方全军的攻击和法术减30%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.3	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+201082	鬼•奇门遁甲	敌方全军的攻击和法术减35%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.35	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+202082	圣•奇门遁甲	敌方全军的攻击和法术减40%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.4	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+203082	皇•奇门遁甲	敌方全军的攻击和法术减45%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.45	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+210082	奇门遁甲	敌方全军的攻击和法术减30%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.3	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+211082	鬼•奇门遁甲	敌方全军的攻击和法术减35%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.35	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+212082	圣•奇门遁甲	敌方全军的攻击和法术减40%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+213082	皇•奇门遁甲	敌方全军的攻击和法术减45%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+200083	地狱火	对敌方全体造成90%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	2			sound/skilleffect/huo/huo1.wav					
+201083	鬼•地狱火	对敌方全体造成95%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	2			sound/skilleffect/huo/huo1.wav					
+202083	圣•地狱火	对敌方全体造成100%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/huo/huo1.wav					
+203083	皇•地狱火	对敌方全体造成105%法术伤害	12	huolong_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05	0	0	2			sound/skilleffect/huo/huo1.wav					
+100084	致命一箭	攻击血量最低的敌将，造成自己当前血量30%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.3		0	7			sound/skilleffect/dao/dao1.wav					
+101084	鬼•致命一箭	攻击血量最低的敌将，造成自己当前血量35%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.35		0	7			sound/skilleffect/dao/dao1.wav					
+102084	圣•致命一箭	攻击血量最低的敌将，造成自己当前血量40%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.4		0	7			sound/skilleffect/dao/dao1.wav					
+103084	皇•致命一箭	攻击血量最低的敌将，造成自己当前血量45%伤害	12	Ani_phoenix		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	0	0.45		0	7			sound/skilleffect/dao/dao1.wav					
+100085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+101085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+102085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+103085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+110085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+111085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+112085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+113085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+120085	魔王炼狱	增加群雄武将50%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+121085	鬼•魔王炼狱	增加群雄武将55%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+122085	圣•魔王炼狱	增加群雄武将60%攻击和法术，并减少20%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+123085	皇•魔王炼狱	增加群雄武将65%攻击和法术，并减少30%所受伤害持续8秒	12			39	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+100086	天下无双	对所有敌人，造成115%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.15		0	3			sound/skilleffect/dao/dao1.wav					
+101086	鬼•天下无双	对所有敌人，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav					
+102086	圣•天下无双	对所有敌人，造成125%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.25		0	3			sound/skilleffect/dao/dao1.wav					
+103086	皇•天下无双	对所有敌人，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12	Ani_duodaoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3		0	3			sound/skilleffect/dao/dao1.wav					
+110086	天下无双	对所有敌人，造成115%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+111086	鬼•天下无双	对所有敌人，造成120%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+112086	圣•天下无双	对所有敌人，造成125%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+113086	皇•天下无双	对所有敌人，造成130%攻击伤害，每次释放技能后将提升自己8%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.08					1						
+300087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1		0.5		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+301087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1		0.6		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+302087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1		0.7		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+303087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	2	1		0.8		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+310087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	4		0.5				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+311087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4		0.6				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+312087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4		0.7				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+313087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17			8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	2	4		0.8				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+320087	傀儡娃娃	我方所有士兵攻击和法术提升50%，所受伤害降低20%，持续6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+321087	鬼•傀儡娃娃	我方所有士兵攻击和法术提升60%，所受伤害降低20%，持续8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+322087	圣•傀儡娃娃	我方所有士兵攻击和法术提升70%，所受伤害降低20%，持续10秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+323087	皇•傀儡娃娃	我方所有士兵攻击和法术提升80%，所受伤害降低20%，持续12秒	17			8	2	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+200088	太平盛世	提升我方所有士兵100%攻击，持续4S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	240	240	2	1	0	1		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav					
+201088	鬼•太平盛世	提升我方所有士兵110%攻击，持续5S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	2	1	0	1.1		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav					
+202088	圣•太平盛世	提升我方所有士兵120%攻击，持续6S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1	0	1.2		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav					
+203088	皇•太平盛世	提升我方所有士兵130%攻击，持续7S	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	1	0	1.3		0	0	1	1	sound/skilleffect/zhenyi/zengyi.wav					
+400089	军心大振	我方全体每秒间回复36%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.3	0	5	0	1		sound/skilleffect/huixue/huixue.wav					
+401089	鬼•军心大振	我方全体每秒间回复39%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.33	0	7	0	1		sound/skilleffect/huixue/huixue.wav					
+402089	圣•军心大振	我方全体每秒间回复42%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.36	0	9	0	1		sound/skilleffect/huixue/huixue.wav					
+403089	皇•军心大振	我方全体每秒间回复45%法术的血量，持续4S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	240	7	0	0	0.39	0	11	0	1		sound/skilleffect/huixue/huixue.wav					
+100090	鬼狱还神	自身增加110%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.1	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101090	鬼•鬼狱还神	自身增加120%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.2	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102090	圣•鬼狱还神	自身增加130%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.3	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103090	皇•鬼狱还神	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.4	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+110090	鬼狱还神	自身增加110%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+111090	鬼•鬼狱还神	自身增加120%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+112090	圣•鬼狱还神	自身增加130%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+113090	皇•鬼狱还神	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+400091	妙手回春	自身周围的我方军队每秒回复44%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.44	0	5	0	1		sound/skilleffect/huixue/huixue.wav					
+401091	鬼•妙手回春	自身周围的我方军队每秒回复46%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.46	0	7	0	1		sound/skilleffect/huixue/huixue.wav					
+402091	圣•妙手回春	自身周围的我方军队每秒回复48%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.48	0	9	0	1		sound/skilleffect/huixue/huixue.wav					
+403091	皇•妙手回春	自身周围的我方军队每秒回复50%法术的血量，持续5S	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.5	0	11	0	1		sound/skilleffect/huixue/huixue.wav					
+200092	天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+201092	鬼•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+202092	圣•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+203092	皇•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+210092	天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.5	0	0	8			sound/skilleffect/huo/huo1.wav					
+211092	鬼•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.55	0	0	8			sound/skilleffect/huo/huo1.wav					
+212092	圣•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.6	0	0	8			sound/skilleffect/huo/huo1.wav					
+213092	皇•天火落	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.65	0	0	8			sound/skilleffect/huo/huo1.wav					
+200093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+201093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+202093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+203093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+210093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+211093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+212093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+213093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+220093	天罡战气	增加魏国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+221093	鬼•天罡战气	增加魏国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+222093	圣•天罡战气	增加魏国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+223093	皇•天罡战气	增加魏国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+200094	绝对零度	对敌方士兵造成110%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.1	0	4	2		3	sound/skilleffect/bing/bin1.wav					
+201094	鬼•绝对零度	对敌方士兵造成115%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.15	0	5	2		3	sound/skilleffect/bing/bin1.wav					
+202094	圣•绝对零度	对敌方士兵造成120%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.2	0	6	2		3	sound/skilleffect/bing/bin1.wav					
+203094	皇•绝对零度	对敌方士兵造成125%法术伤害，并将其冰冻3S	12	Ani_ice		8	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.25	0	7	2		3	sound/skilleffect/bing/bin1.wav					
+210094	绝对零度	对敌方士兵造成110%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav					
+211094	鬼•绝对零度	对敌方士兵造成115%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav					
+212094	圣•绝对零度	对敌方士兵造成120%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav					
+213094	皇•绝对零度	对敌方士兵造成125%法术伤害，并将其冰冻3S	12			8	2	2			0	0		0	0	1	0	0	1	180	180	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav					
+210095	雪舞漫天	对敌方所有敌人造成80%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav					
+211095	鬼•雪舞漫天	对敌方所有敌人造成85%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav					
+212095	圣•雪舞漫天	对敌方所有敌人造成90%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav					
+213095	皇•雪舞漫天	对敌方所有敌人造成95%法术伤害，并将其冰冻1S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	60	60	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav					
+200095	雪舞漫天	对敌方所有敌人造成80%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.8	0	4	2		3	sound/skilleffect/bing/bin1.wav					
+201095	鬼•雪舞漫天	对敌方所有敌人造成85%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.85	0	5	2		3	sound/skilleffect/bing/bin1.wav					
+202095	圣•雪舞漫天	对敌方所有敌人造成90%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.9	0	6	2		3	sound/skilleffect/bing/bin1.wav					
+203095	皇•雪舞漫天	对敌方所有敌人造成95%法术伤害，并将其冰冻1S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	0.95	0	7	2		3	sound/skilleffect/bing/bin1.wav					
+100096	战神祝福	己方所有单位减少60%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.6		6		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+101096	鬼•战神祝福	己方所有单位减少65%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.65		8		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+102096	圣•战神祝福	己方所有单位减少70%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.7		10		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+103096	皇•战神祝福	己方所有单位减少75%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.75		12		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+110096	战神祝福	己方所有单位减少60%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+111096	鬼•战神祝福	己方所有单位减少65%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+112096	圣•战神祝福	己方所有单位减少70%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+113096	皇•战神祝福	己方所有单位减少75%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+100097	鬼哭狼嚎	攻击武力最低的敌方武将，造成320%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.2		6	1			sound/skilleffect/dao/dao1.wav					
+101097	鬼•鬼哭狼嚎	攻击武力最低的敌方武将，造成340%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.4		8	1			sound/skilleffect/dao/dao1.wav					
+102097	圣•鬼哭狼嚎	攻击武力最低的敌方武将，造成360%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.6		8	1			sound/skilleffect/dao/dao1.wav					
+103097	皇•鬼哭狼嚎	攻击武力最低的敌方武将，造成380%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.8		10	1			sound/skilleffect/dao/dao1.wav					
+110097	鬼哭狼嚎	攻击武力最低的敌方武将，造成320%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		6		1	9	sound/skilleffect/dao/dao1.wav					
+111097	鬼•鬼哭狼嚎	攻击武力最低的敌方武将，造成340%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		8		1	9	sound/skilleffect/dao/dao1.wav					
+112097	圣•鬼哭狼嚎	攻击武力最低的敌方武将，造成360%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		8		1	9	sound/skilleffect/dao/dao1.wav					
+113097	皇•鬼哭狼嚎	攻击武力最低的敌方武将，造成380%基础伤害，并降低50%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.5		10		1	9	sound/skilleffect/dao/dao1.wav					
+200098	狼顾四野	攻击敌军所有武将造成100%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	1			sound/skilleffect/dao/dao1.wav					
+201098	鬼•狼顾四野	攻击敌军所有武将造成105%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05		0	1			sound/skilleffect/dao/dao1.wav					
+202098	圣•狼顾四野	攻击敌军所有武将造成110%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	1			sound/skilleffect/dao/dao1.wav					
+203098	皇•狼顾四野	攻击敌军所有武将造成115%基础伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.15		0	1			sound/skilleffect/dao/dao1.wav					
+300099	神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方20%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav					
+301099	鬼•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方30%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav					
+302099	圣•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方40%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav					
+303099	皇•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方50%法术防御	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	2		10	sound/skilleffect/dao/dao1.wav					
+310099	神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方20%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.2				2	10	sound/skilleffect/dao/dao1.wav					
+311099	鬼•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方30%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.3				2	10	sound/skilleffect/dao/dao1.wav					
+312099	圣•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方40%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.4				2	10	sound/skilleffect/dao/dao1.wav					
+313099	皇•神威斩	攻击敌军所有武将造成100%法术伤害，并减少敌方50%法术防御	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	5	0	-0.5				2	10	sound/skilleffect/dao/dao1.wav					
+400100	救死扶伤	自身周围的我方军队回复150%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.5	0	5	0			sound/skilleffect/huixue/huixue.wav					
+401100	鬼•救死扶伤	自身周围的我方军队回复160%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.6	0	7	0			sound/skilleffect/huixue/huixue.wav					
+402100	圣•救死扶伤	自身周围的我方军队回复170%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.7	0	9	0			sound/skilleffect/huixue/huixue.wav					
+403100	皇•救死扶伤	自身周围的我方军队回复180%法术的血	12	Ani_greenLight		1	1	1	300	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.8	0	11	0			sound/skilleffect/huixue/huixue.wav					
+100101	舍命一箭	自身免伤30%，同时附带50%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+101101	鬼•舍命一箭	自身免伤30%，同时附带60%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+102101	圣•舍命一箭	自身免伤30%，同时附带70%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+103101	皇•舍命一箭	自身免伤30%，同时附带80%吸血效果，持续8S	12	Ani_purpleLight		9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+110101	舍命一箭	自身免伤30%，同时附带50%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.5				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+111101	鬼•舍命一箭	自身免伤30%，同时附带60%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.6				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+112101	圣•舍命一箭	自身免伤30%，同时附带70%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.7				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+113101	皇•舍命一箭	自身免伤30%，同时附带80%吸血效果，持续8S	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		1	0.8				1	8	sound/skilleffect/zhenyi/zengyi.wav					
+300102	魂飞魄散	敌方全军的法术减少40%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.4	0	6	0	3	6	sound/skilleffect/jianyi/jianyi.wav					
+301102	鬼•魂飞魄散	敌方全军的法术减少45%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.45	0	8	0	3	6	sound/skilleffect/jianyi/jianyi.wav					
+302102	圣•魂飞魄散	敌方全军的法术减少50%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.5	0	10	0	3	6	sound/skilleffect/jianyi/jianyi.wav					
+303102	皇•魂飞魄散	敌方全军的法术减少55%，持续时间与智力有关	12	suijing_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.55	0	12	0	3	6	sound/skilleffect/jianyi/jianyi.wav					
+200103	陨星咒怨	攻击长方形范围内敌人，造成100%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1		0	2			sound/skilleffect/lei/lei1.wav					
+201103	鬼•一陨星咒怨	攻击长方形范围内敌人，造成105%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.05		0	2			sound/skilleffect/lei/lei1.wav					
+202103	圣•一陨星咒怨	攻击长方形范围内敌人，造成110%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.1		0	2			sound/skilleffect/lei/lei1.wav					
+203103	皇•一陨星咒怨	攻击长方形范围内敌人，造成115%法术伤害	12	Ani_dian		3	1	2	0	0	2600	400	50	0	0	1	0	0	1	0	0	6	0	0	1.15		0	2			sound/skilleffect/lei/lei1.wav					
+200104	魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	6	5			sound/skilleffect/dao/dao1.wav					
+201104	鬼•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	8	5			sound/skilleffect/dao/dao1.wav					
+202104	圣•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	8	5			sound/skilleffect/dao/dao1.wav					
+203104	皇•魔绞杀	斩杀血量最低的敌方武将，双方智力差值越大伤害越高	12	Ani_Lightning		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0	0	10	5			sound/skilleffect/dao/dao1.wav					
+300105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+301105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+302105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+303105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+310105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.5		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+311105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.55		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+312105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.6		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+313105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4	0	0.65		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+320105	鬼炼狂魔	增加吴国武将50%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+321105	鬼•鬼炼狂魔	增加吴国武将55%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+322105	圣•鬼炼狂魔	增加吴国武将60%攻击和法术，并减少20%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.2				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+323105	皇•鬼炼狂魔	增加吴国武将65%攻击和法术，并减少30%所受伤害持续8秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+100106	当机立断	攻击自己周围圆形范围敌人造成75%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.75		6	1		2	sound/skilleffect/dao/dao1.wav					
+101106	鬼•当机立断	攻击自己周围圆形范围敌人造成80%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.8		8	1		2	sound/skilleffect/dao/dao1.wav					
+102106	圣•当机立断	攻击自己周围圆形范围敌人造成85%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.85		8	1		2	sound/skilleffect/dao/dao1.wav					
+103106	皇•当机立断	攻击自己周围圆形范围敌人造成90%基础伤害并降低敌人20%攻击，持续3秒	12	guangjian_plist		1	1	2	300	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		10	1		2	sound/skilleffect/dao/dao1.wav					
+110106	当机立断	攻击自己周围圆形范围敌人造成75%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav					
+111106	鬼•当机立断	攻击自己周围圆形范围敌人造成80%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav					
+112106	圣•当机立断	攻击自己周围圆形范围敌人造成85%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav					
+113106	皇•当机立断	攻击自己周围圆形范围敌人造成90%基础伤害并降低敌人20%攻击，持续3秒	12			1	1	2	300	0	0	0	0	0	0	1	0	0	1	180	180	2	1		-0.2				1	2	sound/skilleffect/dao/dao1.wav					
+100107	蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续4S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav					
+101107	鬼•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续5S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav					
+102107	圣•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续6S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav					
+103107	皇•蛟龙嗜血	造成的100%伤害转换成自己的生命值，持续7S	12	xixue_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4	0	1	1		5	0	1		sound/skilleffect/zhenyi/zengyi.wav					
+100108	威震雄狮	攻击敌军所有武将造成90%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9		0	3			sound/skilleffect/dao/dao1.wav					
+101108	鬼•威震雄狮	攻击敌军所有武将造成100%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1		0	3			sound/skilleffect/dao/dao1.wav					
+102108	圣•威震雄狮	攻击敌军所有武将造成110%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.1		0	3			sound/skilleffect/dao/dao1.wav					
+103108	皇•威震雄狮	攻击敌军所有武将造成120%攻击伤害	12	Ani_daoguang		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.2		0	3			sound/skilleffect/dao/dao1.wav					
+200109	炼狱火海	对敌方全体造成90%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.9	0	0	2			sound/skilleffect/huo/huo1.wav					
+201109	鬼•炼狱火海	对敌方全体造成95%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	0.95	0	0	2			sound/skilleffect/huo/huo1.wav					
+202109	圣•炼狱火海	对敌方全体造成100%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1	0	0	2			sound/skilleffect/huo/huo1.wav					
+203109	皇•炼狱火海	对敌方全体造成105%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.05	0	0	2			sound/skilleffect/huo/huo1.wav					
+400110	国色流离	我方全体瞬间回复115%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.15	0	5	0			sound/skilleffect/huixue/huixue.wav					
+401110	鬼•国色流离	我方全体瞬间回复125%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.25	0	7	0			sound/skilleffect/huixue/huixue.wav					
+402110	圣•国色流离	我方全体瞬间回复135%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.35	0	9	0			sound/skilleffect/huixue/huixue.wav					
+403110	皇•国色流离	我方全体瞬间回复145%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	1.45	0	11	0			sound/skilleffect/huixue/huixue.wav					
+400111	炽云托日	我方全体瞬间回复200%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2	0	5	0			sound/skilleffect/huixue/huixue.wav					
+401111	鬼•炽云托日	我方全体瞬间回复250%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2.5	0	7	0			sound/skilleffect/huixue/huixue.wav					
+402111	圣•炽云托日	我方全体瞬间回复300%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3	0	9	0			sound/skilleffect/huixue/huixue.wav					
+403111	皇•炽云托日	我方全体瞬间回复350%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3.5	0	11	0			sound/skilleffect/huixue/huixue.wav					
+100112	凤凰涅槃	攻击血量最高的敌将，造成自己当前血量30%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.3	0	0	7			sound/skilleffect/dao/dao1.wav					
+101112	鬼•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量34%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.34	0	0	7			sound/skilleffect/dao/dao1.wav					
+102112	圣•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量38%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.38	0	0	7			sound/skilleffect/dao/dao1.wav					
+103112	皇•凤凰涅槃	攻击血量最高的敌将，造成自己当前血量42%伤害	12	Ani_duodaoguang		13	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.42	0	0	7			sound/skilleffect/dao/dao1.wav					
+100113	鞭打鬼神	攻击血量最低的敌方武将，造成200%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2		6	3			sound/skilleffect/dao/dao1.wav					
+101113	鬼•鞭打鬼神	攻击血量最低的敌方武将，造成220%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.2		8	3			sound/skilleffect/dao/dao1.wav					
+102113	圣•鞭打鬼神	攻击血量最低的敌方武将，造成240%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.4		8	3			sound/skilleffect/dao/dao1.wav					
+103113	皇•鞭打鬼神	攻击血量最低的敌方武将，造成260%攻击伤害	12	Ani_duodaoguang		23	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	2.6		10	3			sound/skilleffect/dao/dao1.wav					
+300114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	1		0.6		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+301114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	1		0.7		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+302114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	1		0.8		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+303114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12	wujian_plist		8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	2	1		0.9		0	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+310114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	2	4		0.6				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+311114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	2	4		0.7				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+312114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	2	4		0.8				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+313114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	2	4		0.9				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+320114	傀儡娃娃卍	我军全体士兵攻击和法术提升60%，减少30%的被击伤害， 维持6秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+321114	鬼•傀儡娃娃卍	我军全体士兵攻击和法术提升70%，减少30%的被击伤害， 维持7秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+322114	圣•傀儡娃娃卍	我军全体士兵攻击和法术提升80%，减少30%的被击伤害， 维持8秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+323114	皇•傀儡娃娃卍	我军全体士兵攻击和法术提升90%，减少30%的被击伤害， 维持9秒	12			8	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+200115	天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+201115	鬼•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+202115	圣•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+203115	皇•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的70%的伤害	12			9	1	1								1			1			1	9		-0.2						sound/skilleffect/huo/huo1.wav					
+210115	天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的50%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.55	0	0	8			sound/skilleffect/huo/huo1.wav					
+211115	鬼•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的55%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.6	0	0	8			sound/skilleffect/huo/huo1.wav					
+212115	圣•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的60%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.65	0	0	8			sound/skilleffect/huo/huo1.wav					
+213115	皇•天火落卍	损失自己当前20%然后对敌方英雄造成自己损失血量的65%的伤害	12	xiahuo_plist		40	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	2	1	0.7	0	0	8			sound/skilleffect/huo/huo1.wav					
+400116	炽云托日卍	我方全体瞬间回复250%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	2.5	0	5	0			sound/skilleffect/huixue/huixue.wav					
+401116	鬼•炽云托日卍	我方全体瞬间回复300%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3	0	7	0			sound/skilleffect/huixue/huixue.wav					
+402116	圣•炽云托日卍	我方全体瞬间回复350%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	3.5	0	9	0			sound/skilleffect/huixue/huixue.wav					
+403116	皇•炽云托日卍	我方全体瞬间回复400%法术的血量	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	0	0	7	0	0	4	0	11	0			sound/skilleffect/huixue/huixue.wav					
+100117	金蛇耀日卍	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav					
+101117	鬼•金蛇耀日卍	对敌方士兵，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.5		0	3			sound/skilleffect/dao/dao1.wav					
+102117	圣•金蛇耀日卍	对敌方士兵，造成160%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.6		0	3			sound/skilleffect/dao/dao1.wav					
+103117	皇•金蛇耀日卍	对敌方士兵，造成170%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		8	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.7		0	3			sound/skilleffect/dao/dao1.wav					
+110117	金蛇耀日卍	对敌方士兵，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+111117	鬼•金蛇耀日卍	对敌方士兵，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+112117	圣•金蛇耀日卍	对敌方士兵，造成160%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+113117	皇•金蛇耀日卍	对敌方士兵，造成170%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+300118	狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成40%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.5	0	7	2			sound/skilleffect/lei/lei1.wav					
+301118	鬼•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成45%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.55	0	9	2			sound/skilleffect/lei/lei1.wav					
+302118	圣•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成50%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.6	0	11	2			sound/skilleffect/lei/lei1.wav					
+303118	皇•狐舞魅惑卍	对自己周围内的敌人发动3次落雷，每次落雷造成60%法术伤害	12	Ani_dian		1	1	2	300	0	0	0	0	0	0	1	0	0	1	60	180	6	0	0	0.65	0	13	2			sound/skilleffect/lei/lei1.wav					
+100119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+101119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+102119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+103119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12	huangguang_plist		36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+110119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+111119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+112119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+113119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+120119	仁政天下卍	增加蜀国武将70%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+121119	鬼•仁政天下卍	增加蜀国武将75%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+122119	圣•仁政天下卍	增加蜀国武将80%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+123119	皇•仁政天下卍	增加蜀国武将85%攻击和法术，并减少30%所受伤害，持续10秒	12			36	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+300120	奇门遁甲卍	敌方全军的攻击和法术减70%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.7	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+301120	鬼•奇门遁甲卍	敌方全军的攻击和法术减75%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.75	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+302120	圣•奇门遁甲卍	敌方全军的攻击和法术减80%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.8	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+303120	皇•奇门遁甲卍	敌方全军的攻击和法术减85%，持续时间与智力有关	12	bagua_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	-0.85	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+310120	奇门遁甲卍	敌方全军的攻击和法术减70%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.7	0	7	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+311120	鬼•奇门遁甲卍	敌方全军的攻击和法术减75%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.75	0	9	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+312120	圣•奇门遁甲卍	敌方全军的攻击和法术减80%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.8	0	11	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+313120	皇•奇门遁甲卍	敌方全军的攻击和法术减85%，持续时间与智力有关	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	2	4	0	-0.85	0	13	0	3	2,9	sound/skilleffect/jianyi/jianyi.wav					
+100121	鬼狱还神卍	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.4	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+101121	鬼•鬼狱还神卍	自身增加150%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.5	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+102121	圣•鬼狱还神卍	自身增加160%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.6	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+103121	皇•鬼狱还神卍	自身增加170%攻击力，并附带80%吸血效果，持续时间与武力有关	12	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	2	1	0	1.7	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+110121	鬼狱还神卍	自身增加140%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	6	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+111121	鬼•鬼狱还神卍	自身增加150%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	8	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+112121	圣•鬼狱还神卍	自身增加160%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	10	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+113121	皇•鬼狱还神卍	自身增加170%攻击力，并附带80%吸血效果，持续时间与武力有关	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	4	0	1	0.8	0	12	0	2	1	sound/skilleffect/zhenyi/zengyi.wav					
+100122	战神祝福卍	己方所有单位减少80%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.8		6		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+101122	鬼•战神祝福卍	己方所有单位减少85%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.85		8		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+102122	圣•战神祝福卍	己方所有单位减少90%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.9		10		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+103122	皇•战神祝福卍	己方所有单位减少95%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17	Ani_purpleLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4		6	0.95		12		1	8	sound/skilleffect/zhenyi/zengyi.wav					
+110122	战神祝福卍	己方所有单位减少80%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+111122	鬼•战神祝福卍	己方所有单位减少85%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+112122	圣•战神祝福卍	己方所有单位减少90%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+113122	皇•战神祝福卍	己方所有单位减少95%所受伤害，持续5秒，释放技能后提升已方所有单位10%法术防御，持续到战斗结束	17			4	2	1								1			1			1	5		0.1					7						
+210123	雪舞漫天卍	对敌方所有敌人造成100%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	4	0	1	3	sound/skilleffect/bing/bin1.wav					
+211123	鬼•雪舞漫天卍	对敌方所有敌人造成105%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	5	0	1	3	sound/skilleffect/bing/bin1.wav					
+212123	圣•雪舞漫天卍	对敌方所有敌人造成110%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	6	0	1	3	sound/skilleffect/bing/bin1.wav					
+213123	皇•雪舞漫天卍	对敌方所有敌人造成115%法术伤害，并将其冰冻2S	12	Ani_ice		4	2	2			0	0		0	0	1	0	0	1	120	120	5	0	0	0	0	7	0	1	3	sound/skilleffect/bing/bin1.wav					
+200123	雪舞漫天卍	对敌方所有敌人造成100%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1	0	4	2		3	sound/skilleffect/bing/bin1.wav					
+201123	鬼•雪舞漫天卍	对敌方所有敌人造成105%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.05	0	5	2		3	sound/skilleffect/bing/bin1.wav					
+202123	圣•雪舞漫天卍	对敌方所有敌人造成110%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.1	0	6	2		3	sound/skilleffect/bing/bin1.wav					
+203123	皇•雪舞漫天卍	对敌方所有敌人造成115%法术伤害，并将其冰冻2S	12			4	2	2			0	0		0	0	1	0	0	1	0		6	0	0	1.15	0	7	2		3	sound/skilleffect/bing/bin1.wav					
+400124	军心大振卍	我方全体每秒间回复49%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.49	0	5	0	1		sound/skilleffect/huixue/huixue.wav					
+401124	鬼•军心大振卍	我方全体每秒间回复52%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.52	0	7	0	1		sound/skilleffect/huixue/huixue.wav					
+402124	圣•军心大振卍	我方全体每秒间回复55%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.55	0	9	0	1		sound/skilleffect/huixue/huixue.wav					
+403124	皇•军心大振卍	我方全体每秒间回复58%法术的血量，持续5S	12	Ani_greenLight		4	2	1	0	0	0	0	0	0	0	1	0	0	1	60	300	7	0	0	0.58	0	11	0	1		sound/skilleffect/huixue/huixue.wav					
+200125	炼狱火海卍	对敌方全体造成130%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.3	0	0	2			sound/skilleffect/huo/huo1.wav					
+201125	鬼•炼狱火海卍	对敌方全体造成135%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.35	0	0	2			sound/skilleffect/huo/huo1.wav					
+202125	圣•炼狱火海卍	对敌方全体造成140%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4	0	0	2			sound/skilleffect/huo/huo1.wav					
+203125	皇•炼狱火海卍	对敌方全体造成145%法术伤害	12	dahuo_plist		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.45	0	0	2			sound/skilleffect/huo/huo1.wav					
+100126	鬼哭狼嚎卍	攻击武力最低的敌方武将，造成390%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.9		6	1			sound/skilleffect/dao/dao1.wav					
+101126	鬼•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成410%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.1		8	1			sound/skilleffect/dao/dao1.wav					
+102126	圣•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成430%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.3		8	1			sound/skilleffect/dao/dao1.wav					
+103126	皇•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成450%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	4.5		10	1			sound/skilleffect/dao/dao1.wav					
+110126	鬼哭狼嚎卍	攻击武力最低的敌方武将，造成390%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		6		1	9	sound/skilleffect/dao/dao1.wav					
+111126	鬼•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成410%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		8		1	9	sound/skilleffect/dao/dao1.wav					
+112126	圣•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成430%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		8		1	9	sound/skilleffect/dao/dao1.wav					
+113126	皇•鬼哭狼嚎卍	攻击武力最低的敌方武将，造成450%基础伤害，并降低70%法术攻击，持续3秒	12	Ani_duodaoguang		29	2	2	0	0	0	0	0	0	0	1	0	0	1	180	180	2	4	0	-0.7		10		1	9	sound/skilleffect/dao/dao1.wav					
+100127	饮血烈刃卍	攻击敌方武力最高的敌人，造成310%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续3秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.1		6	4			sound/skilleffect/dao/dao1.wav					
+101127	鬼•饮血烈刃卍	攻击敌方武力最高的敌人，造成330%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续4秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.3		8	4			sound/skilleffect/dao/dao1.wav					
+102127	圣•饮血烈刃卍	攻击敌方武力最高的敌人，造成350%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续5秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.5		8	4			sound/skilleffect/dao/dao1.wav					
+103127	皇•饮血烈刃卍	攻击敌方武力最高的敌人，造成370%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续6秒	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	3.7		10	4			sound/skilleffect/dao/dao1.wav					
+110127	饮血烈刃卍	攻击敌方武力最高的敌人，造成310%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续3秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	180	180	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+111127	鬼•饮血烈刃卍	攻击敌方武力最高的敌人，造成330%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续4秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	240	240	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+112127	圣•饮血烈刃卍	攻击敌方武力最高的敌人，造成350%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续5秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	300	300	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+113127	皇•饮血烈刃卍	攻击敌方武力最高的敌人，造成370%基础伤害加上双方武力比值倍数伤害，并减少90%所受伤害，持续6秒	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	6	0.9		0	0	1	8	sound/skilleffect/dao/dao1.wav					
+200128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+201128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+202128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+203128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+210128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+211128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+212128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+213128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+220128	天罡战气卍	增加魏国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+221128	鬼•天罡战气卍	增加魏国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+222128	圣•天罡战气卍	增加魏国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+223128	皇•天罡战气卍	增加魏国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			38	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+100129	无双龙胆卍	对自己周围小范围敌人造成120%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.2		6	1			sound/skilleffect/zhenyi/zengyi.wav					
+101129	鬼•无双龙胆卍	对自己周围小范围敌人造成125%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.25		8	1			sound/skilleffect/zhenyi/zengyi.wav					
+102129	圣•无双龙胆卍	对自己周围小范围敌人造成130%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.3		10	1			sound/skilleffect/zhenyi/zengyi.wav					
+103129	皇•无双龙胆卍	对自己周围小范围敌人造成135%基础伤害并降低敌人30%法术强度，持续5秒	12	Ani_daoguang		1	1	2	170	0	0	0	0	0	0	1	0	0	1	0	0	6			1.35		12	1			sound/skilleffect/zhenyi/zengyi.wav					
+110129	无双龙胆卍	对自己周围小范围敌人造成120%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav					
+111129	鬼•无双龙胆卍	对自己周围小范围敌人造成125%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav					
+112129	圣•无双龙胆卍	对自己周围小范围敌人造成130%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav					
+113129	皇•无双龙胆卍	对自己周围小范围敌人造成135%基础伤害并降低敌人30%法术强度，持续5秒	12			1	1	2	170	0	0	0	0	0	0	1	0	0	1	300	300	2	4		-0.3			0	1	9	sound/skilleffect/dao/dao1.wav					
+100130	天下无双卍	对所有敌人，造成135%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.35		0	3			sound/skilleffect/dao/dao1.wav					
+101130	鬼•天下无双卍	对所有敌人，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.4		0	3			sound/skilleffect/dao/dao1.wav					
+102130	圣•天下无双卍	对所有敌人，造成145%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.45		0	3			sound/skilleffect/dao/dao1.wav					
+103130	皇•天下无双卍	对所有敌人，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12	Ani_daoguang		4	2	2	0	0	0	0	0	0	0	1	0	0	1	0	0	6	0	0	1.5		0	3			sound/skilleffect/dao/dao1.wav					
+110130	天下无双卍	对所有敌人，造成135%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+111130	鬼•天下无双卍	对所有敌人，造成140%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+112130	圣•天下无双卍	对所有敌人，造成145%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+113130	皇•天下无双卍	对所有敌人，造成150%攻击伤害，每次释放技能后将提升自己20%攻击力，持续到战斗结束	12			9	1	1	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1		0.2					1						
+300131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+301131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+302131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+303131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12	huangguang_plist		37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	1	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+310131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.7		6	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+311131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.75		8	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+312131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.8		10	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+313131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	2	4	0	0.85		12	0	1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+320131	鬼炼狂魔卍	增加吴国武将70%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+321131	鬼•鬼炼狂魔卍	增加吴国武将75%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+322131	圣•鬼炼狂魔卍	增加吴国武将80%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+323131	皇•鬼炼狂魔卍	增加吴国武将85%攻击和法术，并减少30%所受伤害持续10秒	12			37	2	1	0	0	0	0	0	0	0	1	0	0	1	600	600	4		6	0.3				1	1,11,8	sound/skilleffect/zhenyi/zengyi.wav					
+200132	雷霆之力卍	对敌方所有武将发动1次落雷，造成105%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.05			2			sound/skilleffect/lei/lei1.wav					
+201132	鬼•雷霆之力卍	对敌方所有武将发动1次落雷，造成110%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.1			2			sound/skilleffect/lei/lei1.wav					
+202132	圣•雷霆之力卍	对敌方所有武将发动1次落雷，造成115%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.15			2			sound/skilleffect/lei/lei1.wav					
+203132	皇•雷霆之力卍	对敌方所有武将发动1次落雷，造成120%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12	Ani_dian		40	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.2			2			sound/skilleffect/lei/lei1.wav					
+210132	雷霆之力卍	对敌方所有武将发动1次落雷，造成105%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3			
+211132	鬼•雷霆之力卍	对敌方所有武将发动1次落雷，造成110%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3			
+212132	圣•雷霆之力卍	对敌方所有武将发动1次落雷，造成115%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3			
+213132	皇•雷霆之力卍	对敌方所有武将发动1次落雷，造成120%法术伤害，若敌方武将的法术数值小于自己法术数值的80%，敌人将受到额外30%法术真实伤害	12			40	2	2	0	0	0	0	0	0	0	1	0	0	1			6						9			sound/skilleffect/lei/lei1.wav	0.8	0.3			
+100133	修罗魔斩卍	攻击敌方武力最高武将，造成100%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复70%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1	2	0.7		
+101133	鬼•修罗魔斩卍	攻击敌方武力最高武将，造成120%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复80%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.2	2	0.8		
+102133	圣•修罗魔斩卍	攻击敌方武力最高武将，造成140%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复90%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.4	2	0.9		
+103133	皇•修罗魔斩卍	攻击敌方武力最高武将，造成160%基础伤害附加敌人当前攻击力的2倍额外伤害，并使自己回复100%伤害血量	12	Ani_Lightning		19	2	2	0	0	0	0	0	0	0	1	0	0	1			6						11			sound/skilleffect/dao/dao1.wav	1.6	2	1		
+300134	仙家之法卍	我方全军的攻击和法术提升70%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.7				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+301134	鬼•仙家之法卍	我方全军的攻击和法术提升75%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.75				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+302134	圣•仙家之法卍	我方全军的攻击和法术提升80%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.8				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+303134	皇•仙家之法卍	我方全军的攻击和法术提升85%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	1		0.85				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+310134	仙家之法卍	我方全军的攻击和法术提升70%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.7				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+311134	鬼•仙家之法卍	我方全军的攻击和法术提升75%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.75				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+312134	圣•仙家之法卍	我方全军的攻击和法术提升80%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.8				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+313134	皇•仙家之法卍	我方全军的攻击和法术提升85%，持续时间与智力有关	12	wujian_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1			2	4		0.85				3	1,11	sound/skilleffect/zhenyi/zengyi.wav					
+100135	不动如山卍	吸收对方武力最高武将80%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		0.8				1		sound/skilleffect/zhenyi/zengyi.wav					
+101135	鬼•不动如山卍	吸收对方武力最高武将90%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		0.9				1		sound/skilleffect/zhenyi/zengyi.wav					
+102135	圣•不动如山卍	吸收对方武力最高武将100%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		1				1		sound/skilleffect/zhenyi/zengyi.wav					
+103135	皇•不动如山卍	吸收对方武力最高武将110%攻击力为我所用，并减少70%所受伤害，持续12秒	17			19	2	2	0	0	0	0	0	0	0	1	0	0	1	720	720	2	10		1.1				1		sound/skilleffect/zhenyi/zengyi.wav					
+110135	不动如山卍	吸收对方武力最高武将80%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav					
+111135	鬼•不动如山卍	吸收对方武力最高武将90%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav					
+112135	圣•不动如山卍	吸收对方武力最高武将100%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav					
+113135	皇•不动如山卍	吸收对方武力最高武将110%攻击力为我所用，并减少70%所受伤害，持续12秒	17	huangguang_plist		9	1	1	0	0	0	0	0	0	0	1	0	0	1	720	720	4		6	0.7				1	1,8	sound/skilleffect/zhenyi/zengyi.wav					
+300136	嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的40%，持续6秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	360	360	4	0	1	0.4			0	1		sound/skilleffect/zhenyi/zengyi.wav					
+301136	鬼•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的45%，持续7秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	420	420	4	0	1	0.45			0	1		sound/skilleffect/zhenyi/zengyi.wav					
+302136	圣•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的50%，持续8秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	480	480	4	0	1	0.5			0	1		sound/skilleffect/zhenyi/zengyi.wav					
+303136	皇•嗜血大法卍	我方所有单位获得吸血效果，吸血量为普通攻击伤害的55%，持续9秒	12	xixue_plist		4	2	1	0	0	0	0	0	0	0	1	0	0	1	540	540	4	0	1	0.55			0	1		sound/skilleffect/zhenyi/zengyi.wav					
+200137	神鬼奇谋卍	对敌方全体发动1次落雷，造成105%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.05			2			sound/skilleffect/lei/lei1.wav					
+201137	鬼•神鬼奇谋卍	对敌方全体发动1次落雷，造成110%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.1			2			sound/skilleffect/lei/lei1.wav					
+202137	圣•神鬼奇谋卍	对敌方全体发动1次落雷，造成115%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.15			2			sound/skilleffect/lei/lei1.wav					
+203137	皇•神鬼奇谋卍	对敌方全体发动1次落雷，造成120%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12	Ani_dian		4	2	2	0	0	0	0	0	0	0	1	0	0	1			6			1.2			2			sound/skilleffect/lei/lei1.wav					
+210137	神鬼奇谋卍	对敌方全体发动1次落雷，造成105%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav					
+211137	鬼•神鬼奇谋卍	对敌方全体发动1次落雷，造成110%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav					
+212137	圣•神鬼奇谋卍	对敌方全体发动1次落雷，造成115%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav					
+213137	皇•神鬼奇谋卍	对敌方全体发动1次落雷，造成120%法术伤害，每次释放技能会降低所有敌人20%法术防御，持续到战斗结束	12			4	2	2	0	0	0	0	0	0	0	1	0	0	1			1	5		-0.2				1	10	sound/skilleffect/lei/lei1.wav					
+200138	法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成80%法术伤害并附加当前敌人法术数值的50%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	0.8	0.5			
+201138	鬼•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成90%法术伤害并附加当前敌人法术数值的60%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	0.9	0.6			
+202138	圣•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成100%法术伤害并附加当前敌人法术数值的70%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	1	0.7			
+203138	皇•法术克星卍	对敌方血量最少的武将发动3次落雷，每次落雷造成110%法术伤害并附加当前敌人法术数值的80%伤害	12	Ani_dian		23	2	2	0	0	0	0	0	0	0	1	0	0	1	60	180	6						12	1		sound/skilleffect/lei/lei1.wav	1.1	0.8			
+400139	回天乏术卍	回复我方所有武将，每秒回复35%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.35				1		sound/skilleffect/huixue/huixue.wav					
+401139	鬼•回天乏术卍	回复我方所有武将，每秒回复40%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.4				1		sound/skilleffect/huixue/huixue.wav					
+402139	圣•回天乏术卍	回复我方所有武将，每秒回复45%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.45				1		sound/skilleffect/huixue/huixue.wav					
+403139	皇•回天乏术卍	回复我方所有武将，每秒回复50%法术数值血量，持续10秒	12	Ani_greenLight		40	2	1	0	0	0	0	0	0	0	1	0	0	1	60	600	7	0	0	0.5				1		sound/skilleffect/huixue/huixue.wav					
