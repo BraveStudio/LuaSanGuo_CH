@@ -18,7 +18,7 @@
 			<key>commonUI/res/lk/ShopUI/shuaxin.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{894,1},{60,33}}</string>
+				<string>{{1972,1},{60,33}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>commonUI/res/lk/ShopUI/wupinshuliang.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{734,26},{80,20}}</string>
+				<string>{{1438,115},{80,20}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>commonUI/res/lk/ShopUI/jinrigoumaicishu.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{734,1},{158,23}}</string>
+				<string>{{1278,115},{158,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,13 +62,145 @@
 			<key>commonUI/res/lk/ShopUI/cssj.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{568,1},{164,43}}</string>
+				<string>{{1112,115},{164,43}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{164,43}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/ghsd1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1112,1},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/ghsd2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1284,1},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/smsd1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1456,1},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/smsd2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1628,1},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/ttsd1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,1},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/ttsd2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1112,58},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/yxsd1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1284,58},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/yxsd2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1456,58},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/zklb1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1628,58},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/zklb2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1800,58},{170,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{170,55}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/bg_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{568,1},{270,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,188}</string>
+			</dict>
+			<key>commonUI/res/lk/ShopUI/shouqing_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{840,1},{270,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{270,188}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -80,12 +212,12 @@
 			<key>realTextureFileName</key>
 			<string>ShopUI_Text.png</string>
 			<key>size</key>
-			<string>{955,248}</string>
+			<string>{2033,248}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>955</integer>
+			<integer>2033</integer>
 			<key>height</key>
 			<integer>248</integer>
 		</dict>

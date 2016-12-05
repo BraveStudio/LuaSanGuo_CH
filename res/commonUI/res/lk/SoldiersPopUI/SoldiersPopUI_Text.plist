@@ -37,6 +37,17 @@
 				<key>sourceSize</key>
 				<string>{299,42}</string>
 			</dict>
+			<key>commonUI/res/lk/SoldiersPopUI/jh.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{196,45},{60,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,31}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>

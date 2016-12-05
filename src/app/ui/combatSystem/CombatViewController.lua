@@ -766,7 +766,7 @@ function CombatViewController:startFight()
 
             PromptManager:closeLoadingPrompt()
             --新手引导
-            if PlayerData.eventAttr.m_guideId == 7 and self.combatInfo.littleLevels == 2 then
+            if PlayerData.eventAttr.m_guideId == 6 and self.combatInfo.littleLevels == 2 then
                     transition.execute(self.view_t, cc.DelayTime:create(1), {
                        onComplete = function()
                             self.isLogicPause = true
@@ -777,7 +777,7 @@ function CombatViewController:startFight()
                             end)
                        end
                     })
-            elseif PlayerData.eventAttr.m_guideId == 8 then 
+            elseif PlayerData.eventAttr.m_guideId == 7 then 
                     transition.execute(self.view_t, cc.DelayTime:create(1), {
                        onComplete = function()
                             self.isLogicPause = true

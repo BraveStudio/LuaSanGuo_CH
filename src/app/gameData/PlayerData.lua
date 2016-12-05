@@ -74,8 +74,8 @@ function PlayerData:init()
             GuideManager.guideLevel = PlayerData.eventAttr.m_level 
             
             PlayerData.eventAttr.m_guideStageId = data.m_guideStageId
+            -- data.m_newGuildIndex = 13 
             PlayerData.eventAttr.m_guideIndex = data.m_newGuildIndex
-            
             if G_IsOpenGuide then
                 if g_guideConfig.guideStage[PlayerData.eventAttr.m_guideStageId] then
                     PlayerData.eventAttr.m_guideId = g_guideConfig.guideStage[PlayerData.eventAttr.m_guideStageId][data.m_newGuildIndex] or 0

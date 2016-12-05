@@ -309,14 +309,14 @@ end
 function MainViewController:onUplevelbtClick()
     Functions.printInfo(self.debug,"Uplevelbt button is click!")
 
-    GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
-    -- --打开士兵培养
-    -- if PlayerData.eventAttr.m_level >= g_csOpen.StrengthenOpen.level then
-    --     GameCtlManager:push("app.ui.soldiersSystem.SoldiersViewController")
-    --     --self:openChildView("app.ui.popViews.SoldiersPopView",{ data = {1, 1}, isRemove = false})
-    -- else
-    --     PromptManager:openTipPrompt(LanguageConfig.language_Enhance_1)
-    -- end
+    --GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
+     --打开士兵培养
+     if PlayerData.eventAttr.m_level >= g_csOpen.StrengthenOpen.level then
+         GameCtlManager:push("app.ui.soldiersSystem.SoldiersViewController")
+         --self:openChildView("app.ui.popViews.SoldiersPopView",{ data = {1, 1}, isRemove = false})
+     else
+         PromptManager:openTipPrompt(LanguageConfig.language_Enhance_1)
+     end
     
 end
 --@auto code Uplevelbt btFunc end

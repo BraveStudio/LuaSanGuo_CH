@@ -26,17 +26,6 @@
 				<key>sourceSize</key>
 				<string>{1136,640}</string>
 			</dict>
-			<key>cs/ui_res/FbSelectUI/map5.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,1280},{1136,640}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{1136,640}</string>
-			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
@@ -47,14 +36,14 @@
 			<key>realTextureFileName</key>
 			<string>FbSelectUIMap2.png</string>
 			<key>size</key>
-			<string>{1136,1920}</string>
+			<string>{1136,1280}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>1136</integer>
 			<key>height</key>
-			<integer>1920</integer>
+			<integer>1280</integer>
 		</dict>
 	</dict>
 </plist>

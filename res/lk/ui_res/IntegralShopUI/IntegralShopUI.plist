@@ -7,13 +7,79 @@
 			<key>lk/ui_res/IntegralShopUI/shoptwobg.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{284,248}}</string>
+				<string>{{455,1},{284,248}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
 				<string>{284,248}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/qianghualibao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{985,1},{91,92}}</string>
+				<key>offset</key>
+				<string>{-1,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,110}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/ziyuanlibao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{741,43},{91,92}}</string>
+				<key>offset</key>
+				<string>{-1,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,110}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/bg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{452,406}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{452,406}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/bg3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{835,43},{211,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{211,37}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/fengexian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{741,136},{352,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{352,2}</string>
+			</dict>
+			<key>lk/ui_res/IntegralShopUI/gengxin-bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{741,1},{242,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{242,40}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -25,14 +91,14 @@
 			<key>realTextureFileName</key>
 			<string>IntegralShopUI.png</string>
 			<key>size</key>
-			<string>{284,248}</string>
+			<string>{1078,489}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>284</integer>
+			<integer>1078</integer>
 			<key>height</key>
-			<integer>248</integer>
+			<integer>489</integer>
 		</dict>
 	</dict>
 </plist>

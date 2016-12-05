@@ -154,9 +154,9 @@ function CombatOverPopView:onDisplayView(data)
             Audio.playSound("sound/game_win.mp3")
         end, 0.4)
 
-        if PlayerData.eventAttr.m_guideId == 4 or PlayerData.eventAttr.m_guideId == 7 
-            or PlayerData.eventAttr.m_guideId == 8 or PlayerData.eventAttr.m_guideId == 11 
-            or PlayerData.eventAttr.m_guideId == 15 then  --手动完成新手引导
+        if PlayerData.eventAttr.m_guideId == 4 or PlayerData.eventAttr.m_guideId == 6 
+            or PlayerData.eventAttr.m_guideId == 7 or PlayerData.eventAttr.m_guideId == 10 
+            or PlayerData.eventAttr.m_guideId == 13 then  --手动完成新手引导
             GuideManager:finishGuide()
         end
     else

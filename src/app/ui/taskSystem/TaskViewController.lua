@@ -276,7 +276,7 @@ function TaskViewController:initUiDisplay_()
                 GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
             elseif data["跳转类型"] == 4 then
                 local guidId = PlayerData.eventAttr.m_guideStageId
-                if PlayerData.eventAttr.m_guideId == 15 then
+                if PlayerData.eventAttr.m_guideId == 13 then
                      Functions.jumpFbSeleckOfData({ fbType =CombatCenter.CombatType.RB_PVE , fbId =1 , gkId = 5 })
                 elseif PlayerData.eventAttr.m_guideId == 16 then
                      Functions.jumpFbSeleckOfData({ fbType =CombatCenter.CombatType.RB_PVE , fbId =1 , gkId = 6 })
@@ -342,7 +342,7 @@ function TaskViewController:initUiDisplay_()
     else
         self.bg1:setVisible(false)
         self.bg1:stopAllActions()
-        if PlayerData.eventAttr.m_guideId == 14 then   
+        if PlayerData.eventAttr.m_guideId == 12 then   
             GuideManager:finishGuide()    
             GuideManager:handlerStopCurGuide()    
             PromptManager:openShieldLayer()         

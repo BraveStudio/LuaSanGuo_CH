@@ -32,8 +32,19 @@ function ShopViewController:onDidLoadView()
 	self._Image_Refresh_text_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Button_Refresh"):getChildByName("Image_Refresh_text")
 	self._Image_Refresh_icon_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Image_Refresh_icon")
 	self._Text_Refresh_num_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Text_Refresh_num")
-	self._Text_Countdown_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Image_bg"):getChildByName("Text_Countdown")
+	self._Sprite_time_bg_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Image_bg"):getChildByName("Sprite_time_bg")
+	self._Text_Countdown_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Image_bg"):getChildByName("Sprite_time_bg"):getChildByName("Text_Countdown")
+	self._Text_Countdown_shen_mi_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Image_bg"):getChildByName("Sprite_time_bg"):getChildByName("Text_Countdown_shen_mi")
+	self._Panel_yingxong_1_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_label_list"):getChildByName("Panel_yingxong_1")
+	self._Panel_tianti_2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_label_list"):getChildByName("Panel_tianti_2")
+	self._Panel_gonghui_3_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_label_list"):getChildByName("Panel_gonghui_3")
+	self._Panel_shenmi_4_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_label_list"):getChildByName("Panel_shenmi_4")
+	self._Panel_libao_5_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("Panel_label_list"):getChildByName("Panel_libao_5")
 	self._ListView_shop_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_shop")
+	self._ListView_tian_ti_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_tian_ti")
+	self._ListView_gong_hui_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_gong_hui")
+	self._ListView_shen_mi_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_shen_mi")
+	self._ListView_li_bao_t = self.view_t.csbNode:getChildByName("main"):getChildByName("Panel_main"):getChildByName("ListView_li_bao")
 	
     --label list
     
@@ -105,7 +116,7 @@ end
 
 function ShopViewController:onDisplayView()
 	Functions.printInfo(self.debug_b," ShopViewController view enter display!")
-    self:showTime()
+    
 	self._ListView_shop_t:setVisible(false)
     Functions.setPopupKey("store")
     Functions.setAdbrixTag("retension","shop_inter")
@@ -128,6 +139,7 @@ function ShopViewController:onDisplayView()
     elseif self.labelType == 4 then
         self:CloseShowView()
         self._ListView_shen_mi_t:setVisible(true)
+        self.shen_mi_refresh()
     elseif self.labelType == 5 then
         self:CloseShowView()
         self._ListView_li_bao_t:setVisible(true)
@@ -136,7 +148,7 @@ function ShopViewController:onDisplayView()
     --查看商城物品
     ShopData:sendShop(handler(self,self.refresh))
     IntegralShopData:sendIntegralShop(handler(self, self.tian_ti_refresh))
-    SoulShopData:sendShop(handler(self, self.shen_mi_refresh))
+    --SoulShopData:sendShop(handler(self, self.shen_mi_refresh))
     ShopData:sendLiBaoData(handler(self, self.li_bao_refresh))
     if PlayerData.eventAttr.m_tongID ~= 0 then
         UnionData:sendShopInfo(handler(self, self.gong_hui_refresh))
@@ -145,6 +157,18 @@ function ShopViewController:onDisplayView()
     else
         self._Panel_gonghui_3_t:setEnabled(false)
         Functions.setGraySprite(self._Panel_gonghui_3_t:getChildByName("2"),true)
+    end
+    
+    local ooo = SoulShopData:getTimeOpen()
+    local iii = SoulShopData:getTimeEnd()
+    local kkk = TimerManager:getCurrentSecond()
+    
+    if SoulShopData:getTimeOpen() <= TimerManager:getCurrentSecond() and SoulShopData:getTimeEnd() >= TimerManager:getCurrentSecond() then
+        self._Panel_shenmi_4_t:setEnabled(true)
+        Functions.setGraySprite(self._Panel_shenmi_4_t:getChildByName("2"),false)
+    else
+        self._Panel_shenmi_4_t:setEnabled(false)
+        Functions.setGraySprite(self._Panel_shenmi_4_t:getChildByName("2"),true)
     end
     
     --监听购买礼包后ui变化
@@ -250,6 +274,7 @@ function ShopViewController:showShopLabel()
             self.labelType = 4
             self:CloseShowView()
             self:showList()
+            self._Sprite_time_bg_t:setVisible(true)
             self._ListView_shen_mi_t:setVisible(true)
             self:shen_mi_refresh()
         end
@@ -293,24 +318,24 @@ function ShopViewController:shopHunJingNum()
     return NUM
 end
 
---function SoulShopViewController:showTime()
---    Functions.printInfo(self.debug_b,"showTime")
---    --倒记时
---    local onTime = function(event)
---        local m_newtime = TimerManager:getCurrentSecond()
---        local CountdownTime = SoulShopData:getTimeEnd()
---        m_newtime = CountdownTime - m_newtime 
---        if m_newtime < 0 then
---            m_newtime = 0
---        end
---
---        local time = TimerManager:formatOverTime("%02d:%02d:%02d", m_newtime)
---        local str = LanguageConfig.language_soulShop_2..time
---        Functions.initLabelOfString( self._Text_Countdown_t, str)
---    end
---    Functions.bindEventListener(self._Text_Countdown_t, GameEventCenter, TimerManager.SECOND_CHANGE_EVENT, onTime)
---    --onTime()
---end
+function ShopViewController:showshen_miTime()
+    Functions.printInfo(self.debug_b,"showTime")
+    --倒记时
+    local onTime = function(event)
+        local m_newtime = TimerManager:getCurrentSecond()
+        local CountdownTime = SoulShopData:getTimeEnd()
+        m_newtime = CountdownTime - m_newtime 
+        if m_newtime < 0 then
+            m_newtime = 0
+        end
+
+        local time = TimerManager:formatOverTime("%02d:%02d:%02d", m_newtime)
+        local str = LanguageConfig.language_soulShop_2..time
+        Functions.initLabelOfString( self._Text_Countdown_shen_mi_t, str)
+    end
+    Functions.bindEventListener(self._Text_Countdown_shen_mi_t, GameEventCenter, TimerManager.SECOND_CHANGE_EVENT, onTime)
+    --onTime()
+end
 
 function ShopViewController:showTime()
     Functions.printInfo(self.debug_b,"showTime")
@@ -332,6 +357,10 @@ function ShopViewController:showTime()
 end
 
 function ShopViewController:refresh()
+
+    self._Text_Countdown_t:setVisible(true)
+    self._Text_Countdown_shen_mi_t:setVisible(false)
+    self:showTime()
     
     local shopdatas = ShopData:getShopDatas()
     
@@ -576,6 +605,10 @@ end
 function ShopViewController:shen_mi_refresh()
 
     local shopdatas = SoulShopData:getSoulShopDatas()
+    
+    self:showshen_miTime()
+    self._Text_Countdown_t:setVisible(false)
+    self._Text_Countdown_shen_mi_t:setVisible(true)
 
     --如果没有刷新令，就显示魂晶数量
 

@@ -4,28 +4,6 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>lk/ui_res/HuoDongPopUI/bg8.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{550,0},{618,108}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{618,108}</string>
-			</dict>
-			<key>lk/ui_res/HuoDongPopUI/bg9.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,0},{550,176}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{550,176}</string>
-			</dict>
 			<key>lk/ui_res/HuoDongPopUI/chongzhi_2.png</key>
 			<dict>
 				<key>frame</key>
@@ -80,6 +58,28 @@
 				<true />
 				<key>sourceSize</key>
 				<string>{419,42}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/bg8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{550,0},{618,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{618,108}</string>
+			</dict>
+			<key>lk/ui_res/HuoDongPopUI/bg9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{550,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{550,176}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>

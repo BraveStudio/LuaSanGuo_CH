@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 CarnivalPopView.csbResPath = "lk/csb"
 CarnivalPopView.debug = true
-CarnivalPopView.studioSpriteFrames = {"HuoDongPopUI","CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
+CarnivalPopView.studioSpriteFrames = {"CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
 --@auto code head end
 
 --@Pre loading

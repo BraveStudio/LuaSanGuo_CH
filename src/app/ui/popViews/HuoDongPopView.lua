@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 HuoDongPopView.csbResPath = "lk/csb"
 HuoDongPopView.debug = true
-HuoDongPopView.studioSpriteFrames = {"OnlineRewardPopUI","RewardTipsPopUI","SignRewardPopUI","HuoDongPopUI","HuoDongPopUI_Text_Bg","SignRewardPopUI_Text","HuoDongPopUI_Text" }
+HuoDongPopView.studioSpriteFrames = {"HuoDongPopUI","HuoDongPopUI_Text_Bg","HuoDongPopUI_Text" }
 --@auto code head end
 
 
@@ -30,21 +30,13 @@ function HuoDongPopView:onInitUI()
     --output list
     self._ScrollView_title_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title")
 	self._Panel_Every_day_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_Every_day")
-	self._Sprite_Every_day_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_Every_day"):getChildByName("Sprite_Every_day")
 	self._Panel_chong_zhi_huo_dong_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_chong_zhi_huo_dong")
-	self._Sprite_chong_zhi_huo_dong_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_chong_zhi_huo_dong"):getChildByName("Sprite_chong_zhi_huo_dong")
 	self._Panel_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can")
-	self._Sprite_san_can_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_san_can"):getChildByName("Sprite_san_can")
 	self._Panel_15day_sign_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_15day_sign")
-	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_15day_sign"):getChildByName("Sprite_xuan_mei")
 	self._Panel_30day_login_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_30day_login")
-	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_30day_login"):getChildByName("Sprite_xuan_mei")
 	self._Panel_online_reward_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_online_reward")
-	self._Sprite_xuan_mei_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_online_reward"):getChildByName("Sprite_xuan_mei")
 	self._Panel_cheng_zhang_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_zhang")
-	self._Sprite_cheng_zhang_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_cheng_zhang"):getChildByName("Sprite_cheng_zhang")
 	self._Panel_yue_ka_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_yue_ka")
-	self._Sprite_yue_ka_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("ScrollView_title"):getChildByName("Panel_yue_ka"):getChildByName("Sprite_yue_ka")
 	self._Panel_info_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info")
 	self._Panel_all_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_all")
 	self._Text_time_t = self.csbNode:getChildByName("Panel_huo_dong"):getChildByName("Panel_info"):getChildByName("Panel_all"):getChildByName("Text_time")
@@ -974,6 +966,7 @@ function HuoDongPopView:ShowDainZan()
 end
 --登陆30天领奖
 function HuoDongPopView:showLoginReward()
+    Functions.initLabelOfString( self._Text_jie_shao_no_time_t, g_welfareInstructions.qianDao)
     self._Panel_loginReward_t:setVisible(true)
     self._Panel_jie_shao_t:setVisible(true)
     local prizeData = Functions.copyTab(RewardData.rewardInf.Accumulate) 
@@ -997,7 +990,6 @@ function HuoDongPopView:showLoginReward()
                 vipDouble:getChildByName("level"):setString("V" .. tostring(t))
                 vipDouble:setVisible(true)
             end
-            
         end
 
         local isReward = false

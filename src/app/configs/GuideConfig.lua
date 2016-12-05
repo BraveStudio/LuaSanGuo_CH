@@ -31,7 +31,7 @@ local GuideConfig =
         guideDatas = {
             { ctlName = "MainViewController", type = "text", guideData = "10003" },--布阵引导
             { ctlName = "MainViewController", type = "button", btName = "buzhenBt", guideData = LanguageConfig.guide_3_1 },
-            { ctlName = "EquipmentViewController", type = "button", btName = "embattleBt", guideData = LanguageConfig.guide_3_2,delay = 1},
+            { ctlName = "EquipmentViewController", type = "button", btName = "embattleBt", guideData = LanguageConfig.guide_3_2,delay = 0.5},
             { ctlName = "EmbattleViewController", type = "button", btName = "mainHeroBt", guideData = LanguageConfig.guide_4_2 },
 
             { ctlName = "SelectHeroViewController", type = "button", btName = "hero1Bt",  delay = 0.1, guideData = LanguageConfig.guide_4_3 },
@@ -62,15 +62,17 @@ local GuideConfig =
         startCtlName = "MainViewController",
         guideDatas = {
             { ctlName = "MainViewController", type = "text", guideData = "10007" },
-            { ctlName = "MainViewController", type = "button", btName = "upLevelBt", guideData = LanguageConfig["guide_9_1"],},
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_shengji_1", guideData = LanguageConfig["guide_9_2"]},
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_card1", guideData = LanguageConfig["guide_9_3"],delay = 0.5},
-            { ctlName = "HeroViewController", type = "button", btName = "guidCard", guideData = LanguageConfig["guide_9_4"],delay = 0.3 },
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_auto_add", guideData = LanguageConfig["guide_9_5"]},
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_up_level", guideData = LanguageConfig["guide_9_6"], isFinish = true},
-            { ctlName = "EnhanceViewController", type = "text", guideData = "10008"},
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_sheng_ji_close"},
-            { ctlName = "EnhanceViewController", type = "button", btName = "Button_back"},
+            { ctlName = "MainViewController", type = "button", btName = "heroListBt", guideData = LanguageConfig["guide_6_1"] },
+            { ctlName = "HeroViewController", type = "button", btName = "guidCard", guideData = LanguageConfig["guide_300_9"] },
+            { ctlName = "HeroViewController", type = "button", btName = "Button_sheng_ji", guideData = LanguageConfig["guide_9_2"],delay = 0.5},
+            -- { ctlName = "HeroViewController", type = "button", btName = "Button_card1", guideData = LanguageConfig["guide_9_3"],delay = 0.5},
+            -- { ctlName = "HeroViewController", type = "button", btName = "guidCard", guideData = LanguageConfig["guide_9_4"],delay = 0.3 },
+            { ctlName = "HeroViewController", type = "button", btName = "Button_auto_add", guideData = LanguageConfig["guide_9_5"],delay = 0.5},
+            { ctlName = "HeroViewController", type = "button", btName = "Button_up_level", guideData = LanguageConfig["guide_9_6"], isFinish = true},
+            { ctlName = "HeroViewController", type = "text", guideData = "10008"},
+            { ctlName = "HeroViewController", type = "button", btName = "Button_sheng_ji_close"},
+            { ctlName = "HeroViewController", type = "button", btName = "Button_close"},
+            { ctlName = "HeroViewController", type = "button", btName = "Button_back"},
         }
     },
     [6] =  --打第二关 自动战斗
@@ -83,9 +85,15 @@ local GuideConfig =
             { ctlName = "CombatViewController", type = "button", btName = "startBt", guideData = LanguageConfig.guide_7_4, delay = 0.2 },
             -- { ctlName = "CombatViewController", type = "button", btName = "winSureBt", delay = 1.2},
             -- { ctlName = "CombatViewController", type = "button", btName = "surt_bt", delay = 1.5},
+
+        },
+        startCtlName_def = "MainViewController",
+        guideDatas_def = {
+            { ctlName = "MainViewController", type = "button", btName = "outFightBt", guideData = LanguageConfig.guide_7_1 },
+            { ctlName = "FbSelectViewController", type = "button", btName = "firstGk1", guideData = LanguageConfig.guide_7_2 },
         }
     },
-    [8] = --加速 打第三关
+    [7] = --加速 打第三关
     {
         startCtlName = "MinFbSelectViewController",
         guideDatas = {
@@ -119,7 +127,7 @@ local GuideConfig =
             { ctlName = "FbSelectViewController", type = "button", btName = "firstGk1", guideData = LanguageConfig.guide_7_2 },
         }
     },
-    [9] = --开装备
+    [8] = --开装备
     {
         startCtlName = "MainViewController",
         guideDatas = {
@@ -131,19 +139,19 @@ local GuideConfig =
             { ctlName = "PropViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_4_19 },
         }
     },
-    [10] = --穿装备
+    [9] = --穿装备
     {
         startCtlName = "MainViewController",
         guideDatas = {
             { ctlName = "MainViewController", type = "text", guideData = "10010" },--装备界面
-            { ctlName = "MainViewController", type = "button", btName = "zhuangbeiBt", guideData = LanguageConfig.guide_4_20 },
+            { ctlName = "MainViewController", type = "button", btName = "buzhenBt", guideData = LanguageConfig.guide_4_20 },
             { ctlName = "EquipmentViewController", type = "button", btName = "equip1Bt", guideData = LanguageConfig.guide_4_21, },
             { ctlName = "EquipmentViewController", type = "button", btName = "firstEquipBt", guideData = LanguageConfig.guide_11_3,delay = 0.5},
             { ctlName = "EquipmentViewController", type = "button", btName = "bt", guideData = LanguageConfig.guide_11_4,delay = 0.5,isFinish = true},
             { ctlName = "EquipmentViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_11_5 },
         }
     },
-    [11] = -- 打第4关
+    [10] = -- 打第4关
     {
         startCtlName = "MainViewController",
         guideDatas = {
@@ -153,7 +161,7 @@ local GuideConfig =
             { ctlName = "CombatViewController", type = "button", btName = "startBt", guideData = LanguageConfig.guide_7_4, delay = 0.4 },
         }
     },
-    [12] = --扫荡
+    [11] = --扫荡
     {
         startCtlName = "MinFbSelectViewController",
         guideDatas = {
@@ -172,17 +180,17 @@ local GuideConfig =
         }
     },
 
-    [13] = --成就
-    {
-        startCtlName = "MainViewController",
-        guideDatas = {
-            { ctlName = "MainViewController", type = "button", btName = "chengjiuBt", guideData = LanguageConfig.guide_14_1 },
-            { ctlName = "ChengJiuViewController", type = "button", btName = "chengJiuBox1", guideData = LanguageConfig.guide_14_2, pos = { x = 330, y = 0 }},
-            { ctlName = "ChengJiuViewController", type = "button", btName = "okbt", delay = 0.3 , isFinish = true ,isFinish = true },
-            { ctlName = "ChengJiuViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_14_3},
-        },
-    },
-    [14] = --任务领奖
+    -- [12] = --成就
+    -- {
+    --     startCtlName = "MainViewController",
+    --     guideDatas = {
+    --         { ctlName = "MainViewController", type = "button", btName = "chengjiuBt", guideData = LanguageConfig.guide_14_1 },
+    --         { ctlName = "ChengJiuViewController", type = "button", btName = "chengJiuBox1", guideData = LanguageConfig.guide_14_2, pos = { x = 330, y = 0 }},
+    --         { ctlName = "ChengJiuViewController", type = "button", btName = "okbt", delay = 0.3 , isFinish = true ,isFinish = true },
+    --         { ctlName = "ChengJiuViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_14_3},
+    --     },
+    -- },
+    [12] = --任务领奖
     {
         startCtlName = "MainViewController",
         guideDatas = {
@@ -193,15 +201,17 @@ local GuideConfig =
             { ctlName = "TaskViewController", type = "button", btName = "closeBt" ,},
         },
     },
-    [15] = --打一次
+    [13] = --打5次
     {
         startCtlName = "TaskViewController",
         guideDatas = {
             { ctlName = "TaskViewController", type = "text", guideData = "10012" },
             { ctlName = "TaskViewController", type = "button", btName = "taskBt", guideData = LanguageConfig.guide_16_1,},
             { ctlName = "MinFbSelectViewController", type = "button", btName = "fightBt", guideData = LanguageConfig.guide_4_23 },
-            { ctlName = "CombatViewController", type = "button", btName = "startBt", guideData = LanguageConfig.guide_7_4, delay = 0.4 },
+            { ctlName = "CombatViewController", type = "button", btName = "startBt", guideData = LanguageConfig.guide_7_4, delay = 0.4},
+            
             { ctlName = "MinFbSelectViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_4_24 },
+            
             { ctlName = "TaskViewController", type = "button", btName = "backBt" ,guideData = LanguageConfig.guide_5_7},
         },
         startCtlName_def = "MainViewController",
@@ -209,7 +219,8 @@ local GuideConfig =
             { ctlName = "MainViewController", type = "button", btName = "taskBt", guideData = LanguageConfig.guide_15_1 },
         }
     },
-    [16] = --商店引导
+    
+    [14] = --商店引导
     {
         startCtlName = "MainViewController",
         guideDatas = {
@@ -220,44 +231,48 @@ local GuideConfig =
                 { ctlName = "ShopViewController", type = "button", btName = "Button_back"},
         }
     },
-    [17] = --合成引导
+    [15] = --合成引导
     {
         startCtlName = "MainViewController",
         guideDatas = {
-            { ctlName = "MainViewController", type = "button", btName = "hechengBt", guideData = LanguageConfig["guide_101_1"] },
-            { ctlName = "CompoundViewController", type = "button", btName = "heChenWidget", guideData = LanguageConfig["guide_101_2"],isFinish = true},
-            { ctlName = "CompoundViewController", type = "button", btName = "Button_back", guideData = LanguageConfig["guide_500_5"],delay = 3 },
+            { ctlName = "MainViewController", type = "text", guideData = "10010" },--装备界面
+            { ctlName = "MainViewController", type = "button", btName = "heroListBt", guideData = LanguageConfig["guide_101_1"] },
+            { ctlName = "HeroViewController", type = "button", btName = "Panel_li", guideData = LanguageConfig["guide_101_4"]},
+            { ctlName = "HeroViewController", type = "button", btName = "heChenWidget", guideData = LanguageConfig["guide_101_2"],isFinish = true},
+            { ctlName = "HeroViewController", type = "button", btName = "Button_back", guideData = LanguageConfig["guide_500_5"],delay = 3 },
         }
     },
-    [18] = --六星进阶引导
+    [16] = --六星进阶引导
     {
         startCtlName = "MainViewController",
         guideDatas = {
                 { ctlName = "MainViewController", type = "text", guideData = "10005" },
-                { ctlName = "MainViewController", type = "button", btName = "upLevelBt", guideData = LanguageConfig["guide_6_1"] },
-                { ctlName = "EnhanceViewController", type = "button", btName = "Button_jinjie_2", guideData = LanguageConfig["guide_6_2"]},
-                { ctlName = "EnhanceViewController", type = "button", btName = "Button_card8",delay = 0.4,guideData = LanguageConfig["guide_6_3"]},
-                { ctlName = "HeroViewController", type = "button", btName = "guidClassCard", guideData = LanguageConfig["guide_6_4"],delay = 0.3 },
-                { ctlName = "EnhanceViewController", type = "button", btName = "Button_up_ladder", guideData = LanguageConfig["guide_6_5"], isFinish = true},
-                { ctlName = "EnhanceViewController", type = "button", btName = "Button_up_close", guideData = LanguageConfig["guide_6_6"],delay = 3.7 },
-                { ctlName = "EnhanceViewController", type = "text", guideData = "10006"},
-                { ctlName = "EnhanceViewController", type = "button", btName = "Button_back", guideData = LanguageConfig["guide_8_8"] },
+                { ctlName = "MainViewController", type = "button", btName = "heroListBt", guideData = LanguageConfig["guide_6_1"] },
+                { ctlName = "HeroViewController", type = "button", btName = "guidClassCard", guideData = LanguageConfig["guide_300_9"] },
+                { ctlName = "HeroViewController", type = "button", btName = "Button_jin_jie", guideData = LanguageConfig["guide_6_2"],delay = 0.5},
+                { ctlName = "HeroViewController", type = "button", btName = "Button_up_ladder", guideData = LanguageConfig["guide_6_5"],delay = 0.5,isFinish = true},
+                { ctlName = "HeroViewController", type = "button", btName = "Button_up_close", guideData = LanguageConfig["guide_6_6"],delay = 3.7 },
+                { ctlName = "HeroViewController", type = "button", btName = "Button_close"},
+                { ctlName = "HeroViewController", type = "text", guideData = "10006"},
+                { ctlName = "HeroViewController", type = "button", btName = "Button_back", guideData = LanguageConfig["guide_8_8"] },
         }
     },
-    [19] = --六星布阵引导
+    [17] = --六星布阵引导
     {
         startCtlName = "MainViewController",
         guideDatas = {
             { ctlName = "MainViewController", type = "button", btName = "buzhenBt", guideData = LanguageConfig.guide_300_1 },
-            { ctlName = "EmbattleViewController", type = "button", btName = "viceHero2Bt", guideData = LanguageConfig.guide_4_26 },
+            { ctlName = "EquipmentViewController", type = "button", btName = "embattleBt", guideData = LanguageConfig.guide_3_2,delay = 1},
+            { ctlName = "EmbattleViewController", type = "button", btName = "viceHero1Bt", guideData = LanguageConfig.guide_4_26 },
             -- { ctlName = "SelectHeroViewController", type = "text", guideData = "10004" },--选择一个武将
-            { ctlName = "SelectHeroViewController", type = "button", btName = "hero3Bt",  delay = 0.1, guideData = LanguageConfig.guide_4_27 },
+            { ctlName = "SelectHeroViewController", type = "button", btName = "hero2Bt",  delay = 0.1, guideData = LanguageConfig.guide_4_27 },
             { ctlName = "SelectHeroViewController", type = "button", btName = "shangzhenBt", guideData = LanguageConfig.guide_4_28 },
-            { ctlName = "EmbattleViewController", type = "button", btName = "saveBt", guideData = LanguageConfig.guide_4_9,isFinish = true },
-            { ctlName = "EmbattleViewController", type = "button", btName = "backBt", guideData = LanguageConfig.guide_4_29 },
+            { ctlName = "EmbattleViewController", type = "button", btName = "saveBt", guideData = LanguageConfig.guide_4_30,isFinish = true },
+            { ctlName = "EmbattleViewController", type = "button", btName = "backBt",  },
+            { ctlName = "EquipmentViewController", type = "button", btName = "backBt" },
         }
     },
-    [20] = --帮助引导
+    [18] = --帮助引导
     {
         startCtlName = "MainViewController",
         guideDatas = {
