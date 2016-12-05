@@ -307,7 +307,9 @@ function PluginChannel:submitLoginGameRole(dataType)
                 zoneId=tostring(NetWork.serverId),zoneName=NetWork.serverName,dataType=dataType,vipLevel = tostring(VipData.eventAttr.m_vipLevel),
                 roleCTime = tostring(GameState.userCreateTime),roleLevelMTime = roleLevelTime,
                 balance = tostring(PlayerData.eventAttr.m_gold),partyName = gongHuiId })
-            user_plugin:callFuncWithParam("submitLoginGameRole", data)
+            if tostring(GameState.userCreateTime) ~= "0" then
+                user_plugin:callFuncWithParam("submitLoginGameRole", data)
+            end
         end
     end
 end
