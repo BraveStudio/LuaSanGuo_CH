@@ -460,7 +460,7 @@ function Functions.playAnimaOfUI(target, animaName, delayTime, isHide)
 end
 --在某定时执行handler
 function Functions.delayCallHandler(target,time,handler)
-    local bubbleTime = 60
+    local bubbleTime = 15
     Functions.bindEventListener(target, GameEventCenter, TimerManager.SECOND_CHANGE_EVENT, function( )
         bubbleTime = bubbleTime - 1 
         if bubbleTime < 1 then 

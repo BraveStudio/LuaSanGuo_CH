@@ -65,10 +65,10 @@ G_PlatformType = 6
 G_CurrentLanguage = "ch"
 
 --时候开启新手引导
-G_IsOpenGuide = true
+G_IsOpenGuide = false
 
 --是否开启首战
-G_IsOpenFirstFight = true
+G_IsOpenFirstFight = false
 
 --是否自定义启动画面
 G_IsHaveLanchImage = false

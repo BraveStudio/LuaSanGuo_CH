@@ -235,7 +235,6 @@ local GuideConfig =
     {
         startCtlName = "MainViewController",
         guideDatas = {
-            { ctlName = "MainViewController", type = "text", guideData = "10010" },--装备界面
             { ctlName = "MainViewController", type = "button", btName = "heroListBt", guideData = LanguageConfig["guide_101_1"] },
             { ctlName = "HeroViewController", type = "button", btName = "Panel_li", guideData = LanguageConfig["guide_101_4"]},
             { ctlName = "HeroViewController", type = "button", btName = "heChenWidget", guideData = LanguageConfig["guide_101_2"],isFinish = true},

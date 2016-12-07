@@ -70,7 +70,7 @@ function ChatPopView:onButton_send_chatClick()
         if G_IsDebugClient then 
             level = 23
         end
-        if level < 20 then
+        if level < 1 then
             --弹出报错信息
             PromptManager:openTipPrompt(LanguageConfig.language_Chat_2) 
         else

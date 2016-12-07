@@ -388,9 +388,9 @@ function PromptManager:openSpeakerPrompt(info,handler,infType)
 end
 
 --滚动提示面板
-function PromptManager:openRollTipsPrompt(info,handler,infType)
+function PromptManager:openRollTipsPrompt(target,info,handler,infType)
     if not self.rollTipPanelView then
-        self.rollTipPanelView = CommonWidgets:getSpeakerPanel()
+        self.rollTipPanelView = CommonWidgets:getRollTipsPanel()
         --        local inf = self.rollTipPanelView:getChildByName("info_text")
         --        inf:setString(info)
 
@@ -402,20 +402,21 @@ function PromptManager:openRollTipsPrompt(info,handler,infType)
         end
         local inf = cc.Label:create()
         inf:setAnchorPoint(cc.p(0,0.5))
-        inf:setSystemFontSize(24)
+        inf:setSystemFontSize(20)
         inf:setString(info)
-        inf:setPosition(cc.p(680,35))
+        inf:setPosition(cc.p(200,21))
+        inf:setColor(cc.c3b(255,255,0))
 
         local clipNode = cc.ClippingNode:create()
-        clipNode:setContentSize(680,55)
-        clipNode:setPosition(cc.p(245,0))
+        clipNode:setContentSize(300,55)
+        clipNode:setPosition(cc.p(0,0))
         local stencil = cc.DrawNode:create()
         local rectangle = {cc.p(0,0),cc.p(clipNode:getContentSize().width,0),cc.p(clipNode:getContentSize().width,clipNode:getContentSize().height),cc.p(0,clipNode:getContentSize().height)}
         stencil:drawPolygon(rectangle,4,cc.c4b(1,1,1,1),1,cc.c4b(1,1,1,1))
         clipNode:setStencil(stencil)
         clipNode:addChild(inf)
         self.rollTipPanelView:addChild(clipNode)
-        transition.execute(self.rollTipPanelView, cc.DelayTime:create(10.5), {
+        transition.execute(self.rollTipPanelView, cc.DelayTime:create(20), {
             onComplete = function()
                 self.rollTipPanelView:removeFromParent()
                 self.rollTipPanelView = nil
@@ -423,11 +424,11 @@ function PromptManager:openRollTipsPrompt(info,handler,infType)
                     handler()
                 end
             end})
-        Functions.playNodeMove(inf,10,cc.p(-1300,0))
+        Functions.playNodeMove(inf,20,cc.p(-800,0))
         -- Functions.setCenterOfNode(self.rollTipPanelView)
-        self.rollTipPanelView:setPositionX(display.cx)
+        self.rollTipPanelView:setPosition(cc.p(245,50))
         -- GameCtlManager:getCurrentController().rootScene_t:addChild(self.rollTipPanelView)
-        GameCtlManager:addNotificationLayer(self.rollTipPanelView)
+        target:addChild(self.rollTipPanelView)
     end
 end
 --剧情对话

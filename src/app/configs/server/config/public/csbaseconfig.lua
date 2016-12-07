@@ -849,7 +849,32 @@ g_csOpen = {
 	GuoZhanOpen      = {level=45,}, --国战
 	JiangHun         = {level=40,} --将魂
 }
+-- g_sysOpenTips = {
+-- 	[1] = {openLevel = 10, tipsInfo = LanguageConfig.language_open_sytem_level1},
+-- 	[2] = {openLevel = 12, tipsInfo = LanguageConfig.language_open_sytem_level2},
+-- 	[3] = {openLevel = 15, tipsInfo = LanguageConfig.language_open_sytem_level3},
+-- 	[4] = {openLevel = 17, tipsInfo = LanguageConfig.language_open_sytem_level4},
+-- 	[5] = {openLevel = 24, tipsInfo = LanguageConfig.language_open_sytem_level5},
+-- 	[6] = {openLevel = 26, tipsInfo = LanguageConfig.language_open_sytem_level6},
+-- 	[7] = {openLevel = 30, tipsInfo = LanguageConfig.language_open_sytem_level7},
+-- 	[8] = {openLevel = 35, tipsInfo = LanguageConfig.language_open_sytem_level8},
+-- 	[9] = {openLevel = 40, tipsInfo = LanguageConfig.language_open_sytem_level9},
+-- 	[10] = {openLevel = 45, tipsInfo = LanguageConfig.language_open_sytem_level10},
 
+-- }
+g_sysOpenTips = {
+	[1] = 10, 
+	[2] = 12, 
+	[3] = 15, 
+	[4] = 17, 
+	[5] = 24, 
+	[6] = 26, 
+	[7] = 30, 
+	[8] = 35, 
+	[9] = 40, 
+	[10] = 45,
+
+}
 --等级提升提示
 g_uplevelConfig = 
 {
@@ -1605,6 +1630,7 @@ g_welfareInstructions =
         teJia = g_LanguageTbl.welfareInstructions[9][g_Language],
         xiaoHao = g_LanguageTbl.welfareInstructions[10][g_Language],
 }
+--系统开放提示配置
 --vip配置
 g_vipConfig =
 {

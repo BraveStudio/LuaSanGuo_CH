@@ -703,6 +703,17 @@ local languageConfig_ch =
         language_vip_bubble16 = "您成神了！",
         language_vip_bubble_tips1 = "恭喜您！",
         language_vip_bubble_tips2 = "将获得",
+
+        language_open_sytem_level1 = "即将开放:士兵系统（10级解锁），俺也有士兵了！感动ing",
+        language_open_sytem_level2 = "即将开放:天梯系统（12级解锁），天梯第一名敢否与我一战！",
+        language_open_sytem_level3 = "即将开放:偏将系统（15级解锁），我的英雄事迹这么能只有我一人知晓呢！",
+        language_open_sytem_level4 = "即将开放:试炼系统（17级解锁），传说中的超级神将到达是什么呢！",
+        language_open_sytem_level5 = "即将开放:七星潭系统（24级解锁），生命、攻击我统统都要！",
+        language_open_sytem_level6 = "即将开放:公会系统（26级解锁），求土豪会长抱大腿!",
+        language_open_sytem_level7 = "即将开放:血战系统（30级解锁），前方高能大量魂晶来袭！",
+        language_open_sytem_level8 = "即将开放:公会战（35级解锁），多人即时据点争夺战！",
+        language_open_sytem_level9 = "即将开放:将魂系统（40级解锁），名将助你成就霸业！",
+        language_open_sytem_level10 = "即将开放:国战系统（45级解锁），三国争霸唯你独尊！",
         --活动相关
         language_activityHero=
         {
