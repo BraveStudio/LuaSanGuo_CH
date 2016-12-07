@@ -165,7 +165,7 @@ function CombatCenter:getCombatHeroInfos(heroInfos)
     self:addHeroDataHandler_(heroCombatInfos.peopleInfos, heroInfos.MainHero[1], "hero")
     heroCombatInfos.peopleInfos[#heroCombatInfos.peopleInfos].solderNumLevel = heroInfos.solderNumLevel
 
-    if PlayerData.eventAttr.m_level < 6 then
+    if PlayerData.eventAttr.m_level < GuideManager.CombatHelpLevel then
         heroInfos.ViceHeros = {}
         heroInfos.ViceHeros[#heroInfos.ViceHeros+1] = { id = 116, x = 2, y = 2, level = 1, class = 1, attack = 0, hp = 0, mp = 0, soldier = 0}
         heroInfos.ViceHeros[#heroInfos.ViceHeros+1] = { id = 127, x = 2, y = 6, level = 1, class = 1, attack = 0, hp = 0, mp = 0, soldier = 0}

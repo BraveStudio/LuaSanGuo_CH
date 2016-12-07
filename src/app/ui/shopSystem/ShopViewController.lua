@@ -159,16 +159,20 @@ function ShopViewController:onDisplayView()
         Functions.setGraySprite(self._Panel_gonghui_3_t:getChildByName("2"),true)
     end
     
-    local ooo = SoulShopData:getTimeOpen()
-    local iii = SoulShopData:getTimeEnd()
-    local kkk = TimerManager:getCurrentSecond()
-    
     if SoulShopData:getTimeOpen() <= TimerManager:getCurrentSecond() and SoulShopData:getTimeEnd() >= TimerManager:getCurrentSecond() then
         self._Panel_shenmi_4_t:setEnabled(true)
         Functions.setGraySprite(self._Panel_shenmi_4_t:getChildByName("2"),false)
     else
         self._Panel_shenmi_4_t:setEnabled(false)
         Functions.setGraySprite(self._Panel_shenmi_4_t:getChildByName("2"),true)
+    end
+    
+    if g_csOpen.TianTiOpen.level <= PlayerData.eventAttr.m_exp then
+        self._Panel_tianti_2_t:setEnabled(true)
+        Functions.setGraySprite(self._Panel_tianti_2_t:getChildByName("2"),false)
+    else
+        self._Panel_tianti_2_t:setEnabled(false)
+        Functions.setGraySprite(self._Panel_tianti_2_t:getChildByName("2"),true)
     end
     
     --监听购买礼包后ui变化

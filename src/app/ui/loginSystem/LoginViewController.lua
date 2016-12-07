@@ -335,12 +335,17 @@ function LoginViewController:onDisplayView()
                 self:closeAllPanel()
                 self._serverList_t:show()
             end
-
         else
             self:openLoginView_()
         end
     else
         self:openLoginView_()
+    end
+
+    if G_IsUseSDK and G_SDKType == 5 then
+        self._newRegistBt_t:setVisible(false)
+        self._loginUserPassword_text_0_t:setPlaceHolder(LanguageConfig.ui_LoginView_5)
+        self._loginUserName_text_t:setPlaceHolder(LanguageConfig.ui_LoginView_6)
     end
 
 end
@@ -370,7 +375,8 @@ function LoginViewController:initServerList_()
     local listHandler = function(index, listChild, data, model)
         function onServerSelectClick()
             if data.status == tostring(NetWork.ServerStatusCode.online)
-                or (data.status ~= tostring(NetWork.ServerStatusCode.online) and G_IsDebugClient) then
+                or (data.status ~= tostring(NetWork.ServerStatusCode.online) and G_IsDebugClient) or 
+                data.status == tostring(NetWork.ServerStatusCode.baoman) or data.status == tostring(NetWork.ServerStatusCode.newserver) then
                 GameState.storeAttr.serverOldIndex_f = index
                 self:openSelectServerPanel_(index)
             else
@@ -382,7 +388,6 @@ function LoginViewController:initServerList_()
         local stateText = listChild:getChildByTag(3)
 
         Functions.initTextColor(model:getChildByTag(2), text)
-        Functions.initTextColor(model:getChildByTag(3), stateText)
         Functions.initLabelOfString(text, data.name, stateText, Functions.getServerStateCode(data.status))
 
         listChild:getChildByTag(1):onTouch(Functions.createClickListener(onServerSelectClick))

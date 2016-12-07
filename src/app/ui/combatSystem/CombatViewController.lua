@@ -1028,48 +1028,48 @@ end
 --hero view move center
 function CombatViewController:moveCenterOfHero(heroView, moveEndCall)
 
-    local oldPos = { x = heroView:getPositionX(), y = heroView:getPositionY() }
-    oldPos = heroView:getParent():convertToWorldSpace(oldPos)
+        local oldPos = { x = heroView:getPositionX(), y = heroView:getPositionY() }
+        oldPos = heroView:getParent():convertToWorldSpace(oldPos)
 
-    self._combatPanel_t:stopAllActions()
-    local movePos = { x = display.cx - oldPos.x, y = display.cy - oldPos.y }
+        self._combatPanel_t:stopAllActions()
+        local movePos = { x = display.cx - oldPos.x, y = display.cy - oldPos.y }
 
-    local cmbp_x = self._combatPanel_t:getPositionX()
-    local cmbp_y = self._combatPanel_t:getPositionY()
+        local cmbp_x = self._combatPanel_t:getPositionX()
+        local cmbp_y = self._combatPanel_t:getPositionY()
 
-    local minX, maxX, minY, maxY = self:getCombatPanelCoordLimit()
+        local minX, maxX, minY, maxY = self:getCombatPanelCoordLimit()
 
-    --x轴限制
-    if movePos.x > 0 then
-        if (cmbp_x + movePos.x) > maxX then
-            movePos.x = maxX - cmbp_x
+        --x轴限制
+        if movePos.x > 0 then
+            if (cmbp_x + movePos.x) > maxX then
+                movePos.x = maxX - cmbp_x
+            end
+        else
+            if (cmbp_x + movePos.x) < minX then
+                movePos.x = minX - cmbp_x
+            end
         end
-    else
-        if (cmbp_x + movePos.x) < minX then
-            movePos.x = minX - cmbp_x
-        end
-    end
 
-    --y轴限制
-    if movePos.y > 0 then
-        if (cmbp_y + movePos.y) > maxY then
-            movePos.y = maxY - cmbp_y
+        --y轴限制
+        if movePos.y > 0 then
+            if (cmbp_y + movePos.y) > maxY then
+                movePos.y = maxY - cmbp_y
+            end
+        else
+            if (cmbp_y + movePos.y) < minY then
+                movePos.y = minY - cmbp_y
+            end
         end
-    else
-        if (cmbp_y + movePos.y) < minY then
-            movePos.y = minY - cmbp_y
-        end
-    end
 
-    self._combatPanel_t:moveBy({  x = movePos.x,
-                                  y = movePos.y,
-                                  time = 0.3,                        
-                              })
+        self._combatPanel_t:moveBy({  x = movePos.x,
+                                      y = movePos.y,
+                                      time = 0.3,
+                                  })
 
-    scheduler.performWithDelayGlobal(function()
-        moveEndCall()
-    end, 0.3)
-    
+        scheduler.performWithDelayGlobal(function()
+                        moveEndCall()
+                    end, 0.3)
+
 end
 
 function CombatViewController:getCombatPanelCoordLimit()

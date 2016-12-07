@@ -225,7 +225,7 @@ local GuideConfig =
         startCtlName = "MainViewController",
         guideDatas = {
                 { ctlName = "MainViewController", type = "button", btName = "shopBt", guideData = LanguageConfig["guide_4_25"] },
-                { ctlName = "ShopViewController", type = "button", btName = "shopWidget", guideData = LanguageConfig["guide_100_2"]},
+                { ctlName = "ShopViewController", type = "button", btName = "shopWidget", guideData = LanguageConfig["guide_4_29"]},
                 { ctlName = "ShopViewController", type = "button", btName = "Button_Pop_buy",delay = 0.4,isFinish = true},
                 { ctlName = "ShopViewController", type = "text",  guideData = "10013"},
                 { ctlName = "ShopViewController", type = "button", btName = "Button_back"},

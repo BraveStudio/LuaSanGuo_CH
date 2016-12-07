@@ -3723,6 +3723,7 @@ function Functions.loadSpriteFramesAnsy(plistFilename, image, handler)
         asyncHandler = function()
             local texture = cc.Director:getInstance():getTextureCache():getTextureForKey(image)
             assert(texture, string.format("The texture %s, %s is unavailable.", plistFilename, image))
+            print(string.format("The texture %s, %s is unavailable.", plistFilename, image))
             cc.SpriteFrameCache:getInstance():addSpriteFrames(plistFilename, texture)
             handler(plistFilename, image)
         end

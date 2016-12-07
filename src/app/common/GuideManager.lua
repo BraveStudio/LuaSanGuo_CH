@@ -4,6 +4,9 @@ GuideManager.ForcedGuideState = 1
 GuideManager.StageGuideState  = 2
 
 
+GuideManager.CombatHelpLevel = 7
+
+
 local GuideConfig = require("app.configs.GuideConfig")
 for k, v in pairs(GuideConfig) do
 	for i=1, #v.guideDatas do

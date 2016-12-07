@@ -303,6 +303,7 @@ end
 --@auto code Button_jianghun btFunc
 function SoldiersViewController:onButton_jianghunClick()
     Functions.printInfo(self.debug,"Button_jianghun button is click!")
+    GameCtlManager:push("app.ui.heroSoulSystem.HeroSoulViewController",{data = { type = self.type }})
 end
 --@auto code Button_jianghun btFunc end
 
