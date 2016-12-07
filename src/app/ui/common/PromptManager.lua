@@ -387,6 +387,49 @@ function PromptManager:openSpeakerPrompt(info,handler,infType)
     end
 end
 
+--滚动提示面板
+function PromptManager:openRollTipsPrompt(info,handler,infType)
+    if not self.rollTipPanelView then
+        self.rollTipPanelView = CommonWidgets:getSpeakerPanel()
+        --        local inf = self.rollTipPanelView:getChildByName("info_text")
+        --        inf:setString(info)
+
+        self.rollTipPanelView:getChildByName("infType"):setColor(cc.c3b(2,170,219))
+        if infType ~= nil then
+            self.rollTipPanelView:getChildByName("infType"):setString(infType)
+        else
+            self.rollTipPanelView:getChildByName("infType"):setString(LanguageConfig.language_fu_8)
+        end
+        local inf = cc.Label:create()
+        inf:setAnchorPoint(cc.p(0,0.5))
+        inf:setSystemFontSize(24)
+        inf:setString(info)
+        inf:setPosition(cc.p(680,35))
+
+        local clipNode = cc.ClippingNode:create()
+        clipNode:setContentSize(680,55)
+        clipNode:setPosition(cc.p(245,0))
+        local stencil = cc.DrawNode:create()
+        local rectangle = {cc.p(0,0),cc.p(clipNode:getContentSize().width,0),cc.p(clipNode:getContentSize().width,clipNode:getContentSize().height),cc.p(0,clipNode:getContentSize().height)}
+        stencil:drawPolygon(rectangle,4,cc.c4b(1,1,1,1),1,cc.c4b(1,1,1,1))
+        clipNode:setStencil(stencil)
+        clipNode:addChild(inf)
+        self.rollTipPanelView:addChild(clipNode)
+        transition.execute(self.rollTipPanelView, cc.DelayTime:create(10.5), {
+            onComplete = function()
+                self.rollTipPanelView:removeFromParent()
+                self.rollTipPanelView = nil
+                if handler ~= nil then
+                    handler()
+                end
+            end})
+        Functions.playNodeMove(inf,10,cc.p(-1300,0))
+        -- Functions.setCenterOfNode(self.rollTipPanelView)
+        self.rollTipPanelView:setPositionX(display.cx)
+        -- GameCtlManager:getCurrentController().rootScene_t:addChild(self.rollTipPanelView)
+        GameCtlManager:addNotificationLayer(self.rollTipPanelView)
+    end
+end
 --剧情对话
 function PromptManager:openDialoguePrompt(id, callBack)
     if not self.dialoguePanel then

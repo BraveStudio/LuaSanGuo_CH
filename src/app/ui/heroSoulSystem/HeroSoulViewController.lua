@@ -103,7 +103,8 @@ function HeroSoulViewController:initDisplay( )
             self:showHeroSoulUI(3)
         end
     end
-    Functions.initTabComWithSimple({widget = self._table_t ,listener = selectTableListener, firstName = "tb1"})
+    local soldierType = self.jumpType or 1
+    Functions.initTabComWithSimple({widget = self._table_t ,listener = selectTableListener, firstName = "tb" .. tostring(soldierType)})
 end
 function HeroSoulViewController:showHeroSoulUI(soidlerType)
     self:showSoidlerHeroSoul(soidlerType)
@@ -218,5 +219,7 @@ function HeroSoulViewController:setLockHeroSoul(target,limitLevel)
     lockView:setVisible(true)
     lockView:getChildByName("text"):setString(tostring(limitLevel))
 end
-
+function HeroSoulViewController:onReceivePushData(jump)
+    self.jumpType = jump.type
+end
 return HeroSoulViewController

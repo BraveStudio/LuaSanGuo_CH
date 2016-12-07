@@ -58,6 +58,7 @@ local languageConfig_ch =
         language_fu_5 = "武将进阶所需要消耗的资源，游戏中主要通过挑战关卡获得。",
         language_fu_6 = "卖出武将获得贵重货币，主要用于商店兑换武将使用，游戏中通过挑战血战副本能获得大量魂晶。",
         language_fu_7 = "天梯根据排名奖励的货币，用于天梯商店兑换道具使用。",
+        language_fu_8 = "即将开放：",
 
         language_Teach0 = "未上榜",
         language_Teach1 = "一品",

@@ -49,6 +49,14 @@ function CommonWidgets:getSpeakerPanel()
     return self.tipInfoPaenl:clone():setParent(nil)
 end
 
+function CommonWidgets:getRollTipsPanel()
+
+    if not self.RollTipInfoPanel then
+        self.RollTipInfoPanel = self.csbNode:getChildByName("RollTipsPanel"):retain()
+    end
+    return self.RollTipInfoPanel:clone():setParent(nil)
+end
+
 function CommonWidgets:getLoadingPanel()
     if not self.loadingPanel then
         self.loadingPanel = self.csbNode:getChildByName("loadingPanel"):retain()
