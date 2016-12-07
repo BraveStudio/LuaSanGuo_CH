@@ -300,4 +300,5 @@ g_evtCode =
 	xm = 84,				--选美
 	resertxm = 85,          --刷新选美
 	useitem  = 86,          --使用物品
+	zkshop = 87,            --折扣商店
 }
