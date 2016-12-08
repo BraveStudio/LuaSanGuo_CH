@@ -170,7 +170,7 @@ function TaskViewController:initAchieveDisplay(achieveData)
             local updateShow = function(event)
                 --弹出提示信息
                 PromptManager:openTipPrompt(LanguageConfig.language_task_1)
-                self:ShowChengJiu()
+                self:initAchieveDisplay(event)
             end
             ActivityData:sendGetChengJiu(data.id, updateShow)
         end
@@ -271,9 +271,9 @@ function TaskViewController:initUiDisplay_()
             if data["跳转类型"] == 1 then
                 GameCtlManager:push("app.ui.citySystem.CityViewController")
             elseif data["跳转类型"] == 2 then
-                GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
+                GameCtlManager:push("app.ui.heroSystem.HeroViewController")
             elseif data["跳转类型"] == 3 then
-                GameCtlManager:push("app.ui.enhanceSystem.EnhanceViewController")
+                GameCtlManager:push("app.ui.soldiersSystem.SoldiersViewController")
             elseif data["跳转类型"] == 4 then
                 local guidId = PlayerData.eventAttr.m_guideStageId
                 if PlayerData.eventAttr.m_guideId == 13 then

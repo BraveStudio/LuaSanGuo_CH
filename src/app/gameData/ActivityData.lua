@@ -377,7 +377,7 @@ function ActivityData:sendGetChengJiu(idx, listener)
         end
         ActivityData.ChengJiu = self:getChengJiuSort(clone(ActivityData.ChengJiu))
         --self:getChengJiuSort(ActivityData.ChengJiu)
-        listener()
+        listener(ActivityData.ChengJiu)
     end
     NetWork:addNetWorkListener({34,3}, Functions.createNetworkListener(onServerRequest,true,"ret"))
     local msg = {idx = {34, 3}, index = idx}
