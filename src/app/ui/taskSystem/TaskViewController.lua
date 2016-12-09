@@ -135,6 +135,8 @@ function TaskViewController:onDisplayView()
      --初始化界面显示数据
     self:initUiDisplay_()
     ActivityData:sendChengJiu(handler(self,self.initAchieveDisplay))
+
+
     Functions.initTabComWithSimple({widget = self._selectTable_t ,listener = function(target)
         if target == "Panel_task" then
             self._taskListPanel_t:setVisible(true)
@@ -144,13 +146,39 @@ function TaskViewController:onDisplayView()
            self._achievePanel_t:setVisible(true)
         end
     end,firstName = "Panel_task"})
-   
+   self:bindFlag()
 end
 --@auto code view display func end
 function TaskViewController:initAni( )
     for i=1,4 do
         self["bg" .. tostring(i)] = self["_stageBt_" ..tostring(i) .. "_t"]:getChildByName("bg")
         self["bg" .. tostring(i)]:setScale(1.2)
+    end
+end
+function TaskViewController:bindFlag( )
+    Functions.bindUiWithModelAttr(self._selectTable_t:getChildByName("Panel_task"):getChildByName("flag"), TaskData, "taskRewardFalg",function(event)
+        if event.data == true or event.data == 1 then 
+            self._selectTable_t:getChildByName("Panel_task"):getChildByName("flag"):setVisible(true)
+        else
+            self._selectTable_t:getChildByName("Panel_task"):getChildByName("flag"):setVisible(false)
+        end
+    end)
+    if TaskData.eventAttr.taskRewardFalg == true or TaskData.eventAttr.taskRewardFalg== 1 then 
+        self._selectTable_t:getChildByName("Panel_task"):getChildByName("flag"):setVisible(true)
+    else
+        self._selectTable_t:getChildByName("Panel_task"):getChildByName("flag"):setVisible(false)
+    end
+    Functions.bindUiWithModelAttr(self._selectTable_t:getChildByName("Panel_achieve"):getChildByName("flag"), ActivityData, "ChengJiuBZ",function(event)
+        if  event.data== true or  event.data == 1 then 
+            self._selectTable_t:getChildByName("Panel_achieve"):getChildByName("flag"):setVisible(true)
+        else
+            self._selectTable_t:getChildByName("Panel_achieve"):getChildByName("flag"):setVisible(false)
+        end
+    end)
+    if ActivityData.eventAttr.ChengJiuBZ== true or ActivityData.eventAttr.ChengJiuBZ == 1 then 
+        self._selectTable_t:getChildByName("Panel_achieve"):getChildByName("flag"):setVisible(true)
+    else
+        self._selectTable_t:getChildByName("Panel_achieve"):getChildByName("flag"):setVisible(false)
     end
 end
 function TaskViewController:initAchieveDisplay(achieveData)

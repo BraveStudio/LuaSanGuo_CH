@@ -90,7 +90,7 @@ ActivityData.eventAttr.YueKaBZ = false       --月卡标志
 ActivityData.YueKa = {}            --月卡奖励(0不可领取 1 可领取 2 已经领取过了)
 ActivityData.YueKaInfo = {}        --月卡信息
 
-ActivityData.ChengJiuBZ = false     --成就标志
+ActivityData.eventAttr.ChengJiuBZ = false     --成就标志
 ActivityData.ChengJiu = {}          --月卡奖励(0不可领取 1 可领取 2 已经领取过了)
 
 ActivityData.DianZanBZ = false     --点赞标志
@@ -267,9 +267,9 @@ function ActivityData:init()
         end 
         --成就标志
         if event.active == "CJ" and event.isHave then
-            self.ChengJiuBZ = true
+            self.eventAtrr.ChengJiuBZ = true
         elseif event.active == "CJ" and not event.isHave then 
-            self.ChengJiuBZ = false
+            self.eventAtrr.ChengJiuBZ = false
         end 
     end
     NetWork:addNetWorkListener({ 20, 30 }, onBZ)
@@ -293,7 +293,7 @@ function ActivityData:init()
                 end
             end
         end
-        ActivityData.ChengJiuBZ = true
+        ActivityData.eventAtrr.ChengJiuBZ = true
     end
     NetWork:addNetWorkListener({ 34, 4 }, onChengJiu)
     
@@ -326,6 +326,7 @@ function ActivityData:init()
                 end
             end
             self:updateBz()
+            self:updateTaskChengJiuBz()
         end
 
     end
@@ -334,15 +335,21 @@ end
 
 function ActivityData:updateBz()
     if self.eventAttr.EveryDayBZ or self.eventAttr.MoneyBZ or self.XiaoFeiBZ or
-                 self.eventAttr.VIPBZ or self.eventAttr.SanCanBZ or 
-                 self.ChengJiuBZ or self.DianZanBZ or self.eventAttr.YueKaBZ or RewardStateData.eventAttr.signRewardFlag == 1
+                 self.eventAttr.VIPBZ or self.eventAttr.SanCanBZ or self.DianZanBZ or self.eventAttr.YueKaBZ or RewardStateData.eventAttr.signRewardFlag == 1
                  or RewardStateData.eventAttr.loginRewardFlag == 1 or RewardStateData.eventAttr.m_onlinePrizeState == 1 then
         ActivityData.eventAttr.fuLiDataBZ = 1
     else
         ActivityData.eventAttr.fuLiDataBZ = 0
     end
 end
-
+--
+function ActivityData:updateTaskChengJiuBz()
+    if  TaskData.eventAttr.taskRewardFalg == 1 or ActivityData.eventAttr.ChengJiuBZ == true then
+        TaskData.eventAttr.taskChengJiuFalg = 1
+    else
+        TaskData.eventAttr.taskChengJiuFalg = 0
+    end
+end
 --获取豪华三餐
 function ActivityData:getSanCan()
     return ActivityData.SanCan
@@ -383,7 +390,7 @@ function ActivityData:sendChengJiu(handler)
         end
         for k,v in pairs(event.data) do
             if v == 1 then
-                ActivityData.ChengJiuBZ = true
+                ActivityData.eventAtrr.ChengJiuBZ = true
                 break
             end
         end
@@ -413,10 +420,10 @@ function ActivityData:sendGetChengJiu(idx, listener)
             end
         end
         --默认领取后为false,遍历后会得到真实标志数据
-        ActivityData.ChengJiuBZ = false
+        ActivityData.eventAtrr.ChengJiuBZ = false
         for k,v in ipairs(ActivityData.ChengJiu) do
             if v == 1 then
-                ActivityData.ChengJiuBZ = true
+                ActivityData.eventAtrr.ChengJiuBZ = true
                 break
             end
         end

@@ -8,6 +8,7 @@ TaskData.debug = false
 TaskData.eventAttr = {}
 TaskData.eventAttr.chengJiuRewardFalg = 0 --成就是否可领奖标示
 TaskData.eventAttr.taskRewardFalg = 0     --任务是否可领奖标示
+TaskData.eventAttr.taskChengJiuFalg = 0     --任务成就是否有奖品领取
 
 TaskData.TaskInf = {}
 TaskData.TaskInf.m_dailyMission= {}       --日常任务完成量  

@@ -899,7 +899,7 @@ function MainViewController:initUiDisplay_()
     Functions.registerStateListenerOfBt(self._loginRewardBt_t, RewardStateData, "loginRewardFlag") --登陆领奖
     Functions.registerStateListenerOfBt(self._SignRewardBt_t, RewardStateData, "signRewardFlag") --签到领奖
     Functions.registerStateListenerOfBt(self._chengjiuBt_t, TaskData, "chengJiuRewardFalg") --成就
-    Functions.registerStateListenerOfBt(self._taskBt_t, TaskData, "taskRewardFalg") --任务
+    Functions.registerStateListenerOfBt(self._taskBt_t, TaskData, "taskChengJiuFalg") --任务
     Functions.registerStateListenerOfBt(self._mailTitil_t, MailData, "mailBZ") --邮箱
     Functions.registerStateListenerOfBt(self._vipBt_t, VipData, "vipRewardFlag") --vip标志
     Functions.registerStateListenerOfBt(self._upLevelBt_t, SoldiersData, "SoldiersBZ") --士兵神级标志
