@@ -1,5 +1,15 @@
 local languageConfig_ch =
     {
+         --选秀系统,
+        ["language_selectGirl_1"] = "活动时间：",
+        ["language_selectGirl_2"] = "活动倒计时：",
+        ["language_selectGirl_3"] = "本期秀女",
+        ["language_selectGirl_4"] = "秀女选票排行榜",
+        ["language_selectGirl_5"] = "当前为第％s轮，本轮选秀需要：",
+        ["language_selectGirl_6"] = "this批秀女投票次数已满，换一批试试",
+        ["language_selectGirl_7"] = "活动已结束",
+        ["language_selectGirl_8"] = "使用经验丹成功！增加％s主公经验！",
+        ["language_selectGirl_9"] = "是否花费％s元宝重置秀女",
         language_0_0 = "网络连接失败，请重试",
         language_0_1 = "注册成功",
         language_0_2 = "邮箱格式错误",
@@ -1416,7 +1426,7 @@ local languageConfig_ch =
         guide_100_1 = "在商店可购买武将，装备箱，符印等多样的道具。",
         guide_100_2 = "这次投奔的小乔是系统大人已经帮我支付了魂晶的，所以是免费的。主公！赶紧点击购买吧",
         
-        guide_101_1 = "获得的碎片存放在合成里，当数量达到一定程度就能进行合成了，接下来就尝试合成一个武将吧",
+        guide_101_1 = "获得的碎片存放在武将碎片里，当数量达到一定程度就能进行合成了，接下来就尝试合成一个武将吧",
         guide_101_2 = "收集所有武将碎片时能合成为武将卡。请点击武将碎片。",
         guide_101_3 = "新的武将也得到了，请整备全军重新出征吧。",
         guide_101_4 = "点击碎片",

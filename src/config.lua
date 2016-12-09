@@ -30,7 +30,7 @@ G_IsDebugClient = true
 
 -- update
 -- true 使用更新功能， fales 不使用更新功能,用于当前代码调试
-G_IsUpdate = true
+G_IsUpdate = false
 
 --是否使用sdk
 G_IsUseSDK = false
@@ -44,14 +44,14 @@ G_IsLinkLoaclIp = false
 
 
 --外网服务器id
-G_ServerId = 1
+G_ServerId = 4
 
 --是否自动获取当前链接的服务器和更新地址
 -- 审查服务器信息：http://115.29.163.19:8110/sanguoGM/main.html
 -- user: adm
 -- pwd: 123456
 
-G_IsAutoGetUrl = true
+G_IsAutoGetUrl = false
 -- G_AutoPatchUrl = "http://115.29.163.19:8095/sanguoGM/sanguoGMSomeFunc/GetOneItemInfo"
 G_AutoPatchUrl = "http://hjbylogin.tanyu.mobi:8095/sanguoGM/sanguoGMSomeFunc/GetOneItemInfo"
 

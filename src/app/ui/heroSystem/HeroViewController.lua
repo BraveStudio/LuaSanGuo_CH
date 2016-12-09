@@ -549,7 +549,7 @@ function HeroViewController:showCard(show_Card)
         if index == 1  then
             self._guidCard_t = widget
         end
-        if index == 3  then
+        if index == 2  then
             self._guidClassCard_t = widget
         end
 

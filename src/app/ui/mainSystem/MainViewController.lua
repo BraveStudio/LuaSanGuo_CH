@@ -460,8 +460,8 @@ end
 --@auto code Fulibt btFunc
 function MainViewController:onFulibtClick()
     Functions.printInfo(self.debug,"Fulibt button is click!")
-    self:openChildView("app.ui.popViews.HuoDongPopView")
-    
+    -- self:openChildView("app.ui.popViews.HuoDongPopView")
+    self:openChildView("app.ui.popViews.SelectGirlPopView")    
 end
 --@auto code Fulibt btFunc end
 
