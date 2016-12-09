@@ -103,17 +103,6 @@
 				<key>sourceSize</key>
 				<string>{181,72}</string>
 			</dict>
-			<key>tyj/ui_res/SelectGirlUI/qingguoqingcheng.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{808,660},{181,78}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{181,78}</string>
-			</dict>
 			<key>tyj/ui_res/SelectGirlUI/title.png</key>
 			<dict>
 				<key>frame</key>
@@ -157,6 +146,17 @@
 				<true />
 				<key>sourceSize</key>
 				<string>{660,189}</string>
+			</dict>
+			<key>tyj/ui_res/SelectGirlUI/qingguoqingcheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{808,660},{181,78}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{181,78}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
