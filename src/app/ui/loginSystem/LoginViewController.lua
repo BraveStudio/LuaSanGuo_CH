@@ -104,9 +104,9 @@ function LoginViewController:onTest_buttonClick()
         PromptManager:openTipPrompt(LanguageConfig.language_0_8)
         return
     end
-    --
-    -- userName = "100003235_6"
-    -- password = "100003235_6"
+
+-- userName = "e94542ad934d46ff9f54789954e03dd3_6"
+-- password = "e94542ad934d46ff9f54789954e03dd3_6"
 
 
     --开始登陆

@@ -344,7 +344,7 @@ g_pvetuandui = {
 
 g_pveEliteLimit = 3
 
-g_pveMAX_FB_ID = 25
+g_pveMAX_FB_ID = 30
 
 --关卡星星领奖配置	
 g_PassStarAward = 
@@ -374,6 +374,11 @@ g_PassStarAward =
 	[23] = {[1]={20,{money = 5800000, item={[1]={-5,4,65000,},},}},[2]={60,{gold = 1250, item={[1]={79,4,4,},},}},},
 	[24] = {[1]={20,{money = 6100000, item={[1]={-5,4,70000,},},}},[2]={60,{gold = 1300, item={[1]={79,4,4,},},}},},	
 	[25] = {[1]={20,{money = 6400000, item={[1]={-5,4,75000,},},}},[2]={60,{gold = 1350, item={[1]={79,4,5,},},}},},
+	[26] = {[1]={20,{money = 6700000, item={[1]={-5,4,80000,},},}},[2]={60,{gold = 1400, item={[1]={79,4,5,},},}},},
+	[27] = {[1]={20,{money = 7000000, item={[1]={-5,4,85000,},},}},[2]={60,{gold = 1450, item={[1]={79,4,5,},},}},},
+	[28] = {[1]={20,{money = 7300000, item={[1]={-5,4,90000,},},}},[2]={60,{gold = 1500, item={[1]={79,4,5,},},}},},
+	[29] = {[1]={20,{money = 7600000, item={[1]={-5,4,95000,},},}},[2]={60,{gold = 1550, item={[1]={79,4,5,},},}},},
+	[30] = {[1]={20,{money = 7900000, item={[1]={-5,4,100000,},},}},[2]={60,{gold = 1600, item={[1]={79,4,5,},},}},},
 	
 	
 	
@@ -1293,7 +1298,7 @@ g_gzCfg =
 	boostreward = {{-3,4,100000}},		--援军每日奖励
 	power = 						--名次对应权利
 	{
-		[1] = {g_LanguageTbl.gz[23][g_Language],g_LanguageTbl.gz[24][g_Language],g_LanguageTbl.gz[25][g_Language],g_LanguageTbl.gz[26][g_Language],g_LanguageTbl.gz[26][g_Language]},
+		[1] = {g_LanguageTbl.gz[23][g_Language],g_LanguageTbl.gz[24][g_Language],g_LanguageTbl.gz[25][g_Language],g_LanguageTbl.gz[26][g_Language],g_LanguageTbl.gz[27][g_Language]},
 		[2] = {g_LanguageTbl.gz[28][g_Language],g_LanguageTbl.gz[29][g_Language],g_LanguageTbl.gz[30][g_Language],g_LanguageTbl.gz[31][g_Language]},
 		[3] = {g_LanguageTbl.gz[32][g_Language],g_LanguageTbl.gz[33][g_Language],g_LanguageTbl.gz[34][g_Language],g_LanguageTbl.gz[35][g_Language]},
 		[4] = {g_LanguageTbl.gz[36][g_Language],g_LanguageTbl.gz[37][g_Language],g_LanguageTbl.gz[38][g_Language],g_LanguageTbl.gz[39][g_Language]},
@@ -1504,14 +1509,14 @@ g_payProductConfig_Gplay =
 }
 g_payProductConfig_Astore = 
 {
-	[1] = {productCode = "cash_500",show_moneyStr = "11,000",show_goldStr = "500",img = "pay_3.png",gold = 500, money = 11000, multiple = 2,isRecommand = true,rate = 0, inf = LanguageConfig.ui_payInf_1},
-	[2] = {productCode = "cash_1500",show_moneyStr = "33,000",show_goldStr = "1,500",img = "pay_4.png",gold = 1500, money = 33000, multiple = 2,isRecommand = true,rate = 0, inf = LanguageConfig.ui_payInf_1},
-	[3] = {productCode = "cash_11000",show_moneyStr = "199,900",show_goldStr = "11,000",img = "pay_8.png",gold = 11000, money = 199900, multiple = 2,isRecommand = false,rate = 0, inf = LanguageConfig.ui_payInf_1},
-	[4] = {productCode = "cash_7500",show_moneyStr = "55,000",show_goldStr = "7,500",img = "pay_7.png",gold = 7500, money = 150000, multiple = 2,isRecommand = false,rate = 0, inf = LanguageConfig.ui_payInf_1},
-	[5] = {productCode = "cash_5000",show_moneyStr = "110,000",show_goldStr = "5,000",img = "pay_5.png",gold = 5000, money = 110000, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
-	[6] = {productCode = "cash_2500",show_moneyStr = "55,000",show_goldStr = "2,500",img = "pay_5.png",gold = 2500, money = 55000, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
-	[7] = {productCode = "cash_250",show_moneyStr = "5,500",show_goldStr = "250",img = "pay_2.png",gold = 250, money = 5500, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
-    [8] = {productCode = "cash_150",show_moneyStr = "3,300",show_goldStr = "150",img = "pay_1.png",gold = 150, money = 3300, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
+	[1] = {productCode = "zgbky_moon",show_moneyStr = "11,000",show_goldStr = "500",img = "pay_3.png",gold = 500, money = 11000, multiple = 2,isRecommand = true,rate = 0, inf = LanguageConfig.ui_payInf_1},
+	[2] = {productCode = "zgbky_20",show_moneyStr = "33,000",show_goldStr = "1,500",img = "pay_4.png",gold = 1500, money = 33000, multiple = 2,isRecommand = true,rate = 0, inf = LanguageConfig.ui_payInf_1},
+	[3] = {productCode = "zgbky_50",show_moneyStr = "199,900",show_goldStr = "11,000",img = "pay_8.png",gold = 11000, money = 199900, multiple = 2,isRecommand = false,rate = 0, inf = LanguageConfig.ui_payInf_1},
+	[4] = {productCode = "zgbky_100",show_moneyStr = "55,000",show_goldStr = "7,500",img = "pay_7.png",gold = 7500, money = 150000, multiple = 2,isRecommand = false,rate = 0, inf = LanguageConfig.ui_payInf_1},
+	[5] = {productCode = "zgbky_200",show_moneyStr = "110,000",show_goldStr = "5,000",img = "pay_5.png",gold = 5000, money = 110000, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
+	[6] = {productCode = "zgbky_5",show_moneyStr = "55,000",show_goldStr = "2,500",img = "pay_5.png",gold = 2500, money = 55000, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
+	[7] = {productCode = "zgbky_1",show_moneyStr = "5,500",show_goldStr = "250",img = "pay_2.png",gold = 250, money = 5500, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
+    --[8] = {productCode = "cash_150",show_moneyStr = "3,300",show_goldStr = "150",img = "pay_1.png",gold = 150, money = 3300, multiple = 2, isRecommand = false,rate = 0,inf = LanguageConfig.ui_payInf_1},
 }
 g_payProductConfig_Qstore = 
 {
@@ -1615,7 +1620,7 @@ g_monthVip =
 	reward = {{79,4,3},{-3,4,200000},{80,4,10}},
 	everyReward = {{-2,4,100},{-6,4,1888},{80,4,3}},
 	plus = 3,						               --剩余多少天才能购买月卡
-	RMB = 30,									   --对应月卡价格，一般情况下 一定不能改动
+	Gold = 300,									   --对应月卡价格
 }
 
 g_welfareInstructions = 

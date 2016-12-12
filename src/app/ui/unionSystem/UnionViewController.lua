@@ -310,7 +310,7 @@ end
 --@auto code Button_shop btFunc
 function UnionViewController:onButton_shopClick()
     Functions.printInfo(self.debug,"Button_shop button is click!")
-    local openShop = function(parameters)
+    local openShop = function()
         --GameCtlManager:push("src/app/ui/unionShopSystem/UnionShopViewController")
         GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 3}})
     end

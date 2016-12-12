@@ -139,19 +139,43 @@ function ShopViewController:onDisplayView()
     elseif self.labelType == 4 then
         self:CloseShowView()
         self._ListView_shen_mi_t:setVisible(true)
-        self.shen_mi_refresh()
+        self._Sprite_time_bg_t:setVisible(true)
+        self:shen_mi_refresh()
     elseif self.labelType == 5 then
         self:CloseShowView()
         self._ListView_li_bao_t:setVisible(true)
     end
     
+    
     --查看商城物品
-    ShopData:sendShop(handler(self,self.refresh))
-    IntegralShopData:sendIntegralShop(handler(self, self.tian_ti_refresh))
-    --SoulShopData:sendShop(handler(self, self.shen_mi_refresh))
-    ShopData:sendLiBaoData(handler(self, self.li_bao_refresh))
+    local _ying_xong = function(event)
+        if self.labelType == 1 then
+            self:refresh()
+        end 
+    end
+    ShopData:sendShop(_ying_xong)
+    local _tian_ti = function(event)
+        if self.labelType == 2 then
+            self:tian_ti_refresh()
+        end 
+    end 
+    IntegralShopData:sendIntegralShop(_tian_ti)
+
+    local _li_bao = function(event)
+        if self.labelType == 5 then
+            self:li_bao_refresh()
+        end	
+    end 
+    ShopData:sendLiBaoData(_li_bao)
+    
+    --对商城未开启标签做处理
     if PlayerData.eventAttr.m_tongID ~= 0 then
-        UnionData:sendShopInfo(handler(self, self.gong_hui_refresh))
+        local _gong_hui = function(event)
+            if self.labelType == 3 then
+                self:gong_hui_refresh()
+            end
+        end 
+        UnionData:sendShopInfo(_gong_hui)
         self._Panel_gonghui_3_t:setEnabled(true)
         Functions.setGraySprite(self._Panel_gonghui_3_t:getChildByName("2"),false)
     else
@@ -167,13 +191,15 @@ function ShopViewController:onDisplayView()
         Functions.setGraySprite(self._Panel_shenmi_4_t:getChildByName("2"),true)
     end
     
-    if g_csOpen.TianTiOpen.level <= PlayerData.eventAttr.m_exp then
+    if g_csOpen.TianTiOpen.level <= PlayerData.eventAttr.m_level then
         self._Panel_tianti_2_t:setEnabled(true)
         Functions.setGraySprite(self._Panel_tianti_2_t:getChildByName("2"),false)
     else
         self._Panel_tianti_2_t:setEnabled(false)
         Functions.setGraySprite(self._Panel_tianti_2_t:getChildByName("2"),true)
     end
+    
+    
     
     --监听购买礼包后ui变化
     local onLiBao = function(event)
@@ -194,9 +220,6 @@ function ShopViewController:onDisplayView()
     
     --公会购买次数的监听
     local onBuy = function(event)
-        --        
-        --        local str = tostring(g_csBaseCfg.shopCount - UnionData:getShopBuy_count()).."/"..tostring(g_csBaseCfg.shopCount)
-        --        self._Text_buy_count_t:setText(str)
         local data = UnionData:getShopInfo()[event.data.idx]
         local str = tostring(data.m_maxCount - data.m_curCount).."/"..tostring(data.m_maxCount)
         self.widgets[event.data.idx]:getChildByName("Text_buy_count_2"):setText(tostring(str))
@@ -613,6 +636,7 @@ function ShopViewController:shen_mi_refresh()
     self:showshen_miTime()
     self._Text_Countdown_t:setVisible(false)
     self._Text_Countdown_shen_mi_t:setVisible(true)
+    self._Image_Refresh_icon_t:setVisible(false)
 
     --如果没有刷新令，就显示魂晶数量
 

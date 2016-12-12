@@ -23,12 +23,12 @@
 22	计取南郡			24	map/cbj4.jpg	
 23	合肥之战				map/cbj4.jpg	
 24	甘露寺				map/cbj4.jpg	
-25	东吴郡主			map/cbj4.jpg		
-26	渭南之战					
-27	落凤坡					
-28	锦马超					
-29	成都降服					
-30	定军山					
+25	东吴郡主				map/cbj4.jpg	
+26	渭南之战				map/cbj4.jpg	
+27	落凤坡				map/cbj4.jpg	
+28	锦马超				map/cbj4.jpg	
+29	成都降服				map/cbj4.jpg	
+30	定军山				map/cbj4.jpg	
 31	关家子弟					
 32	水淹七军					
 33	白衣渡江					

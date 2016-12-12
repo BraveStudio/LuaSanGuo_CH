@@ -70,6 +70,7 @@ ActivityData.VIPJiHuaBuy = 0        --VIP成长基金是否购买(0-未购买，
 ActivityData.eventAttr.EveryDayBZ = false     --每日充值标志
 ActivityData.EveryDay = {}          --每日充值(0不可领取 1 可领取 2 已经领取过了)
 ActivityData.EveryDayItem = {}      --每日充值道具
+ActivityData.EveryItemGold = {}     --每个道具的价格
 ActivityData.EveryDayGold = 0       --今日已充钱数
 
 ActivityData.eventAttr.MoneyBZ = false        --充值标志
@@ -336,7 +337,7 @@ end
 function ActivityData:updateBz()
     if self.eventAttr.EveryDayBZ or self.eventAttr.MoneyBZ or self.XiaoFeiBZ or
                  self.eventAttr.VIPBZ or self.eventAttr.SanCanBZ or self.DianZanBZ or self.eventAttr.YueKaBZ or RewardStateData.eventAttr.signRewardFlag == 1
-                 or RewardStateData.eventAttr.loginRewardFlag == 1 or RewardStateData.eventAttr.m_onlinePrizeState == 1 then
+                or RewardStateData.eventAttr.loginRewardFlag == 1 or ActivityData.eventAttr.m_onlinePrizeState == 1 then
         ActivityData.eventAttr.fuLiDataBZ = 1
     else
         ActivityData.eventAttr.fuLiDataBZ = 0
@@ -781,6 +782,7 @@ function ActivityData:sendEveryDay(onData)
             ActivityData.EveryDay[#ActivityData.EveryDay + 1] = v
         end
         ActivityData.EveryDayGold = event.everyAllPay
+        ActivityData.EveryItemGold = event.value
         onData()
     end
     NetWork:addNetWorkListener({20,15}, Functions.createNetworkListener(onServerRequest,true,"ret"))
@@ -1083,6 +1085,11 @@ end
 --获取充值活动道具
 function ActivityData:getMoneyHuoDongItem()
     return self.MoneyHuoDongItem
+end
+
+--获取每日特惠道具价格
+function ActivityData:getEveryItemGold()
+    return self.EveryItemGold
 end
 
 ----获取天梯数据

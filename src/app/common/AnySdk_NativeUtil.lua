@@ -17,10 +17,14 @@ function NativeUtil:init()
                 Analytics:setAccount()
                 PluginChannel:submitLoginGameRole("1")
                 G_isFirstStartApp = false
-
+                local closeHandler = function( )
+                    if PlayerData.eventAttr.m_vipFirstFlag == 2 then                       
+                        GameCtlManager:getCurrentController():openChildView("app.ui.popViews.FirstPayRewardPopView",{isRemove = false})
+                    end
+                end
                 if PlayerData.eventAttr.m_guideStageId == 0 then
                     scheduler.performWithDelayGlobal(function()
-                        NoticeManager:openNotice(GameCtlManager.currentController_t, { type = NoticeManager.SYSTEM_INFO } )
+                        NoticeManager:openNotice(GameCtlManager.currentController_t, { type = NoticeManager.SYSTEM_INFO,handler = closeHandler} )
                     end, 0.1)
                 end
             end)

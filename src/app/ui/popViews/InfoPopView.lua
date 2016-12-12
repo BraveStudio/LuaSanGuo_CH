@@ -42,6 +42,9 @@ function InfoPopView:onClose_btClick()
     if self._closeCB then
         self._closeCB()
     end
+    if self.handler ~= nil then
+        self.handler()
+    end
     self:close()
 end
 --@auto code Close_bt btFunc end
@@ -106,6 +109,8 @@ end
 function InfoPopView:hideClose()
     self._close_bt_t:setVisible(false)
 end
-
+function InfoPopView:setHandler(handler)
+    self.handler = handler
+end
 
 return InfoPopView

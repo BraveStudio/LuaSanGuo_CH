@@ -548,12 +548,7 @@ end
 --@auto code Huodongbt btFunc
 function MainViewController:onHuodongbtClick()
     Functions.printInfo(self.debug,"Huodongbt button is click!")
-    
-    local SoulShop = function()
-        --GameCtlManager:push("app.ui.soulShopSystem.SoulShopViewController")
-        GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 4}})
-    end
-    SoulShopData:sendShop(SoulShop)
+    GameCtlManager:push("app.ui.shopSystem.ShopViewController", {data = {labelType = 4}})
 end
 --@auto code Huodongbt btFunc end
 
@@ -591,17 +586,17 @@ function MainViewController:onDisplayView()
     	end
     	Functions.playBubbleAction(self._vipPanel_t,text1,text2)
     end)
-    Functions.delayCallHandler(self._vipPanel_t,25,function( )
-    	local index = 1
-    	for k,v in pairs(g_sysOpenTips) do
-    		if PlayerData.eventAttr.m_level >= v then 
-    			index = k + 1
-    		end
-    	end
-    	if index <= #g_sysOpenTips then 
-	    	PromptManager:openRollTipsPrompt(self.view_t.csbNode:getChildByName("main"),LanguageConfig["language_open_sytem_level" .. tostring(index)])
-   		end
-    end)
+--    Functions.delayCallHandler(self._vipPanel_t,25,function( )
+--    	local index = 1
+--    	for k,v in pairs(g_sysOpenTips) do
+--    		if PlayerData.eventAttr.m_level >= v then 
+--    			index = k + 1
+--    		end
+--    	end
+--    	if index <= #g_sysOpenTips then 
+--	    	PromptManager:openRollTipsPrompt(self.view_t.csbNode:getChildByName("main"),LanguageConfig["language_open_sytem_level" .. tostring(index)])
+--   		end
+--    end)
 
     GameEventCenter:dispatchEvent({ name = MainViewController.ENTER_MAINVIEW_EVENT_NAME  })
 

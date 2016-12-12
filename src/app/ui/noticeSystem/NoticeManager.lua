@@ -86,6 +86,9 @@ function NoticeManager:openNotice(controller, param)
                 PromptManager:closeHttpLinkPrompt()
                 local notice = Factory:createInfoPanel()
                 notice:setInfo(data)
+                if param.handler ~= nil then 
+                    notice:setHandler(param.handler)
+                end
                 controller:openChildView(notice)
             else
                 PromptManager:closeHttpLinkPrompt()
@@ -97,6 +100,9 @@ function NoticeManager:openNotice(controller, param)
                 PromptManager:closeHttpLinkPrompt()
                 local notice = Factory:createInfoPanel()
                 notice:setInfo(data)
+                if param.handler ~= nil then 
+                    notice:setHandler(param.handler)
+                end
                 controller:openChildView(notice)
             else
                 PromptManager:closeHttpLinkPrompt()
