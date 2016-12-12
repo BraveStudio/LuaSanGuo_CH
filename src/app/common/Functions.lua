@@ -2010,9 +2010,14 @@ function Functions.setLoginInf(msg,handler)
         -- end
 
         local customParam = PluginChannel:getCustomParam()
-        GameState.storeAttr.NaverUserId_s = Functions.getTableFieldOfPath(msgTable,customParam.path.usrId ) or "default"
-        GameState.storeAttr.NaverUserName_s = Functions.getTableFieldOfPath(msgTable,customParam.path.usrName ) or ""
-
+        local channelId = PluginChannel:getChannelId()
+        if channelId == "000368" then --vivo
+            GameState.storeAttr.NaverUserId_s = Functions.getTableFieldOfPath(msgTable,"common/uid" ) or "default"
+            GameState.storeAttr.NaverUserName_s = Functions.getTableFieldOfPath(msgTable,"common/uid" ) or ""
+        else
+            GameState.storeAttr.NaverUserId_s = Functions.getTableFieldOfPath(msgTable,customParam.path.usrId ) or "default"
+            GameState.storeAttr.NaverUserName_s = Functions.getTableFieldOfPath(msgTable,customParam.path.usrName ) or ""
+        end    
         if handler ~= nil then 
             handler(msgTable)
         end
