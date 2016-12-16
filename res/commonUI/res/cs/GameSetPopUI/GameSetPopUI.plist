@@ -73,7 +73,7 @@
 			<key>commonUI/res/cs/GameSetPopUI/jingyan.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{930,67},{48,22}}</string>
+				<string>{{843,60},{48,22}}</string>
 				<key>offset</key>
 				<string>{0,-1}</string>
 				<key>rotated</key>
@@ -95,7 +95,7 @@
 			<key>commonUI/res/cs/GameSetPopUI/shengyin.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{731,26},{48,23}}</string>
+				<string>{{793,26},{48,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -117,7 +117,7 @@
 			<key>commonUI/res/cs/GameSetPopUI/yinxiao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{781,26},{48,23}}</string>
+				<string>{{843,35},{48,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,7 +128,7 @@
 			<key>commonUI/res/cs/GameSetPopUI/zhanghao.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{831,35},{48,23}}</string>
+				<string>{{793,51},{48,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -150,7 +150,7 @@
 			<key>commonUI/res/cs/GameSetPopUI/guojia.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{881,59},{47,23}}</string>
+				<string>{{893,59},{47,23}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -169,6 +169,17 @@
 				<key>sourceSize</key>
 				<string>{116,30}</string>
 			</dict>
+			<key>commonUI/res/cs/GameSetPopUI/cj.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{731,26},{60,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,29}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
@@ -179,14 +190,14 @@
 			<key>realTextureFileName</key>
 			<string>GameSetPopUI.png</string>
 			<key>size</key>
-			<string>{1018,90}</string>
+			<string>{1018,83}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>1018</integer>
 			<key>height</key>
-			<integer>90</integer>
+			<integer>83</integer>
 		</dict>
 	</dict>
 </plist>

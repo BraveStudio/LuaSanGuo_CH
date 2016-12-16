@@ -53,7 +53,6 @@ function LoginViewController:onDidLoadView()
 	self._moreServer_t = self.view_t.csbNode:getChildByName("main"):getChildByName("serverList"):getChildByName("box3_login_3"):getChildByName("moreServer")
 	self._serverListPanel_t = self.view_t.csbNode:getChildByName("main"):getChildByName("serverList"):getChildByName("serverListPanel")
 	self._model_t = self.view_t.csbNode:getChildByName("main"):getChildByName("serverList"):getChildByName("serverListPanel"):getChildByName("model")
-	self._childServerState_t = self.view_t.csbNode:getChildByName("main"):getChildByName("serverList"):getChildByName("serverListPanel"):getChildByName("model"):getChildByName("childServerState")
 	self._version_text_t = self.view_t.csbNode:getChildByName("main"):getChildByName("version_text")
 	
     --label list
@@ -372,6 +371,12 @@ end
 
 function LoginViewController:initServerList_()
 
+    if self:checkServerMaintain(self._server) then
+        scheduler.performWithDelayGlobal(function()
+                NoticeManager:openNotice(self, { type = NoticeManager.MAINTAIN_INFO } )
+            end, 0.1)
+    end
+
     local listHandler = function(index, listChild, data, model)
         function onServerSelectClick()
             if data.status == tostring(NetWork.ServerStatusCode.online)
@@ -404,6 +409,15 @@ function LoginViewController:initServerList_()
     self._oldServerText_t:setString(serverText)
 
     self._serverListPanel_t:jumpToBottom()
+end
+
+function LoginViewController:checkServerMaintain(servers)
+    for _,v in pairs(servers) do
+        if v.status == tostring(NetWork.ServerStatusCode.online) or v.status == tostring(NetWork.ServerStatusCode.baoman) or v.status == tostring(NetWork.ServerStatusCode.newserver) then
+            return false
+        end
+    end
+    return true
 end
 
 

@@ -120,7 +120,7 @@ function ShopViewController:onDisplayView()
 	self._ListView_shop_t:setVisible(false)
     Functions.setPopupKey("store")
     Functions.setAdbrixTag("retension","shop_inter")
-    Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
+    
     self._Image_Refresh_icon_t:setVisible(false)
     self._Text_Refresh_num_t:setVisible(false)
     
@@ -128,20 +128,25 @@ function ShopViewController:onDisplayView()
     self:showList()
     self:showShopLabel()
     if self.labelType == 1 then
+        Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
         self:OpenShowView()
         self._ListView_shop_t:setVisible(true)
     elseif self.labelType == 2 then
+        Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "jifen" })
         self:CloseShowView()
         self._ListView_tian_ti_t:setVisible(true)
     elseif self.labelType == 3 then
+        Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "gongxian" })
         self:CloseShowView()
         self._ListView_gong_hui_t:setVisible(true)
     elseif self.labelType == 4 then
+        Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
         self:CloseShowView()
         self._ListView_shen_mi_t:setVisible(true)
         self._Sprite_time_bg_t:setVisible(true)
         self:shen_mi_refresh()
     elseif self.labelType == 5 then
+        Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
         self:CloseShowView()
         self._ListView_li_bao_t:setVisible(true)
     end
@@ -265,6 +270,7 @@ function ShopViewController:showShopLabel()
     local onPanel1 = function()
         print("panel 1 click")
         if self.labelType ~= 1 then
+            Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
             self.labelType = 1
             self:OpenShowView()
             self:showList()
@@ -276,6 +282,7 @@ function ShopViewController:showShopLabel()
     local onPanel2 = function()
         print("panel 2 click")
         if self.labelType ~= 2 then
+            Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "jifen" })
             self.labelType = 2
             self:CloseShowView()
             self:showList()
@@ -287,6 +294,7 @@ function ShopViewController:showShopLabel()
     local onPanel3 = function()
         print("panel 3 click")
         if self.labelType ~= 3 then
+            Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "gongxian" })
             self.labelType = 3
             self:CloseShowView()
             self:showList()
@@ -298,6 +306,7 @@ function ShopViewController:showShopLabel()
     local onPanel4 = function()
         print("panel 4 click")
         if self.labelType ~= 4 then
+            Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
             self.labelType = 4
             self:CloseShowView()
             self:showList()
@@ -310,6 +319,7 @@ function ShopViewController:showShopLabel()
     local onPanel5 = function()
         print("panel 5 click")
         if self.labelType ~= 5 then
+            Functions.initResNodeUI(self._resNode_t,{ "jinbi" , "yuanbao", "hunjin" })
             self.labelType = 5
             self:OpenShowView()
             self:showList()

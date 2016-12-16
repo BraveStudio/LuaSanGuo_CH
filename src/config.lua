@@ -39,12 +39,12 @@ G_IsUseSDK = false
 G_SDKType = 6
 
 -- NetWork 是否连接内网，true: 连接内网，false: 连接外网
-G_IsLinkLoaclIp = true
+G_IsLinkLoaclIp = false
 
 
 
 --外网服务器id
-G_ServerId = 4
+G_ServerId = 1
 
 --是否自动获取当前链接的服务器和更新地址
 -- 审查服务器信息：http://115.29.163.19:8110/sanguoGM/main.html

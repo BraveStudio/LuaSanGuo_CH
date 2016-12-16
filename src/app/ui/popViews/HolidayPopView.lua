@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 HolidayPopView.csbResPath = "lk/csb"
 HolidayPopView.debug = true
-HolidayPopView.studioSpriteFrames = {"CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
+HolidayPopView.studioSpriteFrames = {"HuoDongPopUI","CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
 --@auto code head end
 
 

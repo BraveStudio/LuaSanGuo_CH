@@ -248,12 +248,14 @@ function TaskViewController:initAchieveDisplay(achieveData)
 
         if data.bz == 0 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),false)
+            Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/lingqu.png")
         elseif data.bz == 2 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),false)
             button:getChildByName("Button_get"):getChildByName("Image_get"):ignoreContentAdaptWithSize(true)
             Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/yilingqu.png")
         elseif data.bz == 1 then
             Functions.setEnabledBt(button:getChildByName("Button_get"),true)
+            Functions.loadImageWithWidget(button:getChildByName("Button_get"):getChildByName("Image_get"),"commonUI/res/common/lingqu.png")
         end
     
     end

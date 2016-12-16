@@ -66,7 +66,7 @@ function SweepCompletePopView:getPopAction()
 	-- Functions.playScaleOpenChildViewAction(self)
 end
 function SweepCompletePopView:getMergeItemData(itemData)
-    local mergeData = {coin = 0,exp = 0,soul = 0,prize={}}
+    local mergeData = {coin = 0,exp = 0,soul = 0,hunjing = 0,prize={}}
     local isHaveValue = function(src,value)
         local boolValue = false
         for k,v in pairs(src) do
@@ -93,9 +93,16 @@ function SweepCompletePopView:getMergeItemData(itemData)
     end
     local prizeTable = {}
     for k,v in pairs(itemData) do 
-        mergeData.coin = mergeData.coin + v.coin
-        mergeData.exp = mergeData.exp + v.exp
-        mergeData.soul = mergeData.soul + v.soul
+        mergeData.coin = mergeData.coin + tonumber(v.coin)
+        if v.exp then
+            mergeData.exp = mergeData.exp + tonumber(v.exp)
+        end
+        if v.soul then
+            mergeData.soul = mergeData.soul + tonumber(v.soul)
+        end
+        if v.hunjing then
+            mergeData.hunjing = mergeData.hunjing + tonumber(v.hunjing)
+        end
         
         for k1,v1 in pairs(v.prize) do
             -- if isHaveValue(prizeTable,v1) then 
@@ -136,7 +143,7 @@ function SweepCompletePopView:onDisplayView(data)
             local coin = widget:getChildByName("rewardPanel"):getChildByName("coinLabel")
             Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("coinLabel"),widget:getChildByName("rewardPanel"):getChildByName("coinLabel"))
             coin:setString(tostring(data.coin))
-            if data.exp ~= nil then 
+            if data.exp ~= nil and tonumber(data.exp) > 0 then 
                 local exp = widget:getChildByName("rewardPanel"):getChildByName("expLabel")
                 Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("expLabel"),widget:getChildByName("rewardPanel"):getChildByName("expLabel"))
                 exp:setString(tostring(data.exp))
@@ -148,11 +155,11 @@ function SweepCompletePopView:onDisplayView(data)
             end
             -- self._expLoadingBar_t:setPercent(oldExp/g_roleUplevelExp[PlayerData.eventAttr.m_level]*100)
             -- exp:setString(tostring(oldExp) .. "/" .. tostring(g_roleUplevelExp[PlayerData.eventAttr.m_level]))
-            if data.soul ~= nil then 
+            if data.soul ~= nil  and tonumber(data.soul) > 0  then 
                 local soul = widget:getChildByName("rewardPanel"):getChildByName("soulLabel")
                 Functions.initTextColor(model:getChildByName("rewardPanel"):getChildByName("soulLabel"),widget:getChildByName("rewardPanel"):getChildByName("soulLabel"))
                 soul:setString(tostring(data.soul))
-            elseif data.hunjing ~= nil then
+            elseif data.hunjing ~= nil and tonumber(data.hunjing) > 0  then
                 local hunjing = widget:getChildByName("rewardPanel"):getChildByName("soulLabel")
                 Functions.loadImageWithWidget(widget:getChildByName("rewardPanel"):getChildByName("soulIcon"),"commonUI/res/image/hunjin.png")
                 widget:getChildByName("rewardPanel"):getChildByName("soulIcon"):ignoreContentAdaptWithSize(true)

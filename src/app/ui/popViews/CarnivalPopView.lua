@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 CarnivalPopView.csbResPath = "lk/csb"
 CarnivalPopView.debug = true
-CarnivalPopView.studioSpriteFrames = {"CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
+CarnivalPopView.studioSpriteFrames = {"HuoDongPopUI","CarnivalPopUI_Text","SquadPopUI","HuoDongPopUI_Text","CarnivalPopUI" }
 --@auto code head end
 
 --@Pre loading
@@ -834,7 +834,11 @@ function CarnivalPopView:initShowDay()
         end
         self.day = 7
         self:showTypeUI()
+
+        
     end 
+
+
 
     Functions.initTabCom({ { self._Panel_1_t, onDay1, day1 }, { self._Panel_2_t, onDay2, day2}, { self._Panel_3_t, onDay3,day3}, 
         { self._Panel_4_t, onDay4,day4 }, { self._Panel_5_t, onDay5,day5}, { self._Panel_6_t, onDay6,day6}, { self._Panel_7_t, onDay7,day7}})

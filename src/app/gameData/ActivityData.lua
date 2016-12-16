@@ -268,9 +268,9 @@ function ActivityData:init()
         end 
         --成就标志
         if event.active == "CJ" and event.isHave then
-            self.eventAtrr.ChengJiuBZ = true
+            ActivityData.eventAttr.ChengJiuBZ = true
         elseif event.active == "CJ" and not event.isHave then 
-            self.eventAtrr.ChengJiuBZ = false
+            ActivityData.eventAttr.ChengJiuBZ = false
         end 
     end
     NetWork:addNetWorkListener({ 20, 30 }, onBZ)
@@ -294,7 +294,7 @@ function ActivityData:init()
                 end
             end
         end
-        ActivityData.eventAtrr.ChengJiuBZ = true
+        ActivityData.eventAttr.ChengJiuBZ = true
     end
     NetWork:addNetWorkListener({ 34, 4 }, onChengJiu)
     
@@ -391,7 +391,7 @@ function ActivityData:sendChengJiu(handler)
         end
         for k,v in pairs(event.data) do
             if v == 1 then
-                ActivityData.eventAtrr.ChengJiuBZ = true
+                ActivityData.eventAttr.ChengJiuBZ = true
                 break
             end
         end
@@ -421,10 +421,10 @@ function ActivityData:sendGetChengJiu(idx, listener)
             end
         end
         --默认领取后为false,遍历后会得到真实标志数据
-        ActivityData.eventAtrr.ChengJiuBZ = false
+        ActivityData.eventAttr.ChengJiuBZ = false
         for k,v in ipairs(ActivityData.ChengJiu) do
             if v == 1 then
-                ActivityData.eventAtrr.ChengJiuBZ = true
+                ActivityData.eventAttr.ChengJiuBZ = true
                 break
             end
         end
@@ -782,7 +782,7 @@ function ActivityData:sendEveryDay(onData)
             ActivityData.EveryDay[#ActivityData.EveryDay + 1] = v
         end
         ActivityData.EveryDayGold = event.everyAllPay
-        ActivityData.EveryItemGold = event.value
+        --ActivityData.EveryItemGold = event.value
         onData()
     end
     NetWork:addNetWorkListener({20,15}, Functions.createNetworkListener(onServerRequest,true,"ret"))

@@ -60,6 +60,9 @@ function GameSetPopView:onInitUI()
 	self._quitCountryBt_t = self.csbNode:getChildByName("Panel_1"):getChildByName("quitCountryBt")
 	self._quitCountryBt_t:onTouch(Functions.createClickListener(handler(self, self.onQuitcountrybtClick), ""))
 
+	self._chengjiuBt_t = self.csbNode:getChildByName("Panel_1"):getChildByName("chengjiuBt")
+	self._chengjiuBt_t:onTouch(Functions.createClickListener(handler(self, self.onChengjiubtClick), ""))
+
 	self._moreHeadBt_t = self.csbNode:getChildByName("head_panel_clolor"):getChildByName("moreHeadBt")
 	self._moreHeadBt_t:onTouch(Functions.createClickListener(handler(self, self.onMoreheadbtClick), ""))
 
@@ -176,6 +179,14 @@ function GameSetPopView:onQuitcountrybtClick()
 end
 --@auto code Quitcountrybt btFunc end
 
+--@auto code Chengjiubt btFunc
+function GameSetPopView:onChengjiubtClick()
+    Functions.printInfo(self.debug,"Chengjiubt button is click!")
+
+    GameCtlManager:push("app.ui.chengJiuSystem.ChengJiuViewController")
+end
+--@auto code Chengjiubt btFunc end
+
 --@auto button backcall end
 
 
@@ -205,6 +216,13 @@ function GameSetPopView:onDisplayView()
         
         end)      
     end
+
+    if G_DeviceType == 1 then
+        self._chengjiuBt_t:setVisible(true)
+    else
+        self._chengjiuBt_t:setVisible(false)
+    end
+
 
     if GameState:getLoginType() == "NaverSdk" then
 

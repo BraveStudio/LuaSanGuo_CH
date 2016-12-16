@@ -135,10 +135,11 @@ function ShopData:sendBuyLiBao(idx, listener)
         local liBaoDatas = ShopData:getLiBaoDatas()
         liBaoDatas[idx].m_IsBuy = false
 
-        PlayerData.eventAttr.m_gold = event.data.curgold
         for k,v in ipairs(event.data.goods) do
             Functions:addItemResources( {id = v[1], type = v[2], count = v[3], slot = v[4]} )
         end
+        --礼包里有元宝，所以要放在加完道具的后面
+        PlayerData.eventAttr.m_gold = event.data.curgold
         
         --购买后数据更新监听
         GameEventCenter:dispatchEvent({ name = ShopData.REFRESH_LIBAO, data = {} })
@@ -157,7 +158,8 @@ function ShopData:sendRefreshLiBao( listener)
         for k,v in ipairs(liBaoDatas) do
             liBaoDatas[k].m_IsBuy = true
         end
-        self.refresMoney = event.refreshPrice          --礼包商店刷新需要的资源数量
+        PlayerData.eventAttr.m_gold = event.data.curgold
+        self.refresMoney = event.data.refreshPrice          --礼包商店刷新需要的资源数量
         listener()
     end
     NetWork:addNetWorkListener({ 37, 3 }, Functions.createNetworkListener(onLiBao,true,"ret"))

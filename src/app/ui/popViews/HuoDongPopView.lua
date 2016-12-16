@@ -525,8 +525,8 @@ function HuoDongPopView:ShowEveryDay()
         local button = widget:getChildByName("Image_chong_zhi_bg")
         local banModel = model:getChildByName("Image_chong_zhi_bg")
         Functions.initTextColor(banModel:getChildByName("Text_yuanjia_num"),button:getChildByName("Text_yuanjia_num"))
-        local numGold = ActivityData:getEveryItemGold()
-        Functions.initLabelOfString(button:getChildByName("Text_yuanjia_num"), numGold[index])
+--        local numGold = ActivityData:getEveryItemGold()
+--        Functions.initLabelOfString(button:getChildByName("Text_yuanjia_num"), numGold[index])
         
         
         local FadeIn = cc.FadeIn:create(1)
@@ -562,7 +562,10 @@ function HuoDongPopView:ShowEveryDay()
                 --Functions.loadImageWithWidget(head, ConfigHandler:getHeroHeadImageOfId(v.id))
             else
                 assert(false,"商店出售的商品类型 type = " .. data.m_ItemType .. "错误")
-            end          
+            end
+            local Price = ConfigHandler:getItemPrice(v.id,v.type) 
+            local numGold = Price*v.count
+            Functions.initLabelOfString(button:getChildByName("Text_yuanjia_num"), numGold)
             
             local Image = "Image_"..tostring(k)
             Functions.copyParam(button:getChildByName(Image), heroNode)
@@ -1205,6 +1208,9 @@ function HuoDongPopView:showSignReward()
             Functions.loadImageWithWidget(btText, "tyj/uiFonts_res/yilingqu.png")
             Functions.setEnabledBt(getBt, false)
         elseif  index < prizeStateData.m_keepLoginDay then
+            local btText = getBt:getChildByName("Image_get")
+            btText:ignoreContentAdaptWithSize(true)
+            Functions.loadImageWithWidget(btText, "tyj/uiFonts_res/yilingqu.png")
             Functions.setEnabledBt(getBt, false)
         elseif index == prizeStateData.m_keepLoginDay and prizeStateData.m_loginReward ~= 1 then --当前可领取状态
             Functions.setEnabledBt(getBt, true)

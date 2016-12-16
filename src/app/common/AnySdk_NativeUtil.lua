@@ -18,7 +18,7 @@ function NativeUtil:init()
                 PluginChannel:submitLoginGameRole("1")
                 G_isFirstStartApp = false
                 local closeHandler = function( )
-                    if PlayerData.eventAttr.m_vipFirstFlag == 2 then                       
+                    if PlayerData.eventAttr.m_vipFirstFlag ~= 2 then                       
                         GameCtlManager:getCurrentController():openChildView("app.ui.popViews.FirstPayRewardPopView",{isRemove = false})
                     end
                 end

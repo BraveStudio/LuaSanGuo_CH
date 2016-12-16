@@ -6,7 +6,7 @@ local GuideConfig =
         guideDatas = {
             { ctlName = "MainViewController", type = "text", guideData = "10001" },
             { ctlName = "MainViewController", type = "button", btName = "fuliBt", guideData = LanguageConfig["guide_1_1"]},
-            { ctlName = "MainViewController", type = "button", btName = "Panel_15day_sign", guideData = LanguageConfig["guide_1_2"], delay = 0.8 },
+            { ctlName = "MainViewController", type = "button", btName = "Panel_15day_sign", guideData = LanguageConfig["guide_1_2"], delay = 1.5 },
             { ctlName = "MainViewController", type = "button", btName = "firstGetBt", guideData = LanguageConfig["guide_1_3"], delay = 0.4,isFinish = true },    
             { ctlName = "MainViewController", type = "button", btName = "Button_close" , guideData = LanguageConfig["guide_1_4"]},
         }

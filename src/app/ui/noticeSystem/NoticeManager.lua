@@ -23,6 +23,7 @@ NoticeManager.HERO_KILL = 18
 NoticeManager.UNION_SHOP_INFO = 19
 NoticeManager.WAR_INFO = 20
 NoticeManager.XUAN_MEI = 21
+NoticeManager.MAINTAIN_INFO = 22
 
 NoticeManager.debug = true
 
@@ -78,7 +79,7 @@ function NoticeManager:openNotice(controller, param)
     assert(param and param.type, "param is error")
 
     PromptManager:openHttpLinkPrompt()
-    if param.type == NoticeManager.SYSTEM_INFO and G_CurrentLanguage == "hk"  then
+    if param.type == NoticeManager.SYSTEM_INFO then
         local urlStr = ServerConfig.currentURL .. "sanguoGMSomeFunc/getCMgg?type=%d&servId=%d"
         local url = string.format(urlStr, NoticeManager.SYSTEM_INFO, NetWork.serverId)
         HttpClient:sendHttpRequest(url, "", function(state, data)
@@ -95,7 +96,11 @@ function NoticeManager:openNotice(controller, param)
             end
         end)
     else
-         HttpClient:sendHttpRequest(NoticeManager.serverUrl .. tostring(param.type), "", function(state, data)
+        if param.type == NoticeManager.MAINTAIN_INFO then
+            param.type = NoticeManager.SYSTEM_INFO
+        end
+
+        HttpClient:sendHttpRequest(NoticeManager.serverUrl .. tostring(param.type), "", function(state, data)
             if state == 0 then
                 PromptManager:closeHttpLinkPrompt()
                 local notice = Factory:createInfoPanel()

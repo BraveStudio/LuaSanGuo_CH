@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 MainViewController.debug = true
 MainViewController.modulePath = ...
-MainViewController.studioSpriteFrames = {"MainUI_icon1","MainUI","MainUI_BG","Main_icon2","MainUI_Text" }
+MainViewController.studioSpriteFrames = {"MainUI","MainUI_BG","Main_icon2","MainUI_Text" }
 --@auto code head end
 
 local scheduler = require("app.common.scheduler")
@@ -17,7 +17,7 @@ MainViewController.ENTER_MAINVIEW_EVENT_NAME = "ENTER_MAINVIEW_EVENT_NAME"
 --@Pre loading
 MainViewController.spriteFrameNames = 
     {
-        "playerHeadRes", "gameSet","payRes","ChatUI", "ChatBgUI","ChatPopUI_Text"
+        "playerHeadRes", "gameSet","payRes","ChatUI", "ChatBgUI","ChatPopUI_Text","EquipmentUI"
     }
 
 MainViewController.animaNames = 
@@ -191,6 +191,9 @@ function MainViewController:onDidLoadView()
 
 	self._jrkhBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("jrkhBt")
 	self._jrkhBt_t:onTouch(Functions.createClickListener(handler(self, self.onJrkhbtClick), "zoom"))
+
+	self._xuanxiuBt_t = self.view_t.csbNode:getChildByName("main"):getChildByName("xuanxiuBt")
+	self._xuanxiuBt_t:onTouch(Functions.createClickListener(handler(self, self.onXuanxiubtClick), "zoom"))
 
 end
 --@auto code uiInit end
@@ -567,6 +570,13 @@ function MainViewController:onJrkhbtClick()
 end
 --@auto code Jrkhbt btFunc end
 
+--@auto code Xuanxiubt btFunc
+function MainViewController:onXuanxiubtClick()
+    Functions.printInfo(self.debug,"Xuanxiubt button is click!")
+    self:openChildView("app.ui.popViews.SelectGirlPopView")
+end
+--@auto code Xuanxiubt btFunc end
+
 --@auto button backcall end
 
 
@@ -877,6 +887,9 @@ function MainViewController:initUiDisplay_()
     --初始化人物显示信息
     self._levelText_t:setString(tostring(PlayerData.eventAttr.m_level))
     Functions.bindUiWithModelAttr(self._levelText_t, PlayerData, "m_level")
+
+    --隐藏选秀活动
+    Functions.setEnabledBt(self._xuanxiuBt_t, ActivityData.eventAttr.sg_isOpneSelectGirl)
 
     --初始化战斗力
     self._fightPower_t:setString(EmbattleData.eventAttr.zhanLiDis)

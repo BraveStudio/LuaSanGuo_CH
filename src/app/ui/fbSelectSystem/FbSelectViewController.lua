@@ -6,7 +6,7 @@ local Functions = require("app.common.Functions")
 
 FbSelectViewController.debug = true
 FbSelectViewController.modulePath = ...
-FbSelectViewController.studioSpriteFrames = {"FbSelectUIMap2","FbSelectUIMap1","FbSelectUI_Text" }
+FbSelectViewController.studioSpriteFrames = {"FbSelectUIMap3","FbSelectUIMap1","FbSelectUI_Text","FbSelectUIMap2" }
 --@auto code head end
 
 local scheduler = require("app.common.scheduler")
@@ -36,6 +36,8 @@ function FbSelectViewController:onDidLoadView()
 	self._fbPanel2_t = self.view_t.csbNode:getChildByName("main"):getChildByName("PageView_1"):getChildByName("fbPanel2")
 	self._fbPanel3_t = self.view_t.csbNode:getChildByName("main"):getChildByName("PageView_1"):getChildByName("fbPanel3")
 	self._fbPanel4_t = self.view_t.csbNode:getChildByName("main"):getChildByName("PageView_1"):getChildByName("fbPanel4")
+	self._fbPanel5_t = self.view_t.csbNode:getChildByName("main"):getChildByName("PageView_1"):getChildByName("fbPanel5")
+	self._fbPanel6_t = self.view_t.csbNode:getChildByName("main"):getChildByName("PageView_1"):getChildByName("fbPanel6")
 	self._TopResNode_t = self.view_t.csbNode:getChildByName("main"):getChildByName("TopResNode")
 	
     --label list

@@ -469,6 +469,10 @@ FbSelectUIMap2 = {
 	plistPath = "cs/ui_res/FbSelectUI/FbSelectUIMap2.plist",
 	imagePath = "cs/ui_res/FbSelectUI/FbSelectUIMap2.png" 
 },
+FbSelectUIMap3 = {
+	plistPath = "cs/ui_res/FbSelectUI/FBSelectUIMap3.plist",
+	imagePath = "cs/ui_res/FbSelectUI/FBSelectUIMap3.png" 
+},
 LodingUI = {
 	plistPath = "cs/ui_res/LodingUI/LodingUI.plist",
 	imagePath = "cs/ui_res/LodingUI/LodingUI.png" 
